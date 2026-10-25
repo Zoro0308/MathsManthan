@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 11 CBSE Mathematics & JEE Foundation | Maths Manthan</title>
+  
+  <meta name="description" content="CBSE Class 11 Mathematics chapter-wise practice tests, calculus modules, coordinate geometry, and formula sheets (2026-27 curriculum) by Maths Manthan, Meerut.">
+  <meta name="keywords" content="Class 11 Maths, CBSE Class 11 2026-27, Sets, Relations and Functions, Trigonometric Functions, Limits and Derivatives, Conic Sections, Maths Manthan Meerut">
+  <meta name="author" content="Maths Manthan">
+
+  <!-- Favicon & Styles -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/resources.css?v=5.0">
+
+  <!-- Immediate Theme Initialization (prevents flash) -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('mm_theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+  </script>
+  <style>
+    /* ==========================================================================
+       Bullet-Proof Segmented Toggle Box & Action Controls
+       Visibly distinct interactive UI component - Never looks like plain text
+       ========================================================================== */
+    .pdf-toggle-box {
+      display: inline-flex !important;
+      align-items: center !important;
+      background: #e2e8f0 !important;
+      border: 1.5px solid #cbd5e1 !important;
+      border-radius: 9999px !important;
+      padding: 3px !important;
+      gap: 4px !important;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+      transition: all 0.2s ease !important;
+    }
+    .pdf-toggle-box:hover {
+      border-color: #94a3b8 !important;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    }
+    .pdf-toggle-btn {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 0.45rem 1rem !important;
+      font-size: 0.82rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.02em !important;
+      text-decoration: none !important;
+      border-radius: 9999px !important;
+      cursor: pointer !important;
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      white-space: nowrap !important;
+      font-family: inherit !important;
+      line-height: 1.25 !important;
+      border: 1px solid transparent !important;
+    }
+    /* Light Mode: View PDF Active Pill */
+    .pdf-toggle-btn.btn-view {
+      background: #0284c7 !important;
+      color: #ffffff !important;
+      border-color: #0284c7 !important;
+      box-shadow: 0 2px 6px rgba(2, 132, 199, 0.35) !important;
+    }
+    .pdf-toggle-btn.btn-view:hover {
+      background: #0369a1 !important;
+      color: #ffffff !important;
+      border-color: #0369a1 !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.45) !important;
+    }
+    /* Light Mode: Download Segment Pill */
+    .pdf-toggle-btn.btn-download {
+      background: #ffffff !important;
+      color: #0f172a !important;
+      border: 1px solid #cbd5e1 !important;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    }
+    .pdf-toggle-btn.btn-download:hover {
+      background: #0f172a !important;
+      color: #ffffff !important;
+      border-color: #0f172a !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 3px 8px rgba(15, 23, 42, 0.25) !important;
+    }
+    /* Dark Mode (matrix-theme or [data-theme="dark"]) */
+    body.matrix-theme .pdf-toggle-box,
+    [data-theme="dark"] .pdf-toggle-box {
+      background: rgba(15, 23, 42, 0.95) !important;
+      border: 1.5px solid rgba(56, 189, 248, 0.45) !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 12px rgba(56, 189, 248, 0.15) !important;
+    }
+    body.matrix-theme .pdf-toggle-box:hover,
+    [data-theme="dark"] .pdf-toggle-box:hover {
+      border-color: #38bdf8 !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 18px rgba(56, 189, 248, 0.35) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-view,
+    [data-theme="dark"] .pdf-toggle-btn.btn-view {
+      background: #38bdf8 !important;
+      color: #020617 !important;
+      font-weight: 800 !important;
+      border-color: #38bdf8 !important;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.4) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-view:hover,
+    [data-theme="dark"] .pdf-toggle-btn.btn-view:hover {
+      background: #7dd3fc !important;
+      color: #020617 !important;
+      border-color: #7dd3fc !important;
+      box-shadow: 0 0 18px rgba(56, 189, 248, 0.75) !important;
+      transform: translateY(-1px) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-download,
+    [data-theme="dark"] .pdf-toggle-btn.btn-download {
+      background: rgba(255, 255, 255, 0.08) !important;
+      color: #f1f5f9 !important;
+      border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-download:hover,
+    [data-theme="dark"] .pdf-toggle-btn.btn-download:hover {
+      background: rgba(255, 255, 255, 0.25) !important;
+      color: #ffffff !important;
+      border-color: #ffffff !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.3) !important;
+    }
+    .pdf-toggle-divider { display: none !important; }
+  </style>
+</head>
+<body class="matrix-theme">
+
+  <!-- Floating Mathematical Matrix Stream Canvas -->
+  <canvas id="matrix-canvas" class="matrix-stream-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" aria-label="Maths Manthan Home">
+        <img src="assets/images/logo.png" alt="Maths Manthan Logo" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">MATHS MANTHAN</span>
+          <span class="brand-subtitle">Tuition Classes</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#batches" class="nav-link">Batches</a>
+        <a href="class-8.html" class="nav-link">Class 8</a>
+        <a href="class-9.html" class="nav-link">Class 9</a>
+        <a href="class-10.html" class="nav-link">Class 10</a>
+        <a href="class-11.html" class="nav-link active">Class 11</a>
+        <a href="class-12.html" class="nav-link">Class 12</a>
+        <a href="free-books.html" class="nav-link">Free Books</a>
+        <a href="index.html#location" class="nav-link">Location</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html#inquiry" class="btn btn-gold">Inquire Now</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Mode">
+          <span class="theme-icon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Resource Hub Hero -->
+    <section class="resources-hero">
+      <div class="container">
+        <span class="section-tag">Senior Secondary • 2026-27 CBSE Curriculum</span>
+        <h1>CBSE Class 11 Mathematics & JEE Foundation</h1>
+        <p>Rigorous test papers, proof-based problem sheets, and advanced calculus modules to build unbeatable foundations for Class 12 Boards.</p>
+      </div>
+    </section>
+
+    <!-- Filter & Live Search Section -->
+    <section class="filter-section">
+      <div class="container">
+        <div class="filter-bar">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="resourceSearch" class="search-input" placeholder="Search Class 11 chapter (e.g. Sets, Trigonometry, Conic Sections, Limits)...">
+          </div>
+
+          <div class="filter-pills">
+            <button class="filter-pill active" data-filter="all">All Material</button>
+            <button class="filter-pill" data-filter="algebra">Algebra</button>
+            <button class="filter-pill" data-filter="calculus">Calculus & Geometry</button>
+            <button class="filter-pill" data-filter="trig">Trigonometry</button>
+            <button class="filter-pill" data-filter="formula">Formula Sheets</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Card Grid -->
+    <section class="container">
+      <div class="resources-grid" id="resourcesGrid">
+
+        <!-- Chapter 1 -->
+        <div class="resource-card" data-folder="class-11/ch-01" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH01</span>
+              <span class="resource-badge badge-standard">Chapter 1</span>
+            </div>
+            <h3 class="resource-title">Sets</h3>
+            <p class="resource-desc">
+              Roster & set-builder forms, empty set, subsets, power sets, universal sets, Venn diagrams, union and intersection laws, De Morgan's laws, and practical applications.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch01-sets.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch01-sets.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 2 -->
+        <div class="resource-card" data-folder="class-11/ch-02" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH02</span>
+              <span class="resource-badge badge-standard">Chapter 2</span>
+            </div>
+            <h3 class="resource-title">Relations and Functions</h3>
+            <p class="resource-desc">
+              Ordered pairs, Cartesian product A × B, relations, definition of function, domain, codomain, range, graphs of identity, polynomial, rational, modulus, signum, and greatest integer functions.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">35 Marks • 60 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch02-relations-and-functions.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch02-relations-and-functions.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 3 -->
+        <div class="resource-card" data-folder="class-11/ch-03" data-category="trig">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH03</span>
+              <span class="resource-badge badge-formula">Chapter 3</span>
+            </div>
+            <h3 class="resource-title">Trigonometric Functions</h3>
+            <p class="resource-desc">
+              Positive and negative angles, radian measure, unit circle definitions, sign of functions in four quadrants, addition and subtraction formulas, double & triple angle identities.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 75 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch03-trigonometric-functions.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch03-trigonometric-functions.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 4 -->
+        <div class="resource-card" data-folder="class-11/ch-04" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH04</span>
+              <span class="resource-badge badge-standard">Chapter 4</span>
+            </div>
+            <h3 class="resource-title">Complex Numbers & Quadratic Equations</h3>
+            <p class="resource-desc">
+              Algebra of complex numbers (a + ib), conjugate, modulus, Argand plane representation, and solving quadratic equations with negative discriminant in the complex field (ℂ).
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch04-complex-numbers.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch04-complex-numbers.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 5 -->
+        <div class="resource-card" data-folder="class-11/ch-05" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH05</span>
+              <span class="resource-badge badge-standard">Chapter 5</span>
+            </div>
+            <h3 class="resource-title">Linear Inequalities</h3>
+            <p class="resource-desc">
+              Algebraic solutions of linear inequalities in one variable, representation on number line, graphical solution of systems of linear inequalities in two variables.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch05-linear-inequalities.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch05-linear-inequalities.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 6 -->
+        <div class="resource-card" data-folder="class-11/ch-06" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH06</span>
+              <span class="resource-badge badge-standard">Chapter 6</span>
+            </div>
+            <h3 class="resource-title">Permutations and Combinations</h3>
+            <p class="resource-desc">
+              Fundamental principle of counting, factorial n!, permutations (ⁿPᵣ), circular permutations, combinations (ⁿCᵣ), restricted selection, and real-world counting problem solving.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">35 Marks • 60 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch06-permutations-and-combinations.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch06-permutations-and-combinations.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 7 -->
+        <div class="resource-card" data-folder="class-11/ch-07" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH07</span>
+              <span class="resource-badge badge-standard">Chapter 7</span>
+            </div>
+            <h3 class="resource-title">Binomial Theorem</h3>
+            <p class="resource-desc">
+              History and statement of Binomial Theorem for positive integral indices, Pascal's triangle, expansion of (a + b)ⁿ, and simple algebraic approximations.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch07-binomial-theorem.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch07-binomial-theorem.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 8 -->
+        <div class="resource-card" data-folder="class-11/ch-08" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH08</span>
+              <span class="resource-badge badge-standard">Chapter 8</span>
+            </div>
+            <h3 class="resource-title">Sequences and Series</h3>
+            <p class="resource-desc">
+              Sequence, series, Arithmetic Progression review, Geometric Progression (G.P.), general term arⁿ⁻¹, sum of n terms (Sₙ), infinite G.P. sum, and relation between A.M. and G.M.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch08-sequences-and-series.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch08-sequences-and-series.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 9 -->
+        <div class="resource-card" data-folder="class-11/ch-09" data-category="calculus">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH09</span>
+              <span class="resource-badge badge-pyq">Chapter 9</span>
+            </div>
+            <h3 class="resource-title">Straight Lines</h3>
+            <p class="resource-desc">
+              Slope (m = tan θ), angle between two lines, slope-intercept, point-slope, two-point, intercept, and normal forms, distance of a point from a line, and distance between parallel lines.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">35 Marks • 60 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch09-straight-lines.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch09-straight-lines.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 10 -->
+        <div class="resource-card" data-folder="class-11/ch-10" data-category="calculus">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH10</span>
+              <span class="resource-badge badge-pyq">Chapter 10</span>
+            </div>
+            <h3 class="resource-title">Conic Sections</h3>
+            <p class="resource-desc">
+              Sections of a cone, standard equations and focal properties of Circle, Parabola (y² = 4ax), Ellipse (x²/a² + y²/b² = 1), Hyperbola, eccentricity e, and latus rectum.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 75 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch10-conic-sections.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch10-conic-sections.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 11 -->
+        <div class="resource-card" data-folder="class-11/ch-11" data-category="calculus">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH11</span>
+              <span class="resource-badge badge-pyq">Chapter 11</span>
+            </div>
+            <h3 class="resource-title">Introduction to Three Dimensional Geometry</h3>
+            <p class="resource-desc">
+              Coordinate axes and coordinate planes in 3D, coordinates of a point, distance between two spatial points √[(x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²], and section formula.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch11-three-dimensional-geometry.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch11-three-dimensional-geometry.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 12 -->
+        <div class="resource-card" data-folder="class-11/ch-12" data-category="calculus">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH12</span>
+              <span class="resource-badge badge-pyq">Chapter 12</span>
+            </div>
+            <h3 class="resource-title">Limits and Derivatives</h3>
+            <p class="resource-desc">
+              Intuitive limit concept, left/right hand limits, standard trigonometric limits lim [sin(x)/x] = 1, derivative as rate of change, first principle derivative method, product and quotient rules.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 75 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch12-limits-and-derivatives.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch12-limits-and-derivatives.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 13 -->
+        <div class="resource-card" data-folder="class-11/ch-13" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH13</span>
+              <span class="resource-badge badge-standard">Chapter 13</span>
+            </div>
+            <h3 class="resource-title">Statistics</h3>
+            <p class="resource-desc">
+              Measures of dispersion: range, mean deviation about mean, mean deviation about median for grouped and ungrouped data, variance (σ²), and standard deviation (σ).
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch13-statistics.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch13-statistics.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 14 -->
+        <div class="resource-card" data-folder="class-11/ch-14" data-category="algebra">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-CH14</span>
+              <span class="resource-badge badge-standard">Chapter 14</span>
+            </div>
+            <h3 class="resource-title">Probability</h3>
+            <p class="resource-desc">
+              Random experiments, sample space, events (impossible, sure, mutually exclusive, exhaustive), axiomatic approach to probability, addition theorem P(A ∪ B) = P(A) + P(B) − P(A ∩ B).
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-ch14-probability.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-ch14-probability.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== FORMULA & COMPREHENSIVE ==================== -->
+        <!-- Formula Sheet -->
+        <div class="resource-card" data-folder="class-11/formula" data-category="formula">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-XI-FORMULA</span>
+              <span class="resource-badge badge-formula">All Chapters</span>
+            </div>
+            <h3 class="resource-title">Class 11 Master Trigonometric & Calculus Formula Vault</h3>
+            <p class="resource-desc">
+              Complete formula compendium featuring all 32 trigonometric identities, transformation formulas, standard limits, differentiation rules, conic section tables, and permutation formulas.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">All 14 Chapters • Reference</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class11-master-formula-handbook.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class11-master-formula-handbook.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- No Results State -->
+      <div id="noResults" style="display: none; text-align: center; padding: 4rem 1rem;">
+        <p style="font-size: 1.25rem; font-weight: 600; color: var(--color-gold);">No matching Class 11 chapters found.</p>
+        <p style="color: var(--color-text-muted);">Try searching for "Trigonometry", "Limits", "Conic Sections", or reset the filter.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>MATHS MANTHAN</h4>
+          <p>Premier Mathematics Tuition Classes for CBSE Classes 8 to 12 in Kankerkhera, Meerut. Personal mentorship by Manthan Sir.</p>
+          <a href="https://wa.me/918171546558" target="_blank" class="btn btn-whatsapp" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+            Chat on WhatsApp
+          </a>
+        </div>
+        <div>
+          <h5 class="footer-heading">Classroom Hubs</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="class-8.html">Class 8 (Ganita Prakash)</a></li>
+            <li><a href="class-9.html">Class 9 (Ganita Manjari)</a></li>
+            <li><a href="class-10.html">Class 10 Board Hub</a></li>
+            <li><a href="class-11.html">Class 11 CBSE Hub</a></li>
+            <li><a href="class-12.html">Class 12 Core Hub</a></li>
+            <li><a href="free-books.html">Free Books Hub</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-heading">Classroom Address</h5>
+          <p style="color: #CBD5E1; font-size: 0.925rem; line-height: 1.5; margin-bottom: 0.5rem;">
+            D121 European Estate, Kankerkhera, Meerut
+          </p>
+          <p style="margin-bottom: 0.75rem;">
+            <a href="https://maps.app.goo.gl/33ciqPMnbs77ZCjk8" target="_blank" style="color: var(--color-gold); font-size: 0.85rem; text-decoration: underline;">
+              Get Google Maps Directions ↗
+            </a>
+          </p>
+          <p style="color: #CBD5E1; font-size: 0.85rem; margin-bottom: 0.75rem;">
+            Email: <a href="mailto:contact@mathsmanthan.co.in" style="color: var(--color-gold); text-decoration: underline;">contact@mathsmanthan.co.in</a>
+          </p>
+          <a href="https://wa.me/918171546558" target="_blank" class="btn btn-whatsapp" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Maths Manthan. All Rights Reserved.</div>
+        <div>D121 European Estate, Kankerkhera, Meerut</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Live Matrix Controls Toggle & Drawer -->
+  <button id="toggleControlsBtn" class="matrix-toggle-btn" aria-label="Toggle Matrix Controls">
+    ⚙️ Customize Stream
+  </button>
+
+  <aside class="controls-panel collapsed">
+    <h2>Matrix Stream Engine</h2>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Digit Density</span>
+        <span id="val-density">180</span>
+      </div>
+      <input type="range" id="param-density" min="50" max="400" step="10" value="180" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Drift Speed</span>
+        <span id="val-speed">0.85</span>
+      </div>
+      <input type="range" id="param-speed" min="-3" max="3" step="0.05" value="0.85" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Parallax Depth</span>
+        <span id="val-parallax">2.6</span>
+      </div>
+      <input type="range" id="param-parallax" min="1" max="6" step="0.1" value="2.6" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Digit Mutation Rate</span>
+        <span id="val-mutation">0.035</span>
+      </div>
+      <input type="range" id="param-mutation" min="0" max="0.15" step="0.005" value="0.035" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Foreground Bloom</span>
+        <span id="val-glow">16px</span>
+      </div>
+      <input type="range" id="param-glow" min="0" max="40" step="1" value="16" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Cursor Repulsion</span>
+        <span id="val-repulsion">120px</span>
+      </div>
+      <input type="range" id="param-repulsion" min="0" max="250" step="10" value="120" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Palette Mood</span>
+      </div>
+      <div class="theme-buttons">
+        <button class="theme-btn active" data-theme="midnight">Midnight</button>
+        <button class="theme-btn" data-theme="cyber">Cyber</button>
+        <button class="theme-btn" data-theme="solar">Solar</button>
+        <button class="theme-btn" data-theme="emerald">Emerald</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/vendor/pdf.min.js"></script>
+  <script src="assets/js/resources.js?v=5.0"></script>
+  <script src="assets/js/matrix-stream.js"></script>
+</body>
+</html>

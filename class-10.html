@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 10 CBSE Mathematics | Maths Manthan</title>
+  
+  <meta name="description" content="CBSE Class 10 Mathematics chapter-wise practice tests, previous year questions, and formula sheets by Maths Manthan, Meerut.">
+  
+  <!-- Favicon & Styles -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/resources.css?v=5.0">
+
+  <!-- Immediate Theme Initialization (prevents flash) -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('mm_theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+  </script>
+  <style>
+    /* ==========================================================================
+       Bullet-Proof Segmented Toggle Box & Action Controls
+       Visibly distinct interactive UI component - Never looks like plain text
+       ========================================================================== */
+    .pdf-toggle-box {
+      display: inline-flex !important;
+      align-items: center !important;
+      background: #e2e8f0 !important;
+      border: 1.5px solid #cbd5e1 !important;
+      border-radius: 9999px !important;
+      padding: 3px !important;
+      gap: 4px !important;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+      transition: all 0.2s ease !important;
+    }
+    .pdf-toggle-box:hover {
+      border-color: #94a3b8 !important;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    }
+    .pdf-toggle-btn {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 0.45rem 1rem !important;
+      font-size: 0.82rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.02em !important;
+      text-decoration: none !important;
+      border-radius: 9999px !important;
+      cursor: pointer !important;
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      white-space: nowrap !important;
+      font-family: inherit !important;
+      line-height: 1.25 !important;
+      border: 1px solid transparent !important;
+    }
+    /* Light Mode: View PDF Active Pill */
+    .pdf-toggle-btn.btn-view {
+      background: #0284c7 !important;
+      color: #ffffff !important;
+      border-color: #0284c7 !important;
+      box-shadow: 0 2px 6px rgba(2, 132, 199, 0.35) !important;
+    }
+    .pdf-toggle-btn.btn-view:hover {
+      background: #0369a1 !important;
+      color: #ffffff !important;
+      border-color: #0369a1 !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.45) !important;
+    }
+    /* Light Mode: Download Segment Pill */
+    .pdf-toggle-btn.btn-download {
+      background: #ffffff !important;
+      color: #0f172a !important;
+      border: 1px solid #cbd5e1 !important;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    }
+    .pdf-toggle-btn.btn-download:hover {
+      background: #0f172a !important;
+      color: #ffffff !important;
+      border-color: #0f172a !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 3px 8px rgba(15, 23, 42, 0.25) !important;
+    }
+    /* Dark Mode (matrix-theme or [data-theme="dark"]) */
+    body.matrix-theme .pdf-toggle-box,
+    [data-theme="dark"] .pdf-toggle-box {
+      background: rgba(15, 23, 42, 0.95) !important;
+      border: 1.5px solid rgba(56, 189, 248, 0.45) !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 12px rgba(56, 189, 248, 0.15) !important;
+    }
+    body.matrix-theme .pdf-toggle-box:hover,
+    [data-theme="dark"] .pdf-toggle-box:hover {
+      border-color: #38bdf8 !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 18px rgba(56, 189, 248, 0.35) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-view,
+    [data-theme="dark"] .pdf-toggle-btn.btn-view {
+      background: #38bdf8 !important;
+      color: #020617 !important;
+      font-weight: 800 !important;
+      border-color: #38bdf8 !important;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.4) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-view:hover,
+    [data-theme="dark"] .pdf-toggle-btn.btn-view:hover {
+      background: #7dd3fc !important;
+      color: #020617 !important;
+      border-color: #7dd3fc !important;
+      box-shadow: 0 0 18px rgba(56, 189, 248, 0.75) !important;
+      transform: translateY(-1px) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-download,
+    [data-theme="dark"] .pdf-toggle-btn.btn-download {
+      background: rgba(255, 255, 255, 0.08) !important;
+      color: #f1f5f9 !important;
+      border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-download:hover,
+    [data-theme="dark"] .pdf-toggle-btn.btn-download:hover {
+      background: rgba(255, 255, 255, 0.25) !important;
+      color: #ffffff !important;
+      border-color: #ffffff !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.3) !important;
+    }
+    .pdf-toggle-divider { display: none !important; }
+  </style>
+</head>
+<body class="matrix-theme">
+
+  <!-- Floating Mathematical Matrix Stream Canvas -->
+  <canvas id="matrix-canvas" class="matrix-stream-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link">
+        <img src="assets/images/logo.png" alt="Maths Manthan Logo" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">MATHS MANTHAN</span>
+          <span class="brand-subtitle">Tuition Classes</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#batches" class="nav-link">Batches</a>
+        <a href="class-8.html" class="nav-link">Class 8</a>
+        <a href="class-9.html" class="nav-link">Class 9</a>
+        <a href="class-10.html" class="nav-link active">Class 10</a>
+        <a href="class-11.html" class="nav-link">Class 11</a>
+        <a href="class-12.html" class="nav-link">Class 12</a>
+        <a href="free-books.html" class="nav-link">Free Books</a>
+        <a href="index.html#location" class="nav-link">Location</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html#inquiry" class="btn btn-gold">Inquire Now</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Mode">
+          <span class="theme-icon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Resource Hub Hero -->
+    <section class="resources-hero">
+      <div class="container">
+        <span class="section-tag">Board Examination</span>
+        <h1>CBSE Class 10 Mathematics</h1>
+        <p>Curated chapter-wise tests, standard/basic mock papers, and comprehensive formula review sheets.</p>
+      </div>
+    </section>
+
+    <!-- Filter & Live Search Section -->
+    <section class="filter-section">
+      <div class="container">
+        <div class="filter-bar">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="resourceSearch" class="search-input" placeholder="Search chapter (e.g. Trigonometry, Real Numbers, Circles)...">
+          </div>
+
+          <div class="filter-pills">
+            <button class="filter-pill active" data-filter="all">All Material</button>
+            <button class="filter-pill" data-filter="test">Chapter Tests</button>
+            <button class="filter-pill" data-filter="formula">Formula Sheets</button>
+            <button class="filter-pill" data-filter="pyq">Board PYQs</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Card Grid -->
+    <section class="container">
+      <div class="resources-grid" id="resourcesGrid">
+        <!-- Chapter 1 -->
+        <div class="resource-card" data-folder="class-10/ch-01" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH01</span>
+              <span class="resource-badge badge-standard">Chapter 1</span>
+            </div>
+            <h3 class="resource-title">Real Numbers</h3>
+            <p class="resource-desc">
+              Fundamental Theorem of Arithmetic, Prime Factorization, HCF & LCM relations, and rigorous proofs of irrationality (√2, √3, √5).
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 60 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch01-real-numbers.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch01-real-numbers.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 2 -->
+        <div class="resource-card" data-folder="class-10/ch-02" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH02</span>
+              <span class="resource-badge badge-standard">Chapter 2</span>
+            </div>
+            <h3 class="resource-title">Polynomials</h3>
+            <p class="resource-desc">
+              Geometrical meaning of zeros, relationship between zeros and coefficients of quadratic polynomials, and formation of quadratic polynomials.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 60 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch02-polynomials.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch02-polynomials.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 3 -->
+        <div class="resource-card" data-folder="class-10/ch-03" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH03</span>
+              <span class="resource-badge badge-standard">Chapter 3</span>
+            </div>
+            <h3 class="resource-title">Pair of Linear Equations in Two Variables</h3>
+            <p class="resource-desc">
+              Graphical method of solution, consistency/inconsistency conditions, algebraic methods (Substitution & Elimination), and real-life word problems.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 90 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch03-linear-equations.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch03-linear-equations.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 4 -->
+        <div class="resource-card" data-folder="class-10/ch-04" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH04</span>
+              <span class="resource-badge badge-standard">Chapter 4</span>
+            </div>
+            <h3 class="resource-title">Quadratic Equations</h3>
+            <p class="resource-desc">
+              Standard form of quadratic equations, solution by factorisation and quadratic formula, nature of roots via discriminant (b² - 4ac).
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 90 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch04-quadratic-equations.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch04-quadratic-equations.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 5 -->
+        <div class="resource-card" data-folder="class-10/ch-05" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH05</span>
+              <span class="resource-badge badge-standard">Chapter 5</span>
+            </div>
+            <h3 class="resource-title">Arithmetic Progressions (AP)</h3>
+            <p class="resource-desc">
+              Derivation of the nth term (an = a + (n-1)d), sum of first n terms (Sn), and practical application word problems & case-study questions.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 90 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch05-arithmetic-progressions.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch05-arithmetic-progressions.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 6 -->
+        <div class="resource-card" data-folder="class-10/ch-06" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH06</span>
+              <span class="resource-badge badge-standard">Chapter 6</span>
+            </div>
+            <h3 class="resource-title">Triangles</h3>
+            <p class="resource-desc">
+              Basic Proportionality Theorem (Thales Theorem & converse), criteria for similarity of triangles (AAA, SSS, SAS), and geometric proofs.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 90 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch06-triangles.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch06-triangles.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 7 -->
+        <div class="resource-card" data-folder="class-10/ch-07" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH07</span>
+              <span class="resource-badge badge-standard">Chapter 7</span>
+            </div>
+            <h3 class="resource-title">Coordinate Geometry</h3>
+            <p class="resource-desc">
+              Distance formula, section formula (internal division), midpoint formula, centroid of a triangle, and collinearity problems.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">35 Marks • 75 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch07-coordinate-geometry.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch07-coordinate-geometry.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 8 -->
+        <div class="resource-card" data-folder="class-10/ch-08" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH08</span>
+              <span class="resource-badge badge-standard">Chapter 8</span>
+            </div>
+            <h3 class="resource-title">Introduction to Trigonometry</h3>
+            <p class="resource-desc">
+              Trigonometric ratios of acute angles, values of ratios at 0°, 30°, 45°, 60°, 90°, and proofs of fundamental identities (sin²θ + cos²θ = 1).
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 90 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch08-introduction-to-trigonometry.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch08-introduction-to-trigonometry.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 9 -->
+        <div class="resource-card" data-folder="class-10/ch-09" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH09</span>
+              <span class="resource-badge badge-standard">Chapter 9</span>
+            </div>
+            <h3 class="resource-title">Some Applications of Trigonometry</h3>
+            <p class="resource-desc">
+              Heights and distances, line of sight, angle of elevation, angle of depression, two-triangle geometric word problems, and case-study scenarios.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">35 Marks • 75 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch09-applications-of-trigonometry.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch09-applications-of-trigonometry.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 10 -->
+        <div class="resource-card" data-folder="class-10/ch-10" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH10</span>
+              <span class="resource-badge badge-standard">Chapter 10</span>
+            </div>
+            <h3 class="resource-title">Circles</h3>
+            <p class="resource-desc">
+              Tangent to a circle, point of contact, theorem: radius is perpendicular to tangent, and theorem: lengths of tangents from external point are equal.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">35 Marks • 75 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch10-circles.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch10-circles.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 11 -->
+        <div class="resource-card" data-folder="class-10/ch-11" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH11</span>
+              <span class="resource-badge badge-standard">Chapter 11</span>
+            </div>
+            <h3 class="resource-title">Areas Related to Circles</h3>
+            <p class="resource-desc">
+              Area of sectors and segments of a circle, problems based on perimeter and circumference, combinations of plane figures and shaded regions.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">35 Marks • 75 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch11-areas-related-to-circles.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch11-areas-related-to-circles.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 12 -->
+        <div class="resource-card" data-folder="class-10/ch-12" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH12</span>
+              <span class="resource-badge badge-standard">Chapter 12</span>
+            </div>
+            <h3 class="resource-title">Surface Areas and Volumes</h3>
+            <p class="resource-desc">
+              Surface areas and volumes of combinations of any two solids: cubes, cuboids, spheres, hemispheres, and right circular cylinders/cones.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 90 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch12-surface-areas-volumes.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch12-surface-areas-volumes.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 13 -->
+        <div class="resource-card" data-folder="class-10/ch-13" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH13</span>
+              <span class="resource-badge badge-standard">Chapter 13</span>
+            </div>
+            <h3 class="resource-title">Statistics</h3>
+            <p class="resource-desc">
+              Mean of grouped data (Direct, Assumed Mean methods), Mode of grouped data, Median of grouped data, and empirical formula relations.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">40 Marks • 90 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch13-statistics.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch13-statistics.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 14 -->
+        <div class="resource-card" data-folder="class-10/ch-14" data-category="test">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-CH14</span>
+              <span class="resource-badge badge-standard">Chapter 14</span>
+            </div>
+            <h3 class="resource-title">Probability</h3>
+            <p class="resource-desc">
+              Classical definition of probability, simple events, coin tosses, dice throws, deck of cards, complementary events, and sure/impossible events.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 60 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-ch14-probability.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-ch14-probability.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formula Sheet -->
+        <div class="resource-card" data-folder="class-10/formula" data-category="formula">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-FORMULA</span>
+              <span class="resource-badge badge-formula">Quick Revision</span>
+            </div>
+            <h3 class="resource-title">Complete Class 10 Formula Cheat Sheet</h3>
+            <p class="resource-desc">
+              All formulas from Chapter 1 to 14 in one place: identities, surface areas, coordinates, mean/median/mode formulas, and key geometric theorems.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">All 14 Chapters • 4 Pages</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-formula-cheatsheet.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-formula-cheatsheet.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PYQ Bank -->
+        <div class="resource-card" data-category="pyq">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-BOARD</span>
+              <span class="resource-badge badge-pyq">Solved Board PYQ</span>
+            </div>
+            <h3 class="resource-title">Top 50 Most Repeated Board Exam Questions</h3>
+            <p class="resource-desc">
+              CBSE previous 10 years repeated 3-mark and 5-mark theorem proofs and case-based analysis with ideal step-wise marking solutions.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">80 Marks Full Paper</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-board-pyq-top50.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-board-pyq-top50.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Mock Exam -->
+        <div class="resource-card" data-category="pyq">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-X-MOCK-01</span>
+              <span class="resource-badge badge-pyq">Full Simulation</span>
+            </div>
+            <h3 class="resource-title">CBSE Board Full Syllabus Mock Exam</h3>
+            <p class="resource-desc">
+              Standard & Basic pattern: Section A (20 MCQs), Section B (5 Very Short), Section C (6 Short), Section D (4 Long), and Section E (3 Case Studies).
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">80 Marks • 3 Hours</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class10-board-full-mock.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class10-board-full-mock.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="noResults" style="display: none; text-align: center; padding: 4rem 1rem; color: var(--color-text-muted);">
+        <p style="font-size: 1.25rem; font-weight: 600;">No test papers found matching your query.</p>
+        <p>Try searching with another keyword or select "All Material".</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>MATHS MANTHAN</h4>
+          <p>D121 European Estate, Kankerkhera, Meerut. Premier coaching for CBSE Class 8–12.</p>
+        </div>
+        <div>
+          <h5 class="footer-heading">Classroom Hubs</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="class-8.html">Class 8 (Ganita Prakash)</a></li>
+            <li><a href="class-9.html">Class 9 (Ganita Manjari)</a></li>
+            <li><a href="class-10.html">Class 10 Board Hub</a></li>
+            <li><a href="class-11.html">Class 11 CBSE Hub</a></li>
+            <li><a href="class-12.html">Class 12 Core Hub</a></li>
+            <li><a href="free-books.html">Free Books Hub</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-heading">Classroom Address</h5>
+          <p style="color: #CBD5E1; font-size: 0.925rem; line-height: 1.5; margin-bottom: 0.5rem;">
+            D121 European Estate, Kankerkhera, Meerut
+          </p>
+          <p style="margin-bottom: 0.75rem;">
+            <a href="https://maps.app.goo.gl/33ciqPMnbs77ZCjk8" target="_blank" style="color: var(--color-gold); font-size: 0.85rem; text-decoration: underline;">
+              Get Google Maps Directions ↗
+            </a>
+          </p>
+          <p style="color: #CBD5E1; font-size: 0.85rem; margin-bottom: 0.75rem;">
+            Email: <a href="mailto:contact@mathsmanthan.co.in" style="color: var(--color-gold); text-decoration: underline;">contact@mathsmanthan.co.in</a>
+          </p>
+          <a href="https://wa.me/918171546558" target="_blank" class="btn btn-whatsapp" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Maths Manthan. All Rights Reserved.</div>
+        <div>D121 European Estate, Kankerkhera, Meerut</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Live Matrix Controls Toggle & Drawer -->
+  <button id="toggleControlsBtn" class="matrix-toggle-btn" aria-label="Toggle Matrix Controls">
+    ⚙️ Customize Stream
+  </button>
+
+  <aside class="controls-panel collapsed">
+    <h2>Matrix Stream Engine</h2>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Digit Density</span>
+        <span id="val-density">180</span>
+      </div>
+      <input type="range" id="param-density" min="50" max="400" step="10" value="180" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Base Drift Speed</span>
+        <span id="val-speed">0.85</span>
+      </div>
+      <input type="range" id="param-speed" min="-3" max="3" step="0.05" value="0.85" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Parallax Multiplier</span>
+        <span id="val-parallax">2.6</span>
+      </div>
+      <input type="range" id="param-parallax" min="0.5" max="5" step="0.1" value="2.6" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Min Font Size</span>
+        <span id="val-minFont">14px</span>
+      </div>
+      <input type="range" id="param-minFont" min="8" max="24" step="1" value="14" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Max Font Size</span>
+        <span id="val-maxFont">82px</span>
+      </div>
+      <input type="range" id="param-maxFont" min="40" max="140" step="2" value="82" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Digit Mutation Rate</span>
+        <span id="val-mutation">0.035</span>
+      </div>
+      <input type="range" id="param-mutation" min="0" max="0.15" step="0.005" value="0.035" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Foreground Bloom</span>
+        <span id="val-glow">16px</span>
+      </div>
+      <input type="range" id="param-glow" min="0" max="40" step="1" value="16" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Cursor Repulsion</span>
+        <span id="val-repulsion">120px</span>
+      </div>
+      <input type="range" id="param-repulsion" min="0" max="250" step="10" value="120" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Palette Mood</span>
+      </div>
+      <div class="theme-buttons">
+        <button class="theme-btn active" data-theme="midnight">Midnight</button>
+        <button class="theme-btn" data-theme="cyber">Cyber</button>
+        <button class="theme-btn" data-theme="solar">Solar</button>
+        <button class="theme-btn" data-theme="emerald">Emerald</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/vendor/pdf.min.js"></script>
+  <script src="assets/js/resources.js?v=5.0"></script>
+  <script src="assets/js/matrix-stream.js"></script>
+</body>
+</html>

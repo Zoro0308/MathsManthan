@@ -1,0 +1,520 @@
+{
+  "class8": {
+    "bookTitle": "NCERT Class 8 Ganita Prakash",
+    "subtitle": "Official NCERT Textbook Chapter-by-Chapter PDFs (Parts I & II) \u2022 NEP 2020",
+    "folderPrefix": "books/chapter-wise/class-8",
+    "chapters": [
+      {
+        "ch": "ch-01",
+        "num": "Part I \u2022 Ch 1",
+        "title": "A Square and A Cube",
+        "desc": "Exploration of square numbers, square roots, prime factorisation patterns, cube numbers, cube roots, and geometric visualizations.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-01/1 A SQUARE AND A CUBE.pdf"
+      },
+      {
+        "ch": "ch-02",
+        "num": "Part I \u2022 Ch 2",
+        "title": "Power Play",
+        "desc": "Exponents and powers with negative exponents, laws of indices (a\u1d50 \u00d7 a\u207f = a\u1d50\u207a\u207f, a\u1d50 / a\u207f = a\u1d50\u207b\u207f), and standard scientific notation.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-02/2 POWER PLAY.pdf"
+      },
+      {
+        "ch": "ch-03",
+        "num": "Part I \u2022 Ch 3",
+        "title": "A Story of Numbers",
+        "desc": "Generalised form of numbers, reversible digit patterns, palindromic numbers, and historical perspectives on Indian mathematics.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-03/3 A STORY OF NUMBERS.pdf"
+      },
+      {
+        "ch": "ch-04",
+        "num": "Part I \u2022 Ch 4",
+        "title": "Quadrilaterals",
+        "desc": "Classification of polygons, angle sum property, exterior angle theorem, and special properties of parallelograms, rhombuses, and squares.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-04/4 QUADRILATERALS.pdf"
+      },
+      {
+        "ch": "ch-05",
+        "num": "Part I \u2022 Ch 5",
+        "title": "Number Play",
+        "desc": "Letters for digits (cryptarithms), magic squares, divisibility tests for 2, 3, 5, 9, 10, and 11, and recreational mathematical logic.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-05/5 NUMBER PLAY.pdf"
+      },
+      {
+        "ch": "ch-06",
+        "num": "Part I \u2022 Ch 6",
+        "title": "We Distribute, Yet Things Multiply",
+        "desc": "Distributive law, multiplication of monomials, binomials, and polynomials, and visual geometric models for (a + b)\u00b2 and (a \u2212 b)\u00b2.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-06/6 WE DISTRIBUTE, YET THINGS MULTIPLY.pdf"
+      },
+      {
+        "ch": "ch-07",
+        "num": "Part I \u2022 Ch 7",
+        "title": "Proportional Reasoning-1",
+        "desc": "Direct and inverse proportions, constant of proportionality (k = y/x and xy = k), speed-distance-time, and unitary method.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-07/7 PROPORTIONAL REASONING-1.pdf"
+      },
+      {
+        "ch": "ch-08",
+        "num": "Part II \u2022 Ch 1",
+        "title": "Fractions in Disguise (Percentages)",
+        "desc": "Percentages as ratios and fractions, percentage change, profit & loss, discount, GST calculations, and comparing quantities.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-08/1.-FRACTIONS-IN-DISGUISE.pdf"
+      },
+      {
+        "ch": "ch-09",
+        "num": "Part II \u2022 Ch 2",
+        "title": "The Baudhayana-Pythagoras Theorem",
+        "desc": "Historical origins in Baudhayana Sulba-Sutra (a\u00b2 + b\u00b2 = c\u00b2), geometric dissection proofs, Pythagorean triplets, and distances.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-09/2.-THE-BAUDHAYANAPYTHAGORAS-THEOREM.pdf"
+      },
+      {
+        "ch": "ch-10",
+        "num": "Part II \u2022 Ch 3",
+        "title": "Proportional Reasoning-2",
+        "desc": "Compound interest deduced by repeated simple interest, compounding formulas, population growth, and depreciation models.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-10/3.-PROPORTIONAL-REASONING-2.pdf"
+      },
+      {
+        "ch": "ch-11",
+        "num": "Part II \u2022 Ch 4",
+        "title": "Exploring Some Geometric Themes",
+        "desc": "Faces, edges, vertices of 3D solids, Euler's formula (V \u2212 E + F = 2), nets for polyhedra, symmetry planes, and intro to fractals.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-11/4.-EXPLORING-SOME-GEOMETRIC-THEMES.pdf"
+      },
+      {
+        "ch": "ch-12",
+        "num": "Part II \u2022 Ch 5",
+        "title": "Tales by Dots and Lines",
+        "desc": "Data handling, constructing and reading line graphs, histograms, central tendency (mean, median, mode), and trend analytics.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-12/5.-TALES-BY-DOTS-AND-LINES.pdf"
+      },
+      {
+        "ch": "ch-13",
+        "num": "Part II \u2022 Ch 6",
+        "title": "Algebra Play",
+        "desc": "Linear equations in one variable, transposing terms, balancing method, equations reducible to linear form, and word problems.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-13/6.-ALGEBRA-PLAY.pdf"
+      },
+      {
+        "ch": "ch-14",
+        "num": "Part II \u2022 Ch 7",
+        "title": "Area",
+        "desc": "Area of trapezium, rhombus, special quadrilaterals, general polygons by triangulation, composite 2D shapes, and field surveys.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-8/ch-14/7.-AREA.pdf"
+      }
+    ]
+  },
+  "class9": {
+    "bookTitle": "NCERT Class 9 Ganita Manjari",
+    "subtitle": "Official NCERT Textbook Chapter-by-Chapter PDFs (Part 1 & Part 2) \u2022 NEP 2020",
+    "folderPrefix": "books/chapter-wise/class-9",
+    "chapters": [
+      {
+        "ch": "ch-01",
+        "num": "Part 1 \u2022 Ch 1",
+        "title": "Orienting Yourself: The Use of Coordinates",
+        "desc": "Cartesian plane, coordinate axes, plotting points with given coordinates, quadrant signs, and geometric position mapping.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-01/Coordinate geometry.pdf"
+      },
+      {
+        "ch": "ch-02",
+        "num": "Part 1 \u2022 Ch 2",
+        "title": "Introduction to Linear Polynomials",
+        "desc": "Definition of polynomials, degree of a polynomial, zeros of linear polynomials, and geometric representation of roots.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-02/Linear Polynomials.pdf"
+      },
+      {
+        "ch": "ch-03",
+        "num": "Part 1 \u2022 Ch 3",
+        "title": "The World of Numbers",
+        "desc": "Irrational numbers (\u221a2, \u221a3, \u03c0), real number continuum, visualizing numbers on the number line using magnification, and surds.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-03/The World of Numbers.pdf"
+      },
+      {
+        "ch": "ch-04",
+        "num": "Part 1 \u2022 Ch 4",
+        "title": "Exploring Algebraic Identities",
+        "desc": "Quadratic and cubic identities: (x + y + z)\u00b2, (x \u00b1 y)\u00b3, x\u00b3 + y\u00b3 + z\u00b3 \u2212 3xyz, factor theorem, and splitting middle terms.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-04/Exploring Algebraic.pdf"
+      },
+      {
+        "ch": "ch-05",
+        "num": "Part 1 \u2022 Ch 5",
+        "title": "I'm Up and Down, and Round and Round",
+        "desc": "Circles and symmetry, perpendicular from center to a chord, equal chords, angle subtended by an arc at the center, and cyclic quads.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-05/Circles.pdf"
+      },
+      {
+        "ch": "ch-06",
+        "num": "Part 1 \u2022 Ch 6",
+        "title": "Measuring Space: Perimeter and Area",
+        "desc": "Heron's formula \u221a[s(s \u2212 a)(s \u2212 b)(s \u2212 c)], area of scalene, isosceles, and equilateral triangles, and area of irregular plots.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-06/Perimeter and area.pdf"
+      },
+      {
+        "ch": "ch-07",
+        "num": "Part 1 \u2022 Ch 7",
+        "title": "The Mathematics of Maybe: Introduction to Probability",
+        "desc": "Empirical and experimental probability, trials, events, relative frequencies, coin-toss & dice experiments, and game odds.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-07/Probability.pdf"
+      },
+      {
+        "ch": "ch-08",
+        "num": "Part 1 \u2022 Ch 8",
+        "title": "Predicting What Comes Next: Exploring Sequences",
+        "desc": "Number patterns, sequence rules, first difference & second difference tables, arithmetic progression foundations, and general n-th terms.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-08/Sequences Progressions.pdf"
+      },
+      {
+        "ch": "ch-09",
+        "num": "Part 2 \u2022 Ch 9",
+        "title": "Propositions and Converses",
+        "desc": "Logical reasoning, axioms and postulates, parallel lines & transversal theorems, and triangle congruence (SAS, ASA, SSS, RHS).",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-09/ch-9 Propositions and their Converses.pdf"
+      },
+      {
+        "ch": "ch-10",
+        "num": "Part 2 \u2022 Ch 10",
+        "title": "How Quantities Combine: Understanding Data",
+        "desc": "Weighted averages, grouped and ungrouped frequency distributions, histograms with varying base widths, frequency polygons, and analytics.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-10/ch-10 How Quantities Combine Understanding Data.pdf"
+      },
+      {
+        "ch": "ch-11",
+        "num": "Part 2 \u2022 Ch 11",
+        "title": "The World of Algorithms",
+        "desc": "Euclid's division algorithm for GCD, flowcharts, step-by-step computational thinking, iteration, and discrete problem-solving.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-11/ncert-class-9-ch-11.pdf"
+      },
+      {
+        "ch": "ch-12",
+        "num": "Part 2 \u2022 Ch 12",
+        "title": "Quadrilaterals",
+        "desc": "Properties of parallelograms, diagonal bisectors, the Mid-point Theorem and converse, tessellations, and regular polygon tilings.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-12/ch-12 Quadrilaterals.pdf"
+      },
+      {
+        "ch": "ch-13",
+        "num": "Part 2 \u2022 Ch 13",
+        "title": "Two Variables, One Line",
+        "desc": "Linear equations in two variables (ax + by + c = 0), integer solutions, plotting line graphs, lines parallel to axes, and rate curves.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-13/ch-13 Two Variables, One Line.pdf"
+      },
+      {
+        "ch": "ch-14",
+        "num": "Part 2 \u2022 Ch 14",
+        "title": "Math of Space: Surface Area and Volume",
+        "desc": "Surface areas and volumes of right circular cones, spheres, hemispheres, composite 3D objects, and practical solid conversions.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-14/ch-14 Math of Space Surface Area and Volume.pdf"
+      }
+    ]
+  },
+  "class10": {
+    "bookTitle": "NCERT Class 10 Mathematics",
+    "subtitle": "Official Complete NCERT Textbook Chapter-by-Chapter PDFs \u2022 CBSE 2026-27",
+    "folderPrefix": "books/chapter-wise/class-10",
+    "chapters": [
+      {
+        "ch": "ch-01",
+        "num": "Chapter 1",
+        "title": "Real Numbers",
+        "desc": "Fundamental Theorem of Arithmetic, prime factorisation method for HCF & LCM, and proofs of irrationality of \u221a2, \u221a3, \u221a5.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-01/Real numbers.pdf"
+      },
+      {
+        "ch": "ch-02",
+        "num": "Chapter 2",
+        "title": "Polynomials",
+        "desc": "Geometrical meaning of zeros, relationship between zeros and coefficients of quadratic polynomials, and polynomial formation.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-02/Polynomials.pdf"
+      },
+      {
+        "ch": "ch-03",
+        "num": "Chapter 3",
+        "title": "Pair of Linear Equations in Two Variables",
+        "desc": "Graphical method of solution, consistency/inconsistency conditions, algebraic methods (Substitution & Elimination), and word problems.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-03/Linear equations.pdf"
+      },
+      {
+        "ch": "ch-04",
+        "num": "Chapter 4",
+        "title": "Quadratic Equations",
+        "desc": "Standard form ax\u00b2 + bx + c = 0, solution by factorisation and quadratic formula, and nature of roots via discriminant (b\u00b2 \u2212 4ac).",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-04/Quadratic equations .pdf"
+      },
+      {
+        "ch": "ch-05",
+        "num": "Chapter 5",
+        "title": "Arithmetic Progressions",
+        "desc": "Derivation of n-th term an = a + (n\u22121)d, sum of first n terms (S\u2099), and practical application word problems & case studies.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-05/Arithmetic progression.pdf"
+      },
+      {
+        "ch": "ch-06",
+        "num": "Chapter 6",
+        "title": "Triangles",
+        "desc": "Basic Proportionality Theorem (Thales Theorem & converse), criteria for similarity of triangles (AAA, SSS, SAS), and geometric proofs.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-06/Traingle.pdf"
+      },
+      {
+        "ch": "ch-07",
+        "num": "Chapter 7",
+        "title": "Coordinate Geometry",
+        "desc": "Distance formula \u221a[(x\u2082\u2212x\u2081)\u00b2 + (y\u2082\u2212y\u2081)\u00b2], section formula (internal division), midpoint formula, and collinearity verification.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-07/Coordinate geometry.pdf"
+      },
+      {
+        "ch": "ch-08",
+        "num": "Chapter 8",
+        "title": "Introduction to Trigonometry",
+        "desc": "Trigonometric ratios of acute angles, values at 0\u00b0, 30\u00b0, 45\u00b0, 60\u00b0, 90\u00b0, and proofs of fundamental identities (sin\u00b2\u03b8 + cos\u00b2\u03b8 = 1).",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-08/Introduction to trigonometry.pdf"
+      },
+      {
+        "ch": "ch-09",
+        "num": "Chapter 9",
+        "title": "Some Applications of Trigonometry",
+        "desc": "Heights and distances, line of sight, angle of elevation, angle of depression, and multi-triangle geometric case problems.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-09/Some applications of trigonometry.pdf"
+      },
+      {
+        "ch": "ch-10",
+        "num": "Chapter 10",
+        "title": "Circles",
+        "desc": "Tangent to a circle, theorem that tangents from an external point are equal in length, and radius-tangent perpendicularity proofs.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-10/Circles.pdf"
+      },
+      {
+        "ch": "ch-11",
+        "num": "Chapter 11",
+        "title": "Areas Related to Circles",
+        "desc": "Area of sector and segment of a circle, arc length formula, and areas of composite geometric plane figures.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-11/Area related to circles.pdf"
+      },
+      {
+        "ch": "ch-12",
+        "num": "Chapter 12",
+        "title": "Surface Areas and Volumes",
+        "desc": "Surface areas and volumes of combinations of cubes, cuboids, spheres, hemispheres, and cylinders, plus shape reshaping.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-12/Surface area and volume.pdf"
+      },
+      {
+        "ch": "ch-13",
+        "num": "Chapter 13",
+        "title": "Statistics",
+        "desc": "Mean, median, and mode of grouped data, mean by direct and assumed mean methods, and modal value determination.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-13/Statistics.pdf"
+      },
+      {
+        "ch": "ch-14",
+        "num": "Chapter 14",
+        "title": "Probability",
+        "desc": "Classical definition of probability, simple problems on single events, complementary events P(E) + P(not E) = 1.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-14/Probability.pdf"
+      }
+    ]
+  },
+  "class11": {
+    "bookTitle": "NCERT Class 11 Mathematics",
+    "subtitle": "Official Complete NCERT Textbook Chapter-by-Chapter PDFs \u2022 CBSE 2026-27",
+    "folderPrefix": "books/chapter-wise/class-11",
+    "chapters": [
+      {
+        "ch": "ch-01",
+        "num": "Chapter 1",
+        "title": "Sets",
+        "desc": "Roster & set-builder forms, empty set, subsets, power sets, universal sets, Venn diagrams, union and intersection laws, De Morgan's laws.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-01/ncert-books-class-11-maths-chapter-1.pdf"
+      },
+      {
+        "ch": "ch-02",
+        "num": "Chapter 2",
+        "title": "Relations and Functions",
+        "desc": "Ordered pairs, Cartesian product A \u00d7 B, relations, definition of function, domain, codomain, range, graphs of standard functions.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-02/ncert-books-class-11-maths-chapter-2.pdf"
+      },
+      {
+        "ch": "ch-03",
+        "num": "Chapter 3",
+        "title": "Trigonometric Functions",
+        "desc": "Positive and negative angles, radian measure, unit circle definitions, signs in four quadrants, and compound & multiple angle formulas.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-03/ncert-class-11-ch-03.pdf"
+      },
+      {
+        "ch": "ch-04",
+        "num": "Chapter 4",
+        "title": "Complex Numbers & Quadratic Equations",
+        "desc": "Algebra of complex numbers (a + ib), conjugate, modulus, Argand plane representation, and quadratic equations with negative discriminant in \u2102.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-04/ncert-books-class-11-maths-chapter-4.pdf"
+      },
+      {
+        "ch": "ch-05",
+        "num": "Chapter 5",
+        "title": "Linear Inequalities",
+        "desc": "Algebraic solutions of linear inequalities in one variable, number line representation, and graphical solution of systems of inequalities in two variables.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-05/ncert-books-class-11-maths-chapter-5.pdf"
+      },
+      {
+        "ch": "ch-06",
+        "num": "Chapter 6",
+        "title": "Permutations and Combinations",
+        "desc": "Fundamental principle of counting, factorial n!, permutations (\u207fP\u1d63), circular permutations, combinations (\u207fC\u1d63), and restricted selections.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-06/ncert-books-class-11-maths-chapter-6.pdf"
+      },
+      {
+        "ch": "ch-07",
+        "num": "Chapter 7",
+        "title": "Binomial Theorem",
+        "desc": "History and statement of Binomial Theorem for positive integral indices, Pascal's triangle, expansion of (a + b)\u207f, and approximations.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-07/ncert-books-class-11-maths-chapter-7.pdf"
+      },
+      {
+        "ch": "ch-08",
+        "num": "Chapter 8",
+        "title": "Sequences and Series",
+        "desc": "Arithmetic Progression review, Geometric Progression (G.P.), general term ar\u207f\u207b\u00b9, sum of n terms (S\u2099), infinite G.P., and A.M.\u2013G.M. relation.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-08/ncert-books-class-11-maths-chapter-8.pdf"
+      },
+      {
+        "ch": "ch-09",
+        "num": "Chapter 9",
+        "title": "Straight Lines",
+        "desc": "Slope (m = tan \u03b8), angle between lines, slope-intercept, point-slope, two-point, intercept, and normal forms, distance of point from line.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-09/ncert-books-class-11-maths-chapter-9.pdf"
+      },
+      {
+        "ch": "ch-10",
+        "num": "Chapter 10",
+        "title": "Conic Sections",
+        "desc": "Sections of a cone, Circle, Parabola (y\u00b2 = 4ax), Ellipse (x\u00b2/a\u00b2 + y\u00b2/b\u00b2 = 1), Hyperbola, eccentricity e, and latus rectum.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-10/ncert-books-class-11-maths-chapter-10.pdf"
+      },
+      {
+        "ch": "ch-11",
+        "num": "Chapter 11",
+        "title": "Three Dimensional Geometry",
+        "desc": "Coordinate axes and planes in 3D, coordinates of a point, distance between two spatial points \u221a[(x\u2082\u2212x\u2081)\u00b2 + (y\u2082\u2212y\u2081)\u00b2 + (z\u2082\u2212z\u2081)\u00b2], and section formula.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-11/ncert-books-class-11-maths-chapter-11.pdf"
+      },
+      {
+        "ch": "ch-12",
+        "num": "Chapter 12",
+        "title": "Limits and Derivatives",
+        "desc": "Intuitive limit concept, left/right limits, standard limit lim [sin(x)/x] = 1, derivative as rate of change, and first principle derivative method.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-12/ncert-books-class-11-maths-chapter-12.pdf"
+      },
+      {
+        "ch": "ch-13",
+        "num": "Chapter 13",
+        "title": "Statistics",
+        "desc": "Measures of dispersion: range, mean deviation about mean, mean deviation about median for grouped data, variance (\u03c3\u00b2), and standard deviation (\u03c3).",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-13/ncert-books-class-11-maths-chapter-13.pdf"
+      },
+      {
+        "ch": "ch-14",
+        "num": "Chapter 14",
+        "title": "Probability",
+        "desc": "Random experiments, sample space, events, axiomatic approach to probability, addition theorem P(A \u222a B) = P(A) + P(B) \u2212 P(A \u2229 B).",
+        "pdf": "assets/pdfs/books/chapter-wise/class-11/ch-14/ncert-books-class-11-maths-chapter-14.pdf"
+      }
+    ]
+  },
+  "class12": {
+    "bookTitle": "NCERT Class 12 Mathematics",
+    "subtitle": "Official Complete NCERT Textbook Chapter-by-Chapter PDFs (Part 1 & Part 2) \u2022 CBSE 2026-27",
+    "folderPrefix": "books/chapter-wise/class-12",
+    "chapters": [
+      {
+        "ch": "ch-01",
+        "num": "Part 1 \u2022 Ch 1",
+        "title": "Relations and Functions",
+        "desc": "Types of relations: reflexive, symmetric, transitive and equivalence. One-to-one and onto functions, composite functions, and invertibility.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-01/ncert-book-class-12-maths-part-1-chapter-1.pdf"
+      },
+      {
+        "ch": "ch-02",
+        "num": "Part 1 \u2022 Ch 2",
+        "title": "Inverse Trigonometric Functions",
+        "desc": "Definition, range, domain, principal value branches, graphs of inverse trigonometric functions, and evaluation of multi-angle expressions.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-02/ncert-book-class-12-maths-part-1-chapter-2.pdf"
+      },
+      {
+        "ch": "ch-03",
+        "num": "Part 1 \u2022 Ch 3",
+        "title": "Matrices",
+        "desc": "Concept, notation, order, equality, types of matrices, transpose of a matrix, symmetric and skew-symmetric matrices, and matrix multiplication.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-03/ncert-book-class-12-maths-part-1-chapter-3.pdf"
+      },
+      {
+        "ch": "ch-04",
+        "num": "Part 1 \u2022 Ch 4",
+        "title": "Determinants",
+        "desc": "Determinant of square matrices up to 3x3, minors, cofactors, adjoint and inverse of a matrix, and solving systems of linear equations.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-04/ncert-book-class-12-maths-part-1-chapter-4.pdf"
+      },
+      {
+        "ch": "ch-05",
+        "num": "Part 1 \u2022 Ch 5",
+        "title": "Continuity and Differentiability",
+        "desc": "Continuity at points, derivative of composite functions (Chain Rule), derivative of implicit functions, logarithmic differentiation, and second-order derivatives.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-05/ncert-book-class-12-maths-part-1-chapter-5.pdf"
+      },
+      {
+        "ch": "ch-06",
+        "num": "Part 1 \u2022 Ch 6",
+        "title": "Applications of Derivatives (AOD)",
+        "desc": "Rate of change of quantities, strictly increasing/decreasing functions, tangents/normals, and maxima & minima applied to geometric optimization.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-06/ncert-book-class-12-maths-part-1-chapter-6.pdf"
+      },
+      {
+        "ch": "ch-07",
+        "num": "Part 2 \u2022 Ch 7",
+        "title": "Integrals",
+        "desc": "Integration by substitution, partial fractions, integration by parts, fundamental theorem of calculus, and definite integral properties.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-07/ncert-book-class-12-maths-part-2-chapter-1.pdf"
+      },
+      {
+        "ch": "ch-08",
+        "num": "Part 2 \u2022 Ch 8",
+        "title": "Applications of Integrals (AOI)",
+        "desc": "Area under simple curves: circles, parabolas, ellipses in standard form, and finding areas bounded by curves and intersecting straight lines.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-08/ncert-book-class-12-maths-part-2-chapter-2.pdf"
+      },
+      {
+        "ch": "ch-09",
+        "num": "Part 2 \u2022 Ch 9",
+        "title": "Differential Equations",
+        "desc": "Order and degree, general and particular solutions, formation of differential equations, variable separable, homogeneous, and linear equations.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-09/ncert-book-class-12-maths-part-2-chapter-3.pdf"
+      },
+      {
+        "ch": "ch-10",
+        "num": "Part 2 \u2022 Ch 10",
+        "title": "Vector Algebra",
+        "desc": "Vectors and scalars, magnitude and direction, direction cosines/ratios, types of vectors, position vector, dot product, cross product, and projections.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-10/ncert-book-class-12-maths-part-2-chapter-4.pdf"
+      },
+      {
+        "ch": "ch-11",
+        "num": "Part 2 \u2022 Ch 11",
+        "title": "Three Dimensional Geometry",
+        "desc": "Direction cosines and direction ratios of a line, vector and Cartesian equation of a line, coplanar and skew lines, and shortest distance.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-11/ncert-book-class-12-maths-part-2-chapter-5.pdf"
+      },
+      {
+        "ch": "ch-12",
+        "num": "Part 2 \u2022 Ch 12",
+        "title": "Linear Programming (LPP)",
+        "desc": "Introduction, terminology: constraints, objective function, optimization, mathematical formulation of LPP, and corner point graphical method.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-12/ncert-book-class-12-maths-part-2-chapter-6.pdf"
+      },
+      {
+        "ch": "ch-13",
+        "num": "Part 2 \u2022 Ch 13",
+        "title": "Probability",
+        "desc": "Conditional probability, multiplication theorem, independent events, total probability theorem, Bayes' theorem, and probability distributions.",
+        "pdf": "assets/pdfs/books/chapter-wise/class-12/ch-13/ncert-book-class-12-maths-part-2-chapter-7.pdf"
+      }
+    ]
+  }
+}

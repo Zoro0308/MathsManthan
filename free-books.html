@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free NCERT & Reference Books Download | Maths Manthan</title>
+  
+  <meta name="description" content="Download free NCERT textbooks, NCERT Exemplar problems, and reference solutions for CBSE Class 10 and Class 12 Mathematics & Science by Maths Manthan, Meerut.">
+  
+  <!-- Favicon & Styles -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/resources.css?v=5.0">
+
+  <style>
+    /* ==========================================================================
+       Bullet-Proof Segmented Toggle Box & Action Controls
+       Visibly distinct interactive UI component - Never looks like plain text
+       ========================================================================== */
+    .pdf-toggle-box {
+      display: inline-flex !important;
+      align-items: center !important;
+      background: #e2e8f0 !important;
+      border: 1.5px solid #cbd5e1 !important;
+      border-radius: 9999px !important;
+      padding: 3px !important;
+      gap: 4px !important;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+      transition: all 0.2s ease !important;
+    }
+    .pdf-toggle-box:hover {
+      border-color: #94a3b8 !important;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    }
+    .pdf-toggle-btn {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 0.45rem 1rem !important;
+      font-size: 0.82rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.02em !important;
+      text-decoration: none !important;
+      border-radius: 9999px !important;
+      cursor: pointer !important;
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      white-space: nowrap !important;
+      font-family: inherit !important;
+      line-height: 1.25 !important;
+      border: 1px solid transparent !important;
+    }
+    /* Light Mode: View PDF Active Pill */
+    .pdf-toggle-btn.btn-view {
+      background: #0284c7 !important;
+      color: #ffffff !important;
+      border-color: #0284c7 !important;
+      box-shadow: 0 2px 6px rgba(2, 132, 199, 0.35) !important;
+    }
+    .pdf-toggle-btn.btn-view:hover {
+      background: #0369a1 !important;
+      color: #ffffff !important;
+      border-color: #0369a1 !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.45) !important;
+    }
+    /* Light Mode: Download Segment Pill */
+    .pdf-toggle-btn.btn-download {
+      background: #ffffff !important;
+      color: #0f172a !important;
+      border: 1px solid #cbd5e1 !important;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    }
+    .pdf-toggle-btn.btn-download:hover {
+      background: #0f172a !important;
+      color: #ffffff !important;
+      border-color: #0f172a !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 3px 8px rgba(15, 23, 42, 0.25) !important;
+    }
+    /* Dark Mode (matrix-theme or [data-theme="dark"]) */
+    body.matrix-theme .pdf-toggle-box,
+    [data-theme="dark"] .pdf-toggle-box {
+      background: rgba(15, 23, 42, 0.95) !important;
+      border: 1.5px solid rgba(56, 189, 248, 0.45) !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 12px rgba(56, 189, 248, 0.15) !important;
+    }
+    body.matrix-theme .pdf-toggle-box:hover,
+    [data-theme="dark"] .pdf-toggle-box:hover {
+      border-color: #38bdf8 !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 18px rgba(56, 189, 248, 0.35) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-view,
+    [data-theme="dark"] .pdf-toggle-btn.btn-view {
+      background: #38bdf8 !important;
+      color: #020617 !important;
+      font-weight: 800 !important;
+      border-color: #38bdf8 !important;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.4) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-view:hover,
+    [data-theme="dark"] .pdf-toggle-btn.btn-view:hover {
+      background: #7dd3fc !important;
+      color: #020617 !important;
+      border-color: #7dd3fc !important;
+      box-shadow: 0 0 18px rgba(56, 189, 248, 0.75) !important;
+      transform: translateY(-1px) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-download,
+    [data-theme="dark"] .pdf-toggle-btn.btn-download {
+      background: rgba(255, 255, 255, 0.08) !important;
+      color: #f1f5f9 !important;
+      border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-download:hover,
+    [data-theme="dark"] .pdf-toggle-btn.btn-download:hover {
+      background: rgba(255, 255, 255, 0.25) !important;
+      color: #ffffff !important;
+      border-color: #ffffff !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.3) !important;
+    }
+    .pdf-toggle-divider { display: none !important; }
+
+    /* Open Chapter Directory Button */
+    .btn-open-dir {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      background: linear-gradient(135deg, #0284c7, #0ea5e9) !important;
+      color: #ffffff !important;
+      font-weight: 700 !important;
+      font-size: 0.85rem !important;
+      padding: 0.55rem 1.15rem !important;
+      border-radius: 8px !important;
+      border: none !important;
+      cursor: pointer !important;
+      transition: all 0.2s ease !important;
+      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.35) !important;
+      text-decoration: none !important;
+    }
+    .btn-open-dir:hover {
+      background: linear-gradient(135deg, #0369a1, #0284c7) !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.5) !important;
+    }
+    body.matrix-theme .btn-open-dir,
+    [data-theme="dark"] .btn-open-dir {
+      background: linear-gradient(135deg, #0284c7, #38bdf8) !important;
+      color: #020617 !important;
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.3) !important;
+    }
+    body.matrix-theme .btn-open-dir:hover,
+    [data-theme="dark"] .btn-open-dir:hover {
+      background: linear-gradient(135deg, #38bdf8, #7dd3fc) !important;
+      box-shadow: 0 0 22px rgba(56, 189, 248, 0.6) !important;
+      transform: translateY(-2px) !important;
+    }
+  </style>
+
+  <!-- Immediate Theme Initialization (prevents flash) -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('mm_theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+  </script>
+</head>
+<body class="matrix-theme">
+
+  <!-- Floating Mathematical Matrix Stream Canvas -->
+  <canvas id="matrix-canvas" class="matrix-stream-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link">
+        <img src="assets/images/logo.png" alt="Maths Manthan Logo" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">MATHS MANTHAN</span>
+          <span class="brand-subtitle">Tuition Classes</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#batches" class="nav-link">Batches</a>
+        <a href="class-8.html" class="nav-link">Class 8</a>
+        <a href="class-9.html" class="nav-link">Class 9</a>
+        <a href="class-10.html" class="nav-link">Class 10</a>
+        <a href="class-11.html" class="nav-link">Class 11</a>
+        <a href="class-12.html" class="nav-link">Class 12</a>
+        <a href="free-books.html" class="nav-link active">Free Books</a>
+        <a href="index.html#location" class="nav-link">Location</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html#inquiry" class="btn btn-gold">Inquire Now</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Mode">
+          <span class="theme-icon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- View 1: Main Books Hub Overview -->
+    <div id="booksOverviewSection">
+      <!-- Resource Hub Hero -->
+    <section class="resources-hero">
+      <div class="container">
+        <span class="section-tag">Academic Library</span>
+        <h1>Free Digital Books & Reference Material</h1>
+        <p>Direct downloadable official NCERT textbooks, NCERT Exemplar problem books, and lab manuals for CBSE Classes 10 & 12.</p>
+      </div>
+    </section>
+
+    <!-- Filter & Live Search Section -->
+    <section class="filter-section">
+      <div class="container">
+        <div class="filter-bar">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="resourceSearch" class="search-input" placeholder="Search book title (e.g. NCERT Maths, Exemplar, Science, Calculus)...">
+          </div>
+
+          <div class="filter-pills">
+            <button class="filter-pill active" data-filter="all">All Books</button>
+            <button class="filter-pill" data-filter="class8">Class 8th</button>
+            <button class="filter-pill" data-filter="class9">Class 9th</button>
+            <button class="filter-pill" data-filter="class10">Class 10th</button>
+            <button class="filter-pill" data-filter="class11">Class 11th</button>
+            <button class="filter-pill" data-filter="class12">Class 12th</button>
+            <button class="filter-pill" data-filter="exemplar">NCERT Exemplar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Card Grid -->
+    <section class="container">
+      <div class="resources-grid" id="resourcesGrid">
+
+        <!-- ==================== CLASS 8 BOOKS ==================== -->
+        <!-- Book 1: Class 8 Ganita Prakash Complete Book -->
+        <div class="resource-card" data-folder="books/complete/class-8-ganita-prakash" data-category="class8">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-8TH-FULL</span>
+              <span class="resource-badge badge-standard">Class 8th •</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 8 Ganita Prakash (Complete Book)</h3>
+            <p class="resource-desc">
+              The official new NCERT Class 8 textbook (Parts I & II combined). Contains all 14 chapters aligned with NEP 2020 & NCF-SE 2023 in a single complete edition.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Complete Parts I & II</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/class-8-ganita-prakash/class-8-ganita-prakash-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/class-8-ganita-prakash/class-8-ganita-prakash-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 2: Class 8 Ganita Prakash Chapter-Wise Directory -->
+        <div class="resource-card" data-category="class8">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-8TH</span>
+              <span class="resource-badge badge-formula">Class 8th • Ch-Wise</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 8 Ganita Prakash (Chapter-Wise PDFs)</h3>
+            <p class="resource-desc">
+              Browse and study all 14 individual chapter PDFs with online reading and download options: A Square and A Cube, Power Play, Quadrilaterals, Baudhayana Theorem, and Area.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">All 14 Chapters</span>
+            <div class="card-btn-group">
+              <button class="btn-open-dir" data-class="class8">Open Chapter Directory &rarr;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== CLASS 9 BOOKS ==================== -->
+        <!-- Book 3: Class 9 Ganita Manjari Complete Book -->
+        <div class="resource-card" data-folder="books/complete/class-9-ganita-manjari" data-category="class9">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-9TH-FULL</span>
+              <span class="resource-badge badge-standard">CLASS 9TH • Complete</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 9 Ganita Manjari (Complete Book)</h3>
+            <p class="resource-desc">
+              The newly introduced NCERT Class 9 textbook under NEP 2020 (Parts 1 & 2 combined). Covers all 14 chapters from Coordinates & Polynomials to Tilings & 3D Space.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Complete Parts 1 & 2</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/class-9-ganita-manjari/class-9-ganita-manjari-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/class-9-ganita-manjari/class-9-ganita-manjari-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 4: Class 9 Ganita Manjari Chapter-Wise Directory -->
+        <div class="resource-card" data-category="class9">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-9TH</span>
+              <span class="resource-badge badge-formula">CLASS 9TH • Ch-Wise</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 9 Ganita Manjari (Chapter-Wise PDFs)</h3>
+            <p class="resource-desc">
+              Access individual chapter downloads with online study viewer: Coordinates, Linear Polynomials, Surds, Heron's Formula, Euclid's Algorithm, Propositions, and all 14 chapters.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">All 14 Chapters</span>
+            <div class="card-btn-group">
+              <button class="btn-open-dir" data-class="class9">Open Chapter Directory &rarr;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== CLASS 10 BOOKS ==================== -->
+        <!-- Book 5: Class 10 Mathematics Complete Book -->
+        <div class="resource-card" data-folder="books/complete/class-10-mathematics" data-category="class10">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-10TH-FULL</span>
+              <span class="resource-badge badge-standard">CLASS 10TH • Complete</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 10 Mathematics (Complete Textbook)</h3>
+            <p class="resource-desc">
+              The official complete NCERT textbook covering all 14 chapters from Real Numbers to Probability with rationalized syllabus content for 2026-27 Boards.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Complete 14 Chapters</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/class-10-mathematics/class-10-mathematics-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/class-10-mathematics/class-10-mathematics-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 6: Class 10 Mathematics Chapter-Wise Directory -->
+        <div class="resource-card" data-category="class10">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-10TH</span>
+              <span class="resource-badge badge-formula">CLASS 10TH • Ch-Wise</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 10 Mathematics (Chapter-Wise PDFs)</h3>
+            <p class="resource-desc">
+              Read online or download chapter-by-chapter official textbook PDFs: Real Numbers, Polynomials, Linear Equations, Quadratic Equations, Triangles, Trigonometry, and Circles.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">All 14 Chapters</span>
+            <div class="card-btn-group">
+              <button class="btn-open-dir" data-class="class10">Open Chapter Directory &rarr;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 7: Science -->
+        <div class="resource-card" data-folder="books/complete/class-10-science" data-category="class10">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-10TH-SCI</span>
+              <span class="resource-badge badge-standard">CLASS 10TH Science</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 10 Science (Physics, Chem, Bio)</h3>
+            <p class="resource-desc">
+              Standard NCERT Science textbook with detailed theory, diagrams, and in-text & chapter-end exercise questions for complete Board readiness.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Complete Textbook</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/class-10-science/class-10-science-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/class-10-science/class-10-science-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 8: Exemplar -->
+        <div class="resource-card" data-folder="books/complete/exemplar-class-10" data-category="exemplar">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">EXEMPLAR-X-MATH</span>
+              <span class="resource-badge badge-formula">Class 10 Exemplar</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Exemplar Problems in Mathematics (Class 10)</h3>
+            <p class="resource-desc">
+              High-order thinking skills (HOTS), multiple-choice questions, and advanced problems essential for scoring 100/100 in Board exams.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Advanced Problems</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/exemplar-class-10/exemplar-class-10-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/exemplar-class-10/exemplar-class-10-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 9: Lab Manual -->
+        <div class="resource-card" data-folder="books/complete/lab-manual-class-10" data-category="class10">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">LAB-X-MATH</span>
+              <span class="resource-badge badge-pyq">Class 10th Lab</span>
+            </div>
+            <h3 class="resource-title">CBSE Class 10 Maths Lab Manual & Activities</h3>
+            <p class="resource-desc">
+              Hands-on mathematical experiments, activity sheets, and project work required for internal assessment (20 Marks).
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Lab Manual & Viva</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/lab-manual-class-10/lab-manual-class-10-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/lab-manual-class-10/lab-manual-class-10-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== CLASS 11 BOOKS ==================== -->
+        <!-- Book 10: Class 11 Mathematics Complete Book -->
+        <div class="resource-card" data-folder="books/complete/class-11-mathematics" data-category="class11">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-11TH-FULL</span>
+              <span class="resource-badge badge-standard">CLASS 11TH • Complete	</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 11 Mathematics (Complete Textbook)</h3>
+            <p class="resource-desc">
+              Complete official NCERT textbook covering all 14 chapters including Sets, Trigonometry, Complex Numbers, Permutations, Conic Sections, and Limits.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Complete 14 Chapters</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/class-11-mathematics/class-11-mathematics-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/class-11-mathematics/class-11-mathematics-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 11: Class 11 Mathematics Chapter-Wise Directory -->
+        <div class="resource-card" data-category="class11">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-11TH</span>
+              <span class="resource-badge badge-formula">CLASS 11TH • Ch-Wise</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 11 Mathematics (Chapter-Wise PDFs)</h3>
+            <p class="resource-desc">
+              Read online or download chapter-by-chapter PDFs: Sets, Relations & Functions, Trigonometric Functions, Complex Numbers, Permutations, Conic Sections, and Calculus.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">All 14 Chapters</span>
+            <div class="card-btn-group">
+              <button class="btn-open-dir" data-class="class11">Open Chapter Directory &rarr;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 12: Class 11 Exemplar -->
+        <div class="resource-card" data-folder="books/complete/exemplar-class-11" data-category="exemplar">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">EXEMPLAR-XI-MATH</span>
+              <span class="resource-badge badge-formula">Class 11 Exemplar</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Exemplar Problems in Mathematics (Class 11)</h3>
+            <p class="resource-desc">
+              Advanced multi-concept problem bank with proof-based questions, non-routine calculus problems, and JEE Foundation exercises.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Advanced Problems</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== CLASS 12 BOOKS ==================== -->
+        <!-- Book 13: Class 12 Mathematics Complete Book -->
+        <div class="resource-card" data-folder="books/complete/class-12-maths-part1" data-category="class12">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-12TH-FULL</span>
+              <span class="resource-badge badge-standard">CLASS 12TH • Complete</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 12 Mathematics (Complete Textbook)</h3>
+            <p class="resource-desc">
+              Official textbook Part 1 and Part 2 combined: Relations & Functions, Matrices, Calculus, Vectors, 3D Geometry, Linear Programming, and Probability.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Parts 1 & 2 Combined</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/class-12-maths-part1/class-12-maths-part1-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/class-12-maths-part1/class-12-maths-part1-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 14: Class 12 Mathematics Chapter-Wise Directory -->
+        <div class="resource-card" data-category="class12">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">NCERT-12TH</span>
+              <span class="resource-badge badge-formula">CLASS 12TH • Ch-Wise</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Class 12 Mathematics (Chapter-Wise PDFs)</h3>
+            <p class="resource-desc">
+              Read online or download chapter-by-chapter official PDFs: Matrices, Determinants, Continuity & Differentiability, Integrals, Differential Equations, Vectors, and 3D.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">All 13 Chapters</span>
+            <div class="card-btn-group">
+              <button class="btn-open-dir" data-class="class12">Open Chapter Directory &rarr;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 15: Class 12 Exemplar -->
+        <div class="resource-card" data-folder="books/complete/exemplar-class-12" data-category="exemplar">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">EXEMPLAR-XII-MATH</span>
+              <span class="resource-badge badge-formula">Class 12 Exemplar</span>
+            </div>
+            <h3 class="resource-title"><strong>NCERT</strong> Exemplar Problems in Mathematics (Class 12)</h3>
+            <p class="resource-desc">
+              Crucial problem book featuring challenging Calculus, 3D Geometry, and Probability questions for CBSE Boards and JEE Main.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">HOTS & MCQs</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/exemplar-class-12/exemplar-class-12-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/exemplar-class-12/exemplar-class-12-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book 16: Class 12 Lab Manual -->
+        <div class="resource-card" data-folder="books/complete/lab-manual-class-12" data-category="class12">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">LAB-XII-MATH</span>
+              <span class="resource-badge badge-pyq">Class 12th Lab</span>
+            </div>
+            <h3 class="resource-title">CBSE Class 12 Maths Lab Activities & Viva Manual</h3>
+            <p class="resource-desc">
+              Prescribed CBSE practical manual: 10 mandatory activities, project guidelines, and viva voce question preparation guide.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Practicals & Viva</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/books/complete/lab-manual-class-12/lab-manual-class-12-complete.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/books/complete/lab-manual-class-12/lab-manual-class-12-complete.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="noResults" style="display: none; text-align: center; padding: 4rem 1rem; color: var(--color-text-muted);">
+        <p style="font-size: 1.25rem; font-weight: 600;">No books found matching your query.</p>
+        <p>Try searching with another keyword or select "All Books".</p>
+      </div>
+    </section>
+    </div> <!-- end #booksOverviewSection -->
+
+    <!-- View 2: In-Page Chapter Directory Section (Seamless native view on the exact same page & live Matrix background!) -->
+    <div id="inpageChapterSection" style="display: none;">
+      <!-- Hero / Header -->
+      <section class="inpage-dir-hero">
+        <div class="container">
+          <div class="inpage-dir-nav">
+            <button id="backToBooksBtn" class="btn-back-to-books" type="button">
+              &larr; Back to All Books
+            </button>
+          </div>
+          <div class="inpage-dir-header">
+            <div class="inpage-badge-row">
+              <span id="inpageBookTag" class="section-tag">CLASS 8TH MATHEMATICS</span>
+              <span id="inpageChapterCountBadge" class="tag-chapter-count">14 CHAPTERS</span>
+            </div>
+            <h1 id="inpageBookTitle">NCERT Class 8 Ganita Prakash</h1>
+            <p id="inpageBookSubtitle">Official NCERT Textbook Chapter-Wise Repository • Read Online or Download for Offline Study</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Filter & Search Toolbar -->
+      <section class="filter-section inpage-chapter-toolbar">
+        <div class="container">
+          <div class="filter-bar">
+            <div class="search-box">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="inpageChapterSearch" class="search-input" placeholder="Search chapter title, number, or topic...">
+            </div>
+            <div class="filter-group" id="inpagePartFilterGroup" style="display: none;">
+              <div class="filter-pills" id="inpagePartFilterPills">
+                <!-- Dynamically populated per class -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- In-Page Chapters Grid -->
+      <section class="container inpage-chapters-container">
+        <div class="resources-grid" id="inpageChaptersGrid">
+          <!-- Dynamically populated with individual chapters -->
+        </div>
+        <div id="noInpageChapters" style="display: none; text-align: center; padding: 4rem 1rem; color: var(--color-text-muted);">
+          <p style="font-size: 1.25rem; font-weight: 600;">No chapters found matching your query.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>MATHS MANTHAN</h4>
+          <p>D121 European Estate, Kankerkhera, Meerut. Premier coaching for CBSE Classes 8 to 12.</p>
+        </div>
+        <div>
+          <h5 class="footer-heading">Classroom Hubs</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="class-8.html">Class 8 (Ganita Prakash)</a></li>
+            <li><a href="class-9.html">Class 9 (Ganita Manjari)</a></li>
+            <li><a href="class-10.html">Class 10 Board Hub</a></li>
+            <li><a href="class-11.html">Class 11 CBSE Hub</a></li>
+            <li><a href="class-12.html">Class 12 Core Hub</a></li>
+            <li><a href="free-books.html">Free Books Hub</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-heading">Classroom Address</h5>
+          <p style="color: #CBD5E1; font-size: 0.925rem; line-height: 1.5; margin-bottom: 0.5rem;">
+            D121 European Estate, Kankerkhera, Meerut
+          </p>
+          <p style="margin-bottom: 0.75rem;">
+            <a href="https://maps.app.goo.gl/33ciqPMnbs77ZCjk8" target="_blank" style="color: var(--color-gold); font-size: 0.85rem; text-decoration: underline;">
+              Get Google Maps Directions ↗
+            </a>
+          </p>
+          <p style="color: #CBD5E1; font-size: 0.85rem; margin-bottom: 0.75rem;">
+            Email: <a href="mailto:contact@mathsmanthan.co.in" style="color: var(--color-gold); text-decoration: underline;">contact@mathsmanthan.co.in</a>
+          </p>
+          <a href="https://wa.me/918171546558" target="_blank" class="btn btn-whatsapp" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Maths Manthan. All Rights Reserved.</div>
+        <div>D121 European Estate, Kankerkhera, Meerut</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Live Matrix Controls Toggle & Drawer -->
+  <button id="toggleControlsBtn" class="matrix-toggle-btn" aria-label="Toggle Matrix Controls">
+    ⚙️ Customize Stream
+  </button>
+
+  <aside class="controls-panel collapsed">
+    <h2>Matrix Stream Engine</h2>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Digit Density</span>
+        <span id="val-density">180</span>
+      </div>
+      <input type="range" id="param-density" min="50" max="400" step="10" value="180" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Base Drift Speed</span>
+        <span id="val-speed">0.85</span>
+      </div>
+      <input type="range" id="param-speed" min="-3" max="3" step="0.05" value="0.85" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Parallax Multiplier</span>
+        <span id="val-parallax">2.6</span>
+      </div>
+      <input type="range" id="param-parallax" min="0.5" max="5" step="0.1" value="2.6" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Min Font Size</span>
+        <span id="val-minFont">14px</span>
+      </div>
+      <input type="range" id="param-minFont" min="8" max="24" step="1" value="14" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Max Font Size</span>
+        <span id="val-maxFont">82px</span>
+      </div>
+      <input type="range" id="param-maxFont" min="40" max="140" step="2" value="82" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Digit Mutation Rate</span>
+        <span id="val-mutation">0.035</span>
+      </div>
+      <input type="range" id="param-mutation" min="0" max="0.15" step="0.005" value="0.035" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Foreground Bloom</span>
+        <span id="val-glow">16px</span>
+      </div>
+      <input type="range" id="param-glow" min="0" max="40" step="1" value="16" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Cursor Repulsion</span>
+        <span id="val-repulsion">120px</span>
+      </div>
+      <input type="range" id="param-repulsion" min="0" max="250" step="10" value="120" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Palette Mood</span>
+      </div>
+      <div class="theme-buttons">
+        <button class="theme-btn active" data-theme="midnight">Midnight</button>
+        <button class="theme-btn" data-theme="cyber">Cyber</button>
+        <button class="theme-btn" data-theme="solar">Solar</button>
+        <button class="theme-btn" data-theme="emerald">Emerald</button>
+      </div>
+    </div>
+  </aside>
+
+
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/vendor/pdf.min.js"></script>
+  <script src="assets/js/resources.js?v=5.0"></script>
+  <script src="assets/js/matrix-stream.js"></script>
+</body>
+</html>

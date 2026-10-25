@@ -1,0 +1,804 @@
+{
+  "books/chapter-wise/class-10/ch-01": "assets/pdfs/books/chapter-wise/class-10/ch-01/Real numbers.pdf",
+  "books/chapter-wise/class-10/ch-01__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-01/ncert-class-10-ch-01.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-01/Real numbers.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-02": "assets/pdfs/books/chapter-wise/class-10/ch-02/Polynomials.pdf",
+  "books/chapter-wise/class-10/ch-02__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-02/ncert-class-10-ch-02.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-02/Polynomials.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-03": "assets/pdfs/books/chapter-wise/class-10/ch-03/Linear equations.pdf",
+  "books/chapter-wise/class-10/ch-03__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-03/Linear equations.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-03/ncert-class-10-ch-03.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-04": "assets/pdfs/books/chapter-wise/class-10/ch-04/Quadratic equations .pdf",
+  "books/chapter-wise/class-10/ch-04__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-04/ncert-class-10-ch-04.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-04/Quadratic equations .pdf"
+  ],
+  "books/chapter-wise/class-10/ch-05": "assets/pdfs/books/chapter-wise/class-10/ch-05/Arithmetic progression.pdf",
+  "books/chapter-wise/class-10/ch-05__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-05/Arithmetic progression.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-05/ncert-class-10-ch-05.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-06": "assets/pdfs/books/chapter-wise/class-10/ch-06/Traingle.pdf",
+  "books/chapter-wise/class-10/ch-06__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-06/ncert-class-10-ch-06.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-06/Traingle.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-07": "assets/pdfs/books/chapter-wise/class-10/ch-07/Coordinate geometry.pdf",
+  "books/chapter-wise/class-10/ch-07__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-07/Coordinate geometry.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-07/ncert-class-10-ch-07.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-08": "assets/pdfs/books/chapter-wise/class-10/ch-08/Introduction to trigonometry.pdf",
+  "books/chapter-wise/class-10/ch-08__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-08/Introduction to trigonometry.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-08/ncert-class-10-ch-08.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-09": "assets/pdfs/books/chapter-wise/class-10/ch-09/Some applications of trigonometry.pdf",
+  "books/chapter-wise/class-10/ch-09__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-09/ncert-class-10-ch-09.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-09/Some applications of trigonometry.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-10": "assets/pdfs/books/chapter-wise/class-10/ch-10/Circles.pdf",
+  "books/chapter-wise/class-10/ch-10__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-10/Circles.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-10/ncert-class-10-ch-10.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-11": "assets/pdfs/books/chapter-wise/class-10/ch-11/Area related to circles.pdf",
+  "books/chapter-wise/class-10/ch-11__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-11/Area related to circles.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-11/ncert-class-10-ch-11.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-12": "assets/pdfs/books/chapter-wise/class-10/ch-12/Surface area and volume.pdf",
+  "books/chapter-wise/class-10/ch-12__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-12/ncert-class-10-ch-12.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-12/Surface area and volume.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-13": "assets/pdfs/books/chapter-wise/class-10/ch-13/Statistics.pdf",
+  "books/chapter-wise/class-10/ch-13__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-13/ncert-class-10-ch-13.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-13/Statistics.pdf"
+  ],
+  "books/chapter-wise/class-10/ch-14": "assets/pdfs/books/chapter-wise/class-10/ch-14/Probability.pdf",
+  "books/chapter-wise/class-10/ch-14__all": [
+    "assets/pdfs/books/chapter-wise/class-10/ch-14/ncert-class-10-ch-14.pdf",
+    "assets/pdfs/books/chapter-wise/class-10/ch-14/Probability.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-01": "assets/pdfs/books/chapter-wise/class-11/ch-01/ncert-books-class-11-maths-chapter-1.pdf",
+  "books/chapter-wise/class-11/ch-01__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-01/ncert-books-class-11-maths-chapter-1.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-01/ncert-class-11-ch-01.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-02": "assets/pdfs/books/chapter-wise/class-11/ch-02/ncert-books-class-11-maths-chapter-2.pdf",
+  "books/chapter-wise/class-11/ch-02__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-02/ncert-books-class-11-maths-chapter-2.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-02/ncert-class-11-ch-02.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-03": "assets/pdfs/books/chapter-wise/class-11/ch-03/ncert-class-11-ch-03.pdf",
+  "books/chapter-wise/class-11/ch-03__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-03/ncert-class-11-ch-03.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-04": "assets/pdfs/books/chapter-wise/class-11/ch-04/ncert-books-class-11-maths-chapter-4.pdf",
+  "books/chapter-wise/class-11/ch-04__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-04/ncert-books-class-11-maths-chapter-4.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-04/ncert-class-11-ch-04.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-05": "assets/pdfs/books/chapter-wise/class-11/ch-05/ncert-books-class-11-maths-chapter-5.pdf",
+  "books/chapter-wise/class-11/ch-05__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-05/ncert-books-class-11-maths-chapter-5.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-05/ncert-class-11-ch-05.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-06": "assets/pdfs/books/chapter-wise/class-11/ch-06/ncert-books-class-11-maths-chapter-6.pdf",
+  "books/chapter-wise/class-11/ch-06__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-06/ncert-books-class-11-maths-chapter-6.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-06/ncert-class-11-ch-06.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-07": "assets/pdfs/books/chapter-wise/class-11/ch-07/ncert-books-class-11-maths-chapter-7.pdf",
+  "books/chapter-wise/class-11/ch-07__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-07/ncert-books-class-11-maths-chapter-7.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-07/ncert-class-11-ch-07.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-08": "assets/pdfs/books/chapter-wise/class-11/ch-08/ncert-books-class-11-maths-chapter-8.pdf",
+  "books/chapter-wise/class-11/ch-08__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-08/ncert-books-class-11-maths-chapter-8.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-08/ncert-class-11-ch-08.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-09": "assets/pdfs/books/chapter-wise/class-11/ch-09/ncert-books-class-11-maths-chapter-9.pdf",
+  "books/chapter-wise/class-11/ch-09__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-09/ncert-books-class-11-maths-chapter-9.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-09/ncert-class-11-ch-09.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-10": "assets/pdfs/books/chapter-wise/class-11/ch-10/ncert-books-class-11-maths-chapter-10.pdf",
+  "books/chapter-wise/class-11/ch-10__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-10/ncert-books-class-11-maths-chapter-10.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-10/ncert-class-11-ch-10.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-11": "assets/pdfs/books/chapter-wise/class-11/ch-11/ncert-books-class-11-maths-chapter-11.pdf",
+  "books/chapter-wise/class-11/ch-11__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-11/ncert-books-class-11-maths-chapter-11.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-11/ncert-class-11-ch-11.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-12": "assets/pdfs/books/chapter-wise/class-11/ch-12/ncert-books-class-11-maths-chapter-12.pdf",
+  "books/chapter-wise/class-11/ch-12__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-12/ncert-books-class-11-maths-chapter-12.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-12/ncert-class-11-ch-12.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-13": "assets/pdfs/books/chapter-wise/class-11/ch-13/ncert-books-class-11-maths-chapter-13.pdf",
+  "books/chapter-wise/class-11/ch-13__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-13/ncert-books-class-11-maths-chapter-13.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-13/ncert-class-11-ch-13.pdf"
+  ],
+  "books/chapter-wise/class-11/ch-14": "assets/pdfs/books/chapter-wise/class-11/ch-14/ncert-books-class-11-maths-chapter-14.pdf",
+  "books/chapter-wise/class-11/ch-14__all": [
+    "assets/pdfs/books/chapter-wise/class-11/ch-14/ncert-books-class-11-maths-chapter-14.pdf",
+    "assets/pdfs/books/chapter-wise/class-11/ch-14/ncert-class-11-ch-14.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-01": "assets/pdfs/books/chapter-wise/class-12/ch-01/ncert-book-class-12-maths-part-1-chapter-1.pdf",
+  "books/chapter-wise/class-12/ch-01__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-01/ncert-book-class-12-maths-part-1-chapter-1.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-01/ncert-class-12-ch-01.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-02": "assets/pdfs/books/chapter-wise/class-12/ch-02/ncert-book-class-12-maths-part-1-chapter-2.pdf",
+  "books/chapter-wise/class-12/ch-02__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-02/ncert-book-class-12-maths-part-1-chapter-2.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-02/ncert-class-12-ch-02.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-03": "assets/pdfs/books/chapter-wise/class-12/ch-03/ncert-book-class-12-maths-part-1-chapter-3.pdf",
+  "books/chapter-wise/class-12/ch-03__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-03/ncert-book-class-12-maths-part-1-chapter-3.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-03/ncert-class-12-ch-03.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-04": "assets/pdfs/books/chapter-wise/class-12/ch-04/ncert-book-class-12-maths-part-1-chapter-4.pdf",
+  "books/chapter-wise/class-12/ch-04__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-04/ncert-book-class-12-maths-part-1-chapter-4.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-04/ncert-class-12-ch-04.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-05": "assets/pdfs/books/chapter-wise/class-12/ch-05/ncert-book-class-12-maths-part-1-chapter-5.pdf",
+  "books/chapter-wise/class-12/ch-05__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-05/ncert-book-class-12-maths-part-1-chapter-5.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-05/ncert-class-12-ch-05.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-06": "assets/pdfs/books/chapter-wise/class-12/ch-06/ncert-book-class-12-maths-part-1-chapter-6.pdf",
+  "books/chapter-wise/class-12/ch-06__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-06/ncert-book-class-12-maths-part-1-chapter-6.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-06/ncert-class-12-ch-06.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-07": "assets/pdfs/books/chapter-wise/class-12/ch-07/ncert-book-class-12-maths-part-2-chapter-1.pdf",
+  "books/chapter-wise/class-12/ch-07__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-07/ncert-book-class-12-maths-part-2-chapter-1.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-07/ncert-class-12-ch-07.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-08": "assets/pdfs/books/chapter-wise/class-12/ch-08/ncert-book-class-12-maths-part-2-chapter-2.pdf",
+  "books/chapter-wise/class-12/ch-08__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-08/ncert-book-class-12-maths-part-2-chapter-2.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-08/ncert-class-12-ch-08.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-09": "assets/pdfs/books/chapter-wise/class-12/ch-09/ncert-book-class-12-maths-part-2-chapter-3.pdf",
+  "books/chapter-wise/class-12/ch-09__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-09/ncert-book-class-12-maths-part-2-chapter-3.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-09/ncert-class-12-ch-09.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-10": "assets/pdfs/books/chapter-wise/class-12/ch-10/ncert-book-class-12-maths-part-2-chapter-4.pdf",
+  "books/chapter-wise/class-12/ch-10__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-10/ncert-book-class-12-maths-part-2-chapter-4.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-10/ncert-class-12-ch-10.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-11": "assets/pdfs/books/chapter-wise/class-12/ch-11/ncert-book-class-12-maths-part-2-chapter-5.pdf",
+  "books/chapter-wise/class-12/ch-11__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-11/ncert-book-class-12-maths-part-2-chapter-5.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-11/ncert-class-12-ch-11.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-12": "assets/pdfs/books/chapter-wise/class-12/ch-12/ncert-book-class-12-maths-part-2-chapter-6.pdf",
+  "books/chapter-wise/class-12/ch-12__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-12/ncert-book-class-12-maths-part-2-chapter-6.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-12/ncert-class-12-ch-12.pdf"
+  ],
+  "books/chapter-wise/class-12/ch-13": "assets/pdfs/books/chapter-wise/class-12/ch-13/ncert-book-class-12-maths-part-2-chapter-7.pdf",
+  "books/chapter-wise/class-12/ch-13__all": [
+    "assets/pdfs/books/chapter-wise/class-12/ch-13/ncert-book-class-12-maths-part-2-chapter-7.pdf",
+    "assets/pdfs/books/chapter-wise/class-12/ch-13/ncert-class-12-ch-13.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-01": "assets/pdfs/books/chapter-wise/class-8/ch-01/1 A SQUARE AND A CUBE.pdf",
+  "books/chapter-wise/class-8/ch-01__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-01/1 A SQUARE AND A CUBE.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-01/ncert-class-8-ch-01.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-02": "assets/pdfs/books/chapter-wise/class-8/ch-02/2 POWER PLAY.pdf",
+  "books/chapter-wise/class-8/ch-02__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-02/2 POWER PLAY.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-02/ncert-class-8-ch-02.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-03": "assets/pdfs/books/chapter-wise/class-8/ch-03/3 A STORY OF NUMBERS.pdf",
+  "books/chapter-wise/class-8/ch-03__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-03/3 A STORY OF NUMBERS.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-03/ncert-class-8-ch-03.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-04": "assets/pdfs/books/chapter-wise/class-8/ch-04/4 QUADRILATERALS.pdf",
+  "books/chapter-wise/class-8/ch-04__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-04/4 QUADRILATERALS.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-04/ncert-class-8-ch-04.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-05": "assets/pdfs/books/chapter-wise/class-8/ch-05/5 NUMBER PLAY.pdf",
+  "books/chapter-wise/class-8/ch-05__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-05/5 NUMBER PLAY.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-05/ncert-class-8-ch-05.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-06": "assets/pdfs/books/chapter-wise/class-8/ch-06/6 WE DISTRIBUTE, YET THINGS MULTIPLY.pdf",
+  "books/chapter-wise/class-8/ch-06__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-06/6 WE DISTRIBUTE, YET THINGS MULTIPLY.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-06/ncert-class-8-ch-06.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-07": "assets/pdfs/books/chapter-wise/class-8/ch-07/7 PROPORTIONAL REASONING-1.pdf",
+  "books/chapter-wise/class-8/ch-07__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-07/7 PROPORTIONAL REASONING-1.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-07/ncert-class-8-ch-07.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-08": "assets/pdfs/books/chapter-wise/class-8/ch-08/1.-FRACTIONS-IN-DISGUISE.pdf",
+  "books/chapter-wise/class-8/ch-08__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-08/1.-FRACTIONS-IN-DISGUISE.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-08/ncert-class-8-ch-08.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-09": "assets/pdfs/books/chapter-wise/class-8/ch-09/2.-THE-BAUDHAYANAPYTHAGORAS-THEOREM.pdf",
+  "books/chapter-wise/class-8/ch-09__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-09/2.-THE-BAUDHAYANAPYTHAGORAS-THEOREM.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-09/ncert-class-8-ch-09.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-10": "assets/pdfs/books/chapter-wise/class-8/ch-10/3.-PROPORTIONAL-REASONING-2.pdf",
+  "books/chapter-wise/class-8/ch-10__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-10/3.-PROPORTIONAL-REASONING-2.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-10/ncert-class-8-ch-10.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-11": "assets/pdfs/books/chapter-wise/class-8/ch-11/4.-EXPLORING-SOME-GEOMETRIC-THEMES.pdf",
+  "books/chapter-wise/class-8/ch-11__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-11/4.-EXPLORING-SOME-GEOMETRIC-THEMES.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-11/ncert-class-8-ch-11.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-12": "assets/pdfs/books/chapter-wise/class-8/ch-12/5.-TALES-BY-DOTS-AND-LINES.pdf",
+  "books/chapter-wise/class-8/ch-12__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-12/5.-TALES-BY-DOTS-AND-LINES.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-12/ncert-class-8-ch-12.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-13": "assets/pdfs/books/chapter-wise/class-8/ch-13/6.-ALGEBRA-PLAY.pdf",
+  "books/chapter-wise/class-8/ch-13__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-13/6.-ALGEBRA-PLAY.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-13/ncert-class-8-ch-13.pdf"
+  ],
+  "books/chapter-wise/class-8/ch-14": "assets/pdfs/books/chapter-wise/class-8/ch-14/7.-AREA.pdf",
+  "books/chapter-wise/class-8/ch-14__all": [
+    "assets/pdfs/books/chapter-wise/class-8/ch-14/7.-AREA.pdf",
+    "assets/pdfs/books/chapter-wise/class-8/ch-14/ncert-class-8-ch-14.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-01": "assets/pdfs/books/chapter-wise/class-9/ch-01/Coordinate geometry.pdf",
+  "books/chapter-wise/class-9/ch-01__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-01/Coordinate geometry.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-01/ncert-class-9-ch-01.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-02": "assets/pdfs/books/chapter-wise/class-9/ch-02/Linear Polynomials.pdf",
+  "books/chapter-wise/class-9/ch-02__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-02/Linear Polynomials.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-02/ncert-class-9-ch-02.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-03": "assets/pdfs/books/chapter-wise/class-9/ch-03/The World of Numbers.pdf",
+  "books/chapter-wise/class-9/ch-03__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-03/ncert-class-9-ch-03.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-03/The World of Numbers.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-04": "assets/pdfs/books/chapter-wise/class-9/ch-04/Exploring Algebraic.pdf",
+  "books/chapter-wise/class-9/ch-04__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-04/Exploring Algebraic.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-04/ncert-class-9-ch-04.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-05": "assets/pdfs/books/chapter-wise/class-9/ch-05/Circles.pdf",
+  "books/chapter-wise/class-9/ch-05__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-05/Circles.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-05/ncert-class-9-ch-05.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-06": "assets/pdfs/books/chapter-wise/class-9/ch-06/Perimeter and area.pdf",
+  "books/chapter-wise/class-9/ch-06__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-06/ncert-class-9-ch-06.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-06/Perimeter and area.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-07": "assets/pdfs/books/chapter-wise/class-9/ch-07/Probability.pdf",
+  "books/chapter-wise/class-9/ch-07__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-07/ncert-class-9-ch-07.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-07/Probability.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-08": "assets/pdfs/books/chapter-wise/class-9/ch-08/Sequences Progressions.pdf",
+  "books/chapter-wise/class-9/ch-08__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-08/ncert-class-9-ch-08.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-08/Sequences Progressions.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-09": "assets/pdfs/books/chapter-wise/class-9/ch-09/ch-9 Propositions and their Converses.pdf",
+  "books/chapter-wise/class-9/ch-09__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-09/ch-9 Propositions and their Converses.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-09/ncert-class-9-ch-09.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-10": "assets/pdfs/books/chapter-wise/class-9/ch-10/ch-10 How Quantities Combine Understanding Data.pdf",
+  "books/chapter-wise/class-9/ch-10__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-10/ch-10 How Quantities Combine Understanding Data.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-10/ncert-class-9-ch-10.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-11": "assets/pdfs/books/chapter-wise/class-9/ch-11/ncert-class-9-ch-11.pdf",
+  "books/chapter-wise/class-9/ch-11__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-11/ncert-class-9-ch-11.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-12": "assets/pdfs/books/chapter-wise/class-9/ch-12/ch-12 Quadrilaterals.pdf",
+  "books/chapter-wise/class-9/ch-12__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-12/ch-12 Quadrilaterals.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-12/ncert-class-9-ch-12.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-13": "assets/pdfs/books/chapter-wise/class-9/ch-13/ch-13 Two Variables, One Line.pdf",
+  "books/chapter-wise/class-9/ch-13__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-13/ch-13 Two Variables, One Line.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-13/ncert-class-9-ch-13.pdf"
+  ],
+  "books/chapter-wise/class-9/ch-14": "assets/pdfs/books/chapter-wise/class-9/ch-14/ch-14 Math of Space Surface Area and Volume.pdf",
+  "books/chapter-wise/class-9/ch-14__all": [
+    "assets/pdfs/books/chapter-wise/class-9/ch-14/ch-14 Math of Space Surface Area and Volume.pdf",
+    "assets/pdfs/books/chapter-wise/class-9/ch-14/ncert-class-9-ch-14.pdf"
+  ],
+  "books/complete/class-10-mathematics": "assets/pdfs/books/complete/class-10-mathematics/class-10-mathematics-complete.pdf",
+  "books/complete/class-10-mathematics__all": [
+    "assets/pdfs/books/complete/class-10-mathematics/books-class10-ncert-mathematics.pdf",
+    "assets/pdfs/books/complete/class-10-mathematics/class-10-mathematics-complete.pdf"
+  ],
+  "books/complete/class-10-science": "assets/pdfs/books/complete/class-10-science/class-10-science-complete.pdf",
+  "books/complete/class-10-science__all": [
+    "assets/pdfs/books/complete/class-10-science/books-class10-ncert-science.pdf",
+    "assets/pdfs/books/complete/class-10-science/class-10-science-complete.pdf"
+  ],
+  "books/complete/class-11-mathematics": "assets/pdfs/books/complete/class-11-mathematics/class-11-mathematics-complete.pdf",
+  "books/complete/class-11-mathematics__all": [
+    "assets/pdfs/books/complete/class-11-mathematics/books-class11-ncert-mathematics.pdf",
+    "assets/pdfs/books/complete/class-11-mathematics/class-11-mathematics-complete.pdf"
+  ],
+  "books/complete/class-12-maths-part1": "assets/pdfs/books/complete/class-12-maths-part1/class-12-maths-complete.pdf",
+  "books/complete/class-12-maths-part1__all": [
+    "assets/pdfs/books/complete/class-12-maths-part1/books-class12-ncert-maths-part1.pdf",
+    "assets/pdfs/books/complete/class-12-maths-part1/class-12-maths-complete.pdf",
+    "assets/pdfs/books/complete/class-12-maths-part1/class-12-maths-part1-complete.pdf"
+  ],
+  "books/complete/class-12-maths-part2": "assets/pdfs/books/complete/class-12-maths-part2/class-12-maths-part2-complete.pdf",
+  "books/complete/class-12-maths-part2__all": [
+    "assets/pdfs/books/complete/class-12-maths-part2/books-class12-ncert-maths-part2.pdf",
+    "assets/pdfs/books/complete/class-12-maths-part2/class-12-maths-part2-complete.pdf"
+  ],
+  "books/complete/class-8-ganita-prakash": "assets/pdfs/books/complete/class-8-ganita-prakash/class-8-ganita-prakash-complete.pdf",
+  "books/complete/class-8-ganita-prakash__all": [
+    "assets/pdfs/books/complete/class-8-ganita-prakash/books-class8-ganita-prakash.pdf",
+    "assets/pdfs/books/complete/class-8-ganita-prakash/class 8th ganita part 1.pdf",
+    "assets/pdfs/books/complete/class-8-ganita-prakash/class 8th ganita part 2.pdf",
+    "assets/pdfs/books/complete/class-8-ganita-prakash/class-8-ganita-prakash-complete.pdf"
+  ],
+  "books/complete/class-9-ganita-manjari": "assets/pdfs/books/complete/class-9-ganita-manjari/class-9-ganita-manjari-complete.pdf",
+  "books/complete/class-9-ganita-manjari__all": [
+    "assets/pdfs/books/complete/class-9-ganita-manjari/books-class9-ganita-manjari.pdf",
+    "assets/pdfs/books/complete/class-9-ganita-manjari/class 9th ganita part 1.pdf",
+    "assets/pdfs/books/complete/class-9-ganita-manjari/class 9th ganita part 2.pdf",
+    "assets/pdfs/books/complete/class-9-ganita-manjari/class-9-ganita-manjari-complete.pdf"
+  ],
+  "books/complete/exemplar-class-10": "assets/pdfs/books/complete/exemplar-class-10/exemplar-class-10-complete.pdf",
+  "books/complete/exemplar-class-10__all": [
+    "assets/pdfs/books/complete/exemplar-class-10/books-class10-ncert-exemplar-maths.pdf",
+    "assets/pdfs/books/complete/exemplar-class-10/exemplar-class-10-complete.pdf",
+    "assets/pdfs/books/complete/exemplar-class-10/exemplar-class-10.pdf"
+  ],
+  "books/complete/exemplar-class-11": "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
+  "books/complete/exemplar-class-11__all": [
+    "assets/pdfs/books/complete/exemplar-class-11/books-class11-ncert-exemplar-maths.pdf",
+    "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
+    "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11.pdf"
+  ],
+  "books/complete/exemplar-class-12": "assets/pdfs/books/complete/exemplar-class-12/exemplar-class-12-complete.pdf",
+  "books/complete/exemplar-class-12__all": [
+    "assets/pdfs/books/complete/exemplar-class-12/books-class12-ncert-exemplar-maths.pdf",
+    "assets/pdfs/books/complete/exemplar-class-12/exemplar-class-12-complete.pdf",
+    "assets/pdfs/books/complete/exemplar-class-12/exemplar-class-12.pdf"
+  ],
+  "books/complete/lab-manual-class-10": "assets/pdfs/books/complete/lab-manual-class-10/lab-manual-class-10-complete.pdf",
+  "books/complete/lab-manual-class-10__all": [
+    "assets/pdfs/books/complete/lab-manual-class-10/books-class10-maths-lab-manual.pdf",
+    "assets/pdfs/books/complete/lab-manual-class-10/lab-manual-class-10-complete.pdf"
+  ],
+  "books/complete/lab-manual-class-12": "assets/pdfs/books/complete/lab-manual-class-12/lab-manual-class-12-complete.pdf",
+  "books/complete/lab-manual-class-12__all": [
+    "assets/pdfs/books/complete/lab-manual-class-12/books-class12-maths-lab-manual.pdf",
+    "assets/pdfs/books/complete/lab-manual-class-12/lab-manual-class-12-complete.pdf"
+  ],
+  "class-10/ch-01": "assets/pdfs/class-10/ch-01/class10-ch01-real-numbers.pdf",
+  "class-10/ch-01__all": [
+    "assets/pdfs/class-10/ch-01/class-10-ch-01.pdf",
+    "assets/pdfs/class-10/ch-01/class10-ch01-real-numbers.pdf"
+  ],
+  "class-10/ch-02": "assets/pdfs/class-10/ch-02/class10-ch02-polynomials.pdf",
+  "class-10/ch-02__all": [
+    "assets/pdfs/class-10/ch-02/class-10-ch-02.pdf",
+    "assets/pdfs/class-10/ch-02/class10-ch02-polynomials.pdf"
+  ],
+  "class-10/ch-03": "assets/pdfs/class-10/ch-03/class10-ch03-linear-equations.pdf",
+  "class-10/ch-03__all": [
+    "assets/pdfs/class-10/ch-03/class-10-ch-03.pdf",
+    "assets/pdfs/class-10/ch-03/class10-ch03-linear-equations.pdf"
+  ],
+  "class-10/ch-04": "assets/pdfs/class-10/ch-04/class10-ch04-quadratic-equations.pdf",
+  "class-10/ch-04__all": [
+    "assets/pdfs/class-10/ch-04/class-10-ch-04.pdf",
+    "assets/pdfs/class-10/ch-04/class10-ch04-quadratic-equations.pdf"
+  ],
+  "class-10/ch-05": "assets/pdfs/class-10/ch-05/class10-ch05-arithmetic-progressions.pdf",
+  "class-10/ch-05__all": [
+    "assets/pdfs/class-10/ch-05/class-10-ch-05.pdf",
+    "assets/pdfs/class-10/ch-05/class10-ch05-arithmetic-progressions.pdf"
+  ],
+  "class-10/ch-06": "assets/pdfs/class-10/ch-06/class10-ch06-triangles.pdf",
+  "class-10/ch-06__all": [
+    "assets/pdfs/class-10/ch-06/class-10-ch-06.pdf",
+    "assets/pdfs/class-10/ch-06/class10-ch06-triangles.pdf"
+  ],
+  "class-10/ch-07": "assets/pdfs/class-10/ch-07/class10-ch07-coordinate-geometry.pdf",
+  "class-10/ch-07__all": [
+    "assets/pdfs/class-10/ch-07/class-10-ch-07.pdf",
+    "assets/pdfs/class-10/ch-07/class10-ch07-coordinate-geometry.pdf"
+  ],
+  "class-10/ch-08": "assets/pdfs/class-10/ch-08/class10-ch08-introduction-to-trigonometry.pdf",
+  "class-10/ch-08__all": [
+    "assets/pdfs/class-10/ch-08/class-10-ch-08.pdf",
+    "assets/pdfs/class-10/ch-08/class10-ch08-introduction-to-trigonometry.pdf"
+  ],
+  "class-10/ch-09": "assets/pdfs/class-10/ch-09/class10-ch09-applications-of-trigonometry.pdf",
+  "class-10/ch-09__all": [
+    "assets/pdfs/class-10/ch-09/class-10-ch-09.pdf",
+    "assets/pdfs/class-10/ch-09/class10-ch09-applications-of-trigonometry.pdf"
+  ],
+  "class-10/ch-10": "assets/pdfs/class-10/ch-10/class10-ch10-circles.pdf",
+  "class-10/ch-10__all": [
+    "assets/pdfs/class-10/ch-10/class-10-ch-10.pdf",
+    "assets/pdfs/class-10/ch-10/class10-ch10-circles.pdf"
+  ],
+  "class-10/ch-11": "assets/pdfs/class-10/ch-11/class10-ch11-areas-related-to-circles.pdf",
+  "class-10/ch-11__all": [
+    "assets/pdfs/class-10/ch-11/class-10-ch-11.pdf",
+    "assets/pdfs/class-10/ch-11/class10-ch11-areas-related-to-circles.pdf"
+  ],
+  "class-10/ch-12": "assets/pdfs/class-10/ch-12/class10-ch12-surface-areas-volumes.pdf",
+  "class-10/ch-12__all": [
+    "assets/pdfs/class-10/ch-12/class-10-ch-12.pdf",
+    "assets/pdfs/class-10/ch-12/class10-ch12-surface-areas-volumes.pdf"
+  ],
+  "class-10/ch-13": "assets/pdfs/class-10/ch-13/class10-ch13-statistics.pdf",
+  "class-10/ch-13__all": [
+    "assets/pdfs/class-10/ch-13/class-10-ch-13.pdf",
+    "assets/pdfs/class-10/ch-13/class10-ch13-statistics.pdf"
+  ],
+  "class-10/ch-14": "assets/pdfs/class-10/ch-14/Probability.pdf",
+  "class-10/ch-14__all": [
+    "assets/pdfs/class-10/ch-14/class-10-ch-14.pdf",
+    "assets/pdfs/class-10/ch-14/class10-ch14-probability.pdf",
+    "assets/pdfs/class-10/ch-14/Probability.pdf"
+  ],
+  "class-10/formula": "assets/pdfs/class-10/formula/class10-formula-cheatsheet.pdf",
+  "class-10/formula__all": [
+    "assets/pdfs/class-10/formula/class-10-formula.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-cheatsheet.pdf"
+  ],
+  "class-10/mock": "assets/pdfs/class-10/mock/class10-board-full-mock.pdf",
+  "class-10/mock__all": [
+    "assets/pdfs/class-10/mock/class-10-mock.pdf",
+    "assets/pdfs/class-10/mock/class10-board-full-mock.pdf"
+  ],
+  "class-10/pyq": "assets/pdfs/class-10/pyq/class10-board-pyq-top50.pdf",
+  "class-10/pyq__all": [
+    "assets/pdfs/class-10/pyq/class-10-pyq.pdf",
+    "assets/pdfs/class-10/pyq/class10-board-pyq-top50.pdf"
+  ],
+  "class-11/ch-01": "assets/pdfs/class-11/ch-01/class11-ch01-sets.pdf",
+  "class-11/ch-01__all": [
+    "assets/pdfs/class-11/ch-01/class-11-ch-01.pdf",
+    "assets/pdfs/class-11/ch-01/class11-ch01-sets.pdf"
+  ],
+  "class-11/ch-02": "assets/pdfs/class-11/ch-02/class11-ch02-relations-and-functions.pdf",
+  "class-11/ch-02__all": [
+    "assets/pdfs/class-11/ch-02/class-11-ch-02.pdf",
+    "assets/pdfs/class-11/ch-02/class11-ch02-relations-and-functions.pdf"
+  ],
+  "class-11/ch-03": "assets/pdfs/class-11/ch-03/class11-ch03-trigonometric-functions.pdf",
+  "class-11/ch-03__all": [
+    "assets/pdfs/class-11/ch-03/class-11-ch-03.pdf",
+    "assets/pdfs/class-11/ch-03/class11-ch03-trigonometric-functions.pdf"
+  ],
+  "class-11/ch-04": "assets/pdfs/class-11/ch-04/class11-ch04-complex-numbers.pdf",
+  "class-11/ch-04__all": [
+    "assets/pdfs/class-11/ch-04/class-11-ch-04.pdf",
+    "assets/pdfs/class-11/ch-04/class11-ch04-complex-numbers.pdf"
+  ],
+  "class-11/ch-05": "assets/pdfs/class-11/ch-05/class11-ch05-linear-inequalities.pdf",
+  "class-11/ch-05__all": [
+    "assets/pdfs/class-11/ch-05/class-11-ch-05.pdf",
+    "assets/pdfs/class-11/ch-05/class11-ch05-linear-inequalities.pdf"
+  ],
+  "class-11/ch-06": "assets/pdfs/class-11/ch-06/class11-ch06-permutations-and-combinations.pdf",
+  "class-11/ch-06__all": [
+    "assets/pdfs/class-11/ch-06/class-11-ch-06.pdf",
+    "assets/pdfs/class-11/ch-06/class11-ch06-permutations-and-combinations.pdf"
+  ],
+  "class-11/ch-07": "assets/pdfs/class-11/ch-07/class11-ch07-binomial-theorem.pdf",
+  "class-11/ch-07__all": [
+    "assets/pdfs/class-11/ch-07/class-11-ch-07.pdf",
+    "assets/pdfs/class-11/ch-07/class11-ch07-binomial-theorem.pdf"
+  ],
+  "class-11/ch-08": "assets/pdfs/class-11/ch-08/class11-ch08-sequences-and-series.pdf",
+  "class-11/ch-08__all": [
+    "assets/pdfs/class-11/ch-08/class-11-ch-08.pdf",
+    "assets/pdfs/class-11/ch-08/class11-ch08-sequences-and-series.pdf"
+  ],
+  "class-11/ch-09": "assets/pdfs/class-11/ch-09/class11-ch09-straight-lines.pdf",
+  "class-11/ch-09__all": [
+    "assets/pdfs/class-11/ch-09/class-11-ch-09.pdf",
+    "assets/pdfs/class-11/ch-09/class11-ch09-straight-lines.pdf"
+  ],
+  "class-11/ch-10": "assets/pdfs/class-11/ch-10/class11-ch10-conic-sections.pdf",
+  "class-11/ch-10__all": [
+    "assets/pdfs/class-11/ch-10/class-11-ch-10.pdf",
+    "assets/pdfs/class-11/ch-10/class11-ch10-conic-sections.pdf"
+  ],
+  "class-11/ch-11": "assets/pdfs/class-11/ch-11/class11-ch11-three-dimensional-geometry.pdf",
+  "class-11/ch-11__all": [
+    "assets/pdfs/class-11/ch-11/class-11-ch-11.pdf",
+    "assets/pdfs/class-11/ch-11/class11-ch11-three-dimensional-geometry.pdf"
+  ],
+  "class-11/ch-12": "assets/pdfs/class-11/ch-12/class11-ch12-limits-and-derivatives.pdf",
+  "class-11/ch-12__all": [
+    "assets/pdfs/class-11/ch-12/class-11-ch-12.pdf",
+    "assets/pdfs/class-11/ch-12/class11-ch12-limits-and-derivatives.pdf"
+  ],
+  "class-11/ch-13": "assets/pdfs/class-11/ch-13/class11-ch13-statistics.pdf",
+  "class-11/ch-13__all": [
+    "assets/pdfs/class-11/ch-13/class-11-ch-13.pdf",
+    "assets/pdfs/class-11/ch-13/class11-ch13-statistics.pdf"
+  ],
+  "class-11/ch-14": "assets/pdfs/class-11/ch-14/class11-ch14-probability.pdf",
+  "class-11/ch-14__all": [
+    "assets/pdfs/class-11/ch-14/class-11-ch-14.pdf",
+    "assets/pdfs/class-11/ch-14/class11-ch14-probability.pdf"
+  ],
+  "class-11/formula": "assets/pdfs/class-11/formula/class11-master-formula-handbook.pdf",
+  "class-11/formula__all": [
+    "assets/pdfs/class-11/formula/class-11-formula.pdf",
+    "assets/pdfs/class-11/formula/class11-master-formula-handbook.pdf"
+  ],
+  "class-12/ch-01": "assets/pdfs/class-12/ch-01/class12-ch01-relations-functions.pdf",
+  "class-12/ch-01__all": [
+    "assets/pdfs/class-12/ch-01/class-12-ch-01.pdf",
+    "assets/pdfs/class-12/ch-01/class12-ch01-relations-functions.pdf"
+  ],
+  "class-12/ch-02": "assets/pdfs/class-12/ch-02/class12-ch02-inverse-trigonometric.pdf",
+  "class-12/ch-02__all": [
+    "assets/pdfs/class-12/ch-02/class-12-ch-02.pdf",
+    "assets/pdfs/class-12/ch-02/class12-ch02-inverse-trigonometric.pdf"
+  ],
+  "class-12/ch-03": "assets/pdfs/class-12/ch-03/class12-ch03-matrices.pdf",
+  "class-12/ch-03__all": [
+    "assets/pdfs/class-12/ch-03/class-12-ch-03.pdf",
+    "assets/pdfs/class-12/ch-03/class12-ch03-matrices.pdf"
+  ],
+  "class-12/ch-04": "assets/pdfs/class-12/ch-04/class12-ch04-determinants.pdf",
+  "class-12/ch-04__all": [
+    "assets/pdfs/class-12/ch-04/class-12-ch-04.pdf",
+    "assets/pdfs/class-12/ch-04/class12-ch04-determinants.pdf"
+  ],
+  "class-12/ch-05": "assets/pdfs/class-12/ch-05/class12-ch05-continuity-differentiability.pdf",
+  "class-12/ch-05__all": [
+    "assets/pdfs/class-12/ch-05/class-12-ch-05.pdf",
+    "assets/pdfs/class-12/ch-05/class12-ch05-continuity-differentiability.pdf"
+  ],
+  "class-12/ch-06": "assets/pdfs/class-12/ch-06/class12-ch06-applications-of-derivatives.pdf",
+  "class-12/ch-06__all": [
+    "assets/pdfs/class-12/ch-06/class-12-ch-06.pdf",
+    "assets/pdfs/class-12/ch-06/class12-ch06-applications-of-derivatives.pdf"
+  ],
+  "class-12/ch-07": "assets/pdfs/class-12/ch-07/class12-ch07-integrals.pdf",
+  "class-12/ch-07__all": [
+    "assets/pdfs/class-12/ch-07/class-12-ch-07.pdf",
+    "assets/pdfs/class-12/ch-07/class12-ch07-integrals.pdf"
+  ],
+  "class-12/ch-08": "assets/pdfs/class-12/ch-08/class12-ch08-applications-of-integrals.pdf",
+  "class-12/ch-08__all": [
+    "assets/pdfs/class-12/ch-08/class-12-ch-08.pdf",
+    "assets/pdfs/class-12/ch-08/class12-ch08-applications-of-integrals.pdf"
+  ],
+  "class-12/ch-09": "assets/pdfs/class-12/ch-09/class12-ch09-differential-equations.pdf",
+  "class-12/ch-09__all": [
+    "assets/pdfs/class-12/ch-09/class-12-ch-09.pdf",
+    "assets/pdfs/class-12/ch-09/class12-ch09-differential-equations.pdf"
+  ],
+  "class-12/ch-10": "assets/pdfs/class-12/ch-10/class12-ch10-vector-algebra.pdf",
+  "class-12/ch-10__all": [
+    "assets/pdfs/class-12/ch-10/class-12-ch-10.pdf",
+    "assets/pdfs/class-12/ch-10/class12-ch10-vector-algebra.pdf"
+  ],
+  "class-12/ch-11": "assets/pdfs/class-12/ch-11/class12-ch11-three-dimensional-geometry.pdf",
+  "class-12/ch-11__all": [
+    "assets/pdfs/class-12/ch-11/class-12-ch-11.pdf",
+    "assets/pdfs/class-12/ch-11/class12-ch11-three-dimensional-geometry.pdf"
+  ],
+  "class-12/ch-12": "assets/pdfs/class-12/ch-12/class12-ch12-linear-programming.pdf",
+  "class-12/ch-12__all": [
+    "assets/pdfs/class-12/ch-12/class-12-ch-12.pdf",
+    "assets/pdfs/class-12/ch-12/class12-ch12-linear-programming.pdf"
+  ],
+  "class-12/ch-13": "assets/pdfs/class-12/ch-13/class12-ch13-probability.pdf",
+  "class-12/ch-13__all": [
+    "assets/pdfs/class-12/ch-13/class-12-ch-13.pdf",
+    "assets/pdfs/class-12/ch-13/class12-ch13-probability.pdf"
+  ],
+  "class-12/formula": "assets/pdfs/class-12/formula/class12-formula-master-sheet.pdf",
+  "class-12/formula__all": [
+    "assets/pdfs/class-12/formula/class-12-formula.pdf",
+    "assets/pdfs/class-12/formula/class12-formula-master-sheet.pdf"
+  ],
+  "class-12/mock": "assets/pdfs/class-12/mock/class12-board-full-mock.pdf",
+  "class-12/mock__all": [
+    "assets/pdfs/class-12/mock/class-12-mock.pdf",
+    "assets/pdfs/class-12/mock/class12-board-full-mock.pdf"
+  ],
+  "class-12/pyq": "assets/pdfs/class-12/pyq/class12-board-pyq-top50.pdf",
+  "class-12/pyq__all": [
+    "assets/pdfs/class-12/pyq/class-12-pyq.pdf",
+    "assets/pdfs/class-12/pyq/class12-board-pyq-top50.pdf"
+  ],
+  "class-8/ch-01": "assets/pdfs/class-8/ch-01/class8-ch01-square-and-cube.pdf",
+  "class-8/ch-01__all": [
+    "assets/pdfs/class-8/ch-01/class-8-ch-01.pdf",
+    "assets/pdfs/class-8/ch-01/class8-ch01-square-and-cube.pdf"
+  ],
+  "class-8/ch-02": "assets/pdfs/class-8/ch-02/class8-ch02-power-play.pdf",
+  "class-8/ch-02__all": [
+    "assets/pdfs/class-8/ch-02/class-8-ch-02.pdf",
+    "assets/pdfs/class-8/ch-02/class8-ch02-power-play.pdf"
+  ],
+  "class-8/ch-03": "assets/pdfs/class-8/ch-03/class8-ch03-story-of-numbers.pdf",
+  "class-8/ch-03__all": [
+    "assets/pdfs/class-8/ch-03/class-8-ch-03.pdf",
+    "assets/pdfs/class-8/ch-03/class8-ch03-story-of-numbers.pdf"
+  ],
+  "class-8/ch-04": "assets/pdfs/class-8/ch-04/class8-ch04-quadrilaterals.pdf",
+  "class-8/ch-04__all": [
+    "assets/pdfs/class-8/ch-04/class-8-ch-04.pdf",
+    "assets/pdfs/class-8/ch-04/class8-ch04-quadrilaterals.pdf"
+  ],
+  "class-8/ch-05": "assets/pdfs/class-8/ch-05/class8-ch05-number-play.pdf",
+  "class-8/ch-05__all": [
+    "assets/pdfs/class-8/ch-05/class-8-ch-05.pdf",
+    "assets/pdfs/class-8/ch-05/class8-ch05-number-play.pdf"
+  ],
+  "class-8/ch-06": "assets/pdfs/class-8/ch-06/class8-ch06-we-distribute-yet-multiply.pdf",
+  "class-8/ch-06__all": [
+    "assets/pdfs/class-8/ch-06/class-8-ch-06.pdf",
+    "assets/pdfs/class-8/ch-06/class8-ch06-we-distribute-yet-multiply.pdf"
+  ],
+  "class-8/ch-07": "assets/pdfs/class-8/ch-07/class8-ch07-proportional-reasoning-1.pdf",
+  "class-8/ch-07__all": [
+    "assets/pdfs/class-8/ch-07/class-8-ch-07.pdf",
+    "assets/pdfs/class-8/ch-07/class8-ch07-proportional-reasoning-1.pdf"
+  ],
+  "class-8/ch-08": "assets/pdfs/class-8/ch-08/class8-ch08-fractions-in-disguise.pdf",
+  "class-8/ch-08__all": [
+    "assets/pdfs/class-8/ch-08/class-8-ch-08.pdf",
+    "assets/pdfs/class-8/ch-08/class8-ch08-fractions-in-disguise.pdf"
+  ],
+  "class-8/ch-09": "assets/pdfs/class-8/ch-09/class8-ch09-baudhayana-pythagoras.pdf",
+  "class-8/ch-09__all": [
+    "assets/pdfs/class-8/ch-09/class-8-ch-09.pdf",
+    "assets/pdfs/class-8/ch-09/class8-ch09-baudhayana-pythagoras.pdf"
+  ],
+  "class-8/ch-10": "assets/pdfs/class-8/ch-10/class8-ch10-proportional-reasoning-2.pdf",
+  "class-8/ch-10__all": [
+    "assets/pdfs/class-8/ch-10/class-8-ch-10.pdf",
+    "assets/pdfs/class-8/ch-10/class8-ch10-proportional-reasoning-2.pdf"
+  ],
+  "class-8/ch-11": "assets/pdfs/class-8/ch-11/class8-ch11-geometric-themes.pdf",
+  "class-8/ch-11__all": [
+    "assets/pdfs/class-8/ch-11/class-8-ch-11.pdf",
+    "assets/pdfs/class-8/ch-11/class8-ch11-geometric-themes.pdf"
+  ],
+  "class-8/ch-12": "assets/pdfs/class-8/ch-12/class8-ch12-dots-and-lines.pdf",
+  "class-8/ch-12__all": [
+    "assets/pdfs/class-8/ch-12/class-8-ch-12.pdf",
+    "assets/pdfs/class-8/ch-12/class8-ch12-dots-and-lines.pdf"
+  ],
+  "class-8/ch-13": "assets/pdfs/class-8/ch-13/class8-ch13-algebra-play.pdf",
+  "class-8/ch-13__all": [
+    "assets/pdfs/class-8/ch-13/class-8-ch-13.pdf",
+    "assets/pdfs/class-8/ch-13/class8-ch13-algebra-play.pdf"
+  ],
+  "class-8/ch-14": "assets/pdfs/class-8/ch-14/class8-ch14-area.pdf",
+  "class-8/ch-14__all": [
+    "assets/pdfs/class-8/ch-14/class-8-ch-14.pdf",
+    "assets/pdfs/class-8/ch-14/class8-ch14-area.pdf"
+  ],
+  "class-8/formula": "assets/pdfs/class-8/formula/class8-master-formula-handbook.pdf",
+  "class-8/formula__all": [
+    "assets/pdfs/class-8/formula/class-8-formula.pdf",
+    "assets/pdfs/class-8/formula/class8-master-formula-handbook.pdf"
+  ],
+  "class-9/ch-01": "assets/pdfs/class-9/ch-01/class9-ch01-use-of-coordinates.pdf",
+  "class-9/ch-01__all": [
+    "assets/pdfs/class-9/ch-01/class-9-ch-01.pdf",
+    "assets/pdfs/class-9/ch-01/class9-ch01-use-of-coordinates.pdf"
+  ],
+  "class-9/ch-02": "assets/pdfs/class-9/ch-02/class9-ch02-linear-polynomials.pdf",
+  "class-9/ch-02__all": [
+    "assets/pdfs/class-9/ch-02/class-9-ch-02.pdf",
+    "assets/pdfs/class-9/ch-02/class9-ch02-linear-polynomials.pdf"
+  ],
+  "class-9/ch-03": "assets/pdfs/class-9/ch-03/class9-ch03-world-of-numbers.pdf",
+  "class-9/ch-03__all": [
+    "assets/pdfs/class-9/ch-03/class-9-ch-03.pdf",
+    "assets/pdfs/class-9/ch-03/class9-ch03-world-of-numbers.pdf"
+  ],
+  "class-9/ch-04": "assets/pdfs/class-9/ch-04/class9-ch04-algebraic-identities.pdf",
+  "class-9/ch-04__all": [
+    "assets/pdfs/class-9/ch-04/class-9-ch-04.pdf",
+    "assets/pdfs/class-9/ch-04/class9-ch04-algebraic-identities.pdf"
+  ],
+  "class-9/ch-05": "assets/pdfs/class-9/ch-05/class9-ch05-circles-and-symmetry.pdf",
+  "class-9/ch-05__all": [
+    "assets/pdfs/class-9/ch-05/class-9-ch-05.pdf",
+    "assets/pdfs/class-9/ch-05/class9-ch05-circles-and-symmetry.pdf"
+  ],
+  "class-9/ch-06": "assets/pdfs/class-9/ch-06/class9-ch06-perimeter-and-area.pdf",
+  "class-9/ch-06__all": [
+    "assets/pdfs/class-9/ch-06/class-9-ch-06.pdf",
+    "assets/pdfs/class-9/ch-06/class9-ch06-perimeter-and-area.pdf"
+  ],
+  "class-9/ch-07": "assets/pdfs/class-9/ch-07/class9-ch07-mathematics-of-maybe.pdf",
+  "class-9/ch-07__all": [
+    "assets/pdfs/class-9/ch-07/class-9-ch-07.pdf",
+    "assets/pdfs/class-9/ch-07/class9-ch07-mathematics-of-maybe.pdf"
+  ],
+  "class-9/ch-08": "assets/pdfs/class-9/ch-08/class9-ch08-sequences-and-progressions.pdf",
+  "class-9/ch-08__all": [
+    "assets/pdfs/class-9/ch-08/class-9-ch-08.pdf",
+    "assets/pdfs/class-9/ch-08/class9-ch08-sequences-and-progressions.pdf"
+  ],
+  "class-9/ch-09": "assets/pdfs/class-9/ch-09/class9-ch09-propositions-and-converses.pdf",
+  "class-9/ch-09__all": [
+    "assets/pdfs/class-9/ch-09/class-9-ch-09.pdf",
+    "assets/pdfs/class-9/ch-09/class9-ch09-propositions-and-converses.pdf"
+  ],
+  "class-9/ch-10": "assets/pdfs/class-9/ch-10/class9-ch10-understanding-data.pdf",
+  "class-9/ch-10__all": [
+    "assets/pdfs/class-9/ch-10/class-9-ch-10.pdf",
+    "assets/pdfs/class-9/ch-10/class9-ch10-understanding-data.pdf"
+  ],
+  "class-9/ch-11": "assets/pdfs/class-9/ch-11/class9-ch11-world-of-algorithms.pdf",
+  "class-9/ch-11__all": [
+    "assets/pdfs/class-9/ch-11/class-9-ch-11.pdf",
+    "assets/pdfs/class-9/ch-11/class9-ch11-world-of-algorithms.pdf"
+  ],
+  "class-9/ch-12": "assets/pdfs/class-9/ch-12/class9-ch12-quadrilaterals.pdf",
+  "class-9/ch-12__all": [
+    "assets/pdfs/class-9/ch-12/class-9-ch-12.pdf",
+    "assets/pdfs/class-9/ch-12/class9-ch12-quadrilaterals.pdf"
+  ],
+  "class-9/ch-13": "assets/pdfs/class-9/ch-13/class9-ch13-two-variables-one-line.pdf",
+  "class-9/ch-13__all": [
+    "assets/pdfs/class-9/ch-13/class-9-ch-13.pdf",
+    "assets/pdfs/class-9/ch-13/class9-ch13-two-variables-one-line.pdf"
+  ],
+  "class-9/ch-14": "assets/pdfs/class-9/ch-14/class9-ch14-surface-area-and-volume.pdf",
+  "class-9/ch-14__all": [
+    "assets/pdfs/class-9/ch-14/class-9-ch-14.pdf",
+    "assets/pdfs/class-9/ch-14/class9-ch14-surface-area-and-volume.pdf"
+  ],
+  "class-9/formula": "assets/pdfs/class-9/formula/class9-master-formula-handbook.pdf",
+  "class-9/formula__all": [
+    "assets/pdfs/class-9/formula/class-9-formula.pdf",
+    "assets/pdfs/class-9/formula/class9-master-formula-handbook.pdf"
+  ]
+}

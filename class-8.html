@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 8 Mathematics | Ganita Prakash Part I & II | Maths Manthan</title>
+  
+  <meta name="description" content="CBSE Class 8 Mathematics chapter-wise practice tests, visual concept worksheets, and formula notes for Ganita Prakash Part I & II (NEP 2020 / NCF-SE 2023) by Maths Manthan, Meerut.">
+  <meta name="keywords" content="Class 8 Maths, Ganita Prakash, NCERT Class 8, NEP 2020 Maths, Baudhayana Pythagoras Theorem, Kankerkhera Tuition, Maths Manthan">
+  <meta name="author" content="Maths Manthan">
+
+  <!-- Favicon & Styles -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/resources.css?v=5.0">
+
+  <!-- Immediate Theme Initialization (prevents flash) -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('mm_theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+  </script>
+  <style>
+    /* ==========================================================================
+       Bullet-Proof Segmented Toggle Box & Action Controls
+       Visibly distinct interactive UI component - Never looks like plain text
+       ========================================================================== */
+    .pdf-toggle-box {
+      display: inline-flex !important;
+      align-items: center !important;
+      background: #e2e8f0 !important;
+      border: 1.5px solid #cbd5e1 !important;
+      border-radius: 9999px !important;
+      padding: 3px !important;
+      gap: 4px !important;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+      transition: all 0.2s ease !important;
+    }
+    .pdf-toggle-box:hover {
+      border-color: #94a3b8 !important;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    }
+    .pdf-toggle-btn {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 0.45rem 1rem !important;
+      font-size: 0.82rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.02em !important;
+      text-decoration: none !important;
+      border-radius: 9999px !important;
+      cursor: pointer !important;
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      white-space: nowrap !important;
+      font-family: inherit !important;
+      line-height: 1.25 !important;
+      border: 1px solid transparent !important;
+    }
+    /* Light Mode: View PDF Active Pill */
+    .pdf-toggle-btn.btn-view {
+      background: #0284c7 !important;
+      color: #ffffff !important;
+      border-color: #0284c7 !important;
+      box-shadow: 0 2px 6px rgba(2, 132, 199, 0.35) !important;
+    }
+    .pdf-toggle-btn.btn-view:hover {
+      background: #0369a1 !important;
+      color: #ffffff !important;
+      border-color: #0369a1 !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.45) !important;
+    }
+    /* Light Mode: Download Segment Pill */
+    .pdf-toggle-btn.btn-download {
+      background: #ffffff !important;
+      color: #0f172a !important;
+      border: 1px solid #cbd5e1 !important;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    }
+    .pdf-toggle-btn.btn-download:hover {
+      background: #0f172a !important;
+      color: #ffffff !important;
+      border-color: #0f172a !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 3px 8px rgba(15, 23, 42, 0.25) !important;
+    }
+    /* Dark Mode (matrix-theme or [data-theme="dark"]) */
+    body.matrix-theme .pdf-toggle-box,
+    [data-theme="dark"] .pdf-toggle-box {
+      background: rgba(15, 23, 42, 0.95) !important;
+      border: 1.5px solid rgba(56, 189, 248, 0.45) !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 12px rgba(56, 189, 248, 0.15) !important;
+    }
+    body.matrix-theme .pdf-toggle-box:hover,
+    [data-theme="dark"] .pdf-toggle-box:hover {
+      border-color: #38bdf8 !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 18px rgba(56, 189, 248, 0.35) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-view,
+    [data-theme="dark"] .pdf-toggle-btn.btn-view {
+      background: #38bdf8 !important;
+      color: #020617 !important;
+      font-weight: 800 !important;
+      border-color: #38bdf8 !important;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.4) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-view:hover,
+    [data-theme="dark"] .pdf-toggle-btn.btn-view:hover {
+      background: #7dd3fc !important;
+      color: #020617 !important;
+      border-color: #7dd3fc !important;
+      box-shadow: 0 0 18px rgba(56, 189, 248, 0.75) !important;
+      transform: translateY(-1px) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-download,
+    [data-theme="dark"] .pdf-toggle-btn.btn-download {
+      background: rgba(255, 255, 255, 0.08) !important;
+      color: #f1f5f9 !important;
+      border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    }
+    body.matrix-theme .pdf-toggle-btn.btn-download:hover,
+    [data-theme="dark"] .pdf-toggle-btn.btn-download:hover {
+      background: rgba(255, 255, 255, 0.25) !important;
+      color: #ffffff !important;
+      border-color: #ffffff !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.3) !important;
+    }
+    .pdf-toggle-divider { display: none !important; }
+  </style>
+</head>
+<body class="matrix-theme">
+
+  <!-- Floating Mathematical Matrix Stream Canvas -->
+  <canvas id="matrix-canvas" class="matrix-stream-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" aria-label="Maths Manthan Home">
+        <img src="assets/images/logo.png" alt="Maths Manthan Logo" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">MATHS MANTHAN</span>
+          <span class="brand-subtitle">Tuition Classes</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#batches" class="nav-link">Batches</a>
+        <a href="class-8.html" class="nav-link active">Class 8</a>
+        <a href="class-9.html" class="nav-link">Class 9</a>
+        <a href="class-10.html" class="nav-link">Class 10</a>
+        <a href="class-11.html" class="nav-link">Class 11</a>
+        <a href="class-12.html" class="nav-link">Class 12</a>
+        <a href="free-books.html" class="nav-link">Free Books</a>
+        <a href="index.html#location" class="nav-link">Location</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html#inquiry" class="btn btn-gold">Inquire Now</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Mode">
+          <span class="theme-icon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Resource Hub Hero -->
+    <section class="resources-hero">
+      <div class="container">
+        <span class="section-tag">NEP 2020 & NCF-SE 2023 Curriculum</span>
+        <h1>Class 8 Mathematics (Ganita Prakash)</h1>
+        <p>chapter-wise tests, visual discovery sheets, and formula notes for NCERT Ganita Prakash Part I & Part II. Designed for deep conceptual logic.</p>
+      </div>
+    </section>
+
+    <!-- Filter & Live Search Section -->
+    <section class="filter-section">
+      <div class="container">
+        <div class="filter-bar">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="resourceSearch" class="search-input" placeholder="Search Class 8 chapter (e.g. Square and Cube, Baudhayana, Area, Fractions)...">
+          </div>
+
+          <div class="filter-pills">
+            <button class="filter-pill active" data-filter="all">All Material</button>
+            <button class="filter-pill" data-filter="part1">Part I (Ch 1–7)</button>
+            <button class="filter-pill" data-filter="part2">Part II (Ch 8–14)</button>
+            <button class="filter-pill" data-filter="formula">Formula Sheets</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Card Grid -->
+    <section class="container">
+      <div class="resources-grid" id="resourcesGrid">
+
+        <!-- ==================== PART I CHAPTERS ==================== -->
+        <!-- Chapter 1 -->
+        <div class="resource-card" data-folder="class-8/ch-01" data-category="part1">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH01</span>
+              <span class="resource-badge badge-standard">Part I • Ch 1</span>
+            </div>
+            <h3 class="resource-title">A Square and A Cube</h3>
+            <p class="resource-desc">
+              Geometric squares & cubes, prime factorization method, division method for square roots, estimation, and patterns in square numbers.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch01-square-and-cube.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch01-square-and-cube.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 2 -->
+        <div class="resource-card" data-folder="class-8/ch-02" data-category="part1">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH02</span>
+              <span class="resource-badge badge-standard">Part I • Ch 2</span>
+            </div>
+            <h3 class="resource-title">Power Play</h3>
+            <p class="resource-desc">
+              Exponents and powers with negative exponents, laws of indices (aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ / aⁿ = aᵐ⁻ⁿ), and standard scientific notation for very large and tiny numbers.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch02-power-play.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch02-power-play.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 3 -->
+        <div class="resource-card" data-folder="class-8/ch-03" data-category="part1">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH03</span>
+              <span class="resource-badge badge-standard">Part I • Ch 3</span>
+            </div>
+            <h3 class="resource-title">A Story of Numbers</h3>
+            <p class="resource-desc">
+              Generalised form of numbers, reversible digit patterns, palindromic numbers, and historical perspectives on Indian numbering traditions.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">20 Marks • 40 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch03-story-of-numbers.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch03-story-of-numbers.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 4 -->
+        <div class="resource-card" data-folder="class-8/ch-04" data-category="part1">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH04</span>
+              <span class="resource-badge badge-standard">Part I • Ch 4</span>
+            </div>
+            <h3 class="resource-title">Quadrilaterals</h3>
+            <p class="resource-desc">
+              Classification of polygons, angle sum property, exterior angle theorem, and special properties of parallelograms, rhombuses, rectangles, and squares.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch04-quadrilaterals.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch04-quadrilaterals.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 5 -->
+        <div class="resource-card" data-folder="class-8/ch-05" data-category="part1">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH05</span>
+              <span class="resource-badge badge-standard">Part I • Ch 5</span>
+            </div>
+            <h3 class="resource-title">Number Play</h3>
+            <p class="resource-desc">
+              Letters for digits (cryptarithms), magic squares, divisibility tests for 2, 3, 5, 9, 10, and 11, and recreational mathematical logic.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">20 Marks • 40 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch05-number-play.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch05-number-play.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 6 -->
+        <div class="resource-card" data-folder="class-8/ch-06" data-category="part1">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH06</span>
+              <span class="resource-badge badge-standard">Part I • Ch 6</span>
+            </div>
+            <h3 class="resource-title">We Distribute, Yet Things Multiply</h3>
+            <p class="resource-desc">
+              Distributive law, multiplication of monomials, binomials, and polynomials, and visual geometric models for (a + b)² and (a − b)².
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch06-we-distribute-yet-multiply.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch06-we-distribute-yet-multiply.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 7 -->
+        <div class="resource-card" data-folder="class-8/ch-07" data-category="part1">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH07</span>
+              <span class="resource-badge badge-standard">Part I • Ch 7</span>
+            </div>
+            <h3 class="resource-title">Proportional Reasoning-1</h3>
+            <p class="resource-desc">
+              Direct and inverse proportions, constant of proportionality (k = y/x and xy = k), speed-distance-time relations, and unitary method applications.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch07-proportional-reasoning-1.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch07-proportional-reasoning-1.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== PART II CHAPTERS ==================== -->
+        <!-- Chapter 8 (Part II Ch 1) -->
+        <div class="resource-card" data-folder="class-8/ch-08" data-category="part2">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH08</span>
+              <span class="resource-badge badge-formula">Part II • Ch 1</span>
+            </div>
+            <h3 class="resource-title">Fractions in Disguise</h3>
+            <p class="resource-desc">
+              Percentages as ratios and fractions, percentage increase/decrease, profit & loss, discount, GST calculations, and comparing quantities.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch08-fractions-in-disguise.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch08-fractions-in-disguise.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 9 (Part II Ch 2) -->
+        <div class="resource-card" data-folder="class-8/ch-09" data-category="part2">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH09</span>
+              <span class="resource-badge badge-formula">Part II • Ch 2</span>
+            </div>
+            <h3 class="resource-title">The Baudhayana-Pythagoras Theorem</h3>
+            <p class="resource-desc">
+              Historical origins in Baudhayana's Sulba-Sutra (a² + b² = c²), geometric dissection proofs, Pythagorean triplets, and distance applications.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch09-baudhayana-pythagoras.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch09-baudhayana-pythagoras.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 10 (Part II Ch 3) -->
+        <div class="resource-card" data-folder="class-8/ch-10" data-category="part2">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH10</span>
+              <span class="resource-badge badge-formula">Part II • Ch 3</span>
+            </div>
+            <h3 class="resource-title">Proportional Reasoning-2</h3>
+            <p class="resource-desc">
+              Compound interest deduced by repeated simple interest, annual & semi-annual compounding formulas, population growth, and depreciation models.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch10-proportional-reasoning-2.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch10-proportional-reasoning-2.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 11 (Part II Ch 4) -->
+        <div class="resource-card" data-folder="class-8/ch-11" data-category="part2">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH11</span>
+              <span class="resource-badge badge-formula">Part II • Ch 4</span>
+            </div>
+            <h3 class="resource-title">Exploring Some Geometric Themes</h3>
+            <p class="resource-desc">
+              Faces, edges, and vertices of 3D solids, Euler's formula verification, nets for polyhedra, symmetry planes, and visual introduction to fractals.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch11-geometric-themes.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch11-geometric-themes.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 12 (Part II Ch 5) -->
+        <div class="resource-card" data-folder="class-8/ch-12" data-category="part2">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH12</span>
+              <span class="resource-badge badge-formula">Part II • Ch 5</span>
+            </div>
+            <h3 class="resource-title">Tales by Dots and Lines</h3>
+            <p class="resource-desc">
+              Data handling, constructing and reading line graphs, histograms, central tendency (mean, median, mode), and trend analysis from visual data.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">25 Marks • 45 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch12-dots-and-lines.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch12-dots-and-lines.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 13 (Part II Ch 6) -->
+        <div class="resource-card" data-folder="class-8/ch-13" data-category="part2">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH13</span>
+              <span class="resource-badge badge-formula">Part II • Ch 6</span>
+            </div>
+            <h3 class="resource-title">Algebra Play</h3>
+            <p class="resource-desc">
+              Linear equations in one variable, transposing terms, balancing method, equations reducible to linear form, and multi-step word problem modeling.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch13-algebra-play.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch13-algebra-play.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 14 (Part II Ch 7) -->
+        <div class="resource-card" data-folder="class-8/ch-14" data-category="part2">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-CH14</span>
+              <span class="resource-badge badge-formula">Part II • Ch 7</span>
+            </div>
+            <h3 class="resource-title">Area</h3>
+            <p class="resource-desc">
+              Area of trapezium, rhombus, special quadrilaterals, general polygons by triangulation, composite 2D shapes, and field survey problems.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">30 Marks • 50 Mins</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-ch14-area.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-ch14-area.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== FORMULA & COMPREHENSIVE ==================== -->
+        <!-- Formula Sheet -->
+        <div class="resource-card" data-folder="class-8/formula" data-category="formula">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">MM-VIII-FORMULA</span>
+              <span class="resource-badge badge-formula">All Chapters</span>
+            </div>
+            <h3 class="resource-title">Ganita Prakash Master Formula & Theorem Handbook</h3>
+            <p class="resource-desc">
+              Complete formula guide covering Baudhayana-Pythagoras theorem, exponents, compound interest, Euler's formula, algebraic identities, and mensuration.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">All 14 Chapters • Reference</span>
+            <div class="pdf-toggle-box">
+              <a href="assets/pdfs/class8-master-formula-handbook.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="assets/pdfs/class8-master-formula-handbook.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- No Results State -->
+      <div id="noResults" style="display: none; text-align: center; padding: 4rem 1rem;">
+        <p style="font-size: 1.25rem; font-weight: 600; color: var(--color-gold);">No matching Class 8 chapters found.</p>
+        <p style="color: var(--color-text-muted);">Try searching for "Area", "Baudhayana", "Power", or reset the filter.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>MATHS MANTHAN</h4>
+          <p>Premier Mathematics Tuition Classes for CBSE Classes 8 to 12 in Kankerkhera, Meerut. Personal mentorship by Manthan Sir.</p>
+          <a href="https://wa.me/918171546558" target="_blank" class="btn btn-whatsapp" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+            Chat on WhatsApp
+          </a>
+        </div>
+        <div>
+          <h5 class="footer-heading">Classroom</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="class-8.html">Class 8 (Ganita Prakash)</a></li>
+            <li><a href="class-9.html">Class 9 (Ganita Manjari)</a></li>
+            <li><a href="class-10.html">Class 10 Board</a></li>
+            <li><a href="class-11.html">Class 11 CBSE</a></li>
+            <li><a href="class-12.html">Class 12 Core</a></li>
+            <li><a href="free-books.html">Free Books</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-heading">Classroom Address</h5>
+          <p style="color: #CBD5E1; font-size: 0.925rem; line-height: 1.5; margin-bottom: 0.5rem;">
+            D121 European Estate, Kankerkhera, Meerut
+          </p>
+          <p style="margin-bottom: 0.75rem;">
+            <a href="https://maps.app.goo.gl/33ciqPMnbs77ZCjk8" target="_blank" style="color: var(--color-gold); font-size: 0.85rem; text-decoration: underline;">
+              Get Google Maps Directions ↗
+            </a>
+          </p>
+          <p style="color: #CBD5E1; font-size: 0.85rem; margin-bottom: 0.75rem;">
+            Email: <a href="mailto:contact@mathsmanthan.co.in" style="color: var(--color-gold); text-decoration: underline;">contact@mathsmanthan.co.in</a>
+          </p>
+          <a href="https://wa.me/918171546558" target="_blank" class="btn btn-whatsapp" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Maths Manthan. All Rights Reserved.</div>
+        <div>D121 European Estate, Kankerkhera, Meerut</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Live Matrix Controls Toggle & Drawer -->
+  <button id="toggleControlsBtn" class="matrix-toggle-btn" aria-label="Toggle Matrix Controls">
+    ⚙️ Customize Stream
+  </button>
+
+  <aside class="controls-panel collapsed">
+    <h2>Matrix Stream Engine</h2>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Digit Density</span>
+        <span id="val-density">180</span>
+      </div>
+      <input type="range" id="param-density" min="50" max="400" step="10" value="180" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Drift Speed</span>
+        <span id="val-speed">0.85</span>
+      </div>
+      <input type="range" id="param-speed" min="-3" max="3" step="0.05" value="0.85" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Parallax Depth</span>
+        <span id="val-parallax">2.6</span>
+      </div>
+      <input type="range" id="param-parallax" min="1" max="6" step="0.1" value="2.6" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Digit Mutation Rate</span>
+        <span id="val-mutation">0.035</span>
+      </div>
+      <input type="range" id="param-mutation" min="0" max="0.15" step="0.005" value="0.035" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Foreground Bloom</span>
+        <span id="val-glow">16px</span>
+      </div>
+      <input type="range" id="param-glow" min="0" max="40" step="1" value="16" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Cursor Repulsion</span>
+        <span id="val-repulsion">120px</span>
+      </div>
+      <input type="range" id="param-repulsion" min="0" max="250" step="10" value="120" />
+    </div>
+
+    <div class="control-group">
+      <div class="control-label">
+        <span>Palette Mood</span>
+      </div>
+      <div class="theme-buttons">
+        <button class="theme-btn active" data-theme="midnight">Midnight</button>
+        <button class="theme-btn" data-theme="cyber">Cyber</button>
+        <button class="theme-btn" data-theme="solar">Solar</button>
+        <button class="theme-btn" data-theme="emerald">Emerald</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/vendor/pdf.min.js"></script>
+  <script src="assets/js/resources.js?v=5.0"></script>
+  <script src="assets/js/matrix-stream.js"></script>
+</body>
+</html>
