@@ -1613,3 +1613,236 @@ body.matrix-theme .tag-chapter-count,
 
 
 
+
+
+/* ==========================================================================
+   Windows File Explorer-Style View Mode Engine (Extra Large, Large, Content)
+   Supports .resources-grid, #foldersGrid, #papersGrid, #inpageChaptersGrid
+   ========================================================================== */
+
+/* View Mode Selector Toolbar Controls */
+.view-mode-selector-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--color-bg-paper, #f1f5f9);
+  padding: 3px 4px;
+  border-radius: var(--radius-full, 9999px);
+  border: 1px solid var(--color-border-light, #e2e8f0);
+}
+
+.view-mode-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: var(--radius-full, 9999px);
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted, #64748b);
+  cursor: pointer;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+}
+
+.view-mode-btn:hover {
+  color: var(--color-primary-navy, #0f172a);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.view-mode-btn.active {
+  background: #ffffff;
+  color: var(--color-primary-navy, #0f172a);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+/* Dark Mode Toolbar Controls */
+body.matrix-theme .view-mode-selector-wrap,
+[data-theme="dark"] .view-mode-selector-wrap {
+  background: rgba(15, 23, 42, 0.85);
+  border-color: rgba(56, 189, 248, 0.25);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+body.matrix-theme .view-mode-btn,
+[data-theme="dark"] .view-mode-btn {
+  color: #94a3b8;
+}
+
+body.matrix-theme .view-mode-btn:hover,
+[data-theme="dark"] .view-mode-btn:hover {
+  color: #f8fafc;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+body.matrix-theme .view-mode-btn.active,
+[data-theme="dark"] .view-mode-btn.active {
+  background: #0284c7;
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.45);
+}
+
+/* --------------------------------------------------------------------------
+   MODE 1: EXTRA LARGE ICONS (Default Rich Spacious Cards)
+   -------------------------------------------------------------------------- */
+.resources-grid.view-extra-large,
+.resources-grid:not(.view-large):not(.view-content) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* --------------------------------------------------------------------------
+   MODE 2: LARGE ICONS (Compact Grid, Fits More on Screen)
+   -------------------------------------------------------------------------- */
+.resources-grid.view-large {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)) !important;
+  gap: 1.25rem !important;
+}
+
+.resources-grid.view-large .resource-card {
+  padding: 1.25rem !important;
+  min-height: unset !important;
+}
+
+.resources-grid.view-large .resource-card .resource-title {
+  font-size: 1.05rem !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.35 !important;
+}
+
+.resources-grid.view-large .resource-card .resource-desc {
+  font-size: 0.825rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.75rem !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.resources-grid.view-large .resource-card .folder-icon-wrap {
+  font-size: 1.75rem !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.resources-grid.view-large .resource-card .resource-meta {
+  margin-bottom: 0.65rem !important;
+}
+
+.resources-grid.view-large .resource-card .pdf-toggle-box {
+  padding: 2px !important;
+}
+
+.resources-grid.view-large .resource-card .pdf-toggle-btn {
+  padding: 0.38rem 0.75rem !important;
+  font-size: 0.75rem !important;
+}
+
+.resources-grid.view-large .resource-card .paper-action-btn {
+  padding: 0.42rem 0.85rem !important;
+  font-size: 0.78rem !important;
+}
+
+/* --------------------------------------------------------------------------
+   MODE 3: CONTENT VIEW (Wide Horizontal Row with Detailed Information)
+   -------------------------------------------------------------------------- */
+.resources-grid.view-content {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.85rem !important;
+}
+
+.resources-grid.view-content .resource-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.4rem !important;
+  gap: 1.5rem !important;
+  min-height: unset !important;
+  border-radius: var(--radius-md, 12px) !important;
+}
+
+.resources-grid.view-content .resource-card > div:first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.resources-grid.view-content .resource-card .resource-meta {
+  margin-bottom: 0.2rem !important;
+  display: inline-flex !important;
+  gap: 0.6rem !important;
+  justify-content: flex-start !important;
+}
+
+.resources-grid.view-content .resource-card .resource-title {
+  font-size: 1.08rem !important;
+  margin-bottom: 0.2rem !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resources-grid.view-content .resource-card .resource-desc {
+  font-size: 0.85rem !important;
+  margin-bottom: 0 !important;
+  line-height: 1.4 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 85%;
+}
+
+.resources-grid.view-content .resource-card .folder-icon-wrap {
+  display: none !important;
+}
+
+.resources-grid.view-content .resource-card .resource-footer {
+  flex: 0 0 auto !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  border-top: none !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.25rem !important;
+}
+
+.resources-grid.view-content .resource-card .resource-stats {
+  font-size: 0.82rem !important;
+  white-space: nowrap !important;
+}
+
+/* Content Mode Responsive Wrap for Mobile */
+@media (max-width: 768px) {
+  .resources-grid.view-content .resource-card {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.85rem !important;
+  }
+  .resources-grid.view-content .resource-card .resource-desc {
+    white-space: normal !important;
+    max-width: 100% !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .resources-grid.view-content .resource-card .resource-footer {
+    width: 100% !important;
+    justify-content: space-between !important;
+  }
+}
+
+
+/* Universal Filter Card Hiding Rule */
+.resource-card.is-hidden,
+.inpage-chapter-card.is-hidden {
+  display: none !important;
+}

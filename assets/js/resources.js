@@ -77,9 +77,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const matchesCategory = (currentCategory === 'all') || (category === currentCategory) || category.split(' ').includes(currentCategory);
 
       if (matchesSearch && matchesCategory) {
-        card.style.display = 'flex';
+        card.classList.remove('is-hidden');
+        card.style.display = '';
         visibleCount++;
       } else {
+        card.classList.add('is-hidden');
         card.style.display = 'none';
       }
     });
@@ -110,6 +112,69 @@ document.addEventListener('DOMContentLoaded', () => {
       filterCards();
     }
   });
+
+  // 3b. Windows File Explorer-Style View Mode Engine (Extra Large, Large, Content)
+  const savedViewMode = localStorage.getItem('mm_view_mode') || 'extra-large';
+
+  function applyViewMode(mode) {
+    const validModes = ['extra-large', 'large', 'content'];
+    const chosen = validModes.includes(mode) ? mode : 'extra-large';
+
+    // Target any resources grids or folder/paper grids
+    const grids = document.querySelectorAll('.resources-grid, #resourcesGrid, #foldersGrid, #papersGrid, #inpageChaptersGrid');
+    grids.forEach(grid => {
+      grid.classList.remove('view-extra-large', 'view-large', 'view-content');
+      grid.classList.add('view-' + chosen);
+    });
+
+    // Update all view mode buttons on the page
+    document.querySelectorAll('.view-mode-btn').forEach(btn => {
+      if (btn.getAttribute('data-view-mode') === chosen) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+
+    localStorage.setItem('mm_view_mode', chosen);
+  }
+
+  // Inject View Mode Selector into filter bars / toolbars if not already manually placed
+  function injectViewModeSelectors() {
+    const containers = document.querySelectorAll('.filter-bar, .resources-toolbar, .inpage-chapter-toolbar .filter-bar, .mode-indicator-bar');
+    containers.forEach(bar => {
+      if (!bar.querySelector('.view-mode-selector-wrap')) {
+        const wrap = document.createElement('div');
+        wrap.className = 'view-mode-selector-wrap';
+        wrap.innerHTML = `
+          <button class="view-mode-btn" data-view-mode="extra-large" title="Extra large icons">
+            <span>⬜</span> Extra Large
+          </button>
+          <button class="view-mode-btn" data-view-mode="large" title="Large icons">
+            <span>🔲</span> Large
+          </button>
+          <button class="view-mode-btn" data-view-mode="content" title="Content row view">
+            <span>☰</span> Content
+          </button>
+        `;
+        bar.appendChild(wrap);
+      }
+    });
+  }
+
+  // Listen to clicks on view-mode buttons
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.view-mode-btn');
+    if (btn) {
+      const mode = btn.getAttribute('data-view-mode');
+      if (mode) {
+        applyViewMode(mode);
+      }
+    }
+  });
+
+  injectViewModeSelectors();
+  applyViewMode(savedViewMode);
 
   // 4. In-Page Chapter Directory Switcher Engine
   const booksOverviewSection = document.getElementById('booksOverviewSection');
@@ -309,9 +374,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const matchesPart = (currentInpagePartFilter === 'all') || (part === currentInpagePartFilter);
 
       if (matchesSearch && matchesPart) {
-        card.style.display = 'flex';
+        card.classList.remove('is-hidden');
+        card.style.display = '';
         visible++;
       } else {
+        card.classList.add('is-hidden');
         card.style.display = 'none';
       }
     });
