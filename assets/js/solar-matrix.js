@@ -127,6 +127,15 @@
     canvas.style.height = height + "px";
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     maxRadius = Math.hypot(width, height) * (isHybrid ? 0.60 : 0.55);
+
+    // Responsive dot density: 60fps lightweight rendering on mobile, full fidelity on desktop
+    if (width < 768) {
+      SETTINGS.numRings = 32;
+      SETTINGS.pointsPerRing = 44;
+    } else {
+      SETTINGS.numRings = 52;
+      SETTINGS.pointsPerRing = 64;
+    }
   }
 
   window.addEventListener("resize", resize);

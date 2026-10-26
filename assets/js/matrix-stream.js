@@ -90,6 +90,16 @@
     canvas.width = width * dpr;
     canvas.height = height * dpr;
     ctx.scale(dpr, dpr);
+
+    // Dynamic responsive particle density: Keeps mobile buttery smooth at 60fps without touching desktop
+    if (width < 768) {
+      CONFIG.density = 28;
+      CONFIG.maxFontSize = 36;
+    } else {
+      CONFIG.density = 70;
+      CONFIG.maxFontSize = 50;
+    }
+
     initParticles();
   }
   window.addEventListener("resize", resize);
