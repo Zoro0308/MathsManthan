@@ -60,9 +60,9 @@
 
   // Global Parameter Configuration Object
   const CONFIG = {
-    density: 70,           // Total count of numbers
+    density: 85,           // Total count of numbers
     speed: 0.4,            // Vertical drift speed factor
-    parallaxFactor: 1,    // Speed multiplier difference between far and near
+    parallaxFactor: 1.3,    // Speed multiplier difference between far and near
     minFontSize: 14,        // Font size at z = 0 (far)
     maxFontSize: 50,        // Font size at z = 1 (near)
     mutationChance: 0.035,  // Probability of a digit changing per frame
@@ -413,9 +413,9 @@ function getTextOcclusionFactor(px, py) {
         ctx.fillStyle = theme.getColor(p.z, alpha);
       } else {
         // Light Mode: Refined Oxford Navy & Slate numbers on parchment (delicate watermark style)
-        if (p.z < 0.4) {
+        if (p.z < 0.7) {
           ctx.fillStyle = `rgba(10, 29, 55, ${alpha * 0.16})`;
-        } else if (p.z < 0.75) {
+        } else if (p.z < 0.80) {
           ctx.fillStyle = `rgba(14, 45, 80, ${alpha * 0.32})`;
         } else {
           ctx.fillStyle = `rgba(10, 29, 55, ${alpha * 0.48})`;
