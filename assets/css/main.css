@@ -200,6 +200,7 @@ button, input, select, textarea {
   flex-direction: column;
 }
 
+
 .brand-title {
   font-family: var(--font-serif);
   font-size: 1.25rem;
@@ -208,6 +209,16 @@ button, input, select, textarea {
   color: var(--color-primary-navy);
   line-height: 1.1;
 }
+
+/* Force the brand name onto two lines on mobile */
+@media (max-width: 768px) {
+  .brand-title {
+    max-width: 110px;
+    font-size: 1rem;
+    line-height: 1.15;
+  }
+}
+
 
 .brand-subtitle {
   font-size: 0.7rem;
