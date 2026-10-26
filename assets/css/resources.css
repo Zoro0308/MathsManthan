@@ -1431,37 +1431,89 @@ body.matrix-theme .tag-chapter-count,
 
   /* Header & Navigation in Resource Pages */
   .site-header {
-    padding: 0.55rem 0 !important;
+    padding: 0.5rem 0 !important;
   }
   .nav-container {
-    padding: 0 1rem !important;
+    padding: 0 0.85rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .brand-link {
+    gap: 0.45rem !important;
+    max-width: calc(100% - 165px) !important;
+    min-width: 0 !important;
   }
   .brand-logo-img {
-    width: 36px !important;
-    height: 36px !important;
+    width: 34px !important;
+    height: 34px !important;
+    flex-shrink: 0 !important;
+  }
+  .brand-text {
+    min-width: 0 !important;
+    overflow: hidden !important;
   }
   .brand-title {
-    font-size: 1.05rem !important;
+    font-size: 0.98rem !important;
     letter-spacing: 0.02em !important;
+    line-height: 1.15 !important;
+    white-space: nowrap !important;
   }
   .brand-subtitle {
-    font-size: 0.62rem !important;
+    font-size: 0.6rem !important;
+    line-height: 1.1 !important;
+    white-space: nowrap !important;
   }
   .nav-actions {
-    gap: 0.45rem !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.35rem !important;
+    flex-shrink: 0 !important;
   }
+
+  /* Compact Golden ENROLL Toggle with Navy Blue Text (Mobile format only) */
   .nav-actions .btn-gold {
-    display: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #F59E0B !important;
+    background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%) !important;
+    color: transparent !important; /* Hide desktop 'Inquire Now' text */
+    font-size: 0 !important;
+    line-height: 1 !important;
+    padding: 0 0.6rem !important;
+    height: 30px !important;
+    border-radius: 9999px !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 2px 6px rgba(217, 119, 6, 0.35) !important;
+    text-decoration: none !important;
+    min-width: auto !important;
+    box-sizing: border-box !important;
+    transition: transform 0.15s ease, box-shadow 0.15s ease !important;
   }
+  .nav-actions .btn-gold::after {
+    content: "ENROLL" !important;
+    font-size: 0.72rem !important;
+    font-weight: 800 !important;
+    color: #071933 !important; /* Rich Navy Blue text */
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase !important;
+    display: inline-block !important;
+    line-height: 1 !important;
+  }
+  .nav-actions .btn-gold:active {
+    transform: scale(0.95) !important;
+  }
+
   .mobile-toggle {
-    width: 38px !important;
-    height: 38px !important;
-    padding: 8px !important;
+    width: 32px !important;
+    height: 32px !important;
+    padding: 6px !important;
   }
   .theme-toggle-btn {
-    width: 38px !important;
-    height: 38px !important;
-    font-size: 0.95rem !important;
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 0.88rem !important;
   }
 
   /* Resource Hero Header */
