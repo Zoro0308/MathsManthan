@@ -1685,7 +1685,7 @@ body.matrix-theme .tag-chapter-count,
   }
   .resources-grid.view-content .resource-card {
     padding: 0.85rem 1rem !important;
-    display: flex !important;
+    display: flex;
     flex-direction: column !important;
     gap: 0.5rem !important;
     border-radius: 12px !important;
@@ -1927,9 +1927,9 @@ body.matrix-theme .view-mode-btn.active,
 .resources-grid.view-content .resource-card .resource-title {
   font-size: 1.08rem !important;
   margin-bottom: 0.2rem !important;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
 }
 
 .resources-grid.view-content .resource-card .resource-desc {
@@ -1982,7 +1982,11 @@ body.matrix-theme .view-mode-btn.active,
 }
 
 
-/* Universal Filter Card Hiding Rule */
+/* Universal Filter Card Hiding Rule (Highest Specificity for All View Modes) */
+.resources-grid .resource-card.is-hidden,
+.resources-grid.view-content .resource-card.is-hidden,
+.resources-grid.view-large .resource-card.is-hidden,
+.resources-grid.view-extra-large .resource-card.is-hidden,
 .resource-card.is-hidden,
 .inpage-chapter-card.is-hidden {
   display: none !important;
