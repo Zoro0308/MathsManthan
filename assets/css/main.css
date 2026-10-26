@@ -2269,6 +2269,16 @@ body[data-bg-flow="hybrid"] .site-footer {
   }
 }
 
+@media (max-width: 768px) {
+  .brand-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95rem;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+  }
+}
+
 
 
 
