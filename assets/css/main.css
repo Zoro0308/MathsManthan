@@ -2251,6 +2251,13 @@ body[data-bg-flow="hybrid"] .site-footer {
   z-index: 10;
 }
 
+/* Desktop navbar: ENROLL text in navy blue */
+@media (min-width: 769px) {
+  .nav-actions > a.btn.btn-gold {
+    color: #0A1D37;
+  }
+}
+
 
 
 
