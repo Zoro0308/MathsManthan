@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow internal scripts or caches
+Disallow: /__pycache__/
+Disallow: /*.py$
+Disallow: /*.bat$
+
+# Sitemap location
+Sitemap: https://mathsmanthan.co.in/sitemap.xml
