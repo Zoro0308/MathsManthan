@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WHKP55SNEB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WHKP55SNEB');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://mathsmanthan.co.in/cbse-10th-pyqs.html">
+  <meta name="robots" content="index, follow">
+  <title>CBSE Class 10 Maths PYQs (2022–2026 Papers) | Maths Manthan</title>
+  
+  <meta name="description" content="Download and view official CBSE Class 10 Mathematics Previous Year Question Papers (PYQs) from 2022 to 2026. Standard & Basic question sets with direct preview and download.">
+  
+  <!-- Favicon & Styles -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/resources.css?v=5.0">
+
+  <!-- Immediate Theme Initialization (prevents flash) -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('mm_theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+  </script>
+
+  <style>
+    /* Mode Pill Indicator */
+    .mode-indicator-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      padding: 1rem 1.25rem;
+      border-radius: 14px;
+      background: var(--color-surface, rgba(30, 41, 59, 0.7));
+      border: 1px solid var(--color-border, rgba(255, 255, 255, 0.1));
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+    .mode-switch-group {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1.5px solid rgba(56, 189, 248, 0.35);
+      border-radius: 9999px;
+      padding: 4px;
+      gap: 6px;
+    }
+    .mode-tab-btn {
+      padding: 0.45rem 1.25rem;
+      font-size: 0.85rem;
+      font-weight: 700;
+      border-radius: 9999px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      color: var(--color-text-muted, #94a3b8);
+      background: transparent;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .mode-tab-btn.active.view-mode {
+      background: #0284c7;
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.4);
+    }
+    .mode-tab-btn.active.download-mode {
+      background: #10b981;
+      color: #020617;
+      font-weight: 800;
+      box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+    }
+
+    /* Breadcrumbs */
+    .pyq-breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--color-text-muted, #94a3b8);
+      margin-bottom: 1.25rem;
+    }
+    .pyq-breadcrumbs a {
+      color: var(--color-accent, #38bdf8);
+      text-decoration: none;
+    }
+    .pyq-breadcrumbs a:hover {
+      text-decoration: underline;
+    }
+
+    /* Folder Card Grid */
+    .folder-card {
+      cursor: pointer;
+      transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.22s ease, border-color 0.22s ease;
+    }
+    .folder-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--color-accent, #38bdf8) !important;
+      box-shadow: 0 10px 24px rgba(56, 189, 248, 0.18) !important;
+    }
+    .folder-icon-wrap {
+      font-size: 2.2rem;
+      margin-bottom: 0.75rem;
+      display: inline-block;
+    }
+
+    /* Action button inside papers list */
+    .paper-action-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.55rem 1.2rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .paper-action-btn.btn-view {
+      background: #0284c7;
+      color: #ffffff;
+      border: 1px solid #0284c7;
+    }
+    .paper-action-btn.btn-view:hover {
+      background: #38bdf8;
+      color: #020617;
+      border-color: #38bdf8;
+      box-shadow: 0 0 14px rgba(56, 189, 248, 0.6);
+      transform: translateY(-1px);
+    }
+    .paper-action-btn.btn-download {
+      background: #10b981;
+      color: #020617;
+      border: 1px solid #10b981;
+    }
+    .paper-action-btn.btn-download:hover {
+      background: #34d399;
+      color: #020617;
+      border-color: #34d399;
+      box-shadow: 0 0 14px rgba(52, 211, 153, 0.6);
+      transform: translateY(-1px);
+    }
+
+    /* Back button */
+    .btn-back-folders {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1.25rem;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--color-text, #ffffff);
+      border: 1px solid var(--color-border, rgba(255, 255, 255, 0.15));
+      border-radius: 9999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      margin-bottom: 1.5rem;
+    }
+    .btn-back-folders:hover {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: #38bdf8;
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body class="matrix-theme">
+
+  <!-- Global Header Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" aria-label="Maths Manthan Home">
+        <img src="assets/images/logo.png" alt="Maths Manthan Logo" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">
+            <span>MATHS</span>
+            <span>MANTHAN</span>
+          </span>
+          <span class="brand-subtitle">Tuition Classes</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html#batches" class="nav-link">Batches</a>
+        <a href="class-8.html" class="nav-link">Class 8</a>
+        <a href="class-9.html" class="nav-link">Class 9</a>
+        <a href="class-10.html" class="nav-link active">Class 10</a>
+        <a href="class-11.html" class="nav-link">Class 11</a>
+        <a href="class-12.html" class="nav-link">Class 12</a>
+        <a href="free-books.html" class="nav-link">Free Books</a>
+        <a href="index.html#location" class="nav-link">Location</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <a href="https://wa.me/918171546558" target="_blank" class="btn btn-whatsapp nav-btn">
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding-top: 5rem; min-height: 80vh;">
+    <!-- Hero / Title Section -->
+    <section class="class-hero" style="text-align: center; padding: 2.5rem 1rem 1.5rem;">
+      <div class="container">
+        <div class="pyq-breadcrumbs" id="breadcrumbs">
+          <a href="index.html">Home</a> &gt; 
+          <a href="class-10.html">Class 10</a> &gt; 
+          <span id="breadcrumbCurrent">CBSE Board PYQs (2022–2026)</span>
+        </div>
+        <h1 style="font-size: 2.3rem; font-weight: 800; margin-bottom: 0.5rem; letter-spacing: -0.02em;">
+          CBSE Class 10 Maths Board PYQs
+        </h1>
+        <p style="color: var(--color-text-muted, #94a3b8); font-size: 1.05rem; max-width: 650px; margin: 0 auto;">
+          Official question papers from 2022 to 2026 including Standard, Basic, Compartment and Re-test series.
+        </p>
+      </div>
+    </section>
+
+    <!-- Controls Bar -->
+    <section class="container" style="margin-bottom: 2rem;">
+      <div class="mode-indicator-bar">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span style="font-size: 0.9rem; font-weight: 600; color: var(--color-text-muted);">Current Mode:</span>
+          <div class="mode-switch-group">
+            <button id="modeViewBtn" class="mode-tab-btn active view-mode" onclick="switchMode('view')">
+              👁️ View Mode
+            </button>
+            <button id="modeDownloadBtn" class="mode-tab-btn download-mode" onclick="switchMode('download')">
+              📥 Download Mode
+            </button>
+          </div>
+        </div>
+
+        <div class="search-box" style="flex: 1; max-width: 380px;">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="paperSearch" class="search-input" placeholder="Search papers (e.g. 30/1/1, Basic, 2026)..." oninput="filterItems()">
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <section class="container" style="padding-bottom: 5rem;">
+      
+      <!-- VIEW 1: FOLDERS LIST -->
+      <div id="foldersView">
+        <h2 style="font-size: 1.35rem; font-weight: 700; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.5rem;">
+          📁 Select an Exam Year / Series
+        </h2>
+        <div class="resources-grid" id="foldersGrid"></div>
+      </div>
+
+      <!-- VIEW 2: PAPERS LIST (INSIDE A SELECTED FOLDER) -->
+      <div id="papersView" style="display: none;">
+        <button class="btn-back-folders" onclick="showFoldersView()">
+          ← Back to All Exam Folders
+        </button>
+        <div style="margin-bottom: 1.5rem;">
+          <h2 id="currentFolderTitle" style="font-size: 1.5rem; font-weight: 800; margin-bottom: 0.25rem;"></h2>
+          <p id="currentFolderSubtitle" style="color: var(--color-text-muted); font-size: 0.95rem;"></p>
+        </div>
+        <div class="resources-grid" id="papersGrid"></div>
+      </div>
+
+      <div id="noResults" style="display: none; text-align: center; padding: 4rem 1rem; color: var(--color-text-muted);">
+        <p style="font-size: 1.25rem; font-weight: 600;">No papers or folders found matching your search.</p>
+        <p>Try searching with another set number or clear the search box.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>MATHS MANTHAN</h4>
+          <p>D121 European Estate, Kankerkhera, Meerut. Premier coaching for CBSE Class 8–12.</p>
+        </div>
+        <div>
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="class-10.html">Class 10 Tests & Formulas</a></li>
+            <li><a href="books-class-10.html">Class 10 NCERT Books</a></li>
+            <li><a href="free-books.html">All Free Resources</a></li>
+            <li><a href="index.html#contact">Contact Mentorship</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Maths Manthan | Tuition Classes. All Rights Reserved.</div>
+        <div>CBSE Class 10 Previous Year Question Papers Repository</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/theme.js"></script>
+  <script>
+    // All folders and papers mapped directly from Google Drive
+    const pyqData = [{"folderKey": "PYQs_10th_Mathematics_Standard_2026", "folderId": "1aIqoaSFbLU_IjLvvd1I4CVTtmbqq_qbl", "title": "2026 Board PYQs (Main Board Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2026", "badge": "Main Exam", "files": [{"name": "430-1-2_Mathematics Basic.pdf", "id": "15Uo0veHoxsJwX4Krz4U-iWtb7cQZogj5"}, {"name": "430-1-3_Mathematics Basic.pdf", "id": "1nnCBfG1MXVdE2TBwOMWUrXIwLn4ibztb"}, {"name": "430-2-1_Mathematics Basic.pdf", "id": "1oCmsGwmzhhSlHWddyFFzdHubzXBvKi7U"}, {"name": "430-2-2_Mathematics Basic.pdf", "id": "1nqmpA4IGG9rpG6OTvaeNlToR3Ni6LZSK"}, {"name": "430-2-3_Mathematics Basic.pdf", "id": "1lRGpa_Ta-Ko3PC-v4IxJIIq-5HAPAAwa"}, {"name": "430-3-1_Mathematics Basic.pdf", "id": "1hS6SGPdi0c4oV3LBOBhf-it4wySEKA2h"}, {"name": "430-3-2_Mathematics Basic.pdf", "id": "1HPFXD4VxgbQmZ8l62maYMBeePeIcMOin"}, {"name": "430-3-3_Mathematics Basic.pdf", "id": "1Ge7BymDto77jwAUebBkJN-SNLWA9GO52"}, {"name": "1158-1_430-4-1 Mathematics (Basic).pdf", "id": "1C5ctSJHH3wYbDj9mrsUZ-k0d45UR9icr"}, {"name": "1158-2_430-4-2 Mathematics (Basic).pdf", "id": "1t7DPI8d4RfO-9V65HrWBtFk--iS2XWQF"}, {"name": "1158-3_430-4-3 Mathematics (Basic).pdf", "id": "1iGtgJCdsrdsIDjUqM5_EJxcM4Dw72VPs"}, {"name": "1159-1_430-5-1 Mathematics (Basic).pdf", "id": "1ps4ruCuFF-evRuAlTgFKRv8SCC--I04k"}, {"name": "1159-2_430-5-2 Mathematics (Basic).pdf", "id": "1UOPTLN6HA0sRkw4S-phaZpB7x3wRfnXg"}, {"name": "1159-3_430-5-3 Mathematics (Basic).pdf", "id": "1JEGBjTfpPg3hDkLRNyus2s6GBROS-wba"}, {"name": "1164_30(B)_Mathematics Standard.pdf", "id": "1Iv_dHmE_g-Y3dkmCLL8QAdfCKGE1rgDN"}, {"name": "1167_430(B)_Mathematics (Basic).pdf", "id": "1drXIFHegKWl057C1iSG241XwyS0Avgcr"}, {"name": "1171-1_30-4-1  (Mathematics Standard).pdf", "id": "1mwwwgY85yXgxJE9Dk-gVRM4GsJU7fcbR"}, {"name": "1171-2_30-4-2  (Mathematics Standard).pdf", "id": "1XZbRP4Nw7pCJYlq-prTVwdeFR0-ymDx-"}, {"name": "1171-3_30-4-3  (Mathematics Standard).pdf", "id": "1G_kBlXkMxtr25O7uky3iPRTbkRI-F6rR"}, {"name": "1172-1_30-5-1  (Mathematics Standard).pdf", "id": "1lXOR6q1c8K88eLtTV0d9sunzkCgLEQTH"}, {"name": "1172-2_30-5-2  (Mathematics Standard).pdf", "id": "1drVfqTrw9LLnb129V84mPWK_zLO0zDTA"}, {"name": "1172-3_30-5-3  (Mathematics Standard).pdf", "id": "10Sy0clTvtA_VfgADrh0Z6M0JaNhGCPj1"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2026_(2nd exam)", "folderId": "11ESzLaliOA10DPm8OKbFK3Cwu9NzyLek", "title": "2026 Board PYQs (2nd Exam / Re-Test)", "rawName": "PYQs_10th_Mathematics_Standard_2026_(2nd exam)", "badge": "2nd Exam", "files": [{"name": "30-7-1_Maths Std_E2_10_2026.pdf", "id": "1jydFeuHVwmjDCVUvozF3P7Rg5uUApw0V"}, {"name": "30-7-2_Maths Std_E2_10_2026.pdf", "id": "13673-btVrewIY2AuqVeJTKHIqmcT9a_Z"}, {"name": "30-7-3_Maths Std_E2_10_2026.pdf", "id": "1HQRZB-lNVXML6NIzHyfKGmU7ANiGJjD5"}, {"name": "30-8-1_Maths Std_E2_10_2026.pdf", "id": "1Cmp1Nm5osBHYuZkeVzfuzRVHTJtrGQk-"}, {"name": "30-8-2_Maths Std_E2_10_2026.pdf", "id": "1FrvvULyLQUGaYK50suWR8agCu5a3x-R3"}, {"name": "30-8-3_Maths Std_E2_10_2026.pdf", "id": "1L5z_2OuLzL-P42mEHyket8VRip8PIqYh"}, {"name": "30-B_Maths Std_E2_10_2026.pdf", "id": "1RcEnPM4W6ArCj74Nrlx_-LiYGPqrD7Up"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2025", "folderId": "1JYhdThjDZAh8qnyPXNSLYtis1nHZjt0p", "title": "2025 Board PYQs (Main Board Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2025", "badge": "Main Exam", "files": [{"name": "30-1-1_Mathematics Standard.pdf", "id": "1MUo4G47-0Pv5dUlxkXzkwzZ8Adzhs9Tc"}, {"name": "30-1-2_Mathematics Standard.pdf", "id": "1nUvbzW6Eb2ody1yXbQkV5diKUJ3dX70R"}, {"name": "30-1-3_Mathematics Standard.pdf", "id": "1YXoisVn8b5AZ_rFeVdz4t1tdVtQ5ESbm"}, {"name": "30-2-1_Mathematics Standard.pdf", "id": "1UI52DoQulxWWyhzs4U87DNLSVNlrBcYx"}, {"name": "30-2-2_Mathematics Standard.pdf", "id": "1QRT2Os0vZlROrIfmp7WlZYMO_yoqSD0S"}, {"name": "30-2-3_Mathematics Standard.pdf", "id": "14GH2p93Uz1q8GbZJZ5rXOjQJT6tf-UzG"}, {"name": "30-3-1_Mathematics Standard.pdf", "id": "1UY5XxtklPf6nQ5wByEAuo7VNjJ8Zfpdx"}, {"name": "30-3-2_Mathematics Standard.pdf", "id": "1Xb0tVxN5UyGFIPUfPL_j4FNGlMcrNqez"}, {"name": "30-3-3_Mathematics Standard.pdf", "id": "1rWJn-AMNLHDIVQ9JpnURMpZb_H20qIr6"}, {"name": "30-4-1_Mathematics Standard.pdf", "id": "1OTBW5vzZFlx1bv4UvaNO-d_1YRH7eTLu"}, {"name": "30-4-2_Mathematics Standard.pdf", "id": "1uzQjngHStE77bLZK2QXTwIJH0IaqkozJ"}, {"name": "30-4-3_Mathematics Standard.pdf", "id": "1TOWKr9Y1pCfFPBh_ZtEuTrQedEdfG4C9"}, {"name": "30-5-1_Mathematics Standard.pdf", "id": "14x2ugP1_6aKWqw1oOPXAfbi2JbmPElQV"}, {"name": "30-5-2_Mathematics Standard.pdf", "id": "1SpwY1-NSi972S2fGgjnkR7ZOAwAxD5LE"}, {"name": "30-5-3_Mathematics Standard.pdf", "id": "1TP4M3CHPZL5ahJst41xBBicaZ7W2YvzV"}, {"name": "30-6-1_Mathematics Standard.pdf", "id": "1SiMsFUyb57pKZ6A5J8l5yymsNg039BhD"}, {"name": "30-6-2_Mathematics Standard.pdf", "id": "1yDLHdOIOIES3Q0Ky5AIotMbfVRH_F00B"}, {"name": "30-6-3_Mathematics Standard.pdf", "id": "1Fl4bvRNaRcgwx3GHRgtmRpTXK1JBzR_A"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2025_compartment", "folderId": "1nLNxQo4A1RtkoNwsMLFJdbQQzfTUVOUq", "title": "2025 Board PYQs (Compartment Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2025_compartment", "badge": "Compartment", "files": [{"name": "30-S-1 Maths Standard.pdf", "id": "11k7F9QAM7eU5QhXlgL6OCCqdfy6auW0L"}, {"name": "30-S-2 Maths Standard.pdf", "id": "1WpBRDjOlsjvRdhit1ZWmy58svcrnlMa4"}, {"name": "30-S-3 Maths Standard.pdf", "id": "1Mno_2GJOetYISP-1D35eNu2qqKv_lPzn"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2024", "folderId": "1Y2FJx4RPJUi0dblWYrUljAbrqHTsxfPz", "title": "2024 Board PYQs (Main Board Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2024", "badge": "Main Exam", "files": [{"name": "30-1-1(Mathematics Standard).pdf", "id": "1ShNigZI-8UbF9t3hQyk23sNFQZIU4n1a"}, {"name": "30-1-2(Mathematics Standard).pdf", "id": "1rn3853yXzyVMxcrfFBui1IiSEveWINJA"}, {"name": "30-1-3(Mathematics Standard).pdf", "id": "1CcNB6yQpRwmH6Zwkn64AK57ArafTfV6u"}, {"name": "30-2-1(Mathematics Standard).pdf", "id": "1pAS0KbGFJU8QsmghYJECZIpq_46pjOSJ"}, {"name": "30-2-2(Mathematics Standard).pdf", "id": "1yC7PBmpEBe5-JiskfHn-euP_tx18P3Ls"}, {"name": "30-2-3(Mathematics Standard).pdf", "id": "1OW9EVxELcjipJ27qWbLaPEIf6Y4tE2ht"}, {"name": "30-3-1(Mathematics Standard).pdf", "id": "1bTYxf3Y4MtAKpTyX4LgML68hRPuE3HfT"}, {"name": "30-3-2(Mathematics Standard).pdf", "id": "1xX2G7fZlBFTu_vUbd1GQy1TKX1w6X7JI"}, {"name": "30-3-3(Mathematics Standard).pdf", "id": "17vJjjKChG-IubgDQN5jG9xYYcQ_nNtHr"}, {"name": "30-4-1(Mathematics Standard).pdf", "id": "14GxZIdYhe-C8BJRwhgBie1taBUUWYsPY"}, {"name": "30-4-2(Mathematics Standard).pdf", "id": "1_Ymmthuf89laZTFwUoVMpE02ipXeqZN_"}, {"name": "30-4-3(Mathematics Standard).pdf", "id": "1wlFMMxuk2VdEcsUYFLh4WDJmMzXXv4fI"}, {"name": "30-5-1(Mathematics Standard).pdf", "id": "11856oe5a3bafY5XWe9OFBvugMdVv7DDK"}, {"name": "30-5-2(Mathematics Standard).pdf", "id": "1qwBDTPFOodZY3ByJzL3Ncvt44AGndxsE"}, {"name": "30-5-3(Mathematics Standard).pdf", "id": "1tJjsJ-uFQLjQaCfmyy4KSEijqeZCi0Xu"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2024_compartment", "folderId": "1x3VVnGYpDG-Zb5CRUxUJth5iN1Dig8jX", "title": "2024 Board PYQs (Compartment Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2024_compartment", "badge": "Compartment", "files": [{"name": "30-S-1 MATHEMATICS STANDARD.pdf", "id": "1n0ILZq9aIQGNAjTNm6ydAo5u9oyQnSvK"}, {"name": "30-S-2 MATHEMATICS STANDARD.pdf", "id": "1__uoxVeLbT0O_TuLSjmvmdBY3SpXA_54"}, {"name": "30-S-3 MATHEMATICS STANDARD.pdf", "id": "1BDB0uj_KWvu2_qDPawL0JCzoW1ke43xD"}, {"name": "30(B) Mathematics Standard.pdf", "id": "1yeFZtsD7h-ecuBBx2gfzejXTXVT8wLBk"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2023", "folderId": "1Ok_nlWsWBxhOZ_cu3KVqa4am3Wo17D3r", "title": "2023 Board PYQs (Main Board Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2023", "badge": "Main Exam", "files": [{"name": "30_1_1_Maths Standard.pdf", "id": "1nLWp3z-g2YGWkjNYIbPe-FsIs7iz8dQw"}, {"name": "30_1_2_Maths Standard.pdf", "id": "1883F-Lv442vWdeyAp559UFC55EyGgc9F"}, {"name": "30_1_3_Maths Standard.pdf", "id": "19TB4Nwb12epmaeBsQg2Ti7KCdeZWG_nY"}, {"name": "30_2_1_Maths Standard.pdf", "id": "1KAiE5zqIT4l1e0tM12VV6jdtnwWKhuN8"}, {"name": "30_2_2_Maths Standard.pdf", "id": "1y-AdzCQhEnGlYV9sD6JX6gQEOAozWxC_"}, {"name": "30_2_3_Maths Standard.pdf", "id": "1A-IUctXWgM0X1lrtjfI1IHijQdIiqegK"}, {"name": "30_4_1 Maths Standard.pdf", "id": "1ic_UxAxCDtchzJmFfauE1PNyh5BzdGQQ"}, {"name": "30_4_2 Maths Standard.pdf", "id": "1Kf5XtziUxpoZem0Cy_iomYIJyYgZiJf-"}, {"name": "30_4_3 Maths Standard.pdf", "id": "1C69kl9DfbBS_xyikCr41vmbbjkufR4ys"}, {"name": "30_5_1_Maths Standard.pdf", "id": "1APU2Ng3R20d5uzjM9PVCf11AO9pll0L2"}, {"name": "30_5_2_Maths Standard.pdf", "id": "1jJt__G1tstOf44J_XTcXcetH_cVtult_"}, {"name": "30_5_3_Maths Standard.pdf", "id": "11sfpFEWCKvSYNo_RQ_OOm65ut4TFEUbx"}, {"name": "30_6_1_Maths Standard.pdf", "id": "16Ow8j4R7AbcXZfn11mkDzCDr7rU_U1V1"}, {"name": "30_6_2_Maths Standard.pdf", "id": "15tjwhwLh9etnAkJ6odA5ESUFA7fNsYCB"}, {"name": "30_6_3_Maths Standard.pdf", "id": "1J95-kkXFGYkd-VMYEYH0CsqSh_v3A8UF"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2023_compartment", "folderId": "1h_vpQz36z5DsIUV0So0oora_rM9HHC3G", "title": "2023 Board PYQs (Compartment Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2023_compartment", "badge": "Compartment", "files": [{"name": "30_C_1 Mathematics Standard.pdf", "id": "1qefqeSVp_dSozRsOjlW6PpOc0imkJmtP"}, {"name": "30_C_2 Mathematics Standard.pdf", "id": "1FgocwHJqkDbjaVsYOSAWtt5JVjxHamk9"}, {"name": "30_C_3 Mathematics Standard.pdf", "id": "1lpJe6nyK7vMTp8N4kPYvvAgsE73x-jfb"}, {"name": "30_C_B Mathematics Standard.pdf", "id": "1ggRMWUQ9_TVp_baNpLkCW7EkT-cI7wpn"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2022", "folderId": "1omx7IjBiygoy3dRJrZ9W-NWJIWvkXxTY", "title": "2022 Board PYQs (Main Board Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2022", "badge": "Main Exam", "files": [{"name": "30-1-1 Maths Standard.pdf", "id": "1-PhlS1-3CPGBg8FWeptS6YN3CpY99L0e"}, {"name": "30-1-2 Maths Standard.pdf", "id": "1IJiuBRR_IV7L_Z_B1BoX4EeR-KGUajR5"}, {"name": "30-1-3 Maths Standard.pdf", "id": "1kEFC5LOFqKbJP0PUMPbgJfJtxHk1u6WO"}, {"name": "30-2-1 Maths Standard.pdf", "id": "1gavfGWwivwPhaZwiM7jWHQwII2XigcZs"}, {"name": "30-2-2 Maths Standard.pdf", "id": "1sgZoyN3Ml56_KxL7hTJlHB_TY-6-OXRp"}, {"name": "30-2-3 Maths Standard.pdf", "id": "1Q5NQAptKZqthYti_3hGDS0-QvWm1Pi2X"}, {"name": "30-3-1 Maths Standard.pdf", "id": "1pHXH7L-3YxWNz6KxMaEEyYBYKMKuSp3m"}, {"name": "30-3-2 Maths Standard.pdf", "id": "1TilWRccnxiRr5en7Nrs8pk57iSduD_3W"}, {"name": "30-3-3 Maths Standard.pdf", "id": "1rEf1DN7CodI4uF190_jRuQ6dQ8f0BAQC"}, {"name": "30-4-1 Maths Standard.pdf", "id": "1V2SyRbR6jlr37d1m93myfAu2F-8PjW9p"}, {"name": "30-4-2 Maths Standard.pdf", "id": "1dr3dEWXrH8sTwNBcuslpPC2KM11Fgo_r"}, {"name": "30-4-3 Maths Standard.pdf", "id": "1FVhiuf1ls199sqZS8tDq8nOD0Xln-jjt"}]}, {"folderKey": "PYQs_10th_Mathematics_Standard_2022_compartment", "folderId": "1J1DEQZCo7AfK31fR4wbQUvS8ircMCyZL", "title": "2022 Board PYQs (Compartment Exam)", "rawName": "PYQs_10th_Mathematics_Standard_2022_compartment", "badge": "Compartment", "files": [{"name": "30-6-1 Maths Std..pdf", "id": "1A0GoflobIFiqdS0FTypZtauJ7ZbT-9G6"}, {"name": "30-6-2 Maths Std..pdf", "id": "1js0lvsG6Tz6QxRE9ZTbrBAG5dfb7knGD"}, {"name": "30-6-3 Maths Std..pdf", "id": "1WtXg93gk4ir2PVYZXSerpGWR0VoaRAMG"}]}];
+
+    let currentMode = 'view'; // 'view' or 'download'
+    let currentActiveFolder = null; // null means on folders view
+
+    // Read URL param if user clicked "View PDF" or "Download" from class-10.html
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('mode') === 'download') {
+      currentMode = 'download';
+    }
+
+    function updateModeUI() {
+      const viewBtn = document.getElementById('modeViewBtn');
+      const downloadBtn = document.getElementById('modeDownloadBtn');
+      if (currentMode === 'view') {
+        viewBtn.className = 'mode-tab-btn active view-mode';
+        downloadBtn.className = 'mode-tab-btn';
+      } else {
+        viewBtn.className = 'mode-tab-btn';
+        downloadBtn.className = 'mode-tab-btn active download-mode';
+      }
+      if (currentActiveFolder) {
+        renderPapers(currentActiveFolder);
+      }
+    }
+
+    function switchMode(mode) {
+      currentMode = mode;
+      updateModeUI();
+    }
+
+    // Render Folders
+    function renderFolders(filterText = '') {
+      const grid = document.getElementById('foldersGrid');
+      grid.innerHTML = '';
+      let visibleCount = 0;
+
+      pyqData.forEach(folder => {
+        const matches = folder.title.toLowerCase().includes(filterText) || 
+                        folder.rawName.toLowerCase().includes(filterText) ||
+                        folder.files.some(f => f.name.toLowerCase().includes(filterText));
+        
+        if (!matches) return;
+        visibleCount++;
+
+        const card = document.createElement('div');
+        card.className = 'resource-card folder-card';
+        card.innerHTML = `
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">${folder.badge}</span>
+              <span class="resource-badge badge-standard">${folder.files.length} Papers</span>
+            </div>
+            <div class="folder-icon-wrap">📂</div>
+            <h3 class="resource-title">${folder.title}</h3>
+            <p class="resource-desc">
+              Complete set of Standard & Basic papers with all regions/series for this academic session.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">Explore Folder</span>
+            <span style="font-weight: 700; color: var(--color-accent); font-size: 0.9rem;">Open Papers &rarr;</span>
+          </div>
+        `;
+        card.onclick = () => openFolder(folder);
+        grid.appendChild(card);
+      });
+
+      document.getElementById('noResults').style.display = (visibleCount === 0) ? 'block' : 'none';
+    }
+
+    // Open single folder
+    function openFolder(folder) {
+      currentActiveFolder = folder;
+      document.getElementById('foldersView').style.display = 'none';
+      document.getElementById('papersView').style.display = 'block';
+
+      document.getElementById('currentFolderTitle').textContent = folder.title;
+      document.getElementById('currentFolderSubtitle').textContent = `Total ${folder.files.length} question papers found in this folder`;
+      document.getElementById('breadcrumbCurrent').textContent = folder.title;
+
+      renderPapers(folder);
+      window.scrollTo({ top: 220, behavior: 'smooth' });
+    }
+
+    function showFoldersView() {
+      currentActiveFolder = null;
+      document.getElementById('papersView').style.display = 'none';
+      document.getElementById('foldersView').style.display = 'block';
+      document.getElementById('breadcrumbCurrent').textContent = 'CBSE Board PYQs (2022–2026)';
+      renderFolders(document.getElementById('paperSearch').value.toLowerCase().trim());
+    }
+
+    // Render Papers inside selected folder
+    function renderPapers(folder, filterText = '') {
+      const grid = document.getElementById('papersGrid');
+      grid.innerHTML = '';
+      let visibleCount = 0;
+
+      folder.files.forEach(file => {
+        const searchVal = filterText || document.getElementById('paperSearch').value.toLowerCase().trim();
+        if (searchVal && !file.name.toLowerCase().includes(searchVal)) return;
+
+        visibleCount++;
+
+        // Google Drive View & Direct Download URLs
+        const viewUrl = `https://drive.google.com/file/d/${file.id}/view?usp=sharing`;
+        const downloadUrl = `https://drive.google.com/uc?export=download&id=${file.id}`;
+
+        const card = document.createElement('div');
+        card.className = 'resource-card';
+
+        // Badge determination (Standard vs Basic)
+        const isBasic = file.name.toLowerCase().includes('basic');
+        const badgeText = isBasic ? 'Basic Maths' : 'Standard Maths';
+        const badgeClass = isBasic ? 'badge-standard' : 'badge-pyq';
+
+        card.innerHTML = `
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">PDF PAPER</span>
+              <span class="resource-badge ${badgeClass}">${badgeText}</span>
+            </div>
+            <h3 class="resource-title" style="font-size: 1.05rem; word-break: break-word; line-height: 1.45;">
+              📄 ${file.name.replace('.pdf', '')}
+            </h3>
+            <p class="resource-desc" style="font-size: 0.85rem; color: var(--color-text-muted);">
+              Authentic CBSE Board Examination Paper. Available for instant review and download.
+            </p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">80 Marks</span>
+            <div>
+              ${currentMode === 'view' ? 
+                `<a href="${viewUrl}" target="_blank" rel="noopener noreferrer" class="paper-action-btn btn-view" title="Read paper in browser">
+                   👁️ View Paper
+                 </a>` : 
+                `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer" class="paper-action-btn btn-download" title="Direct download PDF">
+                   📥 Download PDF
+                 </a>`
+              }
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+
+      document.getElementById('noResults').style.display = (visibleCount === 0) ? 'block' : 'none';
+    }
+
+    function filterItems() {
+      const term = document.getElementById('paperSearch').value.toLowerCase().trim();
+      if (currentActiveFolder) {
+        renderPapers(currentActiveFolder, term);
+      } else {
+        renderFolders(term);
+      }
+    }
+
+    // Initial render
+    updateModeUI();
+    renderFolders();
+  </script>
+</body>
+</html>
