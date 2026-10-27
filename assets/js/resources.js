@@ -24,10 +24,307 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('PDF catalog dynamic bind note:', err);
     });
 
+  // ==========================================================================
+  // 1b. Chapter Tests Drilldown Engine (Option B - Adaptive & Non-Disruptive)
+  // ==========================================================================
+  let currentActiveChapterFolder = null;
+
+  function getChapterItems(folderKey, catalog) {
+    if (catalog && catalog[folderKey + '__items'] && Array.isArray(catalog[folderKey + '__items'])) {
+      return catalog[folderKey + '__items'];
+    }
+    const allFiles = (catalog && catalog[folderKey + '__all']) || (catalog && catalog[folderKey] ? [catalog[folderKey]] : []);
+    const items = [];
+    const realFiles = allFiles.filter(path => {
+      const fn = path.split('/').pop().toLowerCase();
+      return !(/^class-?\d+-ch-?\d+\.pdf$/.test(fn)) || allFiles.length === 1;
+    });
+
+    realFiles.forEach(path => {
+      const filename = path.split('/').pop();
+      const fnLower = filename.toLowerCase();
+
+      if (fnLower.includes('solution') || fnLower.includes('sol') || fnLower.includes('ans') || fnLower.includes('key') || fnLower.includes('marking')) {
+        const m = fnLower.match(/test[-_\s]*(\d+)/);
+        const num = m ? m[1] : '';
+        items.push({
+          name: filename,
+          path: path,
+          title: num ? `Class Test ${num} — Solutions / Answer Key` : 'Solutions & Answer Key',
+          code: num ? `TEST-${String(num).padStart(2, '0')}-SOL` : 'SOLUTIONS',
+          badge: 'Answer Key',
+          type: 'solution',
+          order: num ? (parseInt(num, 10) * 10 + 2) : 95
+        });
+      } else if (fnLower.includes('test')) {
+        const m = fnLower.match(/test[-_\s]*(\d+)/);
+        const num = m ? m[1] : '';
+        items.push({
+          name: filename,
+          path: path,
+          title: num ? `Class Test ${num}` : 'Chapter Practice Test',
+          code: num ? `TEST-${String(num).padStart(2, '0')}` : 'TEST',
+          badge: 'Test Paper',
+          type: 'test',
+          order: num ? (parseInt(num, 10) * 10 + 1) : 50
+        });
+      } else {
+        items.push({
+          name: filename,
+          path: path,
+          title: 'Chapter Study Material & Theory Notes',
+          code: 'CHAPTER NOTES',
+          badge: 'Study Material',
+          type: 'material',
+          order: 0
+        });
+      }
+    });
+
+    items.sort((a, b) => (a.order || 0) - (b.order || 0));
+    return items;
+  }
+
+  function adaptCardForChapterTests(el, folderKey, items, testCount) {
+    const metaContainer = el.querySelector('.resource-meta');
+    if (metaContainer) {
+      let existingBadge = metaContainer.querySelector('.badge-tests');
+      if (testCount > 0) {
+        if (!existingBadge) {
+          const badge = document.createElement('span');
+          badge.className = 'resource-badge badge-tests';
+          badge.textContent = `[ ${testCount} Test${testCount > 1 ? 's' : ''} Available ]`;
+          metaContainer.appendChild(badge);
+        } else {
+          existingBadge.textContent = `[ ${testCount} Test${testCount > 1 ? 's' : ''} Available ]`;
+        }
+      } else if (existingBadge) {
+        existingBadge.remove();
+      }
+    }
+
+    const footer = el.querySelector('.resource-footer');
+    if (footer) {
+      // Completely remove the old view/download toggle pill on chapter cards
+      const toggleBox = footer.querySelector('.pdf-toggle-box');
+      if (toggleBox) {
+        toggleBox.remove();
+      }
+
+      let openBtn = footer.querySelector('.btn-open-chapter-tests');
+      if (!openBtn) {
+        openBtn = document.createElement('button');
+        openBtn.type = 'button';
+        openBtn.className = 'btn-open-chapter-tests';
+        openBtn.setAttribute('data-folder', folderKey);
+        footer.appendChild(openBtn);
+      }
+      openBtn.innerHTML = `<span>📂 Open Test Papers &rarr;</span>`;
+      openBtn.onclick = (e) => {
+        e.stopPropagation();
+        openChapterTestsView(folderKey, el);
+      };
+    }
+
+    el.classList.add('has-tests-drilldown');
+    el.style.cursor = 'pointer';
+    el.onclick = (e) => {
+      if (e.target.closest('a, button')) return;
+      openChapterTestsView(folderKey, el);
+    };
+  }
+
+  function openChapterTestsView(folderKey, cardEl, pushHistory = true) {
+    const resourcesGrid = document.getElementById('resourcesGrid');
+    if (!resourcesGrid) return;
+
+    const items = getChapterItems(folderKey, globalCatalog);
+    if (!items || items.length === 0) return;
+
+    currentActiveChapterFolder = folderKey;
+
+    const title = cardEl?.querySelector('.resource-title')?.textContent?.trim() || 'Chapter Test Papers';
+    const desc = cardEl?.querySelector('.resource-desc')?.textContent?.trim() || 'Official chapter-wise practice tests, solutions, and study material.';
+    const code = cardEl?.querySelector('.resource-code')?.textContent?.trim() || folderKey.split('/').pop().toUpperCase();
+    const metaBadge = cardEl?.querySelector('.badge-standard')?.textContent?.trim() || '';
+    const testCount = items.filter(i => i.type === 'test').length;
+
+    const heroTitle = document.querySelector('.resources-hero h1')?.textContent || '';
+    const pageClassTitle = heroTitle.split('(')[0]?.trim() || 'Classroom';
+
+    let drilldownView = document.getElementById('chapterTestsView');
+    if (!drilldownView) {
+      drilldownView = document.createElement('div');
+      drilldownView.id = 'chapterTestsView';
+      drilldownView.className = 'chapter-tests-view-container';
+      resourcesGrid.parentNode.insertBefore(drilldownView, resourcesGrid);
+    }
+
+    const currentViewMode = localStorage.getItem('mm_view_mode') || 'extra-large';
+
+    drilldownView.innerHTML = `
+      <div class="chapter-drilldown-header">
+        <button type="button" class="btn-back-chapters" id="btnBackChapters" title="Return to chapters list">
+          <span>&larr;</span> Back to All Chapters
+        </button>
+        <div class="drilldown-breadcrumbs">
+          <a href="index.html">Home</a> &gt; 
+          <span style="color: var(--color-text-muted);">${pageClassTitle}</span> &gt; 
+          <span class="active-crumb">${title}</span>
+        </div>
+      </div>
+
+      <div class="chapter-drilldown-banner">
+        <div class="resource-meta" style="margin-bottom: 0.5rem;">
+          <span class="resource-code">${code}</span>
+          ${metaBadge ? `<span class="resource-badge badge-standard">${metaBadge}</span>` : ''}
+          ${testCount > 0 ? `<span class="resource-badge badge-tests">[ ${testCount} Test${testCount > 1 ? 's' : ''} Available ]</span>` : ''}
+        </div>
+        <h2 class="drilldown-title">${title}</h2>
+        <p class="drilldown-desc">${desc}</p>
+      </div>
+
+      <div class="drilldown-toolbar-bar">
+        <div class="drilldown-status-info">
+          <span>Available Resources: <strong>${items.length}</strong> document${items.length > 1 ? 's' : ''}</span>
+        </div>
+        <div class="view-mode-selector-wrap">
+          <button type="button" class="view-mode-btn" data-view-mode="extra-large" title="Extra large icons">
+            <span>⬜</span> Extra Large
+          </button>
+          <button type="button" class="view-mode-btn" data-view-mode="large" title="Large icons">
+            <span>🔲</span> Large
+          </button>
+          <button type="button" class="view-mode-btn" data-view-mode="content" title="Content row view">
+            <span>☰</span> Content
+          </button>
+        </div>
+      </div>
+
+      <div class="resources-grid chapter-tests-grid view-${currentViewMode}" id="chapterTestsGrid">
+        ${items.map(it => {
+          const safeUrl = encodeURI(it.path);
+          const typeDesc = (it.type === 'material')
+            ? 'Official NCERT chapter theory, comprehensive concept notes, and textbook exercises.'
+            : (it.type === 'solution')
+            ? 'Complete step-by-step verified solutions and marking scheme for this class test.'
+            : 'Official chapter practice test paper designed for high-scoring board exam preparation.';
+          return `
+            <div class="resource-card chapter-paper-card ${it.type}-card">
+              <div>
+                <div class="resource-meta">
+                  <span class="resource-code">${it.code}</span>
+                  <span class="resource-badge badge-${it.type}">${it.badge}</span>
+                </div>
+                <h3 class="resource-title">${it.title}</h3>
+                <p class="resource-desc">${typeDesc}</p>
+              </div>
+              <div class="resource-footer">
+                <span class="resource-stats">${it.size ? it.size + ' • ' : ''}PDF</span>
+                <div class="pdf-toggle-box">
+                  <a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+                  <span class="pdf-toggle-divider"></span>
+                  <a href="${safeUrl}" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+        ${testCount === 0 ? `
+          <div class="resource-card chapter-paper-card upcoming-card" style="border-style: dashed; opacity: 0.9;">
+            <div>
+              <div class="resource-meta">
+                <span class="resource-code">TEST SERIES</span>
+                <span class="resource-badge" style="background: rgba(234, 179, 8, 0.16); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.4);">Coming Soon</span>
+              </div>
+              <h3 class="resource-title">Classroom Test Papers</h3>
+              <p class="resource-desc">Official practice tests and step-by-step answer keys for this chapter will be uploaded soon. Use the study notes above to prepare!</p>
+            </div>
+            <div class="resource-footer">
+              <span class="resource-stats">PREPARING</span>
+              <span style="font-size: 0.82rem; font-weight: 700; color: var(--color-text-muted);">In Development</span>
+            </div>
+          </div>
+        ` : ''}
+      </div>
+    `;
+
+    drilldownView.querySelector('#btnBackChapters').onclick = () => {
+      closeChapterTestsView();
+    };
+
+    const filterSection = document.querySelector('.filter-section');
+    if (filterSection) filterSection.style.display = 'none';
+    resourcesGrid.style.display = 'none';
+    drilldownView.style.display = 'block';
+
+    applyViewMode(currentViewMode);
+
+    const chSlug = folderKey.split('/').pop();
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'chapter-tests', folderKey: folderKey }, '', '#' + chSlug);
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function closeChapterTestsView(pushHistory = true) {
+    const drilldownView = document.getElementById('chapterTestsView');
+    const resourcesGrid = document.getElementById('resourcesGrid');
+    const filterSection = document.querySelector('.filter-section');
+
+    if (drilldownView) drilldownView.style.display = 'none';
+    if (resourcesGrid) resourcesGrid.style.display = '';
+    if (filterSection) filterSection.style.display = '';
+
+    const prevFolder = currentActiveChapterFolder;
+    currentActiveChapterFolder = null;
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'overview' }, '', window.location.pathname);
+      } catch (e) {}
+    }
+
+    if (prevFolder) {
+      const card = document.querySelector(`.resource-card[data-folder="${prevFolder}"]`);
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  }
+
+  function checkUrlHashForChapterTests() {
+    const hash = window.location.hash.replace('#', '').trim();
+    if (!hash) {
+      if (currentActiveChapterFolder) {
+        closeChapterTestsView(false);
+      }
+      return;
+    }
+    const card = document.querySelector(`.resource-card[data-folder$="/${hash}"]`);
+    if (card) {
+      const folderKey = card.getAttribute('data-folder');
+      openChapterTestsView(folderKey, card, false);
+    }
+  }
+
+  window.addEventListener('hashchange', checkUrlHashForChapterTests);
+
   function bindCatalogToCards(catalog) {
-    document.querySelectorAll('[data-folder]').forEach(el => {
+    document.querySelectorAll('.resource-card[data-folder]').forEach(el => {
       const folderKey = el.getAttribute('data-folder');
-      if (catalog && catalog[folderKey]) {
+      if (!folderKey) return;
+
+      const items = getChapterItems(folderKey, catalog);
+      const testItems = items.filter(it => it.type === 'test');
+      const isChapter = /^class-\d+\/ch-\d+$/i.test(folderKey) || folderKey.includes('/ch-');
+
+      if (isChapter || testItems.length > 0) {
+        adaptCardForChapterTests(el, folderKey, items, testItems.length);
+      } else if (catalog && catalog[folderKey]) {
         const rawUrl = catalog[folderKey];
         const pdfUrl = encodeURI(rawUrl);
         const viewLink = el.querySelector('a.btn-view, .btn-view');
@@ -40,6 +337,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     });
+
+    checkUrlHashForChapterTests();
   }
 
   // 2. Load Chapters Database for In-Page Directory
@@ -121,7 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const chosen = validModes.includes(mode) ? mode : 'extra-large';
 
     // Target any resources grids or folder/paper grids
-    const grids = document.querySelectorAll('.resources-grid, #resourcesGrid, #foldersGrid, #papersGrid, #inpageChaptersGrid');
+    const grids = document.querySelectorAll('.resources-grid, #resourcesGrid, #foldersGrid, #papersGrid, #inpageChaptersGrid, #chapterTestsGrid');
     grids.forEach(grid => {
       grid.classList.remove('view-extra-large', 'view-large', 'view-content');
       grid.classList.add('view-' + chosen);
@@ -424,6 +723,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Handle browser back/forward buttons
   window.addEventListener('popstate', (e) => {
+    // 1. Chapter Tests Drilldown View popstate
+    if (currentActiveChapterFolder && (!e.state || e.state.view !== 'chapter-tests')) {
+      closeChapterTestsView(false);
+      return;
+    } else if (e.state && e.state.view === 'chapter-tests' && e.state.folderKey) {
+      const card = document.querySelector(`.resource-card[data-folder="${e.state.folderKey}"]`);
+      if (card) {
+        openChapterTestsView(e.state.folderKey, card, false);
+        return;
+      }
+    }
+
+    // 2. Books In-Page Directory Switcher popstate
     if (e.state && e.state.view === 'directory' && e.state.classKey) {
       openInpageDirectory(e.state.classKey, false);
     } else {

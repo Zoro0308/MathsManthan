@@ -128,7 +128,7 @@
         "num": "Part 1 \u2022 Ch 3",
         "title": "The World of Numbers",
         "desc": "Irrational numbers (\u221a2, \u221a3, \u03c0), real number continuum, visualizing numbers on the number line using magnification, and surds.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-03/The World of Numbers.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-03/ncert-class-9-ch-03.pdf"
       },
       {
         "ch": "ch-04",
@@ -149,21 +149,21 @@
         "num": "Part 1 \u2022 Ch 6",
         "title": "Measuring Space: Perimeter and Area",
         "desc": "Heron's formula \u221a[s(s \u2212 a)(s \u2212 b)(s \u2212 c)], area of scalene, isosceles, and equilateral triangles, and area of irregular plots.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-06/Perimeter and area.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-06/ncert-class-9-ch-06.pdf"
       },
       {
         "ch": "ch-07",
         "num": "Part 1 \u2022 Ch 7",
         "title": "The Mathematics of Maybe: Introduction to Probability",
         "desc": "Empirical and experimental probability, trials, events, relative frequencies, coin-toss & dice experiments, and game odds.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-07/Probability.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-07/ncert-class-9-ch-07.pdf"
       },
       {
         "ch": "ch-08",
         "num": "Part 1 \u2022 Ch 8",
         "title": "Predicting What Comes Next: Exploring Sequences",
         "desc": "Number patterns, sequence rules, first difference & second difference tables, arithmetic progression foundations, and general n-th terms.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-08/Sequences Progressions.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-9/ch-08/ncert-class-9-ch-08.pdf"
       },
       {
         "ch": "ch-09",
@@ -219,14 +219,14 @@
         "num": "Chapter 1",
         "title": "Real Numbers",
         "desc": "Fundamental Theorem of Arithmetic, prime factorisation method for HCF & LCM, and proofs of irrationality of \u221a2, \u221a3, \u221a5.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-01/Real numbers.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-01/ncert-class-10-ch-01.pdf"
       },
       {
         "ch": "ch-02",
         "num": "Chapter 2",
         "title": "Polynomials",
         "desc": "Geometrical meaning of zeros, relationship between zeros and coefficients of quadratic polynomials, and polynomial formation.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-02/Polynomials.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-02/ncert-class-10-ch-02.pdf"
       },
       {
         "ch": "ch-03",
@@ -240,7 +240,7 @@
         "num": "Chapter 4",
         "title": "Quadratic Equations",
         "desc": "Standard form ax\u00b2 + bx + c = 0, solution by factorisation and quadratic formula, and nature of roots via discriminant (b\u00b2 \u2212 4ac).",
-        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-04/Quadratic equations .pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-04/ncert-class-10-ch-04.pdf"
       },
       {
         "ch": "ch-05",
@@ -254,7 +254,7 @@
         "num": "Chapter 6",
         "title": "Triangles",
         "desc": "Basic Proportionality Theorem (Thales Theorem & converse), criteria for similarity of triangles (AAA, SSS, SAS), and geometric proofs.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-06/Traingle.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-06/ncert-class-10-ch-06.pdf"
       },
       {
         "ch": "ch-07",
@@ -275,7 +275,7 @@
         "num": "Chapter 9",
         "title": "Some Applications of Trigonometry",
         "desc": "Heights and distances, line of sight, angle of elevation, angle of depression, and multi-triangle geometric case problems.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-09/Some applications of trigonometry.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-09/ncert-class-10-ch-09.pdf"
       },
       {
         "ch": "ch-10",
@@ -296,21 +296,21 @@
         "num": "Chapter 12",
         "title": "Surface Areas and Volumes",
         "desc": "Surface areas and volumes of combinations of cubes, cuboids, spheres, hemispheres, and cylinders, plus shape reshaping.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-12/Surface area and volume.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-12/ncert-class-10-ch-12.pdf"
       },
       {
         "ch": "ch-13",
         "num": "Chapter 13",
         "title": "Statistics",
         "desc": "Mean, median, and mode of grouped data, mean by direct and assumed mean methods, and modal value determination.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-13/Statistics.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-13/ncert-class-10-ch-13.pdf"
       },
       {
         "ch": "ch-14",
         "num": "Chapter 14",
         "title": "Probability",
         "desc": "Classical definition of probability, simple problems on single events, complementary events P(E) + P(not E) = 1.",
-        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-14/Probability.pdf"
+        "pdf": "assets/pdfs/books/chapter-wise/class-10/ch-14/ncert-class-10-ch-14.pdf"
       }
     ]
   },

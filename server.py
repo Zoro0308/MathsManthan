@@ -21,6 +21,69 @@ DATA_DIR = os.path.join(BASE_DIR, 'assets', 'data')
 CATALOG_PATH = os.path.join(DATA_DIR, 'pdf-catalog.json')
 CHAPTERS_PATH = os.path.join(DATA_DIR, 'chapters-data.json')
 
+import re
+
+def format_size(bytes_sz):
+    if bytes_sz < 1024 * 1024:
+        return f"{bytes_sz / 1024:.0f} KB"
+    return f"{bytes_sz / (1024 * 1024):.1f} MB"
+
+def classify_pdf(filename, full_path, rel_folder):
+    fn_lower = filename.lower()
+    sz = os.path.getsize(full_path)
+    
+    is_starter = bool(re.match(r'^class-?\d+-ch-?\d+\.pdf$', fn_lower)) and sz < 25000
+    if is_starter:
+        return None
+        
+    if any(k in fn_lower for k in ['solution', 'sol', 'ans', 'key', 'marking']):
+        m = re.search(r'test[-_\s]*(\d+)', fn_lower)
+        num = m.group(1) if m else ''
+        title = f"Class Test {num} — Solutions / Answer Key" if num else "Solutions & Answer Key"
+        code = f"TEST-{int(num):02d}-SOL" if num else "SOLUTIONS"
+        order = (int(num) * 10 + 2) if num else 95
+        return {
+            'name': filename,
+            'path': f'assets/pdfs/{rel_folder}/{filename}',
+            'title': title,
+            'code': code,
+            'badge': 'Answer Key',
+            'type': 'solution',
+            'size': format_size(sz),
+            'order': order
+        }
+        
+    if 'test' in fn_lower:
+        m = re.search(r'test[-_\s]*(\d+)', fn_lower)
+        num = m.group(1) if m else ''
+        title = f"Class Test {num}" if num else "Chapter Practice Test"
+        code = f"TEST-{int(num):02d}" if num else "TEST"
+        order = (int(num) * 10 + 1) if num else 50
+        return {
+            'name': filename,
+            'path': f'assets/pdfs/{rel_folder}/{filename}',
+            'title': title,
+            'code': code,
+            'badge': 'Test Paper',
+            'type': 'test',
+            'size': format_size(sz),
+            'order': order
+        }
+        
+    clean_name = re.sub(r'^(class\d+-ch\d+-|ncert-class-\d+-ch-\d+-)', '', fn_lower)
+    clean_name = clean_name.replace('.pdf', '').replace('-', ' ').title()
+    title = f"Chapter Notes: {clean_name}" if clean_name and len(clean_name) > 3 else "Chapter Study Material & Theory"
+    return {
+        'name': filename,
+        'path': f'assets/pdfs/{rel_folder}/{filename}',
+        'title': title,
+        'code': 'CHAPTER NOTES',
+        'badge': 'Study Material',
+        'type': 'material',
+        'size': format_size(sz),
+        'order': 0
+    }
+
 def sync_catalog():
     try:
         catalog = {}
@@ -30,26 +93,34 @@ def sync_catalog():
                 continue
             pdf_files = [f for f in files if f.lower().endswith('.pdf')]
             if pdf_files:
-                # If in a complete book folder, prioritize the complete merged edition
-                if 'complete' in rel_folder:
-                    complete_files = [f for f in pdf_files if 'complete' in f.lower()]
-                    if complete_files:
-                        primary_pdf = complete_files[0]
-                    else:
-                        pdf_files.sort(key=lambda x: os.path.getsize(os.path.join(root, x)), reverse=True)
-                        primary_pdf = pdf_files[0]
-                else:
-                    user_files = [f for f in pdf_files if not f.startswith('ncert-') and not f.startswith('books-') and not f.startswith('class-')]
-                    if user_files:
-                        user_files.sort(key=lambda x: os.path.getsize(os.path.join(root, x)), reverse=True)
-                        primary_pdf = user_files[0]
-                    else:
-                        pdf_files.sort(key=lambda x: os.path.getsize(os.path.join(root, x)), reverse=True)
-                        primary_pdf = pdf_files[0]
+                classified_items = []
+                for f in pdf_files:
+                    full_p = os.path.join(root, f)
+                    item = classify_pdf(f, full_p, rel_folder)
+                    if item:
+                        classified_items.append(item)
 
-                rel_path = f'assets/pdfs/{rel_folder}/{primary_pdf}'
-                catalog[rel_folder] = rel_path
+                if not classified_items:
+                    f0 = sorted(pdf_files)[0]
+                    full_p = os.path.join(root, f0)
+                    classified_items = [{
+                        'name': f0,
+                        'path': f'assets/pdfs/{rel_folder}/{f0}',
+                        'title': 'Chapter Study Material',
+                        'code': 'CHAPTER NOTES',
+                        'badge': 'Study Material',
+                        'type': 'material',
+                        'size': format_size(os.path.getsize(full_p)),
+                        'order': 0
+                    }]
+
+                classified_items.sort(key=lambda x: x['order'])
+                materials = [i for i in classified_items if i['type'] == 'material']
+                primary_item = materials[0] if materials else classified_items[0]
+
+                catalog[rel_folder] = primary_item['path']
                 catalog[f'{rel_folder}__all'] = [f'assets/pdfs/{rel_folder}/{f}' for f in pdf_files]
+                catalog[f'{rel_folder}__items'] = classified_items
 
         os.makedirs(DATA_DIR, exist_ok=True)
         with open(CATALOG_PATH, 'w', encoding='utf-8') as f:
