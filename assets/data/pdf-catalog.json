@@ -1415,31 +1415,53 @@
       "order": 31
     }
   ],
-  "class-10/ch-11": "assets/pdfs/class-10/ch-11/test-1.pdf",
+  "class-10/ch-11": "assets/pdfs/class-10/ch-11/test -1.pdf",
   "class-10/ch-11__all": [
-    "assets/pdfs/class-10/ch-11/test-1-solution.pdf",
-    "assets/pdfs/class-10/ch-11/test-1.pdf"
+    "assets/pdfs/class-10/ch-11/test -1.pdf",
+    "assets/pdfs/class-10/ch-11/test -2.pdf",
+    "assets/pdfs/class-10/ch-11/test -3.pdf",
+    "assets/pdfs/class-10/ch-11/test -4.pdf"
   ],
   "class-10/ch-11__items": [
     {
-      "name": "test-1.pdf",
-      "path": "assets/pdfs/class-10/ch-11/test-1.pdf",
+      "name": "test -1.pdf",
+      "path": "assets/pdfs/class-10/ch-11/test -1.pdf",
       "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
-      "size": "598 KB",
+      "size": "363 KB",
       "order": 11
     },
     {
-      "name": "test-1-solution.pdf",
-      "path": "assets/pdfs/class-10/ch-11/test-1-solution.pdf",
-      "title": "Test 1 \u2014 Solution",
-      "code": "TEST-01-SOL",
-      "badge": "Answer Key",
-      "type": "solution",
-      "size": "2 KB",
-      "order": 12
+      "name": "test -2.pdf",
+      "path": "assets/pdfs/class-10/ch-11/test -2.pdf",
+      "title": "Test 2",
+      "code": "TEST-02",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "361 KB",
+      "order": 21
+    },
+    {
+      "name": "test -3.pdf",
+      "path": "assets/pdfs/class-10/ch-11/test -3.pdf",
+      "title": "Test 3",
+      "code": "TEST-03",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "363 KB",
+      "order": 31
+    },
+    {
+      "name": "test -4.pdf",
+      "path": "assets/pdfs/class-10/ch-11/test -4.pdf",
+      "title": "Test 4",
+      "code": "TEST-04",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "598 KB",
+      "order": 41
     }
   ],
   "class-10/formula": "assets/pdfs/class-10/formula/class10-formula-cheatsheet.pdf",
