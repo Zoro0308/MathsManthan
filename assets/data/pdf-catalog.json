@@ -1377,6 +1377,44 @@
       "order": 21
     }
   ],
+  "class-10/ch-09": "assets/pdfs/class-10/ch-09/test-1.pdf",
+  "class-10/ch-09__all": [
+    "assets/pdfs/class-10/ch-09/test-1.pdf",
+    "assets/pdfs/class-10/ch-09/test-2.pdf",
+    "assets/pdfs/class-10/ch-09/test-3.pdf"
+  ],
+  "class-10/ch-09__items": [
+    {
+      "name": "test-1.pdf",
+      "path": "assets/pdfs/class-10/ch-09/test-1.pdf",
+      "title": "Test 1",
+      "code": "TEST-01",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "360 KB",
+      "order": 11
+    },
+    {
+      "name": "test-2.pdf",
+      "path": "assets/pdfs/class-10/ch-09/test-2.pdf",
+      "title": "Test 2",
+      "code": "TEST-02",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "360 KB",
+      "order": 21
+    },
+    {
+      "name": "test-3.pdf",
+      "path": "assets/pdfs/class-10/ch-09/test-3.pdf",
+      "title": "Test 3",
+      "code": "TEST-03",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "359 KB",
+      "order": 31
+    }
+  ],
   "class-10/ch-11": "assets/pdfs/class-10/ch-11/test-1.pdf",
   "class-10/ch-11__all": [
     "assets/pdfs/class-10/ch-11/test-1-solution.pdf",
