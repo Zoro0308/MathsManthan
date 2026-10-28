@@ -1380,7 +1380,20 @@
   "class-10/ch-07": "assets/pdfs/class-10/ch-07/test-1.pdf",
   "class-10/ch-07__all": [
     "assets/pdfs/class-10/ch-07/test-1.pdf",
-    "assets/pdfs/class-10/ch-07/test-2.pdf"
+    "assets/pdfs/class-10/ch-07/test-10.pdf",
+    "assets/pdfs/class-10/ch-07/test-11.pdf",
+    "assets/pdfs/class-10/ch-07/test-12.pdf",
+    "assets/pdfs/class-10/ch-07/test-13.pdf",
+    "assets/pdfs/class-10/ch-07/test-14.pdf",
+    "assets/pdfs/class-10/ch-07/test-15.pdf",
+    "assets/pdfs/class-10/ch-07/test-2.pdf",
+    "assets/pdfs/class-10/ch-07/test-3.pdf",
+    "assets/pdfs/class-10/ch-07/test-4.pdf",
+    "assets/pdfs/class-10/ch-07/test-5.pdf",
+    "assets/pdfs/class-10/ch-07/test-6.pdf",
+    "assets/pdfs/class-10/ch-07/test-7.pdf",
+    "assets/pdfs/class-10/ch-07/test-8.pdf",
+    "assets/pdfs/class-10/ch-07/test-9.pdf"
   ],
   "class-10/ch-07__items": [
     {
@@ -1402,6 +1415,136 @@
       "type": "test",
       "size": "369 KB",
       "order": 21
+    },
+    {
+      "name": "test-3.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-3.pdf",
+      "title": "Test 3",
+      "code": "TEST-03",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "366 KB",
+      "order": 31
+    },
+    {
+      "name": "test-4.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-4.pdf",
+      "title": "Test 4",
+      "code": "TEST-04",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "362 KB",
+      "order": 41
+    },
+    {
+      "name": "test-5.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-5.pdf",
+      "title": "Test 5",
+      "code": "TEST-05",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "362 KB",
+      "order": 51
+    },
+    {
+      "name": "test-6.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-6.pdf",
+      "title": "Test 6",
+      "code": "TEST-06",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "360 KB",
+      "order": 61
+    },
+    {
+      "name": "test-7.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-7.pdf",
+      "title": "Test 7",
+      "code": "TEST-07",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "361 KB",
+      "order": 71
+    },
+    {
+      "name": "test-8.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-8.pdf",
+      "title": "Test 8",
+      "code": "TEST-08",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "361 KB",
+      "order": 81
+    },
+    {
+      "name": "test-9.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-9.pdf",
+      "title": "Test 9",
+      "code": "TEST-09",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "371 KB",
+      "order": 91
+    },
+    {
+      "name": "test-10.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-10.pdf",
+      "title": "Test 10",
+      "code": "TEST-10",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "363 KB",
+      "order": 101
+    },
+    {
+      "name": "test-11.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-11.pdf",
+      "title": "Test 11",
+      "code": "TEST-11",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "363 KB",
+      "order": 111
+    },
+    {
+      "name": "test-12.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-12.pdf",
+      "title": "Test 12",
+      "code": "TEST-12",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "374 KB",
+      "order": 121
+    },
+    {
+      "name": "test-13.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-13.pdf",
+      "title": "Test 13",
+      "code": "TEST-13",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "363 KB",
+      "order": 131
+    },
+    {
+      "name": "test-14.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-14.pdf",
+      "title": "Test 14",
+      "code": "TEST-14",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "370 KB",
+      "order": 141
+    },
+    {
+      "name": "test-15.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-15.pdf",
+      "title": "Test 15",
+      "code": "TEST-15",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "369 KB",
+      "order": 151
     }
   ],
   "class-10/ch-09": "assets/pdfs/class-10/ch-09/test-1.pdf",
