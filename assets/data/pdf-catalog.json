@@ -1350,6 +1350,33 @@
       "order": 0
     }
   ],
+  "class-10/ch-05": "assets/pdfs/class-10/ch-05/Test-1.pdf",
+  "class-10/ch-05__all": [
+    "assets/pdfs/class-10/ch-05/Test-1.pdf",
+    "assets/pdfs/class-10/ch-05/Test-2.pdf"
+  ],
+  "class-10/ch-05__items": [
+    {
+      "name": "Test-1.pdf",
+      "path": "assets/pdfs/class-10/ch-05/Test-1.pdf",
+      "title": "Test 1",
+      "code": "TEST-01",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "365 KB",
+      "order": 11
+    },
+    {
+      "name": "Test-2.pdf",
+      "path": "assets/pdfs/class-10/ch-05/Test-2.pdf",
+      "title": "Test 2",
+      "code": "TEST-02",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "367 KB",
+      "order": 21
+    }
+  ],
   "class-10/ch-11": "assets/pdfs/class-10/ch-11/test-1.pdf",
   "class-10/ch-11__all": [
     "assets/pdfs/class-10/ch-11/test-1-solution.pdf",
