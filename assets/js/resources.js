@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </button>
         <div class="drilldown-breadcrumbs">
           <a href="index.html">Home</a> &gt; 
-          <span style="color: var(--color-text-muted);">${pageClassTitle}</span> &gt; 
+          <span class="crumb-parent">${pageClassTitle}</span> &gt; 
           <span class="active-crumb">${title}</span>
         </div>
       </div>
@@ -231,18 +231,18 @@ document.addEventListener('DOMContentLoaded', () => {
           `;
         }).join('')}
         ${testCount === 0 ? `
-          <div class="resource-card chapter-paper-card upcoming-card" style="border-style: dashed; opacity: 0.9;">
+          <div class="resource-card chapter-paper-card upcoming-card" style="border-style: dashed;">
             <div>
               <div class="resource-meta">
                 <span class="resource-code">TEST SERIES</span>
-                <span class="resource-badge" style="background: rgba(234, 179, 8, 0.16); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.4);">Coming Soon</span>
+                <span class="resource-badge badge-coming-soon">Coming Soon</span>
               </div>
               <h3 class="resource-title">Classroom Test Papers</h3>
               <p class="resource-desc">Official practice tests and step-by-step answer keys for this chapter will be uploaded soon. Use the study notes above to prepare!</p>
             </div>
             <div class="resource-footer">
               <span class="resource-stats">PREPARING</span>
-              <span style="font-size: 0.82rem; font-weight: 700; color: var(--color-text-muted);">In Development</span>
+              <span class="upcoming-status-text">In Development</span>
             </div>
           </div>
         ` : ''}
@@ -254,8 +254,12 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const filterSection = document.querySelector('.filter-section');
-    if (filterSection) filterSection.style.display = 'none';
-    resourcesGrid.style.display = 'none';
+    if (filterSection) {
+      filterSection.classList.add('drilldown-hidden');
+      filterSection.style.setProperty('display', 'none', 'important');
+    }
+    resourcesGrid.classList.add('drilldown-hidden');
+    resourcesGrid.style.setProperty('display', 'none', 'important');
     drilldownView.style.display = 'block';
 
     applyViewMode(currentViewMode);
@@ -276,8 +280,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterSection = document.querySelector('.filter-section');
 
     if (drilldownView) drilldownView.style.display = 'none';
-    if (resourcesGrid) resourcesGrid.style.display = '';
-    if (filterSection) filterSection.style.display = '';
+    if (resourcesGrid) {
+      resourcesGrid.classList.remove('drilldown-hidden');
+      resourcesGrid.style.removeProperty('display');
+      resourcesGrid.style.display = '';
+    }
+    if (filterSection) {
+      filterSection.classList.remove('drilldown-hidden');
+      filterSection.style.removeProperty('display');
+      filterSection.style.display = '';
+    }
 
     const prevFolder = currentActiveChapterFolder;
     currentActiveChapterFolder = null;
