@@ -1377,6 +1377,33 @@
       "order": 21
     }
   ],
+  "class-10/ch-07": "assets/pdfs/class-10/ch-07/test-1.pdf",
+  "class-10/ch-07__all": [
+    "assets/pdfs/class-10/ch-07/test-1.pdf",
+    "assets/pdfs/class-10/ch-07/test-2.pdf"
+  ],
+  "class-10/ch-07__items": [
+    {
+      "name": "test-1.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-1.pdf",
+      "title": "Test 1",
+      "code": "TEST-01",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "370 KB",
+      "order": 11
+    },
+    {
+      "name": "test-2.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-2.pdf",
+      "title": "Test 2",
+      "code": "TEST-02",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "369 KB",
+      "order": 21
+    }
+  ],
   "class-10/ch-09": "assets/pdfs/class-10/ch-09/test-1.pdf",
   "class-10/ch-09__all": [
     "assets/pdfs/class-10/ch-09/test-1.pdf",
