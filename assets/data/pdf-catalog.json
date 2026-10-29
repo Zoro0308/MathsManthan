@@ -1771,6 +1771,143 @@
       "order": 121
     }
   ],
+  "class-10/ch-14": "assets/pdfs/class-10/ch-14/Test-1.pdf",
+  "class-10/ch-14__all": [
+    "assets/pdfs/class-10/ch-14/Test-1.pdf",
+    "assets/pdfs/class-10/ch-14/Test-10.pdf",
+    "assets/pdfs/class-10/ch-14/Test-11.pdf",
+    "assets/pdfs/class-10/ch-14/Test-12.pdf",
+    "assets/pdfs/class-10/ch-14/Test-2.pdf",
+    "assets/pdfs/class-10/ch-14/Test-3.pdf",
+    "assets/pdfs/class-10/ch-14/Test-4.pdf",
+    "assets/pdfs/class-10/ch-14/Test-5.pdf",
+    "assets/pdfs/class-10/ch-14/Test-6.pdf",
+    "assets/pdfs/class-10/ch-14/Test-7.pdf",
+    "assets/pdfs/class-10/ch-14/Test-8.pdf",
+    "assets/pdfs/class-10/ch-14/Test-9.pdf"
+  ],
+  "class-10/ch-14__items": [
+    {
+      "name": "Test-1.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-1.pdf",
+      "title": "Test 1",
+      "code": "TEST-01",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "280 KB",
+      "order": 11
+    },
+    {
+      "name": "Test-2.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-2.pdf",
+      "title": "Test 2",
+      "code": "TEST-02",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "276 KB",
+      "order": 21
+    },
+    {
+      "name": "Test-3.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-3.pdf",
+      "title": "Test 3",
+      "code": "TEST-03",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "276 KB",
+      "order": 31
+    },
+    {
+      "name": "Test-4.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-4.pdf",
+      "title": "Test 4",
+      "code": "TEST-04",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "277 KB",
+      "order": 41
+    },
+    {
+      "name": "Test-5.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-5.pdf",
+      "title": "Test 5",
+      "code": "TEST-05",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "282 KB",
+      "order": 51
+    },
+    {
+      "name": "Test-6.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-6.pdf",
+      "title": "Test 6",
+      "code": "TEST-06",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "285 KB",
+      "order": 61
+    },
+    {
+      "name": "Test-7.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-7.pdf",
+      "title": "Test 7",
+      "code": "TEST-07",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "307 KB",
+      "order": 71
+    },
+    {
+      "name": "Test-8.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-8.pdf",
+      "title": "Test 8",
+      "code": "TEST-08",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "276 KB",
+      "order": 81
+    },
+    {
+      "name": "Test-9.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-9.pdf",
+      "title": "Test 9",
+      "code": "TEST-09",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "278 KB",
+      "order": 91
+    },
+    {
+      "name": "Test-10.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-10.pdf",
+      "title": "Test 10",
+      "code": "TEST-10",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "285 KB",
+      "order": 101
+    },
+    {
+      "name": "Test-11.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-11.pdf",
+      "title": "Test 11",
+      "code": "TEST-11",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "284 KB",
+      "order": 111
+    },
+    {
+      "name": "Test-12.pdf",
+      "path": "assets/pdfs/class-10/ch-14/Test-12.pdf",
+      "title": "Test 12",
+      "code": "TEST-12",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "286 KB",
+      "order": 121
+    }
+  ],
   "class-10/formula": "assets/pdfs/class-10/formula/class10-formula-cheatsheet.pdf",
   "class-10/formula__all": [
     "assets/pdfs/class-10/formula/class10-formula-cheatsheet.pdf"
