@@ -618,7 +618,266 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  function checkUrlHashForChapterTests() {
+
+  // ==========================================================================
+  // Class 10 Chapter-Wise Formula Handbooks In-Page Hub
+  // ==========================================================================
+  let class10FormulasData = null;
+  let isFormulaHubOpen = false;
+
+  function loadClass10Formulas() {
+    if (class10FormulasData) return Promise.resolve(class10FormulasData);
+    return fetch('assets/data/class10-formulas.json?t=' + Date.now())
+      .then(res => res.json())
+      .then(data => {
+        class10FormulasData = data;
+        return data;
+      })
+      .catch(err => {
+        console.error('Failed to load class10-formulas.json:', err);
+        return [];
+      });
+  }
+
+  function openFormulaHubView(pushHistory = true) {
+    const resourcesGrid = document.getElementById('resourcesGrid');
+    if (!resourcesGrid) return;
+
+    loadClass10Formulas().then(chapters => {
+      if (!chapters || chapters.length === 0) return;
+
+      isFormulaHubOpen = true;
+
+      // Close chapter tests view if open
+      if (typeof closeChapterTestsView === 'function' && currentActiveChapterFolder) {
+        closeChapterTestsView(false);
+      }
+
+      let formulaView = document.getElementById('formulaHubView');
+      if (!formulaView) {
+        formulaView = document.createElement('div');
+        formulaView.id = 'formulaHubView';
+        formulaView.className = 'chapter-tests-view-container formula-drilldown-container';
+        resourcesGrid.parentNode.insertBefore(formulaView, resourcesGrid);
+      }
+
+      const currentViewMode = localStorage.getItem('mm_view_mode') || 'extra-large';
+
+      formulaView.innerHTML = `
+        <div class="chapter-drilldown-header">
+          <button type="button" class="btn-back-chapters" id="btnBackFromFormulas" title="Return to Class 10 Material">
+            <span>&larr;</span> Back to Class 10 Material
+          </button>
+          <div class="drilldown-breadcrumbs">
+            <a href="index.html">Home</a> &gt; 
+            <a href="class-10.html" id="crumbClass10">Class 10</a> &gt; 
+            <span class="active-crumb">Formula Sheets (All 14 Chapters)</span>
+          </div>
+        </div>
+
+        <div class="chapter-drilldown-banner">
+          <div class="resource-meta" style="margin-bottom: 0.5rem;">
+            <span class="resource-code">10TH-FORMULAS</span>
+            <span class="resource-badge badge-formula">Quick Revision Handbooks</span>
+            <span class="resource-badge badge-tests" style="background: rgba(245, 158, 11, 0.2); color: #f59e0b; border-color: rgba(245, 158, 11, 0.4);">
+              [ 14 Chapters Available ]
+            </span>
+          </div>
+          <h2 class="drilldown-title">Complete Class 10 Formula Cheat Sheets</h2>
+          <p class="drilldown-desc">
+            Chapter-wise comprehensive mathematical handbooks covering every definition, theorem, algebraic formula, trigonometric identity, and mensuration relation for board exam revision.
+          </p>
+        </div>
+
+        <div class="drilldown-toolbar-bar">
+          <div class="search-box" style="flex: 1; max-width: 380px;">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="formulaChapterSearch" class="search-input" placeholder="Search chapter (e.g. Real Numbers, Circles, Ch 8)...">
+          </div>
+          <div class="view-mode-selector-wrap">
+            <button type="button" class="view-mode-btn" data-view-mode="extra-large" title="Extra large icons">
+              <span>⬜</span> Extra Large
+            </button>
+            <button type="button" class="view-mode-btn" data-view-mode="large" title="Large icons">
+              <span>🔲</span> Large
+            </button>
+            <button type="button" class="view-mode-btn" data-view-mode="content" title="Content row view">
+              <span>☰</span> Content
+            </button>
+          </div>
+        </div>
+
+        <div class="resources-grid chapter-tests-grid view-${currentViewMode}" id="formulaChaptersGrid">
+          ${chapters.map((ch, idx) => {
+            const safePdf = encodeURI(ch.file);
+            return `
+              <div class="resource-card chapter-paper-card material-card formula-chapter-card" data-title="${ch.title.toLowerCase()}" data-num="${ch.num.toLowerCase()}" data-desc="${ch.desc.toLowerCase()}">
+                <div>
+                  <div class="resource-meta">
+                    <span class="resource-code">CH-${String(idx + 1).padStart(2, '0')}</span>
+                    <span class="resource-badge badge-formula">${ch.num}</span>
+                  </div>
+                  <h3 class="resource-title">${ch.title}</h3>
+                  <p class="resource-desc">${ch.desc}</p>
+                </div>
+                <div class="resource-footer">
+                  <span class="resource-stats">Formula Handbook • PDF</span>
+                  <div class="pdf-toggle-box">
+                    <a href="${safePdf}" target="_blank" rel="noopener noreferrer" class="pdf-toggle-btn btn-view" title="View formula booklet in browser">View PDF</a>
+                    <span class="pdf-toggle-divider"></span>
+                    <a href="${safePdf}" download class="pdf-toggle-btn btn-download" title="Download formula booklet">Download</a>
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+        <div id="noFormulaResults" style="display: none; text-align: center; padding: 3rem 1rem; color: var(--color-text-muted);">
+          <p style="font-size: 1.15rem; font-weight: 600;">No formula handbooks match your query.</p>
+        </div>
+      `;
+
+      // Hide main resources grid & main filter section
+      resourcesGrid.classList.add('drilldown-hidden');
+      resourcesGrid.style.display = 'none';
+
+      const filterSection = document.querySelector('.filter-section');
+      if (filterSection) {
+        filterSection.classList.add('drilldown-hidden');
+        filterSection.style.display = 'none';
+      }
+
+      formulaView.style.display = 'block';
+
+      // Attach back button
+      const btnBack = document.getElementById('btnBackFromFormulas');
+      if (btnBack) {
+        btnBack.onclick = (e) => {
+          e.preventDefault();
+          closeFormulaHubView();
+        };
+      }
+      const crumb10 = document.getElementById('crumbClass10');
+      if (crumb10) {
+        crumb10.onclick = (e) => {
+          e.preventDefault();
+          closeFormulaHubView();
+        };
+      }
+
+      // Live search filter inside formula hub
+      const formulaSearchInput = document.getElementById('formulaChapterSearch');
+      if (formulaSearchInput) {
+        formulaSearchInput.addEventListener('input', (e) => {
+          const q = e.target.value.toLowerCase().trim();
+          const cards = formulaView.querySelectorAll('.formula-chapter-card');
+          let visible = 0;
+          cards.forEach(card => {
+            const title = card.getAttribute('data-title') || '';
+            const num = card.getAttribute('data-num') || '';
+            const desc = card.getAttribute('data-desc') || '';
+            if (!q || title.includes(q) || num.includes(q) || desc.includes(q)) {
+              card.classList.remove('is-hidden');
+              card.style.display = '';
+              visible++;
+            } else {
+              card.classList.add('is-hidden');
+              card.style.display = 'none';
+            }
+          });
+          const noRes = document.getElementById('noFormulaResults');
+          if (noRes) noRes.style.display = visible === 0 ? 'block' : 'none';
+        });
+      }
+
+      // View mode buttons inside formula hub
+      formulaView.querySelectorAll('.view-mode-btn').forEach(btn => {
+        const mode = btn.getAttribute('data-view-mode');
+        if (mode === currentViewMode) btn.classList.add('active');
+        btn.onclick = () => {
+          if (typeof applyViewMode === 'function') {
+            applyViewMode(mode);
+          } else {
+            const grid = document.getElementById('formulaChaptersGrid');
+            if (grid) {
+              grid.classList.remove('view-extra-large', 'view-large', 'view-content');
+              grid.classList.add('view-' + mode);
+            }
+          }
+        };
+      });
+
+      if (pushHistory) {
+        try {
+          history.pushState({ view: 'formulas' }, '', '#formulas');
+        } catch (e) {}
+      }
+
+      formulaView.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
+  function closeFormulaHubView(pushHistory = true) {
+    const formulaView = document.getElementById('formulaHubView');
+    const resourcesGrid = document.getElementById('resourcesGrid');
+    const filterSection = document.querySelector('.filter-section');
+
+    if (formulaView) formulaView.style.display = 'none';
+    if (resourcesGrid) {
+      resourcesGrid.classList.remove('drilldown-hidden');
+      resourcesGrid.style.removeProperty('display');
+      resourcesGrid.style.display = '';
+    }
+    if (filterSection) {
+      filterSection.classList.remove('drilldown-hidden');
+      filterSection.style.removeProperty('display');
+      filterSection.style.display = '';
+    }
+
+    isFormulaHubOpen = false;
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'overview' }, '', window.location.pathname);
+      } catch (e) {}
+    }
+
+    const formulaCard = document.getElementById('class10FormulaCard');
+    if (formulaCard) {
+      formulaCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  // Handle formula card clicks
+  document.addEventListener('click', (e) => {
+    const trigger = e.target.closest('#btnOpenFormulaHub, .btn-open-formula-hub');
+    if (trigger) {
+      e.preventDefault();
+      e.stopPropagation();
+      openFormulaHubView();
+      return;
+    }
+
+    const card = e.target.closest('#class10FormulaCard, .has-formula-drilldown');
+    if (card && !e.target.closest('a, button')) {
+      e.preventDefault();
+      openFormulaHubView();
+    }
+  });
+
+  // Check URL hash for #formulas
+  function checkUrlHashForFormulas() {
+    const hash = window.location.hash.replace('#', '').trim();
+    if (hash === 'formulas') {
+      openFormulaHubView(false);
+    } else if (isFormulaHubOpen && hash !== 'formulas') {
+      closeFormulaHubView(false);
+    }
+  }
+
+  window.addEventListener('hashchange', checkUrlHashForFormulas);
+
+    function checkUrlHashForChapterTests() {
 
     const hash = window.location.hash.replace('#', '').trim();
 
@@ -703,6 +962,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     checkUrlHashForChapterTests();
+    checkUrlHashForFormulas();
 
   }
 

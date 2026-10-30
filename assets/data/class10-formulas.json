@@ -1,0 +1,100 @@
+[
+  {
+    "ch": "ch-01",
+    "num": "Chapter 1",
+    "title": "Real Numbers",
+    "desc": "Fundamental Theorem of Arithmetic, Euclid division lemmas, HCF & LCM identities, prime factorisation rules, and irrationality proofs (\u221a2, \u221a3, \u221a5).",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch01-real-numbers.pdf"
+  },
+  {
+    "ch": "ch-02",
+    "num": "Chapter 2",
+    "title": "Polynomials",
+    "desc": "Standard quadratic polynomial ax\u00b2 + bx + c, relations between zeroes and coefficients (\u03b1 + \u03b2 = -b/a, \u03b1\u03b2 = c/a), cubic relations, and graphs.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch02-polynomials.pdf"
+  },
+  {
+    "ch": "ch-03",
+    "num": "Chapter 3",
+    "title": "Pair of Linear Equations in Two Variables",
+    "desc": "Consistency criteria (a1/a2 vs b1/b2 vs c1/c2), graphical representation rules, substitution, elimination, and reducible linear equations.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch03-pair-of-linear-equations.pdf"
+  },
+  {
+    "ch": "ch-04",
+    "num": "Chapter 4",
+    "title": "Quadratic Equations",
+    "desc": "Quadratic formula x = (-b \u00b1 \u221aD) / 2a, discriminant D = b\u00b2 - 4ac, nature of roots conditions, and factorization shortcut methods.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch04-quadratic-equations.pdf"
+  },
+  {
+    "ch": "ch-05",
+    "num": "Chapter 5",
+    "title": "Arithmetic Progressions",
+    "desc": "General term an = a + (n-1)d, sum of n terms Sn = n/2[2a + (n-1)d] = n/2(a + l), selection of terms, and arithmetic mean.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch05-arithmetic-progressions.pdf"
+  },
+  {
+    "ch": "ch-06",
+    "num": "Chapter 6",
+    "title": "Triangles",
+    "desc": "Basic Proportionality Theorem (Thales), converse of BPT, criteria for similarity of triangles (AAA, SSS, SAS), and ratio of areas.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch06-triangles.pdf"
+  },
+  {
+    "ch": "ch-07",
+    "num": "Chapter 7",
+    "title": "Coordinate Geometry",
+    "desc": "Distance formula d = \u221a[(x2-x1)\u00b2 + (y2-y1)\u00b2], section formula (internal division), midpoint coordinates, and centroid of a triangle.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch07-coordinate-geometry.pdf"
+  },
+  {
+    "ch": "ch-08",
+    "num": "Chapter 8",
+    "title": "Introduction to Trigonometry",
+    "desc": "Trigonometric ratios (sin, cos, tan, cot, sec, cosec), specific angle table (0\u00b0, 30\u00b0, 45\u00b0, 60\u00b0, 90\u00b0), and fundamental Pythagorean identities.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch08-introduction-to-trigonometry.pdf"
+  },
+  {
+    "ch": "ch-09",
+    "num": "Chapter 9",
+    "title": "Some Applications of Trigonometry",
+    "desc": "Line of sight, angle of elevation, angle of depression, standard two-triangle height and distance cases, and speed-distance applications.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch09-applications-of-trigonometry.pdf"
+  },
+  {
+    "ch": "ch-10",
+    "num": "Chapter 10",
+    "title": "Circles",
+    "desc": "Tangent to a circle properties, radius is perpendicular to tangent at point of contact, and lengths of tangents from an external point are equal.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch10-circles.pdf"
+  },
+  {
+    "ch": "ch-11",
+    "num": "Chapter 11",
+    "title": "Areas Related to Circles",
+    "desc": "Circumference 2\u03c0r, area \u03c0r\u00b2, length of arc (\u03b8/360)\u00d72\u03c0r, area of sector (\u03b8/360)\u00d7\u03c0r\u00b2, area of major/minor segments, and combination figures.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch11-areas-related-to-circles.pdf"
+  },
+  {
+    "ch": "ch-12",
+    "num": "Chapter 12",
+    "title": "Surface Areas and Volumes",
+    "desc": "Formulas for cube, cuboid, right circular cylinder, cone, sphere, hemisphere (CSA, TSA, Volume), and combination solids.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch12-surface-areas-and-volumes.pdf"
+  },
+  {
+    "ch": "ch-13",
+    "num": "Chapter 13",
+    "title": "Statistics",
+    "desc": "Mean for grouped data (Direct, Assumed Mean methods), Mode formula, Median formula, modal class, median class, and 3Median = Mode + 2Mean.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch13-statistics.pdf"
+  },
+  {
+    "ch": "ch-14",
+    "num": "Chapter 14",
+    "title": "Probability",
+    "desc": "Theoretical probability P(E) = n(E)/n(S), 0 \u2264 P(E) \u2264 1, complementary event P(E') = 1 - P(E), coin tosses, pairs of dice, and pack of 52 cards.",
+    "file": "assets/pdfs/class-10/formula/class10-formula-ch14-probability.pdf"
+  }
+]

@@ -1286,11 +1286,25 @@
       "order": 0
     }
   ],
-  "books/complete/exemplar-class-11": "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
+  "books/complete/exemplar-class-11": "assets/pdfs/books/complete/exemplar-class-11/CH-5_Arithmetic_Progressions_Handbook.pdf",
   "books/complete/exemplar-class-11__all": [
-    "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf"
+    "assets/pdfs/books/complete/exemplar-class-11/CH-5_Arithmetic_Progressions_Handbook.pdf",
+    "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
+    "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Introduction_to_Trigonometry_Handbook.pdf",
+    "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Real_Numbers_Handbook.pdf",
+    "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Some_Applications_of_Trigonometry_Handbook.pdf"
   ],
   "books/complete/exemplar-class-11__items": [
+    {
+      "name": "CH-5_Arithmetic_Progressions_Handbook.pdf",
+      "path": "assets/pdfs/books/complete/exemplar-class-11/CH-5_Arithmetic_Progressions_Handbook.pdf",
+      "title": "Chapter Notes: Ch 5_Arithmetic_Progressions_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "762 KB",
+      "order": 0
+    },
     {
       "name": "exemplar-class-11-complete.pdf",
       "path": "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
@@ -1299,6 +1313,36 @@
       "badge": "Study Material",
       "type": "material",
       "size": "2.9 MB",
+      "order": 0
+    },
+    {
+      "name": "MathsManthan_Class10_Introduction_to_Trigonometry_Handbook.pdf",
+      "path": "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Introduction_to_Trigonometry_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Introduction_To_Trigonometry_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "749 KB",
+      "order": 0
+    },
+    {
+      "name": "MathsManthan_Class10_Real_Numbers_Handbook.pdf",
+      "path": "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Real_Numbers_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Real_Numbers_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "862 KB",
+      "order": 0
+    },
+    {
+      "name": "MathsManthan_Class10_Some_Applications_of_Trigonometry_Handbook.pdf",
+      "path": "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Some_Applications_of_Trigonometry_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Some_Applications_Of_Trigonometry_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "792 KB",
       "order": 0
     }
   ],
@@ -1350,6 +1394,54 @@
       "order": 0
     }
   ],
+  "class-10/ch-02": "assets/pdfs/class-10/ch-02/MathsManthan_Class10_Polynomials_Handbook.pdf",
+  "class-10/ch-02__all": [
+    "assets/pdfs/class-10/ch-02/MathsManthan_Class10_Polynomials_Handbook.pdf"
+  ],
+  "class-10/ch-02__items": [
+    {
+      "name": "MathsManthan_Class10_Polynomials_Handbook.pdf",
+      "path": "assets/pdfs/class-10/ch-02/MathsManthan_Class10_Polynomials_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Polynomials_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "812 KB",
+      "order": 0
+    }
+  ],
+  "class-10/ch-03": "assets/pdfs/class-10/ch-03/MathsManthan_Class10_Linear_Equations_Handbook.pdf",
+  "class-10/ch-03__all": [
+    "assets/pdfs/class-10/ch-03/MathsManthan_Class10_Linear_Equations_Handbook.pdf"
+  ],
+  "class-10/ch-03__items": [
+    {
+      "name": "MathsManthan_Class10_Linear_Equations_Handbook.pdf",
+      "path": "assets/pdfs/class-10/ch-03/MathsManthan_Class10_Linear_Equations_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Linear_Equations_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "801 KB",
+      "order": 0
+    }
+  ],
+  "class-10/ch-04": "assets/pdfs/class-10/ch-04/MathsManthan_Class10_Quadratic_Equations_Handbook.pdf",
+  "class-10/ch-04__all": [
+    "assets/pdfs/class-10/ch-04/MathsManthan_Class10_Quadratic_Equations_Handbook.pdf"
+  ],
+  "class-10/ch-04__items": [
+    {
+      "name": "MathsManthan_Class10_Quadratic_Equations_Handbook.pdf",
+      "path": "assets/pdfs/class-10/ch-04/MathsManthan_Class10_Quadratic_Equations_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Quadratic_Equations_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "822 KB",
+      "order": 0
+    }
+  ],
   "class-10/ch-05": "assets/pdfs/class-10/ch-05/Test-1.pdf",
   "class-10/ch-05__all": [
     "assets/pdfs/class-10/ch-05/Test-1.pdf",
@@ -1377,8 +1469,25 @@
       "order": 21
     }
   ],
-  "class-10/ch-07": "assets/pdfs/class-10/ch-07/test-1.pdf",
+  "class-10/ch-06": "assets/pdfs/class-10/ch-06/MathsManthan_Class10_Triangles_Handbook.pdf",
+  "class-10/ch-06__all": [
+    "assets/pdfs/class-10/ch-06/MathsManthan_Class10_Triangles_Handbook.pdf"
+  ],
+  "class-10/ch-06__items": [
+    {
+      "name": "MathsManthan_Class10_Triangles_Handbook.pdf",
+      "path": "assets/pdfs/class-10/ch-06/MathsManthan_Class10_Triangles_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Triangles_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "777 KB",
+      "order": 0
+    }
+  ],
+  "class-10/ch-07": "assets/pdfs/class-10/ch-07/MathsManthan_Class10_Coordinate_Geometry_Handbook.pdf",
   "class-10/ch-07__all": [
+    "assets/pdfs/class-10/ch-07/MathsManthan_Class10_Coordinate_Geometry_Handbook.pdf",
     "assets/pdfs/class-10/ch-07/test-1.pdf",
     "assets/pdfs/class-10/ch-07/test-10.pdf",
     "assets/pdfs/class-10/ch-07/test-11.pdf",
@@ -1396,6 +1505,16 @@
     "assets/pdfs/class-10/ch-07/test-9.pdf"
   ],
   "class-10/ch-07__items": [
+    {
+      "name": "MathsManthan_Class10_Coordinate_Geometry_Handbook.pdf",
+      "path": "assets/pdfs/class-10/ch-07/MathsManthan_Class10_Coordinate_Geometry_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Coordinate_Geometry_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "792 KB",
+      "order": 0
+    },
     {
       "name": "test-1.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-1.pdf",
@@ -1585,14 +1704,41 @@
       "order": 31
     }
   ],
-  "class-10/ch-11": "assets/pdfs/class-10/ch-11/test -1.pdf",
+  "class-10/ch-10": "assets/pdfs/class-10/ch-10/MathsManthan_Class10_Circles_Handbook.pdf",
+  "class-10/ch-10__all": [
+    "assets/pdfs/class-10/ch-10/MathsManthan_Class10_Circles_Handbook.pdf"
+  ],
+  "class-10/ch-10__items": [
+    {
+      "name": "MathsManthan_Class10_Circles_Handbook.pdf",
+      "path": "assets/pdfs/class-10/ch-10/MathsManthan_Class10_Circles_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Circles_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "769 KB",
+      "order": 0
+    }
+  ],
+  "class-10/ch-11": "assets/pdfs/class-10/ch-11/MathsManthan_Class10_Areas_Related_to_Circles_Handbook.pdf",
   "class-10/ch-11__all": [
+    "assets/pdfs/class-10/ch-11/MathsManthan_Class10_Areas_Related_to_Circles_Handbook.pdf",
     "assets/pdfs/class-10/ch-11/test -1.pdf",
     "assets/pdfs/class-10/ch-11/test -2.pdf",
     "assets/pdfs/class-10/ch-11/test -3.pdf",
     "assets/pdfs/class-10/ch-11/test -4.pdf"
   ],
   "class-10/ch-11__items": [
+    {
+      "name": "MathsManthan_Class10_Areas_Related_to_Circles_Handbook.pdf",
+      "path": "assets/pdfs/class-10/ch-11/MathsManthan_Class10_Areas_Related_to_Circles_Handbook.pdf",
+      "title": "Chapter Notes: Mathsmanthan_Class10_Areas_Related_To_Circles_Handbook",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "819 KB",
+      "order": 0
+    },
     {
       "name": "test -1.pdf",
       "path": "assets/pdfs/class-10/ch-11/test -1.pdf",
@@ -1908,11 +2054,165 @@
       "order": 121
     }
   ],
-  "class-10/formula": "assets/pdfs/class-10/formula/class10-formula-cheatsheet.pdf",
+  "class-10/formula": "assets/pdfs/class-10/formula/class10-formula-ch01-real-numbers.pdf",
   "class-10/formula__all": [
+    "assets/pdfs/class-10/formula/class10-formula-ch01-real-numbers.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch02-polynomials.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch03-pair-of-linear-equations.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch04-quadratic-equations.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch05-arithmetic-progressions.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch06-triangles.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch07-coordinate-geometry.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch08-introduction-to-trigonometry.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch09-applications-of-trigonometry.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch10-circles.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch11-areas-related-to-circles.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch12-surface-areas-and-volumes.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch13-statistics.pdf",
+    "assets/pdfs/class-10/formula/class10-formula-ch14-probability.pdf",
     "assets/pdfs/class-10/formula/class10-formula-cheatsheet.pdf"
   ],
   "class-10/formula__items": [
+    {
+      "name": "class10-formula-ch01-real-numbers.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch01-real-numbers.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch01 Real Numbers",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "836 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch02-polynomials.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch02-polynomials.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch02 Polynomials",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "799 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch03-pair-of-linear-equations.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch03-pair-of-linear-equations.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch03 Pair Of Linear Equations",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "789 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch04-quadratic-equations.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch04-quadratic-equations.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch04 Quadratic Equations",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "788 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch05-arithmetic-progressions.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch05-arithmetic-progressions.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch05 Arithmetic Progressions",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "789 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch06-triangles.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch06-triangles.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch06 Triangles",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "747 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch07-coordinate-geometry.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch07-coordinate-geometry.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch07 Coordinate Geometry",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "778 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch08-introduction-to-trigonometry.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch08-introduction-to-trigonometry.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch08 Introduction To Trigonometry",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "738 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch09-applications-of-trigonometry.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch09-applications-of-trigonometry.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch09 Applications Of Trigonometry",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "793 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch10-circles.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch10-circles.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch10 Circles",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "743 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch11-areas-related-to-circles.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch11-areas-related-to-circles.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch11 Areas Related To Circles",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "738 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch12-surface-areas-and-volumes.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch12-surface-areas-and-volumes.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch12 Surface Areas And Volumes",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "803 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch13-statistics.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch13-statistics.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch13 Statistics",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "788 KB",
+      "order": 0
+    },
+    {
+      "name": "class10-formula-ch14-probability.pdf",
+      "path": "assets/pdfs/class-10/formula/class10-formula-ch14-probability.pdf",
+      "title": "Chapter Notes: Class10 Formula Ch14 Probability",
+      "code": "CHAPTER NOTES",
+      "badge": "Study Material",
+      "type": "material",
+      "size": "639 KB",
+      "order": 0
+    },
     {
       "name": "class10-formula-cheatsheet.pdf",
       "path": "assets/pdfs/class-10/formula/class10-formula-cheatsheet.pdf",
