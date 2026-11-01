@@ -153,6 +153,42 @@
     }
     .pdf-toggle-divider { display: none !important; }
   </style>
+
+  <!-- Structured Data (Breadcrumbs & Course) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mathsmanthan.co.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Class 11 Mathematics",
+          "item": "https://mathsmanthan.co.in/class-11.html"
+        }
+      ]
+    },
+    {
+      "@type": "Course",
+      "name": "CBSE Class 11 Mathematics & JEE Foundation",
+      "description": "In-depth calculus modules, coordinate geometry, trigonometry, and JEE foundation sets for Class 11.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Maths Manthan | Tuition Classes",
+        "url": "https://mathsmanthan.co.in/"
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body class="matrix-theme">
 
@@ -583,7 +619,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <div>&copy; 2026 Maths Manthan. All Rights Reserved.</div>
+        <div>&copy; 2026 Maths Manthan. All Rights Reserved. &bull; <a href="privacy.html" style="color: inherit; text-decoration: underline;">Privacy Policy</a> &bull; <a href="disclaimer.html" style="color: inherit; text-decoration: underline;">Disclaimer</a></div>
+        <!-- . All Rights Reserved.</div>
         <div>D121 European Estate, Kankerkhera, Meerut</div>
       </div>
     </div>

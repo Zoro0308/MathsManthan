@@ -151,6 +151,42 @@
     }
     .pdf-toggle-divider { display: none !important; }
   </style>
+
+  <!-- Structured Data (Breadcrumbs & Course) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mathsmanthan.co.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Class 10 CBSE Mathematics",
+          "item": "https://mathsmanthan.co.in/class-10.html"
+        }
+      ]
+    },
+    {
+      "@type": "Course",
+      "name": "CBSE Class 10 Board Mathematics & Formula Handbooks",
+      "description": "Class 10 Board exam preparation with 14 chapter-wise formula handbooks, solved previous year papers, and standard/basic test series.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Maths Manthan | Tuition Classes",
+        "url": "https://mathsmanthan.co.in/"
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body class="matrix-theme">
 
@@ -612,7 +648,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <div>&copy; 2026 Maths Manthan. All Rights Reserved.</div>
+        <div>&copy; 2026 Maths Manthan. All Rights Reserved. &bull; <a href="privacy.html" style="color: inherit; text-decoration: underline;">Privacy Policy</a> &bull; <a href="disclaimer.html" style="color: inherit; text-decoration: underline;">Disclaimer</a></div>
+        <!-- . All Rights Reserved.</div>
         <div>D121 European Estate, Kankerkhera, Meerut</div>
       </div>
     </div>

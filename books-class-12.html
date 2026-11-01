@@ -134,6 +134,38 @@
     }
     .pdf-toggle-divider { display: none !important; }
   </style>
+
+  <!-- Structured Data (Breadcrumbs & Course) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mathsmanthan.co.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Free Books",
+          "item": "https://mathsmanthan.co.in/free-books.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Class 12 Books",
+          "item": "https://mathsmanthan.co.in/books-class-12.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
 </head>
 <body class="page-resources">
 
@@ -551,7 +583,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <div>&copy; 2026 Maths Manthan. All Rights Reserved.</div>
+        <div>&copy; 2026 Maths Manthan. All Rights Reserved. &bull; <a href="privacy.html" style="color: inherit; text-decoration: underline;">Privacy Policy</a> &bull; <a href="disclaimer.html" style="color: inherit; text-decoration: underline;">Disclaimer</a></div>
+        <!-- . All Rights Reserved.</div>
         <div>D121 European Estate, Kankerkhera, Meerut</div>
       </div>
     </div>

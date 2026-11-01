@@ -186,6 +186,38 @@
       color: #38bdf8;
     }
   </style>
+
+  <!-- Structured Data (Breadcrumbs & Course) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mathsmanthan.co.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Class 10",
+          "item": "https://mathsmanthan.co.in/class-10.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "CBSE 10th PYQs",
+          "item": "https://mathsmanthan.co.in/cbse-10th-pyqs.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
 </head>
 <body class="matrix-theme">
 
@@ -328,7 +360,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <div>&copy; 2026 Maths Manthan | Tuition Classes. All Rights Reserved.</div>
+        <div>&copy; 2026 Maths Manthan. All Rights Reserved. &bull; <a href="privacy.html" style="color: inherit; text-decoration: underline;">Privacy Policy</a> &bull; <a href="disclaimer.html" style="color: inherit; text-decoration: underline;">Disclaimer</a></div>
+        <!--  | Tuition Classes. All Rights Reserved.</div>
         <div>CBSE Class 10 Previous Year Question Papers Repository</div>
       </div>
     </div>
