@@ -42,27 +42,38 @@
   </script>
 </head>
 <body class="matrix-theme">
-  <!-- Top Navigation Bar -->
+  <!-- Navigation Bar -->
   <header class="site-header">
-    <div class="container header-container">
-      <a href="index.html" class="logo">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link">
         <img src="assets/images/logo.png" alt="Maths Manthan Logo" class="brand-logo-img">
-        <div class="logo-text-group">
-          <span class="logo-title">Maths Manthan</span>
-          <span class="logo-sub">Tuition Classes</span>
+        <div class="brand-text">
+          <span class="brand-title">MATHS MANTHAN</span>
+          <span class="brand-subtitle">Tuition Classes</span>
         </div>
       </a>
-      <nav class="main-nav">
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="class-8.html">Class 8</a></li>
-          <li><a href="class-9.html">Class 9</a></li>
-          <li><a href="class-10.html">Class 10</a></li>
-          <li><a href="class-11.html">Class 11</a></li>
-          <li><a href="class-12.html">Class 12</a></li>
-          <li><a href="free-books.html">Free Books</a></li>
-        </ul>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#batches" class="nav-link">Batches</a>
+        <a href="class-8.html" class="nav-link">Class 8</a>
+        <a href="class-9.html" class="nav-link">Class 9</a>
+        <a href="class-10.html" class="nav-link">Class 10</a>
+        <a href="class-11.html" class="nav-link">Class 11</a>
+        <a href="class-12.html" class="nav-link">Class 12</a>
+        <a href="free-books.html" class="nav-link">Free Books</a>
+        <a href="index.html#location" class="nav-link">Location</a>
       </nav>
+
+      <div class="nav-actions">
+        <a href="index.html#inquiry" class="btn btn-gold">ENROLL</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Mode">
+          <span class="theme-icon">☀️</span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -144,5 +155,8 @@
       </div>
     </div>
   </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
