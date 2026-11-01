@@ -1,0 +1,127 @@
+/**
+ * Maths Manthan | Design System Tokens & Variables
+ * Dynamic Dual-Theme Architecture (Dark & Light)
+ */
+
+:root {
+  /* Core Brand Primary Accents */
+  --color-gold: #D89617;
+  --color-gold-hover: #BF8210;
+  --color-gold-light: #F9EED9;
+  --color-gold-glow: rgba(216, 150, 23, 0.25);
+
+  --color-primary-navy: #0A1D37;
+  --color-navy-dark: #061224;
+  --color-navy-light: #162E52;
+  --color-navy-surface: #0E2545;
+
+  /* Typography */
+  --font-serif: 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-accent: 'Caveat', cursive;
+
+  /* Headline Font Size */
+  --hero-title-size: clamp(2.8rem, 5.5vw, 4.4rem);
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.35);
+  --shadow-gold: 0 8px 20px rgba(216, 150, 23, 0.35);
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Layout & Transitions */
+  --max-width: 1200px;
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   DARK THEME (Default)
+   ========================================================================== */
+:root,
+[data-theme="dark"] {
+  --color-bg-base: #060b13;
+  --color-bg-surface: #091220;
+  --color-bg-card: #0d1a2d;
+  --color-bg-card-hover: #12233c;
+  --color-bg-input: #070e1a;
+
+  --color-text-main: #F1F5F9;
+  --color-text-muted: #94A3B8;
+  --color-text-subtle: #64748B;
+  --color-text-heading: #FFFFFF;
+
+  --color-border-subtle: rgba(255, 255, 255, 0.09);
+  --color-border-card: rgba(255, 255, 255, 0.12);
+  --color-border-accent: rgba(216, 150, 23, 0.35);
+
+  --header-bg: rgba(6, 11, 19, 0.88);
+  --header-border: rgba(255, 255, 255, 0.08);
+
+  --card-glass-bg: rgba(10, 20, 36, 0.78);
+  --card-glass-border: rgba(56, 189, 248, 0.18);
+  --card-glass-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+
+  --btn-outline-color: #F8FAFC;
+  --btn-outline-border: rgba(255, 255, 255, 0.28);
+  --btn-outline-bg: rgba(255, 255, 255, 0.06);
+  --btn-outline-hover-bg: #FFFFFF;
+  --btn-outline-hover-color: #0A1D37;
+  --btn-outline-hover-border: #FFFFFF;
+
+  --btn-navy-bg: linear-gradient(135deg, #1d4ed8, #2563eb);
+  --btn-navy-color: #FFFFFF;
+  --btn-navy-border: rgba(147, 197, 253, 0.35);
+  --btn-navy-hover-bg: linear-gradient(135deg, #2563eb, #3b82f6);
+  --btn-navy-hover-border: rgba(191, 219, 254, 0.6);
+
+  --watermark-opacity: 0.02;
+}
+
+/* ==========================================================================
+   LIGHT THEME
+   ========================================================================== */
+[data-theme="light"] {
+  --color-bg-base: #FDFBF7;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-card: #FFFFFF;
+  --color-bg-card-hover: #FFFFFF;
+  --color-bg-input: #FAFAFA;
+
+  --color-text-main: #1D2939;
+  --color-text-muted: #536479;
+  --color-text-subtle: #8595A6;
+  --color-text-heading: #0A1D37;
+
+  --color-border-subtle: #E7E3D8;
+  --color-border-card: #E7E3D8;
+  --color-border-accent: rgba(216, 150, 23, 0.3);
+
+  --header-bg: rgba(253, 251, 247, 0.94);
+  --header-border: #E7E3D8;
+
+  --card-glass-bg: #FFFFFF;
+  --card-glass-border: #E7E3D8;
+  --card-glass-shadow: 0 8px 24px rgba(10, 29, 55, 0.06);
+
+  --btn-outline-color: #0A1D37;
+  --btn-outline-border: #0A1D37;
+  --btn-outline-bg: transparent;
+  --btn-outline-hover-bg: #0A1D37;
+  --btn-outline-hover-color: #FFFFFF;
+  --btn-outline-hover-border: #0A1D37;
+
+  --btn-navy-bg: #0A1D37;
+  --btn-navy-color: #FFFFFF;
+  --btn-navy-border: transparent;
+  --btn-navy-hover-bg: #162E52;
+  --btn-navy-hover-border: transparent;
+
+  --watermark-opacity: 0.035;
+}

@@ -37,13 +37,13 @@
       }
     },
     solar: {
-      bg: "#0b0805",
-      bgGlow: "rgba(146, 64, 14, 0.28)",
-      shadow: "#f59e0b",
+      bg: "#040D1A",
+      bgGlow: "rgba(0, 30, 74, 0.45)",
+      shadow: "#DA9B18",
       getColor: (z, alpha) => {
-        if (z < 0.4) return `rgba(74, 38, 14, ${alpha * 0.45})`;
-        if (z < 0.75) return `rgba(245, 158, 11, ${alpha * 0.75})`;
-        return `rgba(254, 243, 199, ${alpha})`;
+        if (z < 0.4) return `rgba(209, 144, 41, ${alpha * 0.45})`;
+        if (z < 0.75) return `rgba(218, 155, 24, ${alpha * 0.75})`;
+        return `rgba(253, 244, 227, ${alpha})`;
       }
     },
     emerald: {
@@ -277,7 +277,7 @@ function getTextOcclusionFactor(px, py) {
       glowGrad.addColorStop(0, theme.bgGlow);
       glowGrad.addColorStop(1, "rgba(0, 0, 0, 0)");
     } else {
-      glowGrad.addColorStop(0, "rgba(216, 150, 23, 0.08)");
+      glowGrad.addColorStop(0, "rgba(218, 155, 24, 0.08)");
       glowGrad.addColorStop(0.6, "rgba(10, 29, 55, 0.03)");
       glowGrad.addColorStop(1, "rgba(253, 251, 247, 0)");
     }
@@ -414,11 +414,11 @@ function getTextOcclusionFactor(px, py) {
       } else {
         // Light Mode: Refined Oxford Navy & Slate numbers on parchment (delicate watermark style)
         if (p.z < 0.7) {
-          ctx.fillStyle = `rgba(10, 29, 55, ${alpha * 0.16})`;
+          ctx.fillStyle = `rgba(0, 30, 74, ${alpha * 0.16})`;
         } else if (p.z < 0.80) {
-          ctx.fillStyle = `rgba(14, 45, 80, ${alpha * 0.32})`;
+          ctx.fillStyle = `rgba(0, 30, 74, ${alpha * 0.32})`;
         } else {
-          ctx.fillStyle = `rgba(10, 29, 55, ${alpha * 0.48})`;
+          ctx.fillStyle = `rgba(0, 30, 74, ${alpha * 0.48})`;
         }
       }
 

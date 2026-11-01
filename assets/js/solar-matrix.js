@@ -37,21 +37,21 @@
     morphAmplitude: 0.20,  // Morph Depth (Shape Shift): 0.20
     morphSpeed: 0.0001,    // Breathing rate between circle & triangle
     rotationSpeed: 0.0001, // Baseline spin speed
-    numRings: 52,          // Concentric tunnel density
-    pointsPerRing: 64,     // Dots per ring
+    numRings: 55,          // Concentric tunnel density
+    pointsPerRing: 70,     // Dots per ring
     baseDotSize: 1.9,      // Outer dot radius
 
     // Solar Mood Palette (Dark Mode)
-    coreGlowDark: "rgba(245, 158, 11, 0.32)", // Warm solar amber core
-    midGlowDark: "rgba(180, 83, 9, 0.12)",
-    dotHueDark: 38,                           // Solar gold/amber hue
+    coreGlowDark: "rgba(218, 155, 24, 0.35)", // Warm solar amber core
+    midGlowDark: "rgba(209, 144, 41, 0.15)",
+    dotHueDark: 40,                           // Solar gold/amber hue
 
     // Solar Mood Palette (Light Mode: Oxford Dark Navy Blue Core)
-    coreGlowLight: "rgba(11, 37, 69, 0.42)",  // Majestic Dark Navy Blue core
-    midGlowLight: "rgba(15, 52, 96, 0.18)",   // Navy mid-glow aura
-    dotColorLight: "rgba(11, 37, 69, ",       // Base solid navy prefix
+    coreGlowLight: "rgba(0, 30, 74, 0.42)",  // Majestic Dark Navy Blue core
+    midGlowLight: "rgba(10, 45, 108, 0.18)",   // Navy mid-glow aura
+    dotColorLight: "rgba(0, 30, 74, ",       // Base solid navy prefix
     dotHueLightCore: 215,                     // Oxford Navy hue for core
-    dotHueLightRim: 38,                       // Solar gold hue for outer rim
+    dotHueLightRim: 40,                       // Solar gold hue for outer rim
 
     // Interactive Warp Field
     warpRadius: 130,       // Distance of mouse influence in pixels
@@ -328,14 +328,14 @@
     const coreAlphaMul = isHybrid ? (1 - heroScrollProgress * 0.25) : 1;
 
     if (isDark) {
-      glow.addColorStop(0, `rgba(245, 158, 11, ${0.32 * coreAlphaMul})`);
-      glow.addColorStop(0.5, `rgba(180, 83, 9, ${0.12 * coreAlphaMul})`);
+      glow.addColorStop(0, `rgba(218, 155, 24, ${0.35 * coreAlphaMul})`);
+      glow.addColorStop(0.5, `rgba(209, 144, 41, ${0.15 * coreAlphaMul})`);
       glow.addColorStop(1, "rgba(7, 8, 11, 0)");
     } else {
       // Light Mode: Soft delicate ambient core glow (non-intrusive)
-      glow.addColorStop(0, `rgba(11, 37, 69, ${0.16 * coreAlphaMul})`);
-      glow.addColorStop(0.45, `rgba(15, 52, 96, ${0.06 * coreAlphaMul})`);
-      glow.addColorStop(0.85, "rgba(10, 29, 55, 0.01)");
+      glow.addColorStop(0, `rgba(0, 30, 74, ${0.22 * coreAlphaMul})`);
+      glow.addColorStop(0.45, `rgba(10, 45, 108, ${0.08 * coreAlphaMul})`);
+      glow.addColorStop(0.85, "rgba(0, 30, 74, 0.01)");
       glow.addColorStop(1, "rgba(253, 251, 247, 0)");
     }
     ctx.fillStyle = glow;
@@ -348,12 +348,12 @@
         mouse.x, mouse.y, SETTINGS.warpRadius * 0.95
       );
       if (isDark) {
-        cursorGlow.addColorStop(0, `rgba(245, 158, 11, ${0.16 * mouse.activeMultiplier})`);
-        cursorGlow.addColorStop(0.5, `rgba(180, 83, 9, ${0.06 * mouse.activeMultiplier})`);
+        cursorGlow.addColorStop(0, `rgba(218, 155, 24, ${0.22 * mouse.activeMultiplier})`);
+        cursorGlow.addColorStop(0.5, `rgba(209, 144, 41, ${0.08 * mouse.activeMultiplier})`);
         cursorGlow.addColorStop(1, "rgba(7, 8, 11, 0)");
       } else {
-        cursorGlow.addColorStop(0, `rgba(10, 29, 55, ${0.22 * mouse.activeMultiplier})`);
-        cursorGlow.addColorStop(0.5, `rgba(14, 45, 80, ${0.08 * mouse.activeMultiplier})`);
+        cursorGlow.addColorStop(0, `rgba(0, 30, 74, ${0.22 * mouse.activeMultiplier})`);
+        cursorGlow.addColorStop(0.5, `rgba(10, 45, 108, ${0.08 * mouse.activeMultiplier})`);
         cursorGlow.addColorStop(1, "rgba(253, 251, 247, 0)");
       }
       ctx.fillStyle = cursorGlow;
@@ -391,7 +391,7 @@
       } else {
         // Light Mode: Refined Oxford Dark Navy Blue dots with subtle ambient depth
         const finalAlpha = depthAlpha * 0.80*scrollDim;
-        ctx.fillStyle = `rgba(11, 37, 69, ${finalAlpha})`;
+        ctx.fillStyle = `rgba(0, 30, 74, ${finalAlpha})`;
       }
 
       ctx.beginPath();

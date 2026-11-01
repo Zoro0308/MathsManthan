@@ -74,73 +74,73 @@
     }
     /* Light Mode: View PDF Active Pill */
     .pdf-toggle-btn.btn-view {
-      background: #0284c7 !important;
-      color: #ffffff !important;
-      border-color: #0284c7 !important;
-      box-shadow: 0 2px 6px rgba(2, 132, 199, 0.35) !important;
+      background: #DA9B18 !important;
+      color: #001E4A !important;
+      border-color: #DA9B18 !important;
+      box-shadow: 0 2px 6px rgba(218, 155, 24, 0.35) !important;
     }
     .pdf-toggle-btn.btn-view:hover {
-      background: #0369a1 !important;
-      color: #ffffff !important;
-      border-color: #0369a1 !important;
+      background: #D19029 !important;
+      color: #001E4A !important;
+      border-color: #D19029 !important;
       transform: translateY(-1px) !important;
-      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.45) !important;
+      box-shadow: 0 4px 10px rgba(218, 155, 24, 0.45) !important;
     }
     /* Light Mode: Download Segment Pill */
     .pdf-toggle-btn.btn-download {
       background: #ffffff !important;
-      color: #0f172a !important;
+      color: #001E4A !important;
       border: 1px solid #cbd5e1 !important;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
     }
     .pdf-toggle-btn.btn-download:hover {
-      background: #0f172a !important;
+      background: #001E4A !important;
       color: #ffffff !important;
-      border-color: #0f172a !important;
+      border-color: #001E4A !important;
       transform: translateY(-1px) !important;
-      box-shadow: 0 3px 8px rgba(15, 23, 42, 0.25) !important;
+      box-shadow: 0 3px 8px rgba(0, 30, 74, 0.25) !important;
     }
     /* Dark Mode (matrix-theme or [data-theme="dark"]) */
-    body.matrix-theme .pdf-toggle-box,
+    :root:not([data-theme="light"]) body.matrix-theme .pdf-toggle-box,
     [data-theme="dark"] .pdf-toggle-box {
-      background: rgba(15, 23, 42, 0.95) !important;
-      border: 1.5px solid rgba(56, 189, 248, 0.45) !important;
-      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 12px rgba(56, 189, 248, 0.15) !important;
+      background: rgba(0, 30, 74, 0.95) !important;
+      border: 1.5px solid rgba(255, 255, 255, 0.15) !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6) !important;
     }
-    body.matrix-theme .pdf-toggle-box:hover,
+    :root:not([data-theme="light"]) body.matrix-theme .pdf-toggle-box:hover,
     [data-theme="dark"] .pdf-toggle-box:hover {
-      border-color: #38bdf8 !important;
-      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 18px rgba(56, 189, 248, 0.35) !important;
+      border-color: #DA9B18 !important;
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.6), 0 0 15px rgba(218, 155, 24, 0.35) !important;
     }
-    body.matrix-theme .pdf-toggle-btn.btn-view,
+    :root:not([data-theme="light"]) body.matrix-theme .pdf-toggle-btn.btn-view,
     [data-theme="dark"] .pdf-toggle-btn.btn-view {
-      background: #38bdf8 !important;
-      color: #020617 !important;
+      background: #DA9B18 !important;
+      color: #001E4A !important;
       font-weight: 800 !important;
-      border-color: #38bdf8 !important;
-      box-shadow: 0 0 10px rgba(56, 189, 248, 0.4) !important;
+      border-color: #DA9B18 !important;
+      box-shadow: 0 0 10px rgba(218, 155, 24, 0.4) !important;
     }
-    body.matrix-theme .pdf-toggle-btn.btn-view:hover,
+    :root:not([data-theme="light"]) body.matrix-theme .pdf-toggle-btn.btn-view:hover,
     [data-theme="dark"] .pdf-toggle-btn.btn-view:hover {
-      background: #7dd3fc !important;
-      color: #020617 !important;
-      border-color: #7dd3fc !important;
-      box-shadow: 0 0 18px rgba(56, 189, 248, 0.75) !important;
+      background: #D19029 !important;
+      color: #001E4A !important;
+      border-color: #D19029 !important;
+      box-shadow: 0 0 18px rgba(218, 155, 24, 0.75) !important;
       transform: translateY(-1px) !important;
     }
-    body.matrix-theme .pdf-toggle-btn.btn-download,
+    :root:not([data-theme="light"]) body.matrix-theme .pdf-toggle-btn.btn-download,
     [data-theme="dark"] .pdf-toggle-btn.btn-download {
       background: rgba(255, 255, 255, 0.08) !important;
-      color: #f1f5f9 !important;
+      color: #FFFFFF !important; font-weight: 700 !important;
       border: 1px solid rgba(255, 255, 255, 0.25) !important;
     }
-    body.matrix-theme .pdf-toggle-btn.btn-download:hover,
+    :root:not([data-theme="light"]) body.matrix-theme .pdf-toggle-btn.btn-download:hover,
     [data-theme="dark"] .pdf-toggle-btn.btn-download:hover {
-      background: rgba(255, 255, 255, 0.25) !important;
-      color: #ffffff !important;
-      border-color: #ffffff !important;
+      background: #001E4A !important;
+      color: #DA9B18 !important;
+      border-color: #DA9B18 !important;
       transform: translateY(-1px) !important;
-      box-shadow: 0 0 12px rgba(255, 255, 255, 0.3) !important;
+      box-shadow: 0 0 12px rgba(218, 155, 24, 0.35) !important;
     }
     .pdf-toggle-divider { display: none !important; }
 
@@ -149,33 +149,37 @@
       display: inline-flex !important;
       align-items: center !important;
       gap: 0.5rem !important;
-      background: linear-gradient(135deg, #0284c7, #0ea5e9) !important;
-      color: #ffffff !important;
-      font-weight: 700 !important;
+      background: linear-gradient(135deg, #DA9B18, #D19029) !important;
+      color: #001E4A !important;
+      font-weight: 800 !important;
       font-size: 0.85rem !important;
-      padding: 0.55rem 1.15rem !important;
-      border-radius: 8px !important;
-      border: none !important;
+      padding: 0.55rem 1.25rem !important;
+      border-radius: 9999px !important;
+      border: 1px solid rgba(218, 155, 24, 0.5) !important;
       cursor: pointer !important;
-      transition: all 0.2s ease !important;
-      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.35) !important;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+      box-shadow: 0 3px 10px rgba(218, 155, 24, 0.35) !important;
       text-decoration: none !important;
     }
     .btn-open-dir:hover {
-      background: linear-gradient(135deg, #0369a1, #0284c7) !important;
+      background: #D19029 !important;
+      color: #001E4A !important;
       transform: translateY(-2px) !important;
-      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.5) !important;
+      box-shadow: 0 6px 20px rgba(218, 155, 24, 0.6) !important;
     }
-    body.matrix-theme .btn-open-dir,
+    :root:not([data-theme="light"]) body.matrix-theme .btn-open-dir,
     [data-theme="dark"] .btn-open-dir {
-      background: linear-gradient(135deg, #0284c7, #38bdf8) !important;
-      color: #020617 !important;
-      box-shadow: 0 0 15px rgba(56, 189, 248, 0.3) !important;
+      background: linear-gradient(135deg, #DA9B18, #D19029) !important;
+      color: #001E4A !important;
+      font-weight: 800 !important;
+      border: 1px solid rgba(218, 155, 24, 0.6) !important;
+      box-shadow: 0 4px 14px rgba(218, 155, 24, 0.4) !important;
     }
-    body.matrix-theme .btn-open-dir:hover,
+    :root:not([data-theme="light"]) body.matrix-theme .btn-open-dir:hover,
     [data-theme="dark"] .btn-open-dir:hover {
-      background: linear-gradient(135deg, #38bdf8, #7dd3fc) !important;
-      box-shadow: 0 0 22px rgba(56, 189, 248, 0.6) !important;
+      background: #D19029 !important;
+      color: #001E4A !important;
+      box-shadow: 0 6px 22px rgba(218, 155, 24, 0.7) !important;
       transform: translateY(-2px) !important;
     }
   </style>
