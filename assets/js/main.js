@@ -149,4 +149,64 @@ document.addEventListener('DOMContentLoaded', () => {
       fontSizeDisplay.textContent = `${DEFAULT_SIZE}rem`;
     });
   }
+
+  // 6. Dynamic Floating Two-Way Scroll Button (Down to Bottom / Up to Top)
+  (function initFloatingScrollButton() {
+    const scrollBtn = document.createElement('button');
+    scrollBtn.id = 'floatingScrollBtn';
+    scrollBtn.className = 'floating-scroll-btn';
+    scrollBtn.type = 'button';
+    scrollBtn.setAttribute('aria-label', 'Scroll to bottom');
+    scrollBtn.setAttribute('title', 'Scroll to bottom');
+    scrollBtn.innerHTML = `
+      <svg class="scroll-arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <polyline points="19 12 12 19 5 12"></polyline>
+      </svg>
+    `;
+    document.body.appendChild(scrollBtn);
+
+    let isNearBottom = false;
+
+    function handleScrollState() {
+      const scrollY = window.scrollY || document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight;
+      const clientHeight = document.documentElement.clientHeight;
+
+      // Threshold: past the initial hero view (~160px)
+      if (scrollY > 160) {
+        scrollBtn.classList.add('visible');
+      } else {
+        scrollBtn.classList.remove('visible');
+      }
+
+      // Check if near the bottom of page (within 380px of footer)
+      if (scrollY + clientHeight >= scrollHeight - 380) {
+        if (!isNearBottom) {
+          isNearBottom = true;
+          scrollBtn.classList.add('mode-up');
+          scrollBtn.setAttribute('aria-label', 'Back to top');
+          scrollBtn.setAttribute('title', 'Back to top');
+        }
+      } else {
+        if (isNearBottom) {
+          isNearBottom = false;
+          scrollBtn.classList.remove('mode-up');
+          scrollBtn.setAttribute('aria-label', 'Scroll to bottom');
+          scrollBtn.setAttribute('title', 'Scroll to bottom');
+        }
+      }
+    }
+
+    window.addEventListener('scroll', handleScrollState, { passive: true });
+    handleScrollState();
+
+    scrollBtn.addEventListener('click', () => {
+      if (isNearBottom) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+      }
+    });
+  })();
 });
