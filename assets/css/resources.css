@@ -296,8 +296,8 @@ body.matrix-theme .resources-hero p {
 
 :root:not([data-theme="light"]) body.matrix-theme .filter-bar,
 [data-theme="dark"] .filter-bar {
-  background: rgba(0, 30, 74, 0.8);
-  backdrop-filter: blur(14px);
+  background: rgba(0, 30, 74, 0);
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(218, 155, 24, 0.25);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
@@ -330,9 +330,9 @@ body.matrix-theme .filter-pill.active {
 
 :root:not([data-theme="light"]) body.matrix-theme .resource-card,
 [data-theme="dark"] .resource-card {
-  background: linear-gradient(135deg, rgba(0, 30, 74, 0.42) 0%, rgba(4, 13, 26, 0.62) 100%) !important;
-  backdrop-filter: blur(18px) saturate(180%) !important;
-  -webkit-backdrop-filter: blur(18px) saturate(180%) !important;
+  background: linear-gradient(135deg, rgba(0, 30, 74, 0) 0%, rgba(4, 13, 26, 0) 100%) !important;
+  backdrop-filter: blur(10px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(10px) saturate(180%) !important;
   border: 1px solid rgba(255, 255, 255, 0.14) !important;
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45), inset 0 1px 1px rgba(255, 255, 255, 0.16) !important;
 }
@@ -2307,7 +2307,7 @@ body.matrix-theme .view-mode-btn.active,
 /* Toolbar Bar: Dark Theme */
 :root:not([data-theme="light"]) body.matrix-theme .drilldown-toolbar-bar,
 [data-theme="dark"] .drilldown-toolbar-bar {
-  background: rgba(0, 30, 74, 0.75);
+  background: rgba(0, 30, 74, 0);
   border-color: rgba(218, 155, 24, 0.25);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
 }
