@@ -373,7 +373,13 @@ body.matrix-theme .btn-pdf:hover {
   box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
 }
 
-/* Floating Matrix Controls Drawer & Toggle */
+/* Floating Matrix Controls Drawer & Toggle - Pill Hidden from UI */
+#toggleControlsBtn,
+.matrix-toggle-btn,
+.controls-panel {
+  display: none !important;
+}
+
 .matrix-toggle-btn {
   position: fixed;
   bottom: 24px;
