@@ -2297,8 +2297,8 @@ body[data-bg-flow="hybrid"] .stats-section,
 /* 5. Methodology Section: Scoped Theme Styling */
 :root:not([data-theme="light"]) body[data-bg-flow="hybrid"] .methodology-section,
 [data-theme="dark"] body[data-bg-flow="hybrid"] .methodology-section {
-  background-color: rgba(10, 20, 36, 0.90) !important;
-  backdrop-filter: blur(16px);
+  background-color: rgba(10, 20, 36, 0) !important;
+  backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(16px);
   position: relative;
   z-index: 2;
@@ -2315,8 +2315,8 @@ body[data-bg-flow="hybrid"] .stats-section,
 /* 6. High-Contrast Card Polish - Scoped Dark vs Solid Crisp White Light */
 :root:not([data-theme="light"]) body[data-bg-flow="hybrid"] .batch-card,
 [data-theme="dark"] body[data-bg-flow="hybrid"] .batch-card {
-  background: rgba(10, 20, 36, 0.90) !important;
-  backdrop-filter: blur(16px);
+  background: rgba(10, 20, 36, 0.20) !important;
+  backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6) !important;
@@ -2340,9 +2340,9 @@ body[data-bg-flow="hybrid"] .stats-section,
 
 :root:not([data-theme="light"]) body[data-bg-flow="hybrid"] .method-card,
 [data-theme="dark"] body[data-bg-flow="hybrid"] .method-card {
-  background: rgba(255, 255, 255, 0.07) !important;
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: rgba(10, 20, 36, 0.5) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
@@ -2378,10 +2378,16 @@ body[data-bg-flow="hybrid"] .stats-section,
 
 :root:not([data-theme="light"]) body[data-bg-flow="hybrid"] .inquiry-wrapper,
 [data-theme="dark"] body[data-bg-flow="hybrid"] .inquiry-wrapper {
-  background: rgba(10, 20, 36, 0.94) !important;
-  backdrop-filter: blur(16px);
+  background: rgba(10, 20, 36, 0.09) !important;
+  backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+:root:not([data-theme="light"]) body[data-bg-flow="hybrid"] .inquiry-info,
+[data-theme="dark"] body[data-bg-flow="hybrid"] .inquiry-info,
+:root:not([data-theme="light"]) body[data-bg-flow="hybrid"] .inquiry-form-container,
+[data-theme="dark"] body[data-bg-flow="hybrid"] .inquiry-form-container {
+  background: transparent !important;
 }
 
 [data-theme="light"] body[data-bg-flow="hybrid"] .inquiry-wrapper,
