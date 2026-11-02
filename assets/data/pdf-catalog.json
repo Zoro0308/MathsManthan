@@ -1286,28 +1286,11 @@
       "order": 0
     }
   ],
-  "books/complete/exemplar-class-11": "assets/pdfs/books/complete/exemplar-class-11/CH-5_Arithmetic_Progressions_Handbook.pdf",
+  "books/complete/exemplar-class-11": "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
   "books/complete/exemplar-class-11__all": [
-    "assets/pdfs/books/complete/exemplar-class-11/CH-5_Arithmetic_Progressions_Handbook.pdf",
-    "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
-    "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Introduction_to_Trigonometry_Handbook.pdf",
-    "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Real_Numbers_Handbook.pdf",
-    "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Some_Applications_of_Trigonometry_Handbook.pdf",
-    "assets/pdfs/books/complete/exemplar-class-11/test_header.pdf",
-    "assets/pdfs/books/complete/exemplar-class-11/test_orig.pdf",
-    "assets/pdfs/books/complete/exemplar-class-11/test_raise.pdf"
+    "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf"
   ],
   "books/complete/exemplar-class-11__items": [
-    {
-      "name": "CH-5_Arithmetic_Progressions_Handbook.pdf",
-      "path": "assets/pdfs/books/complete/exemplar-class-11/CH-5_Arithmetic_Progressions_Handbook.pdf",
-      "title": "Chapter Notes: Ch 5_Arithmetic_Progressions_Handbook",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
-      "size": "762 KB",
-      "order": 0
-    },
     {
       "name": "exemplar-class-11-complete.pdf",
       "path": "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
@@ -1317,66 +1300,6 @@
       "type": "material",
       "size": "2.9 MB",
       "order": 0
-    },
-    {
-      "name": "MathsManthan_Class10_Introduction_to_Trigonometry_Handbook.pdf",
-      "path": "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Introduction_to_Trigonometry_Handbook.pdf",
-      "title": "Chapter Notes: Mathsmanthan_Class10_Introduction_To_Trigonometry_Handbook",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
-      "size": "749 KB",
-      "order": 0
-    },
-    {
-      "name": "MathsManthan_Class10_Real_Numbers_Handbook.pdf",
-      "path": "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Real_Numbers_Handbook.pdf",
-      "title": "Chapter Notes: Mathsmanthan_Class10_Real_Numbers_Handbook",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
-      "size": "862 KB",
-      "order": 0
-    },
-    {
-      "name": "MathsManthan_Class10_Some_Applications_of_Trigonometry_Handbook.pdf",
-      "path": "assets/pdfs/books/complete/exemplar-class-11/MathsManthan_Class10_Some_Applications_of_Trigonometry_Handbook.pdf",
-      "title": "Chapter Notes: Mathsmanthan_Class10_Some_Applications_Of_Trigonometry_Handbook",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
-      "size": "792 KB",
-      "order": 0
-    },
-    {
-      "name": "test_header.pdf",
-      "path": "assets/pdfs/books/complete/exemplar-class-11/test_header.pdf",
-      "title": "Test Paper",
-      "code": "TEST",
-      "badge": "Test Paper",
-      "type": "test",
-      "size": "185 KB",
-      "order": 50
-    },
-    {
-      "name": "test_orig.pdf",
-      "path": "assets/pdfs/books/complete/exemplar-class-11/test_orig.pdf",
-      "title": "Test Paper",
-      "code": "TEST",
-      "badge": "Test Paper",
-      "type": "test",
-      "size": "185 KB",
-      "order": 50
-    },
-    {
-      "name": "test_raise.pdf",
-      "path": "assets/pdfs/books/complete/exemplar-class-11/test_raise.pdf",
-      "title": "Test Paper",
-      "code": "TEST",
-      "badge": "Test Paper",
-      "type": "test",
-      "size": "185 KB",
-      "order": 50
     }
   ],
   "books/complete/exemplar-class-12": "assets/pdfs/books/complete/exemplar-class-12/exemplar-class-12-complete.pdf",
@@ -2621,53 +2544,185 @@
       "order": 121
     }
   ],
-  "class-10/ch-11": "assets/pdfs/class-10/ch-11/test -1.pdf",
+  "class-10/ch-11": "assets/pdfs/class-10/ch-11/Test-1.pdf",
   "class-10/ch-11__all": [
-    "assets/pdfs/class-10/ch-11/test -1.pdf",
-    "assets/pdfs/class-10/ch-11/test -2.pdf",
-    "assets/pdfs/class-10/ch-11/test -3.pdf",
-    "assets/pdfs/class-10/ch-11/test -4.pdf"
+    "assets/pdfs/class-10/ch-11/Test-1.pdf",
+    "assets/pdfs/class-10/ch-11/Test-10.pdf",
+    "assets/pdfs/class-10/ch-11/Test-11.pdf",
+    "assets/pdfs/class-10/ch-11/Test-12.pdf",
+    "assets/pdfs/class-10/ch-11/test-13.pdf",
+    "assets/pdfs/class-10/ch-11/test-14.pdf",
+    "assets/pdfs/class-10/ch-11/test-15.pdf",
+    "assets/pdfs/class-10/ch-11/test-16.pdf",
+    "assets/pdfs/class-10/ch-11/Test-2.pdf",
+    "assets/pdfs/class-10/ch-11/Test-3.pdf",
+    "assets/pdfs/class-10/ch-11/Test-4.pdf",
+    "assets/pdfs/class-10/ch-11/Test-5.pdf",
+    "assets/pdfs/class-10/ch-11/Test-6.pdf",
+    "assets/pdfs/class-10/ch-11/Test-7.pdf",
+    "assets/pdfs/class-10/ch-11/Test-8.pdf",
+    "assets/pdfs/class-10/ch-11/Test-9.pdf"
   ],
   "class-10/ch-11__items": [
     {
-      "name": "test -1.pdf",
-      "path": "assets/pdfs/class-10/ch-11/test -1.pdf",
+      "name": "Test-1.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-1.pdf",
       "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
-      "size": "363 KB",
+      "size": "410 KB",
       "order": 11
     },
     {
-      "name": "test -2.pdf",
-      "path": "assets/pdfs/class-10/ch-11/test -2.pdf",
+      "name": "Test-2.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-2.pdf",
       "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
-      "size": "361 KB",
+      "size": "405 KB",
       "order": 21
     },
     {
-      "name": "test -3.pdf",
-      "path": "assets/pdfs/class-10/ch-11/test -3.pdf",
+      "name": "Test-3.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-3.pdf",
       "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
-      "size": "363 KB",
+      "size": "405 KB",
       "order": 31
     },
     {
-      "name": "test -4.pdf",
-      "path": "assets/pdfs/class-10/ch-11/test -4.pdf",
+      "name": "Test-4.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-4.pdf",
       "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
-      "size": "598 KB",
+      "size": "410 KB",
       "order": 41
+    },
+    {
+      "name": "Test-5.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-5.pdf",
+      "title": "Test 5",
+      "code": "TEST-05",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "406 KB",
+      "order": 51
+    },
+    {
+      "name": "Test-6.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-6.pdf",
+      "title": "Test 6",
+      "code": "TEST-06",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "402 KB",
+      "order": 61
+    },
+    {
+      "name": "Test-7.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-7.pdf",
+      "title": "Test 7",
+      "code": "TEST-07",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "408 KB",
+      "order": 71
+    },
+    {
+      "name": "Test-8.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-8.pdf",
+      "title": "Test 8",
+      "code": "TEST-08",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "411 KB",
+      "order": 81
+    },
+    {
+      "name": "Test-9.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-9.pdf",
+      "title": "Test 9",
+      "code": "TEST-09",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "419 KB",
+      "order": 91
+    },
+    {
+      "name": "Test-10.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-10.pdf",
+      "title": "Test 10",
+      "code": "TEST-10",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "410 KB",
+      "order": 101
+    },
+    {
+      "name": "Test-11.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-11.pdf",
+      "title": "Test 11",
+      "code": "TEST-11",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 111
+    },
+    {
+      "name": "Test-12.pdf",
+      "path": "assets/pdfs/class-10/ch-11/Test-12.pdf",
+      "title": "Test 12",
+      "code": "TEST-12",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "416 KB",
+      "order": 121
+    },
+    {
+      "name": "test-13.pdf",
+      "path": "assets/pdfs/class-10/ch-11/test-13.pdf",
+      "title": "Test 13",
+      "code": "TEST-13",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "363 KB",
+      "order": 131
+    },
+    {
+      "name": "test-14.pdf",
+      "path": "assets/pdfs/class-10/ch-11/test-14.pdf",
+      "title": "Test 14",
+      "code": "TEST-14",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "361 KB",
+      "order": 141
+    },
+    {
+      "name": "test-15.pdf",
+      "path": "assets/pdfs/class-10/ch-11/test-15.pdf",
+      "title": "Test 15",
+      "code": "TEST-15",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "363 KB",
+      "order": 151
+    },
+    {
+      "name": "test-16.pdf",
+      "path": "assets/pdfs/class-10/ch-11/test-16.pdf",
+      "title": "Test 16",
+      "code": "TEST-16",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "598 KB",
+      "order": 161
     }
   ],
   "class-10/ch-12": "assets/pdfs/class-10/ch-12/Test-1.pdf",
