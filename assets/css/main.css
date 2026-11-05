@@ -2848,3 +2848,17 @@ body[data-bg-flow="hybrid"] .site-footer {
     height: 20px;
   }
 }
+
+/* Product Hunt Badge Theme Switching */
+[data-theme="light"] .ph-badge-light {
+  display: block !important;
+}
+[data-theme="light"] .ph-badge-dark {
+  display: none !important;
+}
+[data-theme="dark"] .ph-badge-light {
+  display: none !important;
+}
+[data-theme="dark"] .ph-badge-dark {
+  display: block !important;
+}
