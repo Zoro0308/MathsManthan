@@ -1288,7 +1288,6 @@
   ],
   "books/complete/exemplar-class-11": "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf",
   "books/complete/exemplar-class-11__all": [
-    "assets/pdfs/books/complete/exemplar-class-11/Class10_Ch05_Test_01_20M.pdf",
     "assets/pdfs/books/complete/exemplar-class-11/exemplar-class-11-complete.pdf"
   ],
   "books/complete/exemplar-class-11__items": [
@@ -1301,16 +1300,6 @@
       "type": "material",
       "size": "2.9 MB",
       "order": 0
-    },
-    {
-      "name": "Class10_Ch05_Test_01_20M.pdf",
-      "path": "assets/pdfs/books/complete/exemplar-class-11/Class10_Ch05_Test_01_20M.pdf",
-      "title": "Test 01",
-      "code": "TEST-01",
-      "badge": "Test Paper",
-      "type": "test",
-      "size": "247 KB",
-      "order": 11
     }
   ],
   "books/complete/exemplar-class-12": "assets/pdfs/books/complete/exemplar-class-12/exemplar-class-12-complete.pdf",
@@ -3710,20 +3699,185 @@
       "order": 0
     }
   ],
-  "class-8/ch-08": "assets/pdfs/class-8/ch-08/test-1.pdf",
+  "class-8/ch-08": "assets/pdfs/class-8/ch-08/Test-01.pdf",
   "class-8/ch-08__all": [
-    "assets/pdfs/class-8/ch-08/test-1.pdf"
+    "assets/pdfs/class-8/ch-08/Test-01.pdf",
+    "assets/pdfs/class-8/ch-08/Test-02.pdf",
+    "assets/pdfs/class-8/ch-08/Test-03.pdf",
+    "assets/pdfs/class-8/ch-08/Test-04.pdf",
+    "assets/pdfs/class-8/ch-08/Test-05.pdf",
+    "assets/pdfs/class-8/ch-08/Test-06.pdf",
+    "assets/pdfs/class-8/ch-08/Test-07.pdf",
+    "assets/pdfs/class-8/ch-08/Test-08.pdf",
+    "assets/pdfs/class-8/ch-08/Test-09.pdf",
+    "assets/pdfs/class-8/ch-08/Test-10.pdf",
+    "assets/pdfs/class-8/ch-08/Test-11.pdf",
+    "assets/pdfs/class-8/ch-08/Test-12.pdf",
+    "assets/pdfs/class-8/ch-08/Test-13.pdf",
+    "assets/pdfs/class-8/ch-08/Test-14.pdf",
+    "assets/pdfs/class-8/ch-08/Test-15.pdf",
+    "assets/pdfs/class-8/ch-08/test-16.pdf"
   ],
   "class-8/ch-08__items": [
     {
-      "name": "test-1.pdf",
-      "path": "assets/pdfs/class-8/ch-08/test-1.pdf",
-      "title": "Test 1",
+      "name": "Test-01.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-01.pdf",
+      "title": "Test 01",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
-      "size": "585 KB",
+      "size": "412 KB",
       "order": 11
+    },
+    {
+      "name": "Test-02.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-02.pdf",
+      "title": "Test 02",
+      "code": "TEST-02",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "413 KB",
+      "order": 21
+    },
+    {
+      "name": "Test-03.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-03.pdf",
+      "title": "Test 03",
+      "code": "TEST-03",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 31
+    },
+    {
+      "name": "Test-04.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-04.pdf",
+      "title": "Test 04",
+      "code": "TEST-04",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 41
+    },
+    {
+      "name": "Test-05.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-05.pdf",
+      "title": "Test 05",
+      "code": "TEST-05",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 51
+    },
+    {
+      "name": "Test-06.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-06.pdf",
+      "title": "Test 06",
+      "code": "TEST-06",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 61
+    },
+    {
+      "name": "Test-07.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-07.pdf",
+      "title": "Test 07",
+      "code": "TEST-07",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 71
+    },
+    {
+      "name": "Test-08.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-08.pdf",
+      "title": "Test 08",
+      "code": "TEST-08",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "413 KB",
+      "order": 81
+    },
+    {
+      "name": "Test-09.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-09.pdf",
+      "title": "Test 09",
+      "code": "TEST-09",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "413 KB",
+      "order": 91
+    },
+    {
+      "name": "Test-10.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-10.pdf",
+      "title": "Test 10",
+      "code": "TEST-10",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 101
+    },
+    {
+      "name": "Test-11.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-11.pdf",
+      "title": "Test 11",
+      "code": "TEST-11",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 111
+    },
+    {
+      "name": "Test-12.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-12.pdf",
+      "title": "Test 12",
+      "code": "TEST-12",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "413 KB",
+      "order": 121
+    },
+    {
+      "name": "Test-13.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-13.pdf",
+      "title": "Test 13",
+      "code": "TEST-13",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "412 KB",
+      "order": 131
+    },
+    {
+      "name": "Test-14.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-14.pdf",
+      "title": "Test 14",
+      "code": "TEST-14",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "413 KB",
+      "order": 141
+    },
+    {
+      "name": "Test-15.pdf",
+      "path": "assets/pdfs/class-8/ch-08/Test-15.pdf",
+      "title": "Test 15",
+      "code": "TEST-15",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "417 KB",
+      "order": 151
+    },
+    {
+      "name": "test-16.pdf",
+      "path": "assets/pdfs/class-8/ch-08/test-16.pdf",
+      "title": "Test 16",
+      "code": "TEST-16",
+      "badge": "Test Paper",
+      "type": "test",
+      "size": "585 KB",
+      "order": 161
     }
   ],
   "class-8/formula": "assets/pdfs/class-8/formula/class8-master-formula-handbook.pdf",

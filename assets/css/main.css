@@ -2862,3 +2862,223 @@ body[data-bg-flow="hybrid"] .site-footer {
 [data-theme="dark"] .ph-badge-dark {
   display: block !important;
 }
+
+
+/* ==========================================================================
+   Trust & Accreditations Badges Bar (Footer)
+   ========================================================================== */
+
+.trust-badges-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 2.25rem auto 1.75rem auto;
+  max-width: 960px;
+  padding: 0 1rem;
+}
+
+.trust-badge-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ph-badge-link {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+}
+
+.ph-badge-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.ph-badge-link img {
+  display: block;
+  height: 54px;
+  width: auto;
+  border-radius: 12px;
+}
+
+/* Custom Trust Cards (Google Reviews & NEP 2020) */
+.custom-trust-card {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  height: 54px;
+  padding: 0 1.15rem;
+  border-radius: 12px;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  user-select: none;
+}
+
+.custom-trust-card:hover {
+  transform: translateY(-2px);
+}
+
+.trust-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.trust-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.trust-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.trust-brand-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.trust-verified-tag,
+.trust-compliant-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.trust-rating-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 2px;
+}
+
+.trust-score {
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
+.trust-stars {
+  color: #FBBC04;
+  letter-spacing: 1px;
+  font-size: 0.82rem;
+}
+
+.trust-reviews-count {
+  font-size: 0.72rem;
+  opacity: 0.85;
+}
+
+.trust-nep-subtext {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* ==========================================================================
+   Dark Mode Trust Card Styles
+   ========================================================================== */
+[data-theme="dark"] .custom-trust-card {
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #F8FAFC;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .custom-trust-card:hover {
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45), 0 0 12px rgba(212, 175, 55, 0.15);
+}
+
+[data-theme="dark"] .trust-verified-tag {
+  background: rgba(34, 197, 94, 0.2);
+  color: #4ADE80;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+}
+
+[data-theme="dark"] .trust-compliant-tag {
+  background: rgba(59, 130, 246, 0.2);
+  color: #60A5FA;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+}
+
+[data-theme="dark"] .nep-icon-wrap {
+  color: #60A5FA;
+}
+
+[data-theme="dark"] .trust-score {
+  color: #F8FAFC;
+}
+
+[data-theme="dark"] .trust-nep-subtext {
+  color: #CBD5E1;
+}
+
+/* ==========================================================================
+   Light Mode Trust Card Styles
+   ========================================================================== */
+[data-theme="light"] .custom-trust-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  color: #0F172A;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="light"] .custom-trust-card:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="light"] .trust-verified-tag {
+  background: #DCFCE7;
+  color: #15803D;
+  border: 1px solid #BBF7D0;
+}
+
+[data-theme="light"] .trust-compliant-tag {
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #BFDBFE;
+}
+
+[data-theme="light"] .nep-icon-wrap {
+  color: #1E40AF;
+}
+
+[data-theme="light"] .trust-score {
+  color: #0F172A;
+}
+
+[data-theme="light"] .trust-reviews-count {
+  color: #64748B;
+}
+
+[data-theme="light"] .trust-nep-subtext {
+  color: #475569;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 640px) {
+  .trust-badges-bar {
+    gap: 0.85rem;
+    margin: 1.75rem auto 1.25rem auto;
+  }
+  .custom-trust-card {
+    height: 52px;
+    padding: 0 0.9rem;
+  }
+}
