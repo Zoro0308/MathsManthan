@@ -1115,7 +1115,7 @@
       "code": "CHAPTER NOTES",
       "badge": "Study Material",
       "type": "material",
-      "size": "4.2 MB",
+      "size": "3.4 MB",
       "order": 0
     }
   ],
@@ -1131,7 +1131,7 @@
       "code": "CHAPTER NOTES",
       "badge": "Study Material",
       "type": "material",
-      "size": "47.1 MB",
+      "size": "46.3 MB",
       "order": 0
     }
   ],
@@ -1194,33 +1194,11 @@
       "order": 0
     }
   ],
-  "books/complete/class-8-ganita-prakash": "assets/pdfs/books/complete/class-8-ganita-prakash/class 8th ganita part 1.pdf",
+  "books/complete/class-8-ganita-prakash": "assets/pdfs/books/complete/class-8-ganita-prakash/class-8-ganita-prakash-complete.pdf",
   "books/complete/class-8-ganita-prakash__all": [
-    "assets/pdfs/books/complete/class-8-ganita-prakash/class 8th ganita part 1.pdf",
-    "assets/pdfs/books/complete/class-8-ganita-prakash/class 8th ganita part 2.pdf",
     "assets/pdfs/books/complete/class-8-ganita-prakash/class-8-ganita-prakash-complete.pdf"
   ],
   "books/complete/class-8-ganita-prakash__items": [
-    {
-      "name": "class 8th ganita part 1.pdf",
-      "path": "assets/pdfs/books/complete/class-8-ganita-prakash/class 8th ganita part 1.pdf",
-      "title": "Chapter Notes: Class 8Th Ganita Part 1",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
-      "size": "31.5 MB",
-      "order": 0
-    },
-    {
-      "name": "class 8th ganita part 2.pdf",
-      "path": "assets/pdfs/books/complete/class-8-ganita-prakash/class 8th ganita part 2.pdf",
-      "title": "Chapter Notes: Class 8Th Ganita Part 2",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
-      "size": "11.2 MB",
-      "order": 0
-    },
     {
       "name": "class-8-ganita-prakash-complete.pdf",
       "path": "assets/pdfs/books/complete/class-8-ganita-prakash/class-8-ganita-prakash-complete.pdf",
@@ -1228,37 +1206,15 @@
       "code": "CHAPTER NOTES",
       "badge": "Study Material",
       "type": "material",
-      "size": "42.6 MB",
+      "size": "28.4 MB",
       "order": 0
     }
   ],
-  "books/complete/class-9-ganita-manjari": "assets/pdfs/books/complete/class-9-ganita-manjari/class 9th ganita part 1.pdf",
+  "books/complete/class-9-ganita-manjari": "assets/pdfs/books/complete/class-9-ganita-manjari/class-9-ganita-manjari-complete.pdf",
   "books/complete/class-9-ganita-manjari__all": [
-    "assets/pdfs/books/complete/class-9-ganita-manjari/class 9th ganita part 1.pdf",
-    "assets/pdfs/books/complete/class-9-ganita-manjari/class 9th ganita part 2.pdf",
     "assets/pdfs/books/complete/class-9-ganita-manjari/class-9-ganita-manjari-complete.pdf"
   ],
   "books/complete/class-9-ganita-manjari__items": [
-    {
-      "name": "class 9th ganita part 1.pdf",
-      "path": "assets/pdfs/books/complete/class-9-ganita-manjari/class 9th ganita part 1.pdf",
-      "title": "Chapter Notes: Class 9Th Ganita Part 1",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
-      "size": "19.0 MB",
-      "order": 0
-    },
-    {
-      "name": "class 9th ganita part 2.pdf",
-      "path": "assets/pdfs/books/complete/class-9-ganita-manjari/class 9th ganita part 2.pdf",
-      "title": "Chapter Notes: Class 9Th Ganita Part 2",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
-      "size": "14.5 MB",
-      "order": 0
-    },
     {
       "name": "class-9-ganita-manjari-complete.pdf",
       "path": "assets/pdfs/books/complete/class-9-ganita-manjari/class-9-ganita-manjari-complete.pdf",
@@ -1266,7 +1222,7 @@
       "code": "CHAPTER NOTES",
       "badge": "Study Material",
       "type": "material",
-      "size": "33.2 MB",
+      "size": "10.0 MB",
       "order": 0
     }
   ],
