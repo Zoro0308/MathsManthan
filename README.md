@@ -85,5 +85,5 @@ To deploy this site to your domain (`mathsmanthan.co.in`):
 
 ## 📞 Contact Information
 - **Mentor:** Manthan Ahlawat (M.Sc. Mathematics, B.Ed., CTET Qualified)
-- **Center:** D121 European Estate, Kankerkhera, Meerut, UP - 250001
+- **Center:** European Estate, Kankerkhera, Meerut, UP - 250001
 - **Direct Phone / WhatsApp:** +91 8171546558
