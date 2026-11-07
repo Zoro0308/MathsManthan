@@ -93,6 +93,7 @@
   <link rel="preload" as="image" href="assets/images/manthan-portrait.webp" type="image/webp" fetchpriority="high">
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/main.css?v=2.0">
+  <link rel="stylesheet" href="assets/css/exam-popup.css">
 
   <!-- Immediate Theme Initialization (prevents flash) -->
   <script>
@@ -689,8 +690,216 @@
     </div>
   </footer>
 
+  <!-- ==========================================================================
+       CBSE Class 10 Board Examination Announcement Popup
+       ========================================================================== -->
+  <div id="cbseExamPopup" class="cbse-popup-overlay" role="dialog" aria-modal="true" aria-labelledby="cbsePopupTitle" aria-describedby="cbsePopupDesc" tabindex="-1">
+    <div class="cbse-popup-backdrop" data-action="close"></div>
+    <div class="cbse-popup-dialog">
+      <!-- Close Button -->
+      <button type="button" class="cbse-popup-close" id="cbsePopupClose" aria-label="Close Announcement">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Corner Botanical Leaf Accent -->
+      <svg class="cbse-botanical-accent" viewBox="0 0 100 100" fill="none" stroke="rgba(218, 155, 24, 0.45)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M10 90 Q30 70 50 40 Q65 15 80 10" />
+        <path d="M25 76 Q15 65 12 55 Q24 58 30 70" fill="rgba(218, 155, 24, 0.15)" />
+        <path d="M38 58 Q48 50 56 46 Q50 58 42 62" fill="rgba(218, 155, 24, 0.15)" />
+        <path d="M48 42 Q36 34 30 22 Q42 26 50 38" fill="rgba(218, 155, 24, 0.15)" />
+        <path d="M60 26 Q72 20 78 12 Q70 26 64 28" fill="rgba(218, 155, 24, 0.15)" />
+      </svg>
+
+      <div class="cbse-popup-content">
+        <!-- 1. Editorial Header Information -->
+        <div class="cbse-editorial-block">
+          <div class="cbse-popup-brand">
+            <img src="assets/images/logo.png" alt="Maths Manthan" class="cbse-brand-mark" width="36" height="36">
+            <div class="cbse-brand-divider" aria-hidden="true"></div>
+            <div class="cbse-brand-text">
+              <span class="cbse-brand-name">MATHS MANTHAN</span>
+              <span class="cbse-brand-sub">Tuition Classes</span>
+            </div>
+          </div>
+
+          <div class="cbse-pills-row">
+            <div class="cbse-exam-pill">
+              <svg class="cbse-pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>CBSE Board Examination</span>
+            </div>
+
+            <div class="cbse-countdown-pill" id="cbseCountdownPill">
+              <span class="cbse-countdown-pulse" aria-hidden="true"></span>
+              <span class="cbse-countdown-text" id="cbseDaysText">Calculating Days Left...</span>
+            </div>
+          </div>
+
+          <div class="cbse-heading-group">
+            <h2 id="cbsePopupTitle" class="cbse-title-line-1">Class 10</h2>
+            <span class="cbse-title-line-2">Mathematics</span>
+            <div class="cbse-schedule-label">Examination Schedule</div>
+            <div id="cbsePopupDesc" class="cbse-session-text">Session 2026–27</div>
+          </div>
+        </div>
+
+        <!-- 2. Hero Stage (Curved Chalkboard, 3D Hanging Calendar, Props & Accents) -->
+        <div class="cbse-hero-stage">
+          <!-- Subtle Mathematical Chalkboard Geometry -->
+          <svg class="cbse-chalk-svg" viewBox="0 0 300 240" fill="none" stroke="rgba(255, 255, 255, 0.38)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <!-- Coordinate Grid Hint -->
+            <line x1="20" y1="120" x2="280" y2="120" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3 3"/>
+            <line x1="150" y1="20" x2="150" y2="220" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3 3"/>
+            <!-- Inscribed Triangle in Circle -->
+            <circle cx="150" cy="110" r="75" stroke="rgba(255, 255, 255, 0.35)"/>
+            <polygon points="150,35 85,155 215,155" stroke="rgba(255, 255, 255, 0.5)" fill="none"/>
+            <text x="146" y="28" fill="rgba(255,255,255,0.6)" font-family="serif" font-size="12">A</text>
+            <text x="70" y="165" fill="rgba(255,255,255,0.6)" font-family="serif" font-size="12">B</text>
+            <text x="222" y="165" fill="rgba(255,255,255,0.6)" font-family="serif" font-size="12">C</text>
+            <!-- Mathematical Equation -->
+            <text x="35" y="210" fill="rgba(255,255,255,0.4)" font-family="serif" font-style="italic" font-size="13">a² + b² = c²</text>
+            <text x="210" y="60" fill="rgba(255,255,255,0.3)" font-family="serif" font-style="italic" font-size="12">sin²θ + cos²θ = 1</text>
+          </svg>
+
+          <!-- Mobile Flanking Laurel Sprigs -->
+          <svg class="cbse-mobile-laurel cbse-mobile-laurel-left" viewBox="0 0 44 80" fill="none" stroke="#DA9B18" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 75 Q20 50 18 10" />
+            <path d="M15 65 Q4 58 6 48 Q16 52 17 62" fill="rgba(218, 155, 24, 0.22)" />
+            <path d="M18 48 Q28 42 32 32 Q22 36 18 45" fill="rgba(218, 155, 24, 0.22)" />
+            <path d="M17 32 Q7 25 10 15 Q20 20 18 29" fill="rgba(218, 155, 24, 0.22)" />
+          </svg>
+          <svg class="cbse-mobile-laurel cbse-mobile-laurel-right" viewBox="0 0 44 80" fill="none" stroke="#DA9B18" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 75 Q20 50 18 10" />
+            <path d="M15 65 Q4 58 6 48 Q16 52 17 62" fill="rgba(218, 155, 24, 0.22)" />
+            <path d="M18 48 Q28 42 32 32 Q22 36 18 45" fill="rgba(218, 155, 24, 0.22)" />
+            <path d="M17 32 Q7 25 10 15 Q20 20 18 29" fill="rgba(218, 155, 24, 0.22)" />
+          </svg>
+
+          <!-- 3D Hanging Calendar Card -->
+          <div class="cbse-calendar-fixture">
+            <div class="cbse-cal-loops">
+              <span class="cbse-gold-loop"></span>
+              <span class="cbse-gold-loop"></span>
+            </div>
+            <div class="cbse-calendar-face">
+              <div class="cbse-cal-body">
+                <span class="cbse-cal-day-num">17</span>
+                <span class="cbse-cal-month-year">February 2027</span>
+              </div>
+              <div class="cbse-cal-ribbon">
+                <span class="cbse-cal-weekday">Wednesday</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic Props: Stacked Books & Brass Compass (Desktop) -->
+          <svg class="cbse-academic-props" viewBox="0 0 160 130" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="bookCover1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0B254E"/>
+                <stop offset="50%" stop-color="#071936"/>
+                <stop offset="100%" stop-color="#030C1C"/>
+              </linearGradient>
+              <linearGradient id="bookCover2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#123668"/>
+                <stop offset="60%" stop-color="#091E3D"/>
+                <stop offset="100%" stop-color="#040F21"/>
+              </linearGradient>
+              <linearGradient id="goldRib" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FFF0C7"/>
+                <stop offset="50%" stop-color="#DA9B18"/>
+                <stop offset="100%" stop-color="#8F5E06"/>
+              </linearGradient>
+              <linearGradient id="pagesGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#FAF5E8"/>
+                <stop offset="100%" stop-color="#E2D4B7"/>
+              </linearGradient>
+              <linearGradient id="compassGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFF5D6"/>
+                <stop offset="40%" stop-color="#E5AF3C"/>
+                <stop offset="80%" stop-color="#B87B0E"/>
+                <stop offset="100%" stop-color="#694302"/>
+              </linearGradient>
+            </defs>
+            <!-- Bottom Book -->
+            <rect x="25" y="85" width="125" height="26" rx="4" fill="url(#bookCover1)"/>
+            <path d="M142 88 L148 88 L148 107 L142 107 Z" fill="url(#pagesGrad)"/>
+            <line x1="25" y1="91" x2="40" y2="91" stroke="url(#goldRib)" stroke-width="2"/>
+            <line x1="25" y1="105" x2="40" y2="105" stroke="url(#goldRib)" stroke-width="2"/>
+            <!-- Top Book -->
+            <rect x="20" y="60" width="120" height="25" rx="4" fill="url(#bookCover2)"/>
+            <path d="M132 63 L138 63 L138 82 L132 82 Z" fill="url(#pagesGrad)"/>
+            <line x1="20" y1="66" x2="35" y2="66" stroke="url(#goldRib)" stroke-width="2"/>
+            <line x1="20" y1="79" x2="35" y2="79" stroke="url(#goldRib)" stroke-width="2"/>
+            <!-- Brass Compass -->
+            <g transform="rotate(18, 60, 40)">
+              <circle cx="60" cy="18" r="9" fill="url(#compassGold)" stroke="#FFF4D0" stroke-width="1"/>
+              <circle cx="60" cy="18" r="4" fill="#3D2802"/>
+              <path d="M57 26 L46 95 L49 96 L60 26 Z" fill="url(#compassGold)"/>
+              <path d="M60 26 L74 95 L71 96 L57 26 Z" fill="url(#compassGold)"/>
+              <polygon points="46,95 44,106 49,96" fill="#C5CED8"/>
+              <polygon points="74,95 76,106 71,96" fill="#C5CED8"/>
+              <rect x="48" y="52" width="24" height="4" rx="1.5" fill="url(#compassGold)"/>
+              <circle cx="60" cy="54" r="3.5" fill="url(#compassGold)" stroke="#3D2802" stroke-width="0.8"/>
+            </g>
+          </svg>
+        </div>
+
+        <!-- 3. Timing & Duration Strip -->
+        <div class="cbse-timing-strip">
+          <div class="cbse-timing-col">
+            <div class="cbse-icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="cbse-timing-details">
+              <span class="cbse-timing-title">Examination Timing</span>
+              <span class="cbse-timing-value">10:30 AM – 01:30 PM</span>
+            </div>
+          </div>
+
+          <div class="cbse-timing-divider" aria-hidden="true"></div>
+
+          <div class="cbse-timing-col">
+            <div class="cbse-icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 22h14M5 2h14M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"></path>
+              </svg>
+            </div>
+            <div class="cbse-timing-details">
+              <span class="cbse-timing-title">Duration</span>
+              <span class="cbse-timing-value">3 Hours</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Primary CTA Navigation Button -->
+        <div class="cbse-cta-wrap">
+          <a href="class-10.html" class="cbse-cta-btn">
+            <span>Open Class 10th Test Series</span>
+            <svg class="cbse-cta-arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/solar-matrix.js?v=2.0"></script>
+  <script src="assets/js/exam-popup.js" defer></script>
+
 </body>
 </html>
