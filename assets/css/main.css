@@ -2849,23 +2849,9 @@ body[data-bg-flow="hybrid"] .site-footer {
   }
 }
 
-/* Product Hunt Badge Theme Switching */
-[data-theme="light"] .ph-badge-light {
-  display: block !important;
-}
-[data-theme="light"] .ph-badge-dark {
-  display: none !important;
-}
-[data-theme="dark"] .ph-badge-light {
-  display: none !important;
-}
-[data-theme="dark"] .ph-badge-dark {
-  display: block !important;
-}
-
-
 /* ==========================================================================
    Trust & Accreditations Badges Bar (Footer)
+   Unified Dual-Theme Architecture (Product Hunt, Google Reviews, NEP 2020)
    ========================================================================== */
 
 .trust-badges-bar {
@@ -2904,6 +2890,12 @@ body[data-bg-flow="hybrid"] .site-footer {
   width: auto;
   border-radius: 12px;
 }
+
+/* Product Hunt Badge Theme Switching */
+[data-theme="light"] .ph-badge-light { display: block !important; }
+[data-theme="light"] .ph-badge-dark  { display: none !important; }
+[data-theme="dark"] .ph-badge-light  { display: none !important; }
+[data-theme="dark"] .ph-badge-dark   { display: block !important; }
 
 /* Custom Trust Cards (Google Reviews & NEP 2020) */
 .custom-trust-card {
@@ -2989,9 +2981,7 @@ body[data-bg-flow="hybrid"] .site-footer {
   letter-spacing: 0.01em;
 }
 
-/* ==========================================================================
-   Dark Mode Trust Card Styles
-   ========================================================================== */
+/* Dark Mode Trust Card */
 [data-theme="dark"] .custom-trust-card {
   background: rgba(15, 23, 42, 0.85);
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -3016,21 +3006,11 @@ body[data-bg-flow="hybrid"] .site-footer {
   border: 1px solid rgba(59, 130, 246, 0.35);
 }
 
-[data-theme="dark"] .nep-icon-wrap {
-  color: #60A5FA;
-}
+[data-theme="dark"] .nep-icon-wrap { color: #60A5FA; }
+[data-theme="dark"] .trust-score { color: #F8FAFC; }
+[data-theme="dark"] .trust-nep-subtext { color: #CBD5E1; }
 
-[data-theme="dark"] .trust-score {
-  color: #F8FAFC;
-}
-
-[data-theme="dark"] .trust-nep-subtext {
-  color: #CBD5E1;
-}
-
-/* ==========================================================================
-   Light Mode Trust Card Styles
-   ========================================================================== */
+/* Light Mode Trust Card */
 [data-theme="light"] .custom-trust-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
@@ -3055,23 +3035,12 @@ body[data-bg-flow="hybrid"] .site-footer {
   border: 1px solid #BFDBFE;
 }
 
-[data-theme="light"] .nep-icon-wrap {
-  color: #1E40AF;
-}
+[data-theme="light"] .nep-icon-wrap { color: #1E40AF; }
+[data-theme="light"] .trust-score { color: #0F172A; }
+[data-theme="light"] .trust-reviews-count { color: #64748B; }
+[data-theme="light"] .trust-nep-subtext { color: #475569; }
 
-[data-theme="light"] .trust-score {
-  color: #0F172A;
-}
-
-[data-theme="light"] .trust-reviews-count {
-  color: #64748B;
-}
-
-[data-theme="light"] .trust-nep-subtext {
-  color: #475569;
-}
-
-/* Mobile responsive adjustments */
+/* Mobile Responsive */
 @media (max-width: 640px) {
   .trust-badges-bar {
     gap: 0.85rem;

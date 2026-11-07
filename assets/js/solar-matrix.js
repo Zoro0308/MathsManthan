@@ -10,7 +10,6 @@
  * REVERSIBILITY:
  * - To revert to hero-only: Change DEFAULT_FLOW_MODE below to 'hero-only', OR change
  *   <body data-bg-flow="hybrid"> to <body data-bg-flow="hero-only"> in index.html.
- * - An exact 1:1 original backup is also preserved at 'assets/js/solar-matrix.original.js'.
  */
 
 (function () {

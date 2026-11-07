@@ -1,6 +1,6 @@
 /**
  * Maths Manthan | Main Interactive Logic
- * Global Theme Switcher (Dark/Light), Mobile nav toggle, scroll spy, WhatsApp generator, and Font adjuster
+ * Global Theme Switcher (Dark/Light), Mobile nav toggle, scroll spy, WhatsApp generator, and Two-Way Scroll Button
  */
 
 // Immediate Theme Initialization (runs immediately to prevent flash)
@@ -108,49 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Live Headline Font Size Adjuster Controls
-  const heroTitle = document.getElementById('heroTitle');
-  const fontDecBtn = document.getElementById('fontDecBtn');
-  const fontIncBtn = document.getElementById('fontIncBtn');
-  const fontResetBtn = document.getElementById('fontResetBtn');
-  const fontSizeDisplay = document.getElementById('fontSizeDisplay');
-
-  if (heroTitle && fontSizeDisplay) {
-    const DEFAULT_SIZE = 4.4;
-    let currentRem = parseFloat(localStorage.getItem('mm_hero_fontsize')) || DEFAULT_SIZE;
-
-    function applyFontSize(remVal) {
-      currentRem = Math.round(remVal * 10) / 10;
-      heroTitle.style.fontSize = `clamp(2.6rem, 5.5vw, ${currentRem}rem)`;
-      fontSizeDisplay.textContent = `${currentRem}rem`;
-      localStorage.setItem('mm_hero_fontsize', currentRem);
-    }
-
-    if (localStorage.getItem('mm_hero_fontsize')) {
-      applyFontSize(currentRem);
-    }
-
-    fontIncBtn?.addEventListener('click', () => {
-      if (currentRem < 7.0) {
-        applyFontSize(currentRem + 0.2);
-      }
-    });
-
-    fontDecBtn?.addEventListener('click', () => {
-      if (currentRem > 2.4) {
-        applyFontSize(currentRem - 0.2);
-      }
-    });
-
-    fontResetBtn?.addEventListener('click', () => {
-      localStorage.removeItem('mm_hero_fontsize');
-      currentRem = DEFAULT_SIZE;
-      heroTitle.style.fontSize = '';
-      fontSizeDisplay.textContent = `${DEFAULT_SIZE}rem`;
-    });
-  }
-
-  // 6. Dynamic Floating Two-Way Scroll Button (Down to Bottom / Up to Top)
+  // 5. Dynamic Floating Two-Way Scroll Button (Down to Bottom / Up to Top)
   (function initFloatingScrollButton() {
     const scrollBtn = document.createElement('button');
     scrollBtn.id = 'floatingScrollBtn';
