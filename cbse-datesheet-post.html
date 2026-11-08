@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maths Manthan - CBSE Date Sheet Announcement Post</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cinzel:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+  <!-- html2canvas for 1-click ultra HD image export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    :root {
+      --color-navy: #001E4A;
+      --color-navy-dark: #071224;
+      --color-gold: #DA9B18;
+      --color-gold-bright: #F59E0B;
+      --color-yellow: #FFBE1A;
+      --color-bg: #FFFFFF;
+      --color-gray-math: rgba(0, 30, 74, 0.12);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background-color: #0b111e;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      color: #fff;
+    }
+
+    /* Controls Bar */
+    .controls-panel {
+      margin-bottom: 24px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 12px 24px;
+      border-radius: 50px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .btn-download {
+      background: linear-gradient(135deg, #DA9B18 0%, #F59E0B 100%);
+      color: #001E4A;
+      font-weight: 800;
+      font-size: 15px;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 30px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 15px rgba(218, 155, 24, 0.4);
+      transition: all 0.2s ease;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(218, 155, 24, 0.6);
+    }
+
+    .post-hint {
+      font-size: 14px;
+      color: #94A3B8;
+    }
+
+    /* 1080x1080 Instagram & Google Business Profile Graphic Canvas */
+    .graphic-container {
+      width: 1080px;
+      height: 1080px;
+      background-color: #FFFFFF;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 30px 90px rgba(0, 0, 0, 0.7);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Top Left Corner Navy Curve */
+    .top-left-curve {
+      position: absolute;
+      top: -60px;
+      left: -60px;
+      width: 320px;
+      height: 320px;
+      background-color: var(--color-navy);
+      border-radius: 50%;
+      z-index: 1;
+      border: 10px solid var(--color-yellow);
+    }
+
+    .corner-tagline {
+      position: absolute;
+      top: 45px;
+      left: 45px;
+      z-index: 2;
+      color: #FFFFFF;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .corner-tagline .highlight {
+      color: var(--color-yellow);
+      display: inline-block;
+      position: relative;
+    }
+
+    .corner-tagline .highlight::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 100%;
+      height: 3px;
+      background-color: var(--color-yellow);
+      border-radius: 2px;
+    }
+
+    /* Top Right Dotted Matrix */
+    .dot-matrix-tr {
+      position: absolute;
+      top: 36px;
+      right: 40px;
+      display: grid;
+      grid-template-columns: repeat(6, 10px);
+      grid-gap: 12px;
+      z-index: 1;
+    }
+
+    .dot-matrix-tr span {
+      width: 8px;
+      height: 8px;
+      background-color: var(--color-gold-bright);
+      border-radius: 50%;
+      opacity: 0.85;
+    }
+
+    /* Bottom Left Dotted Matrix */
+    .dot-matrix-bl {
+      position: absolute;
+      bottom: 210px;
+      left: 40px;
+      display: grid;
+      grid-template-columns: repeat(5, 9px);
+      grid-gap: 11px;
+      z-index: 1;
+    }
+
+    .dot-matrix-bl span {
+      width: 7px;
+      height: 7px;
+      background-color: var(--color-gold-bright);
+      border-radius: 50%;
+      opacity: 0.8;
+    }
+
+    /* Math Formula Watermark Doodles */
+    .math-watermark {
+      position: absolute;
+      color: var(--color-gray-math);
+      font-family: 'Times New Roman', serif;
+      font-style: italic;
+      user-select: none;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .math-wm-1 { top: 290px; left: 60px; font-size: 38px; transform: rotate(-8deg); }
+    .math-wm-2 { top: 380px; left: 190px; font-size: 46px; }
+    .math-wm-3 { top: 300px; right: 100px; font-size: 34px; }
+    .math-wm-4 { bottom: 260px; right: 100px; font-size: 44px; }
+    .math-wm-5 { top: 460px; right: 70px; font-size: 32px; transform: rotate(4deg); }
+
+    /* Yellow Brush Badge Top Right */
+    .brush-badge {
+      position: absolute;
+      top: 100px;
+      right: 50px;
+      background: var(--color-yellow);
+      padding: 16px 32px;
+      border-radius: 40px 14px 44px 18px;
+      transform: rotate(7deg);
+      box-shadow: 0 10px 25px rgba(255, 190, 26, 0.4);
+      z-index: 2;
+      text-align: center;
+      border: 3px solid #001E4A;
+    }
+
+    .brush-badge .badge-text-top {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--color-navy);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .brush-badge .badge-text-sub {
+      font-family: 'Caveat', cursive;
+      font-size: 38px;
+      font-weight: 700;
+      color: #92400E;
+      line-height: 1;
+      margin-top: 4px;
+    }
+
+    /* Main Branding Header */
+    .header-branding {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .brand-logo-svg {
+      width: 140px;
+      height: 140px;
+      filter: drop-shadow(0 6px 14px rgba(0, 30, 74, 0.15));
+    }
+
+    .brand-title {
+      font-family: 'Cinzel', serif;
+      font-size: 56px;
+      font-weight: 900;
+      color: var(--color-navy);
+      letter-spacing: 2px;
+      line-height: 1;
+      margin-top: 10px;
+    }
+
+    .brand-title span {
+      color: var(--color-gold);
+    }
+
+    .brand-subtitle {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: 7px;
+      color: var(--color-navy);
+      margin-top: 8px;
+      text-transform: uppercase;
+    }
+
+    /* Middle Content: The CBSE Date Sheet Announcement */
+    .announcement-body {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 50px;
+      margin-top: -10px;
+    }
+
+    /* Announcement Ribbon Pill */
+    .classes-pill {
+      background-color: var(--color-navy);
+      padding: 12px 60px;
+      border-radius: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 3px solid var(--color-yellow);
+      box-shadow: 0 12px 30px rgba(0, 30, 74, 0.25);
+    }
+
+    .classes-pill .pill-tag {
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      color: var(--color-yellow);
+      text-transform: uppercase;
+    }
+
+    .classes-pill .pill-headline {
+      font-size: 38px;
+      font-weight: 900;
+      color: #FFFFFF;
+      letter-spacing: 1px;
+      margin-top: 2px;
+    }
+
+    .classes-pill .pill-headline span {
+      color: var(--color-yellow);
+    }
+
+    /* High-Impact Yellow Brush Banner */
+    .banner-brush-container {
+      margin: 22px 0 20px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .brush-banner {
+      background: linear-gradient(90deg, #F59E0B 0%, #FFBE1A 50%, #F59E0B 100%);
+      color: var(--color-navy);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 44px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 14px 60px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(245, 158, 11, 0.35);
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .brush-banner::before,
+    .brush-banner::after {
+      content: '✦';
+      font-size: 24px;
+      color: var(--color-navy);
+    }
+
+    /* Website Direction Feature Box */
+    .web-direction-card {
+      background: #FFFFFF;
+      border: 2px solid #E2E8F0;
+      border-radius: 20px;
+      padding: 20px 40px;
+      width: 100%;
+      max-width: 900px;
+      box-shadow: 0 12px 35px rgba(0, 30, 74, 0.08);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .web-features {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .web-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--color-navy);
+    }
+
+    .feature-icon-circle {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(218, 155, 24, 0.18);
+      color: #B45309;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 900;
+      flex-shrink: 0;
+    }
+
+    /* Big Website CTA Button */
+    .cta-website-btn {
+      background: var(--color-navy);
+      color: #FFFFFF;
+      padding: 18px 34px;
+      border-radius: 16px;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 8px 20px rgba(0, 30, 74, 0.3);
+      border: 2px solid var(--color-yellow);
+      transition: all 0.2s ease;
+    }
+
+    .cta-website-btn .cta-label {
+      font-size: 13px;
+      letter-spacing: 2px;
+      color: var(--color-yellow);
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .cta-website-btn .cta-domain {
+      font-size: 26px;
+      font-weight: 900;
+      color: #FFFFFF;
+      letter-spacing: 0.5px;
+      margin-top: 2px;
+    }
+
+    /* Signature Bottom Wave Banner */
+    .bottom-wave-section {
+      position: relative;
+      width: 100%;
+      height: 175px;
+      background-color: var(--color-navy);
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    /* Curved Upper Wave Shape in SVG */
+    .wave-svg {
+      position: absolute;
+      top: -48px;
+      left: 0;
+      width: 100%;
+      height: 52px;
+      z-index: 1;
+    }
+
+    /* Info Bar at Bottom */
+    .footer-info-bar {
+      position: relative;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0 30px 32px;
+      width: 100%;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: #FFFFFF;
+    }
+
+    .info-icon-wrapper {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      color: var(--color-yellow);
+      border: 1.5px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .info-content .info-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: #FFFFFF;
+      line-height: 1.2;
+    }
+
+    .info-content .info-desc {
+      font-size: 14px;
+      font-weight: 600;
+      color: #94A3B8;
+      margin-top: 2px;
+    }
+
+    .footer-divider {
+      width: 1.5px;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.18);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Controls for Manthan -->
+  <div class="controls-panel">
+    <button class="btn-download" onclick="exportPostAsPNG()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+      Download High-Res 1080×1080 Image
+    </button>
+    <div class="post-hint">⚡ Ready for Google Maps Updates, WhatsApp Status & Instagram</div>
+  </div>
+
+  <!-- 1080x1080 Square Graphic -->
+  <div class="graphic-container" id="postGraphic">
+
+    <!-- Top-Left Dark Navy Curved Blob with Yellow Border -->
+    <div class="top-left-curve"></div>
+    <div class="corner-tagline">
+      Learn<br>
+      Understand<br>
+      <span class="highlight">Excel</span>
+    </div>
+
+    <!-- Top-Right Dotted Matrix Grid -->
+    <div class="dot-matrix-tr">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Math Watermarks in Background -->
+    <div class="math-watermark math-wm-1">a² + b² = c²</div>
+    <div class="math-watermark math-wm-2">π</div>
+    <div class="math-watermark math-wm-3">x = \frac{-b \pm \sqrt{b²-4ac}}{2a}</div>
+    <div class="math-watermark math-wm-4">√x</div>
+    <div class="math-watermark math-wm-5">y = mx + c</div>
+
+    <!-- Bottom-Left Dotted Matrix Grid -->
+    <div class="dot-matrix-bl">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Top-Right Yellow Brush Badge -->
+    <div class="brush-badge">
+      <div class="badge-text-top">CBSE 2025–26</div>
+      <div class="badge-text-sub">Date Sheet Out!</div>
+    </div>
+
+    <!-- Header: Maths Manthan Logo & Brand Title -->
+    <div class="header-branding">
+      <!-- Authentic Maths Manthan Vector Logo -->
+      <svg class="brand-logo-svg" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Navy Left Stems of M -->
+        <path d="M30 135V45L65 85L50 135H30Z" fill="#001E4A" />
+        <path d="M130 135V45L95 85L110 135H130Z" fill="#001E4A" />
+        <path d="M30 45H52L72 75L58 92L30 45Z" fill="#001E4A" />
+        <path d="M130 45H108L88 75L102 92L130 45Z" fill="#001E4A" />
+        <!-- Golden Arrow slicing through M -->
+        <path d="M50 115L80 72L118 28M118 28H88M118 28V58" stroke="#DA9B18" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M50 115L80 72L118 28" stroke="#F59E0B" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+
+      <h1 class="brand-title">MATHS <span>MANTHAN</span></h1>
+      <div class="brand-subtitle">• TUITION CLASSES •</div>
+    </div>
+
+    <!-- Middle: The CBSE Date Sheet Announcement & Traffic Hook -->
+    <div class="announcement-body">
+      
+      <!-- Target Classes Navy Pill -->
+      <div class="classes-pill">
+        <span class="pill-tag">CLASSES 8, 9, 10 • 11, 12</span>
+        <div class="pill-headline">BOARD EXAMS <span>2025–26</span></div>
+      </div>
+
+      <!-- High-Impact Yellow Brush Banner -->
+      <div class="banner-brush-container">
+        <div class="brush-banner">
+          DATE SHEET ANNOUNCED
+        </div>
+      </div>
+
+      <!-- Website Traffic & Value Offer Card -->
+      <div class="web-direction-card">
+        <div class="web-features">
+          <div class="web-feature-item">
+            <div class="feature-icon-circle">✓</div>
+            <span>Complete Exam Schedule & Subject-Wise Dates</span>
+          </div>
+          <div class="web-feature-item">
+            <div class="feature-icon-circle">✓</div>
+            <span>Chapter-Wise Question Banks & Practice Papers</span>
+          </div>
+          <div class="web-feature-item">
+            <div class="feature-icon-circle">✓</div>
+            <span>Class 8th to 12th Master Formula Handbooks</span>
+          </div>
+        </div>
+
+        <!-- Big CTA Button directing to Website -->
+        <div class="cta-website-btn">
+          <span class="cta-label">Direct Download At</span>
+          <span class="cta-domain">mathsmanthan.co.in</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Curved Wave Footer Bar -->
+    <div class="bottom-wave-section">
+      <!-- Upper Wave SVG Border -->
+      <svg class="wave-svg" viewBox="0 0 1080 52" fill="none" preserveAspectRatio="none">
+        <!-- Gold Accent Line -->
+        <path d="M0 48C320 10 760 10 1080 48V52H0V48Z" fill="#F59E0B" />
+        <!-- Navy Body Wave -->
+        <path d="M0 50C320 18 760 18 1080 50V52H0V50Z" fill="#001E4A" />
+      </svg>
+
+      <!-- Contact and Location Details -->
+      <div class="footer-info-bar">
+        
+        <!-- Location -->
+        <div class="info-item">
+          <div class="info-icon-wrapper">📍</div>
+          <div class="info-content">
+            <div class="info-title">D121 European Estate</div>
+            <div class="info-desc">Meerut, 250001</div>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <!-- WhatsApp / Phone -->
+        <div class="info-item">
+          <div class="info-icon-wrapper">📞</div>
+          <div class="info-content">
+            <div class="info-title">+91 8171546558</div>
+            <div class="info-desc">Call / WhatsApp for Admissions</div>
+          </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <!-- Board & Target -->
+        <div class="info-item">
+          <div class="info-icon-wrapper">🎓</div>
+          <div class="info-content">
+            <div class="info-title">CBSE Board</div>
+            <div class="info-desc">Classes 8th to 12th</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function exportPostAsPNG() {
+      const element = document.getElementById("postGraphic");
+      const btn = document.querySelector(".btn-download");
+      btn.innerText = "⏳ Generating Ultra-HD Image...";
+      btn.disabled = true;
+
+      html2canvas(element, {
+        scale: 2, // 2x resolution (2160x2160) for crystal clear retina quality
+        useCORS: true,
+        backgroundColor: "#FFFFFF",
+        logging: false
+      }).then(canvas => {
+        const link = document.createElement("a");
+        link.download = "MathsManthan_CBSE_DateSheet_Update.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+
+        btn.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Downloaded! Download Again`;
+        btn.disabled = false;
+      }).catch(err => {
+        console.error(err);
+        alert("Failed to render image automatically. You can also take a screenshot of the 1080x1080 card.");
+        btn.innerText = "Download High-Res 1080×1080 Image";
+        btn.disabled = false;
+      });
+    }
+  </script>
+</body>
+</html>
