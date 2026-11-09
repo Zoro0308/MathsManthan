@@ -552,24 +552,57 @@ button, input, select, textarea {
 }
 
 .hero-highlights {
-  display: flex;
-  gap: 1.8rem;
-  padding-top: 1.8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 0;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
 }
 
 .highlight-item {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0.6rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #F8FAFC;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  position: relative;
+}
+
+.highlight-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 15%;
+  height: 70%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .highlight-icon {
-  color: #DA9B18;
-  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gold);
+  margin-bottom: 0.45rem;
+}
+
+.highlight-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #F8FAFC;
+}
+
+[data-theme="light"] .highlight-label {
+  color: var(--color-primary-navy);
+}
+
+[data-theme="light"] .highlight-item:not(:last-child)::after {
+  background: var(--color-border-light, #E7E3D8);
 }
 
 /* In-Browser Font Size Adjuster Toolbar */
@@ -1407,57 +1440,148 @@ button, input, select, textarea {
     display: none !important;
   }
 
-  /* Hero Actions - Thumb-friendly stacked buttons */
+  /* Hero Actions - Primary button with compact secondary link */
   .hero-actions {
     flex-direction: column !important;
     width: 100% !important;
-    gap: 0.75rem !important;
-    margin-bottom: 1.75rem !important;
+    gap: 0.65rem !important;
+    margin-bottom: 1.25rem !important;
+    align-items: center !important;
   }
-  .hero-actions .btn {
+  .hero-actions .btn-gold {
     width: 100% !important;
     text-align: center !important;
     justify-content: center !important;
-    padding: 0.82rem 1.25rem !important;
+    padding: 0.85rem 1.25rem !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+  }
+  .hero-actions .btn-outline {
+    width: auto !important;
+    background: transparent !important;
+    border: none !important;
+    color: var(--color-gold) !important;
     font-size: 0.92rem !important;
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 4px !important;
+    padding: 0.4rem 0.8rem !important;
+    box-shadow: none !important;
   }
 
-  /* Hero Highlights - Clean vertical stacked list */
+  /* Hero Highlights - 3 Columns in a Row with Vertical Dividers (Reference Layout) */
   .hero-highlights {
-    flex-direction: column !important;
-    gap: 0.65rem !important;
-    padding-top: 1.25rem !important;
-  }
-  .highlight-item {
-    font-size: 0.85rem !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    align-items: center !important;
+    gap: 0 !important;
+    padding: 1.25rem 0 0.5rem 0 !important;
+    margin-top: 1.25rem !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
     width: 100% !important;
   }
+  .highlight-item {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 0.25rem 0.35rem !important;
+    position: relative !important;
+    width: 100% !important;
+  }
+  .highlight-icon {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 0.35rem !important;
+    color: var(--color-gold) !important;
+  }
+  .highlight-icon svg {
+    width: 22px !important;
+    height: 22px !important;
+  }
+  .highlight-label {
+    font-size: 0.74rem !important;
+    line-height: 1.2 !important;
+    color: #F8FAFC !important;
+    font-weight: 700 !important;
+    white-space: normal !important;
+    text-align: center !important;
+  }
+  [data-theme="light"] .highlight-label {
+    color: var(--color-primary-navy) !important;
+  }
+  .highlight-item:not(:last-child)::after {
+    content: "" !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 12% !important;
+    height: 76% !important;
+    width: 1px !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+  }
+  [data-theme="light"] .highlight-item:not(:last-child)::after {
+    background: #E7E3D8 !important;
+  }
 
-  /* Educator Card */
+  /* Educator Card - Cropped Symmetrical Mobile View (matching reference) */
   .educator-card {
-    padding: 1.75rem 1.25rem !important;
+    padding: 1.5rem 1.15rem 1.25rem !important;
     margin-top: 1.5rem !important;
+    border-radius: var(--radius-lg) !important;
+    text-align: center !important;
+  }
+  .educator-top {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 0.85rem !important;
+    margin-bottom: 1.15rem !important;
   }
   .educator-avatar-wrapper {
-    width: 145px !important;
-    height: 145px !important;
-    margin-bottom: 1.25rem !important;
+    width: 140px !important;
+    height: 140px !important;
+    margin: 0 auto !important;
+    border-radius: 50% !important;
+    padding: 5px !important;
+    background: linear-gradient(135deg, var(--color-gold) 0%, #FFF4D9 50%, var(--color-gold) 100%) !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4), 0 0 25px rgba(216, 150, 23, 0.4) !important;
   }
-
+  .educator-avatar {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50% !important;
+    border: 3px solid var(--color-primary-navy) !important;
+    object-fit: cover !important;
+  }
+  .educator-meta {
+    text-align: center !important;
+  }
   .educator-meta h2, .educator-meta h3 {
-    font-size: clamp(1.2rem, 5.2vw, 1.55rem) !important;
+    font-size: clamp(1.25rem, 5.5vw, 1.5rem) !important;
     white-space: nowrap !important;
-    letter-spacing: 0.01em !important;
+    letter-spacing: 0.02em !important;
     margin-bottom: 0.2rem !important;
+    text-align: center !important;
   }
-
-  /* Educator Card Credentials in 2x2 Matrix + 5th Centered (Mobile Exclusive) */
+  .educator-role {
+    font-size: 0.75rem !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    display: inline-block !important;
+    color: var(--color-gold) !important;
+    font-weight: 700 !important;
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
+  }
   .credentials-list {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 0.5rem !important;
     width: 100% !important;
-    margin-bottom: 1.25rem !important;
+    margin-bottom: 0 !important;
   }
   .credential-badge {
     display: flex !important;
@@ -1467,6 +1591,7 @@ button, input, select, textarea {
     padding: 0.45rem 0.35rem !important;
     font-size: 0.74rem !important;
     line-height: 1.25 !important;
+    border-radius: 6px !important;
     white-space: normal !important;
   }
   .credentials-list .credential-badge:nth-child(5) {
@@ -1478,9 +1603,47 @@ button, input, select, textarea {
     max-width: 90% !important;
   }
 
-  /* Centrally align educator philosophy quote text in mobile view */
-  .educator-philosophy {
+  /* Crop philosophy quote and footer quote on mobile only */
+  .educator-philosophy,
+  .educator-quote {
+    display: none !important;
+  }
+
+  /* Stats Section - Compact 2x2 Grid Palette */
+  .stats-section {
+    padding: 1.5rem 0.75rem !important;
+  }
+  .stats-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.75rem !important;
+  }
+  .stat-item {
+    padding: 0.95rem 0.6rem !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 12px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
     text-align: center !important;
+  }
+  [data-theme="light"] .stat-item {
+    background: #FFFFFF !important;
+    border-color: #E7E3D8 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+  }
+  .stat-item::after {
+    display: none !important;
+  }
+  .stat-number {
+    font-size: 1.65rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .stat-label {
+    font-size: 0.75rem !important;
+    line-height: 1.25 !important;
   }
   .educator-header h2 {
     font-size: 1.45rem !important;
@@ -1611,11 +1774,12 @@ button, input, select, textarea {
 
 @media (max-width: 480px) {
   .educator-avatar-wrapper {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
   }
   .stats-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.65rem !important;
   }
   .stat-item::after {
     display: none !important;
