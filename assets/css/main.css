@@ -424,6 +424,7 @@ button, input, select, textarea {
 .hero-top-bar {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 1.5rem;
@@ -509,6 +510,7 @@ button, input, select, textarea {
   margin-bottom: 1.25rem;
   letter-spacing: -0.015em;
   text-shadow: 0 4px 24px rgba(0, 0, 0, 0.7);
+  text-align: center;
 }
 
 .hero-title span.accent-line {
@@ -523,6 +525,9 @@ button, input, select, textarea {
   margin-bottom: 2.25rem;
   max-width: 580px;
   line-height: 1.65;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-lead strong {
@@ -535,6 +540,8 @@ button, input, select, textarea {
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section .btn-outline {
@@ -1413,6 +1420,7 @@ button, input, select, textarea {
   }
   .hero-top-bar {
     margin-bottom: 0.85rem !important;
+    justify-content: center !important;
   }
   .hero-pill {
     font-size: 0.7rem !important;
@@ -1427,6 +1435,7 @@ button, input, select, textarea {
     line-height: 1.18 !important;
     margin-bottom: 1rem !important;
     letter-spacing: -0.01em !important;
+    text-align: center !important;
   }
   .hero-title span.accent-line {
     display: inline !important;
@@ -1435,6 +1444,9 @@ button, input, select, textarea {
     font-size: 0.95rem !important;
     line-height: 1.55 !important;
     margin-bottom: 1.5rem !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .headline-adjuster-bar {
     display: none !important;
