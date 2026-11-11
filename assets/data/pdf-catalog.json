@@ -2061,16 +2061,28 @@
   "class-10/ch-06__all": [
     "assets/pdfs/class-10/ch-06/Test-1.pdf",
     "assets/pdfs/class-10/ch-06/Test-10.pdf",
+    "assets/pdfs/class-10/ch-06/Test-10_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-11.pdf",
+    "assets/pdfs/class-10/ch-06/Test-11_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-12.pdf",
+    "assets/pdfs/class-10/ch-06/Test-12_Solutions.pdf",
+    "assets/pdfs/class-10/ch-06/Test-1_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-2.pdf",
+    "assets/pdfs/class-10/ch-06/Test-2_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-3.pdf",
+    "assets/pdfs/class-10/ch-06/Test-3_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-4.pdf",
+    "assets/pdfs/class-10/ch-06/Test-4_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-5.pdf",
+    "assets/pdfs/class-10/ch-06/Test-5_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-6.pdf",
+    "assets/pdfs/class-10/ch-06/Test-6_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-7.pdf",
+    "assets/pdfs/class-10/ch-06/Test-7_Solutions.pdf",
     "assets/pdfs/class-10/ch-06/Test-8.pdf",
-    "assets/pdfs/class-10/ch-06/Test-9.pdf"
+    "assets/pdfs/class-10/ch-06/Test-8_Solutions.pdf",
+    "assets/pdfs/class-10/ch-06/Test-9.pdf",
+    "assets/pdfs/class-10/ch-06/Test-9_Solutions.pdf"
   ],
   "class-10/ch-06__items": [
     {
@@ -2084,6 +2096,16 @@
       "order": 11
     },
     {
+      "name": "Test-1_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-1_Solutions.pdf",
+      "title": "Test 1 \u2014 Solution",
+      "code": "TEST-01-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.6 MB",
+      "order": 12
+    },
+    {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-2.pdf",
       "title": "Test 2",
@@ -2092,6 +2114,16 @@
       "type": "test",
       "size": "622 KB",
       "order": 21
+    },
+    {
+      "name": "Test-2_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-2_Solutions.pdf",
+      "title": "Test 2 \u2014 Solution",
+      "code": "TEST-02-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.3 MB",
+      "order": 22
     },
     {
       "name": "Test-3.pdf",
@@ -2104,6 +2136,16 @@
       "order": 31
     },
     {
+      "name": "Test-3_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-3_Solutions.pdf",
+      "title": "Test 3 \u2014 Solution",
+      "code": "TEST-03-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.1 MB",
+      "order": 32
+    },
+    {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-4.pdf",
       "title": "Test 4",
@@ -2112,6 +2154,16 @@
       "type": "test",
       "size": "647 KB",
       "order": 41
+    },
+    {
+      "name": "Test-4_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-4_Solutions.pdf",
+      "title": "Test 4 \u2014 Solution",
+      "code": "TEST-04-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.0 MB",
+      "order": 42
     },
     {
       "name": "Test-5.pdf",
@@ -2124,6 +2176,16 @@
       "order": 51
     },
     {
+      "name": "Test-5_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-5_Solutions.pdf",
+      "title": "Test 5 \u2014 Solution",
+      "code": "TEST-05-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.0 MB",
+      "order": 52
+    },
+    {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-6.pdf",
       "title": "Test 6",
@@ -2132,6 +2194,16 @@
       "type": "test",
       "size": "633 KB",
       "order": 61
+    },
+    {
+      "name": "Test-6_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-6_Solutions.pdf",
+      "title": "Test 6 \u2014 Solution",
+      "code": "TEST-06-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.2 MB",
+      "order": 62
     },
     {
       "name": "Test-7.pdf",
@@ -2144,6 +2216,16 @@
       "order": 71
     },
     {
+      "name": "Test-7_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-7_Solutions.pdf",
+      "title": "Test 7 \u2014 Solution",
+      "code": "TEST-07-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.7 MB",
+      "order": 72
+    },
+    {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-8.pdf",
       "title": "Test 8",
@@ -2152,6 +2234,16 @@
       "type": "test",
       "size": "750 KB",
       "order": 81
+    },
+    {
+      "name": "Test-8_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-8_Solutions.pdf",
+      "title": "Test 8 \u2014 Solution",
+      "code": "TEST-08-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.5 MB",
+      "order": 82
     },
     {
       "name": "Test-9.pdf",
@@ -2164,6 +2256,16 @@
       "order": 91
     },
     {
+      "name": "Test-9_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-9_Solutions.pdf",
+      "title": "Test 9 \u2014 Solution",
+      "code": "TEST-09-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.5 MB",
+      "order": 92
+    },
+    {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-10.pdf",
       "title": "Test 10",
@@ -2172,6 +2274,16 @@
       "type": "test",
       "size": "778 KB",
       "order": 101
+    },
+    {
+      "name": "Test-10_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-10_Solutions.pdf",
+      "title": "Test 10 \u2014 Solution",
+      "code": "TEST-10-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.4 MB",
+      "order": 102
     },
     {
       "name": "Test-11.pdf",
@@ -2184,6 +2296,16 @@
       "order": 111
     },
     {
+      "name": "Test-11_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-11_Solutions.pdf",
+      "title": "Test 11 \u2014 Solution",
+      "code": "TEST-11-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.7 MB",
+      "order": 112
+    },
+    {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-12.pdf",
       "title": "Test 12",
@@ -2192,25 +2314,50 @@
       "type": "test",
       "size": "761 KB",
       "order": 121
+    },
+    {
+      "name": "Test-12_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-06/Test-12_Solutions.pdf",
+      "title": "Test 12 \u2014 Solution",
+      "code": "TEST-12-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.6 MB",
+      "order": 122
     }
   ],
   "class-10/ch-07": "assets/pdfs/class-10/ch-07/test-1.pdf",
   "class-10/ch-07__all": [
     "assets/pdfs/class-10/ch-07/test-1.pdf",
     "assets/pdfs/class-10/ch-07/test-10.pdf",
+    "assets/pdfs/class-10/ch-07/test-10_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-11.pdf",
+    "assets/pdfs/class-10/ch-07/test-11_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-12.pdf",
+    "assets/pdfs/class-10/ch-07/test-12_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-13.pdf",
+    "assets/pdfs/class-10/ch-07/test-13_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-14.pdf",
+    "assets/pdfs/class-10/ch-07/test-14_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-15.pdf",
+    "assets/pdfs/class-10/ch-07/test-15_Solutions.pdf",
+    "assets/pdfs/class-10/ch-07/test-1_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-2.pdf",
+    "assets/pdfs/class-10/ch-07/test-2_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-3.pdf",
+    "assets/pdfs/class-10/ch-07/test-3_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-4.pdf",
+    "assets/pdfs/class-10/ch-07/test-4_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-5.pdf",
+    "assets/pdfs/class-10/ch-07/test-5_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-6.pdf",
+    "assets/pdfs/class-10/ch-07/test-6_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-7.pdf",
+    "assets/pdfs/class-10/ch-07/test-7_Solutions.pdf",
     "assets/pdfs/class-10/ch-07/test-8.pdf",
-    "assets/pdfs/class-10/ch-07/test-9.pdf"
+    "assets/pdfs/class-10/ch-07/test-8_Solutions.pdf",
+    "assets/pdfs/class-10/ch-07/test-9.pdf",
+    "assets/pdfs/class-10/ch-07/test-9_Solutions.pdf"
   ],
   "class-10/ch-07__items": [
     {
@@ -2224,6 +2371,16 @@
       "order": 11
     },
     {
+      "name": "test-1_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-1_Solutions.pdf",
+      "title": "Test 1 \u2014 Solution",
+      "code": "TEST-01-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.5 MB",
+      "order": 12
+    },
+    {
       "name": "test-2.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-2.pdf",
       "title": "Test 2",
@@ -2232,6 +2389,16 @@
       "type": "test",
       "size": "691 KB",
       "order": 21
+    },
+    {
+      "name": "test-2_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-2_Solutions.pdf",
+      "title": "Test 2 \u2014 Solution",
+      "code": "TEST-02-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.4 MB",
+      "order": 22
     },
     {
       "name": "test-3.pdf",
@@ -2244,6 +2411,16 @@
       "order": 31
     },
     {
+      "name": "test-3_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-3_Solutions.pdf",
+      "title": "Test 3 \u2014 Solution",
+      "code": "TEST-03-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.2 MB",
+      "order": 32
+    },
+    {
       "name": "test-4.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-4.pdf",
       "title": "Test 4",
@@ -2252,6 +2429,16 @@
       "type": "test",
       "size": "583 KB",
       "order": 41
+    },
+    {
+      "name": "test-4_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-4_Solutions.pdf",
+      "title": "Test 4 \u2014 Solution",
+      "code": "TEST-04-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.1 MB",
+      "order": 42
     },
     {
       "name": "test-5.pdf",
@@ -2264,6 +2451,16 @@
       "order": 51
     },
     {
+      "name": "test-5_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-5_Solutions.pdf",
+      "title": "Test 5 \u2014 Solution",
+      "code": "TEST-05-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "1.2 MB",
+      "order": 52
+    },
+    {
       "name": "test-6.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-6.pdf",
       "title": "Test 6",
@@ -2272,6 +2469,16 @@
       "type": "test",
       "size": "481 KB",
       "order": 61
+    },
+    {
+      "name": "test-6_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-6_Solutions.pdf",
+      "title": "Test 6 \u2014 Solution",
+      "code": "TEST-06-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "1.3 MB",
+      "order": 62
     },
     {
       "name": "test-7.pdf",
@@ -2284,6 +2491,16 @@
       "order": 71
     },
     {
+      "name": "test-7_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-7_Solutions.pdf",
+      "title": "Test 7 \u2014 Solution",
+      "code": "TEST-07-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "1.6 MB",
+      "order": 72
+    },
+    {
       "name": "test-8.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-8.pdf",
       "title": "Test 8",
@@ -2292,6 +2509,16 @@
       "type": "test",
       "size": "482 KB",
       "order": 81
+    },
+    {
+      "name": "test-8_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-8_Solutions.pdf",
+      "title": "Test 8 \u2014 Solution",
+      "code": "TEST-08-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "1.5 MB",
+      "order": 82
     },
     {
       "name": "test-9.pdf",
@@ -2304,6 +2531,16 @@
       "order": 91
     },
     {
+      "name": "test-9_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-9_Solutions.pdf",
+      "title": "Test 9 \u2014 Solution",
+      "code": "TEST-09-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "1.8 MB",
+      "order": 92
+    },
+    {
       "name": "test-10.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-10.pdf",
       "title": "Test 10",
@@ -2312,6 +2549,16 @@
       "type": "test",
       "size": "496 KB",
       "order": 101
+    },
+    {
+      "name": "test-10_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-10_Solutions.pdf",
+      "title": "Test 10 \u2014 Solution",
+      "code": "TEST-10-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "1.5 MB",
+      "order": 102
     },
     {
       "name": "test-11.pdf",
@@ -2324,6 +2571,16 @@
       "order": 111
     },
     {
+      "name": "test-11_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-11_Solutions.pdf",
+      "title": "Test 11 \u2014 Solution",
+      "code": "TEST-11-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "1.8 MB",
+      "order": 112
+    },
+    {
       "name": "test-12.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-12.pdf",
       "title": "Test 12",
@@ -2332,6 +2589,16 @@
       "type": "test",
       "size": "638 KB",
       "order": 121
+    },
+    {
+      "name": "test-12_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-12_Solutions.pdf",
+      "title": "Test 12 \u2014 Solution",
+      "code": "TEST-12-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.0 MB",
+      "order": 122
     },
     {
       "name": "test-13.pdf",
@@ -2344,6 +2611,16 @@
       "order": 131
     },
     {
+      "name": "test-13_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-13_Solutions.pdf",
+      "title": "Test 13 \u2014 Solution",
+      "code": "TEST-13-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "1.8 MB",
+      "order": 132
+    },
+    {
       "name": "test-14.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-14.pdf",
       "title": "Test 14",
@@ -2354,6 +2631,16 @@
       "order": 141
     },
     {
+      "name": "test-14_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-14_Solutions.pdf",
+      "title": "Test 14 \u2014 Solution",
+      "code": "TEST-14-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.5 MB",
+      "order": 142
+    },
+    {
       "name": "test-15.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-15.pdf",
       "title": "Test 15",
@@ -2362,6 +2649,16 @@
       "type": "test",
       "size": "691 KB",
       "order": 151
+    },
+    {
+      "name": "test-15_Solutions.pdf",
+      "path": "assets/pdfs/class-10/ch-07/test-15_Solutions.pdf",
+      "title": "Test 15 \u2014 Solution",
+      "code": "TEST-15-SOL",
+      "badge": "Answer Key",
+      "type": "solution",
+      "size": "2.4 MB",
+      "order": 152
     }
   ],
   "class-10/ch-08": "assets/pdfs/class-10/ch-08/Test-1.pdf",
