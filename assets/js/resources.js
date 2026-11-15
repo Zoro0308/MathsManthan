@@ -625,6 +625,538 @@ document.addEventListener('DOMContentLoaded', () => {
   let class10FormulasData = null;
   let isFormulaHubOpen = false;
 
+  // ==========================================================================
+  // Multi-Class: In-Page View Switcher Engine (Overview Dashboard <-> Chapters Grid)
+  // Supports Classes 8, 9, 10, 11, and 12
+  // ==========================================================================
+  const classConfigs = [
+    {
+      key: '8',
+      overviewId: 'class8OverviewSection',
+      chaptersId: 'class8ChaptersSection',
+      titleId: 'class8PageTitle',
+      defaultTitle: 'Class 8 Mathematics',
+      chaptersTitle: 'Class 8 Mathematics (Chapter Tests)',
+      btnBackId: 'btnBackToClass8Overview',
+      crumbHomeId: 'crumbClass8Home',
+      triggerSelectors: '#btnOpenClass8Chapters, #cardOpenChapterTests8, .btn-open-class8-tests'
+    },
+    {
+      key: '9',
+      overviewId: 'class9OverviewSection',
+      chaptersId: 'class9ChaptersSection',
+      titleId: 'class9PageTitle',
+      defaultTitle: 'Class 9 Mathematics',
+      chaptersTitle: 'Class 9 Mathematics (Chapter Tests)',
+      btnBackId: 'btnBackToClass9Overview',
+      crumbHomeId: 'crumbClass9Home',
+      triggerSelectors: '#btnOpenClass9Chapters, #cardOpenChapterTests9, .btn-open-class9-tests'
+    },
+    {
+      key: '10',
+      overviewId: 'class10OverviewSection',
+      chaptersId: 'class10ChaptersSection',
+      titleId: 'class10PageTitle',
+      defaultTitle: 'CBSE-Class 10 Mathematics',
+      chaptersTitle: 'CBSE-Class 10 Mathematics (Chapter Tests)',
+      btnBackId: 'btnBackToClass10Overview',
+      crumbHomeId: 'crumbClass10Home',
+      triggerSelectors: '#btnOpenClass10Chapters, #cardOpenChapterTests, .btn-open-class10-tests'
+    },
+    {
+      key: '11',
+      overviewId: 'class11OverviewSection',
+      chaptersId: 'class11ChaptersSection',
+      titleId: 'class11PageTitle',
+      defaultTitle: 'CBSE Class 11 Mathematics',
+      chaptersTitle: 'CBSE Class 11 Mathematics (Chapter Tests)',
+      btnBackId: 'btnBackToClass11Overview',
+      crumbHomeId: 'crumbClass11Home',
+      triggerSelectors: '#btnOpenClass11Chapters, #cardOpenChapterTests11, .btn-open-class11-tests'
+    },
+    {
+      key: '12',
+      overviewId: 'class12OverviewSection',
+      chaptersId: 'class12ChaptersSection',
+      titleId: 'class12PageTitle',
+      defaultTitle: 'CBSE Class 12 Core Maths',
+      chaptersTitle: 'CBSE Class 12 Core Maths (Chapter Tests)',
+      btnBackId: 'btnBackToClass12Overview',
+      crumbHomeId: 'crumbClass12Home',
+      triggerSelectors: '#btnOpenClass12Chapters, #cardOpenChapterTests12, .btn-open-class12-tests'
+    }
+  ];
+
+  const activeClassConfig = classConfigs.find(cfg => document.getElementById(cfg.overviewId) && document.getElementById(cfg.chaptersId));
+
+  let isClassChaptersGridOpen = false;
+
+  function openClassChaptersGrid(pushHistory = true) {
+    if (!activeClassConfig) return;
+    const overviewSection = document.getElementById(activeClassConfig.overviewId);
+    const chaptersSection = document.getElementById(activeClassConfig.chaptersId);
+    const pageTitle = document.getElementById(activeClassConfig.titleId);
+    if (!overviewSection || !chaptersSection) return;
+
+    if (typeof isFormulaHubOpen !== 'undefined' && isFormulaHubOpen && typeof closeFormulaHubView === 'function') {
+      closeFormulaHubView(false);
+    }
+    if (typeof currentActiveChapterFolder !== 'undefined' && currentActiveChapterFolder && typeof closeChapterTestsView === 'function') {
+      closeChapterTestsView(false);
+    }
+
+    isClassChaptersGridOpen = true;
+    overviewSection.style.display = 'none';
+    chaptersSection.style.display = 'block';
+
+    if (typeof applyViewMode === 'function') {
+      applyViewMode(localStorage.getItem('mm_view_mode') || 'extra-large');
+    }
+
+    if (pageTitle) {
+      pageTitle.textContent = activeClassConfig.chaptersTitle;
+    }
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'class' + activeClassConfig.key + '-chapters' }, '', '#chapters');
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function closeClassChaptersGrid(pushHistory = true) {
+    if (!activeClassConfig) return;
+    const overviewSection = document.getElementById(activeClassConfig.overviewId);
+    const chaptersSection = document.getElementById(activeClassConfig.chaptersId);
+    const pageTitle = document.getElementById(activeClassConfig.titleId);
+    if (!overviewSection || !chaptersSection) return;
+
+    if (typeof currentActiveChapterFolder !== 'undefined' && currentActiveChapterFolder && typeof closeChapterTestsView === 'function') {
+      closeChapterTestsView(false);
+    }
+
+    isClassChaptersGridOpen = false;
+    chaptersSection.style.display = 'none';
+    overviewSection.style.display = 'block';
+
+    if (typeof applyViewMode === 'function') {
+      applyViewMode(localStorage.getItem('mm_view_mode') || 'extra-large');
+    }
+
+    if (pageTitle) {
+      pageTitle.textContent = activeClassConfig.defaultTitle;
+    }
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'overview' }, '', window.location.pathname);
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Backwards-compatible aliases for Class 10
+  const class10OverviewSection = document.getElementById('class10OverviewSection');
+  const class10ChaptersSection = document.getElementById('class10ChaptersSection');
+  const class10PageTitle = document.getElementById('class10PageTitle');
+  const btnBackToClass10Overview = document.getElementById('btnBackToClass10Overview');
+  const crumbClass10Home = document.getElementById('crumbClass10Home');
+  let isClass10ChaptersGridOpen = false;
+  function openClass10ChaptersGrid(pushHistory = true) {
+    isClass10ChaptersGridOpen = true;
+    openClassChaptersGrid(pushHistory);
+  }
+  function closeClass10ChaptersGrid(pushHistory = true) {
+    isClass10ChaptersGridOpen = false;
+    closeClassChaptersGrid(pushHistory);
+  }
+
+  if (activeClassConfig) {
+    const btnBack = document.getElementById(activeClassConfig.btnBackId);
+    if (btnBack) {
+      btnBack.addEventListener('click', (e) => {
+        e.preventDefault();
+        closeClassChaptersGrid();
+      });
+    }
+
+    const crumbHome = document.getElementById(activeClassConfig.crumbHomeId);
+    if (crumbHome) {
+      crumbHome.addEventListener('click', (e) => {
+        e.preventDefault();
+        closeClassChaptersGrid();
+      });
+    }
+  }
+
+  // ==========================================================================
+  // Class 10: In-Page NCERT Sample Papers View Switcher & Drilldown Engine
+  // ==========================================================================
+  const class10SamplePapersSection = document.getElementById('class10SamplePapersSection');
+  const btnBackFromSamplesToOverview = document.getElementById('btnBackFromSamplesToOverview');
+  const crumbClass10HomeFromSamples = document.getElementById('crumbClass10HomeFromSamples');
+  let isClass10SamplePapersOpen = false;
+  let activeSamplePaperFolder = null;
+
+  function openClass10SamplePapers(pushHistory = true) {
+    if (!class10OverviewSection || !class10SamplePapersSection) return;
+
+    if (typeof isFormulaHubOpen !== 'undefined' && isFormulaHubOpen && typeof closeFormulaHubView === 'function') {
+      closeFormulaHubView(false);
+    }
+    if (typeof currentActiveChapterFolder !== 'undefined' && currentActiveChapterFolder && typeof closeChapterTestsView === 'function') {
+      closeChapterTestsView(false);
+    }
+    if (isClassChaptersGridOpen) {
+      closeClassChaptersGrid(false);
+    }
+
+    isClass10SamplePapersOpen = true;
+    class10OverviewSection.style.display = 'none';
+    if (class10ChaptersSection) class10ChaptersSection.style.display = 'none';
+    class10SamplePapersSection.style.display = 'block';
+
+    const hubView = document.getElementById('samplePapersHubView');
+    if (hubView) {
+      hubView.style.setProperty('display', 'block', 'important');
+      hubView.classList.remove('drilldown-hidden');
+    }
+
+    const drilldownView = document.getElementById('samplePaperDrilldownView');
+    if (drilldownView) {
+      drilldownView.style.setProperty('display', 'none', 'important');
+      drilldownView.classList.add('drilldown-hidden');
+    }
+
+    const sampleGrid = document.getElementById('samplePapersGrid');
+    if (sampleGrid) {
+      sampleGrid.style.setProperty('display', 'grid', 'important');
+      sampleGrid.classList.remove('drilldown-hidden', 'view-extra-large', 'view-large', 'view-content');
+    }
+
+    if (class10PageTitle) {
+      class10PageTitle.textContent = 'CBSE-Class 10 Mathematics (NCERT Sample Papers)';
+    }
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'class10-sample-papers' }, '', '#sample-papers');
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function closeClass10SamplePapers(pushHistory = true) {
+    if (!class10OverviewSection || !class10SamplePapersSection) return;
+
+    if (activeSamplePaperFolder) {
+      closeSamplePaperDrilldown(false);
+    }
+
+    isClass10SamplePapersOpen = false;
+    class10SamplePapersSection.style.display = 'none';
+    class10OverviewSection.style.display = 'block';
+
+    const hubView = document.getElementById('samplePapersHubView');
+    if (hubView) {
+      hubView.style.setProperty('display', 'block', 'important');
+      hubView.classList.remove('drilldown-hidden');
+    }
+
+    const drilldownView = document.getElementById('samplePaperDrilldownView');
+    if (drilldownView) {
+      drilldownView.style.setProperty('display', 'none', 'important');
+      drilldownView.classList.add('drilldown-hidden');
+    }
+
+    if (class10PageTitle) {
+      class10PageTitle.textContent = 'CBSE-Class 10 Mathematics';
+    }
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'overview' }, '', window.location.pathname);
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function openSamplePaperDrilldown(folderKey, cardEl, pushHistory = true) {
+    const sampleGrid = document.getElementById('samplePapersGrid');
+    const hubView = document.getElementById('samplePapersHubView');
+    if (!sampleGrid) return;
+
+    const items = getChapterItems(folderKey, globalCatalog);
+    if (!items || items.length === 0) return;
+
+    activeSamplePaperFolder = folderKey;
+
+    const title = cardEl?.querySelector('.resource-title')?.textContent?.trim() || 'NCERT Sample Paper';
+    const desc = cardEl?.querySelector('.resource-desc')?.textContent?.trim() || 'Official sample question paper, marking scheme, and step-by-step solutions.';
+    const code = cardEl?.querySelector('.resource-code')?.textContent?.trim() || 'SAMPLE-PAPER';
+    const metaBadge = cardEl?.querySelector('.badge-standard')?.textContent?.trim() || '2026-27';
+
+    let drilldownView = document.getElementById('samplePaperDrilldownView');
+    if (!drilldownView) {
+      drilldownView = document.createElement('div');
+      drilldownView.id = 'samplePaperDrilldownView';
+      drilldownView.className = 'chapter-tests-view-container container';
+      const sampleSection = document.getElementById('class10SamplePapersSection');
+      if (sampleSection) {
+        sampleSection.appendChild(drilldownView);
+      } else {
+        sampleGrid.parentNode.insertBefore(drilldownView, sampleGrid);
+      }
+    }
+
+    const currentViewMode = localStorage.getItem('mm_view_mode') || 'extra-large';
+
+    drilldownView.innerHTML = `
+      <div class="chapter-drilldown-header">
+        <button type="button" class="btn-back-chapters" id="btnBackFromSampleDrilldown" title="Return to Sample Papers">
+          <span>&larr;</span> Back to NCERT Sample Papers
+        </button>
+        <div class="drilldown-breadcrumbs">
+          <a href="index.html">Home</a> &gt; 
+          <a href="class-10.html" id="crumbClass10HomeFromSampleDrilldown">Class 10</a> &gt; 
+          <span style="cursor: pointer; text-decoration: underline;" id="crumbSamplePapersHub">NCERT Sample Papers</span> &gt; 
+          <span class="active-crumb">${title}</span>
+        </div>
+      </div>
+
+      <div class="drilldown-toolbar-bar">
+        <div class="drilldown-status-info">
+          <span>Available Documents: <strong>${items.length}</strong> PDF file${items.length > 1 ? 's' : ''}</span>
+        </div>
+        <div class="view-mode-selector-wrap">
+          <button type="button" class="view-mode-btn ${currentViewMode === 'extra-large' ? 'active' : ''}" data-view-mode="extra-large" title="Extra large icons">
+            <span>⬜</span> Extra Large
+          </button>
+          <button type="button" class="view-mode-btn ${currentViewMode === 'large' ? 'active' : ''}" data-view-mode="large" title="Large icons">
+            <span>🔲</span> Large
+          </button>
+          <button type="button" class="view-mode-btn ${currentViewMode === 'content' ? 'active' : ''}" data-view-mode="content" title="Content row view">
+            <span>☰</span> Content
+          </button>
+        </div>
+      </div>
+
+      <div class="resources-grid chapter-tests-grid view-${currentViewMode}" id="samplePaperTestsGrid">
+        ${items.map(it => {
+          const safeUrl = encodeURI(it.path);
+          const typeDesc = (it.type === 'solution')
+            ? 'Official step-by-step verified solutions and marking scheme.'
+            : 'Official sample question paper strictly based on CBSE/NCERT blueprint.';
+          return `
+            <div class="resource-card chapter-paper-card ${it.type}-card">
+              <div>
+                <div class="resource-meta">
+                  <span class="resource-code">${it.code}</span>
+                  <span class="resource-badge badge-${it.type === 'solution' ? 'solution' : 'standard'}">${it.badge}</span>
+                </div>
+                <h3 class="resource-title">${it.title}</h3>
+                <p class="resource-desc">${typeDesc}</p>
+              </div>
+              <div class="resource-footer">
+                <span class="resource-stats">${it.size ? it.size + ' • ' : ''}PDF</span>
+                <div class="pdf-toggle-box">
+                  <a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+                  <span class="pdf-toggle-divider"></span>
+                  <a href="${safeUrl}" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+
+    drilldownView.querySelector('#btnBackFromSampleDrilldown').onclick = () => {
+      closeSamplePaperDrilldown();
+    };
+
+    const crumbHub = drilldownView.querySelector('#crumbSamplePapersHub');
+    if (crumbHub) {
+      crumbHub.onclick = () => {
+        closeSamplePaperDrilldown();
+      };
+    }
+
+    const crumbHome = drilldownView.querySelector('#crumbClass10HomeFromSampleDrilldown');
+    if (crumbHome) {
+      crumbHome.onclick = (e) => {
+        e.preventDefault();
+        closeSamplePaperDrilldown(false);
+        closeClass10SamplePapers();
+      };
+    }
+
+    drilldownView.querySelectorAll('.view-mode-btn').forEach(btn => {
+      btn.onclick = () => {
+        const mode = btn.dataset.viewMode;
+        const grid = document.getElementById('samplePaperTestsGrid');
+        if (grid) {
+          grid.className = `resources-grid chapter-tests-grid view-${mode}`;
+          localStorage.setItem('mm_view_mode', mode);
+          drilldownView.querySelectorAll('.view-mode-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        }
+      };
+    });
+
+    if (hubView) {
+      hubView.style.setProperty('display', 'none', 'important');
+      hubView.classList.add('drilldown-hidden');
+    }
+    if (sampleGrid) {
+      sampleGrid.style.setProperty('display', 'none', 'important');
+      sampleGrid.classList.add('drilldown-hidden');
+    }
+    drilldownView.style.setProperty('display', 'block', 'important');
+    drilldownView.classList.remove('drilldown-hidden');
+
+    const subSlug = folderKey.split('/').pop();
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'sample-paper-drilldown', folderKey }, '', `#sample-papers/${subSlug}`);
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function closeSamplePaperDrilldown(pushHistory = true) {
+    const sampleGrid = document.getElementById('samplePapersGrid');
+    const hubView = document.getElementById('samplePapersHubView');
+    const drilldownView = document.getElementById('samplePaperDrilldownView');
+
+    activeSamplePaperFolder = null;
+    if (drilldownView) {
+      drilldownView.style.setProperty('display', 'none', 'important');
+      drilldownView.classList.add('drilldown-hidden');
+    }
+    if (hubView) {
+      hubView.style.setProperty('display', 'block', 'important');
+      hubView.classList.remove('drilldown-hidden');
+    }
+    if (sampleGrid) {
+      sampleGrid.style.setProperty('display', 'grid', 'important');
+      sampleGrid.classList.remove('drilldown-hidden', 'view-extra-large', 'view-large', 'view-content');
+    }
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'class10-sample-papers' }, '', '#sample-papers');
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  if (btnBackFromSamplesToOverview) {
+    btnBackFromSamplesToOverview.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeClass10SamplePapers();
+    });
+  }
+
+  if (crumbClass10HomeFromSamples) {
+    crumbClass10HomeFromSamples.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeClass10SamplePapers();
+    });
+  }
+
+  function updateSamplePaperBadgeCounts(catalog) {
+    if (!catalog) return;
+    ['cardSampleOfficial', 'cardSamplePractice'].forEach(cardId => {
+      const card = document.getElementById(cardId);
+      if (!card) return;
+      const folderKey = card.getAttribute('data-folder');
+      if (!folderKey) return;
+      const items = getChapterItems(folderKey, catalog);
+      const metaContainer = card.querySelector('.resource-meta');
+      if (metaContainer && items && items.length > 0) {
+        let countBadge = metaContainer.querySelector('.badge-tests');
+        if (!countBadge) {
+          countBadge = document.createElement('span');
+          countBadge.className = 'resource-badge badge-tests';
+          metaContainer.appendChild(countBadge);
+        }
+        countBadge.textContent = `[ ${items.length} PDF${items.length > 1 ? 's' : ''} Available ]`;
+      }
+    });
+  }
+
+  const allClassTriggerSelectors = classConfigs.map(c => c.triggerSelectors).join(', ') + ', .btn-open-dir[class*="btn-open-class"], .has-chapter-drilldown';
+  document.addEventListener('click', (e) => {
+    // 1. Sample Papers sub-drilldown trigger ("Open Sample Paper" on either card)
+    const sampleItemTrigger = e.target.closest('.btn-open-sample-drilldown, .has-sample-item-drilldown');
+    if (sampleItemTrigger) {
+      e.preventDefault();
+      e.stopPropagation();
+      const card = sampleItemTrigger.closest('.resource-card') || sampleItemTrigger;
+      const folder = card.getAttribute('data-folder');
+      if (folder) {
+        openSamplePaperDrilldown(folder, card);
+      }
+      return;
+    }
+
+    // 2. Sample Papers hub trigger (Class 10 Overview card)
+    const sampleTrigger = e.target.closest('#btnOpenClass10Samples, #cardOpenSamplePapers, .btn-open-class10-samples, .has-sample-drilldown');
+    if (sampleTrigger) {
+      e.preventDefault();
+      e.stopPropagation();
+      openClass10SamplePapers();
+      return;
+    }
+
+    if (!activeClassConfig) return;
+    const trigger = e.target.closest(allClassTriggerSelectors);
+    if (trigger) {
+      e.preventDefault();
+      e.stopPropagation();
+      openClassChaptersGrid();
+      return;
+    }
+  }, true);
+
+  function checkUrlHashForClassChapters() {
+    if (!activeClassConfig) return;
+    const hash = window.location.hash.replace('#', '').trim();
+    if (hash.startsWith('sample-papers/')) {
+      const sub = hash.replace('sample-papers/', '');
+      openClass10SamplePapers(false);
+      const targetCard = document.querySelector(`.resource-card[data-folder$="${sub}"]`);
+      if (targetCard) {
+        const folder = targetCard.getAttribute('data-folder');
+        openSamplePaperDrilldown(folder, targetCard, false);
+      }
+    } else if (hash === 'sample-papers') {
+      if (activeSamplePaperFolder) closeSamplePaperDrilldown(false);
+      openClass10SamplePapers(false);
+    } else if (isClass10SamplePapersOpen && !hash.startsWith('sample-papers')) {
+      closeClass10SamplePapers(false);
+    } else if (hash === 'chapters') {
+      if (isClass10SamplePapersOpen) closeClass10SamplePapers(false);
+      openClassChaptersGrid(false);
+    } else if (hash.startsWith('ch-')) {
+      if (isClass10SamplePapersOpen) closeClass10SamplePapers(false);
+      openClassChaptersGrid(false);
+    } else if (isClassChaptersGridOpen && hash !== 'chapters' && !hash.startsWith('ch-') && hash !== 'formulas' && !hash.startsWith('sample-papers')) {
+      closeClassChaptersGrid(false);
+    }
+  }
+  const checkUrlHashForClass10Chapters = checkUrlHashForClassChapters;
+
+  window.addEventListener('hashchange', checkUrlHashForClassChapters);
+
   function loadClass10Formulas() {
     if (class10FormulasData) return Promise.resolve(class10FormulasData);
     return fetch('assets/data/class10-formulas.json?t=' + Date.now())
@@ -961,8 +1493,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+    if (typeof updateSamplePaperBadgeCounts === 'function') {
+      updateSamplePaperBadgeCounts(catalog);
+    }
+
     checkUrlHashForChapterTests();
     checkUrlHashForFormulas();
+    checkUrlHashForClass10Chapters();
 
   }
 
@@ -1117,93 +1654,56 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function applyViewMode(mode) {
-
     const validModes = ['extra-large', 'large', 'content'];
-
     const chosen = validModes.includes(mode) ? mode : 'extra-large';
 
-
-
-    // Target any resources grids or folder/paper grids
-
-    const grids = document.querySelectorAll('.resources-grid, #resourcesGrid, #foldersGrid, #papersGrid, #inpageChaptersGrid, #chapterTestsGrid');
-
+    // Target any resources grids or folder/paper grids across all views & overview dashboards (excluding locked showcase grids)
+    const grids = document.querySelectorAll('.resources-grid:not(#samplePapersGrid), #resourcesGrid, #foldersGrid, #papersGrid, #inpageChaptersGrid, #chapterTestsGrid, #samplePaperTestsGrid, [id$="DashboardGrid"]');
     grids.forEach(grid => {
-
       grid.classList.remove('view-extra-large', 'view-large', 'view-content');
-
       grid.classList.add('view-' + chosen);
-
     });
 
-
+    const sampleGrid = document.getElementById('samplePapersGrid');
+    if (sampleGrid) {
+      sampleGrid.classList.remove('view-extra-large', 'view-large', 'view-content');
+    }
 
     // Update all view mode buttons on the page
-
     document.querySelectorAll('.view-mode-btn').forEach(btn => {
-
       if (btn.getAttribute('data-view-mode') === chosen) {
-
         btn.classList.add('active');
-
       } else {
-
         btn.classList.remove('active');
-
       }
-
     });
-
-
 
     localStorage.setItem('mm_view_mode', chosen);
-
   }
 
-
-
   // Inject View Mode Selector into filter bars / toolbars if not already manually placed
-
   function injectViewModeSelectors() {
-
     const containers = document.querySelectorAll('.filter-bar, .resources-toolbar, .inpage-chapter-toolbar .filter-bar, .mode-indicator-bar');
-
     containers.forEach(bar => {
-
       if (!bar.querySelector('.view-mode-selector-wrap')) {
-
-        const wrap = document.createElement('div');
-
-        wrap.className = 'view-mode-selector-wrap';
-
-        wrap.innerHTML = `
-
-          <button class="view-mode-btn" data-view-mode="extra-large" title="Extra large icons">
-
-            <span>⬜</span> Extra Large
-
-          </button>
-
-          <button class="view-mode-btn" data-view-mode="large" title="Large icons">
-
-            <span>🔲</span> Large
-
-          </button>
-
-          <button class="view-mode-btn" data-view-mode="content" title="Content row view">
-
-            <span>☰</span> Content
-
-          </button>
-
+        const wrapRow = document.createElement('div');
+        wrapRow.className = 'filter-bar-view-mode-row';
+        wrapRow.innerHTML = `
+          <div class="view-mode-selector-wrap">
+            <button type="button" class="view-mode-btn" data-view-mode="extra-large" title="Extra large icons">
+              <span>■</span> Extra Large
+            </button>
+            <button type="button" class="view-mode-btn" data-view-mode="large" title="Large icons">
+              <span>■</span> Large
+            </button>
+            <button type="button" class="view-mode-btn" data-view-mode="content" title="Content row view">
+              <span>☰</span> Content
+            </button>
+          </div>
         `;
-
-        bar.appendChild(wrap);
-
+        bar.appendChild(wrapRow);
       }
-
     });
-
   }
 
 
@@ -1776,6 +2276,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
       }
 
+    }
+
+    // 3. Multi-Class In-Page Chapters Grid popstate
+    if (activeClassConfig) {
+      const targetView = 'class' + activeClassConfig.key + '-chapters';
+      if (e.state && (e.state.view === targetView || e.state.view === 'class10-chapters')) {
+        openClassChaptersGrid(false);
+      } else if (isClassChaptersGridOpen && (!e.state || (e.state.view !== targetView && e.state.view !== 'class10-chapters'))) {
+        const hash = window.location.hash.replace('#', '').trim();
+        if (hash !== 'chapters' && !hash.startsWith('ch-')) {
+          closeClassChaptersGrid(false);
+        }
+      }
+    }
+
+    // 4. Class 10 In-Page Sample Papers popstate
+    if (class10SamplePapersSection) {
+      if (e.state && e.state.view === 'sample-paper-drilldown') {
+        openClass10SamplePapers(false);
+        const targetCard = document.querySelector(`.resource-card[data-folder="${e.state.folderKey}"]`);
+        openSamplePaperDrilldown(e.state.folderKey, targetCard, false);
+      } else if (e.state && e.state.view === 'class10-sample-papers') {
+        if (activeSamplePaperFolder) closeSamplePaperDrilldown(false);
+        openClass10SamplePapers(false);
+      } else if (isClass10SamplePapersOpen && (!e.state || (e.state.view !== 'class10-sample-papers' && e.state.view !== 'sample-paper-drilldown'))) {
+        const hash = window.location.hash.replace('#', '').trim();
+        if (hash !== 'sample-papers' && !hash.startsWith('sample-papers/')) {
+          if (activeSamplePaperFolder) closeSamplePaperDrilldown(false);
+          closeClass10SamplePapers(false);
+        }
+      }
     }
 
   });

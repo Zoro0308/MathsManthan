@@ -5615,6 +5615,60 @@
       "order": 0
     }
   ],
+  "class-10/sample-papers/official-2026-27": "assets/pdfs/class-10/sample-papers/official-2026-27/Class10_Maths_Standard_SPQ.pdf",
+  "class-10/sample-papers/official-2026-27__all": [
+    "assets/pdfs/class-10/sample-papers/official-2026-27/Class10_Maths_Standard_SPQ.pdf",
+    "assets/pdfs/class-10/sample-papers/official-2026-27/Class10_Maths_Standard_SPQ_Solutions.pdf"
+  ],
+  "class-10/sample-papers/official-2026-27__items": [
+    {
+      "name": "Class10_Maths_Standard_SPQ.pdf",
+      "path": "assets/pdfs/class-10/sample-papers/official-2026-27/Class10_Maths_Standard_SPQ.pdf",
+      "title": "NCERT Sample Question Paper 2026-27 (SQP)",
+      "code": "SQP-2026-27",
+      "badge": "Sample Paper",
+      "type": "test",
+      "size": "2.9 MB",
+      "order": 1
+    },
+    {
+      "name": "Class10_Maths_Standard_SPQ_Solutions.pdf",
+      "path": "assets/pdfs/class-10/sample-papers/official-2026-27/Class10_Maths_Standard_SPQ_Solutions.pdf",
+      "title": "Marking Scheme & Detailed Solutions",
+      "code": "MARKING SCHEME",
+      "badge": "Marking Scheme",
+      "type": "solution",
+      "size": "745 KB",
+      "order": 2
+    }
+  ],
+  "class-10/sample-papers/practice": "assets/pdfs/class-10/sample-papers/practice/ncert-class-10-practice-sample-paper-2026-27.pdf",
+  "class-10/sample-papers/practice__all": [
+    "assets/pdfs/class-10/sample-papers/practice/ncert-class-10-practice-sample-paper-2026-27.pdf",
+    "assets/pdfs/class-10/sample-papers/practice/ncert-class-10-practice-sample-paper-solution-2026-27.pdf"
+  ],
+  "class-10/sample-papers/practice__items": [
+    {
+      "name": "ncert-class-10-practice-sample-paper-2026-27.pdf",
+      "path": "assets/pdfs/class-10/sample-papers/practice/ncert-class-10-practice-sample-paper-2026-27.pdf",
+      "title": "NCERT Practice Sample Paper (SQP)",
+      "code": "SQP-2026-27",
+      "badge": "Practice Paper",
+      "type": "test",
+      "size": "2 KB",
+      "order": 1
+    },
+    {
+      "name": "ncert-class-10-practice-sample-paper-solution-2026-27.pdf",
+      "path": "assets/pdfs/class-10/sample-papers/practice/ncert-class-10-practice-sample-paper-solution-2026-27.pdf",
+      "title": "Marking Scheme & Detailed Solutions",
+      "code": "MARKING SCHEME",
+      "badge": "Marking Scheme",
+      "type": "solution",
+      "size": "2 KB",
+      "order": 2
+    }
+  ],
   "class-11/formula": "assets/pdfs/class-11/formula/class11-master-formula-handbook.pdf",
   "class-11/formula__all": [
     "assets/pdfs/class-11/formula/class11-master-formula-handbook.pdf"

@@ -1882,6 +1882,61 @@ body.matrix-theme .view-mode-btn.active,
   box-shadow: 0 0 12px rgba(218, 155, 24, 0.45);
 }
 
+/* Overview & Filter Bar View Mode Controls */
+.overview-toolbar-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.filter-bar-view-mode-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.35rem;
+}
+
+[data-theme="light"] .view-mode-selector-wrap {
+  background: #f1f5f9 !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: none !important;
+}
+
+[data-theme="light"] .view-mode-btn {
+  color: #536479 !important;
+}
+
+[data-theme="light"] .view-mode-btn:hover {
+  color: #001E4A !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+}
+
+[data-theme="light"] .view-mode-btn.active {
+  background: #001E4A !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 6px rgba(0, 30, 74, 0.25) !important;
+}
+
+@media (max-width: 768px) {
+  .overview-toolbar-bar {
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  .overview-toolbar-bar .view-mode-selector-wrap {
+    width: 100% !important;
+  }
+  .filter-bar-view-mode-row {
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  .filter-bar-view-mode-row .view-mode-selector-wrap {
+    width: 100% !important;
+  }
+}
+
 /* --------------------------------------------------------------------------
    MODE 1: EXTRA LARGE ICONS (Default Rich Spacious Cards)
    -------------------------------------------------------------------------- */
@@ -2088,7 +2143,10 @@ body.matrix-theme .view-mode-btn.active,
 .inpage-chapter-card.is-hidden,
 #resourcesGrid.drilldown-hidden,
 .resources-grid.drilldown-hidden,
-.filter-section.drilldown-hidden {
+.filter-section.drilldown-hidden,
+#samplePapersHubView.drilldown-hidden,
+#samplePapersGrid.drilldown-hidden,
+#samplePaperDrilldownView.drilldown-hidden {
   display: none !important;
 }
 
@@ -2688,5 +2746,255 @@ body.matrix-theme .view-mode-btn.active,
     padding: 0.65rem 1rem !important;
     font-size: 0.88rem !important;
     min-height: 42px !important;
+  }
+}
+
+/* ==========================================================================
+   Class 10 NCERT Sample Papers Grid & Showcase Cards (#samplePapersGrid)
+   Locked In-Place Responsive Showcase Grid: Always Intact Across All View Modes
+   ========================================================================== */
+#samplePapersGrid,
+.resources-grid#samplePapersGrid,
+#samplePapersGrid.view-content,
+#samplePapersGrid.view-large,
+#samplePapersGrid.view-extra-large {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+  gap: 2rem !important;
+  max-width: 960px;
+  margin: 0 auto 3.5rem auto;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#samplePapersGrid .resource-card,
+#samplePapersGrid.view-content .resource-card,
+#samplePapersGrid.view-large .resource-card,
+#samplePapersGrid.view-extra-large .resource-card {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+  padding: 1.75rem 1.6rem !important;
+  min-height: 290px !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+
+#samplePapersGrid .resource-card > div:first-child,
+#samplePapersGrid.view-content .resource-card > div:first-child {
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#samplePapersGrid .resource-title,
+#samplePapersGrid.view-content .resource-title {
+  font-size: 1.25rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 0.75rem !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  width: 100% !important;
+}
+
+#samplePapersGrid .resource-desc,
+#samplePapersGrid.view-content .resource-desc {
+  display: block !important;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+  color: #536479 !important;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  margin-bottom: 1.25rem !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+[data-theme="dark"] #samplePapersGrid .resource-desc,
+:root:not([data-theme="light"]) body.matrix-theme #samplePapersGrid .resource-desc {
+  color: #94a3b8 !important;
+}
+
+#samplePapersGrid .resource-footer,
+#samplePapersGrid.view-content .resource-footer {
+  flex: 0 0 auto !important;
+  margin-top: auto !important;
+  padding-top: 1rem !important;
+  border-top: 1px solid rgba(218, 155, 24, 0.2) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+#samplePapersGrid .btn-open-sample-drilldown {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  padding: 0.52rem 1.35rem !important;
+  font-size: 0.88rem !important;
+  font-weight: 800 !important;
+  border-radius: 9999px !important;
+  background: var(--color-gold, #DA9B18) !important;
+  color: #001E4A !important;
+  border: 1px solid rgba(216, 150, 23, 0.4) !important;
+  cursor: pointer !important;
+  box-shadow: 0 3px 12px rgba(216, 150, 23, 0.35) !important;
+  white-space: nowrap !important;
+  text-decoration: none !important;
+}
+
+#samplePapersGrid .btn-open-sample-drilldown:hover {
+  background: #D19029 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(216, 150, 23, 0.55) !important;
+}
+
+/* ==========================================================================
+   Comprehensive Mobile Optimizations across Classes 8–12
+   ========================================================================== */
+@media (max-width: 768px) {
+  /* 0. Hero Section on Mobile (Classes 8–12) */
+  .resources-hero {
+    padding: 1.75rem 0 1.25rem 0 !important;
+  }
+  .resources-hero h1,
+  .resources-hero h1[id$="PageTitle"],
+  h1#class8PageTitle,
+  h1#class9PageTitle,
+  h1#class10PageTitle,
+  h1#class11PageTitle,
+  h1#class12PageTitle {
+    font-size: clamp(1.25rem, 5vw, 1.55rem) !important;
+    line-height: 1.25 !important;
+    margin-bottom: 0.35rem !important;
+    padding: 0 0.5rem !important;
+  }
+  .resources-hero .section-tag {
+    font-size: 0.72rem !important;
+    padding: 0.2rem 0.6rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+  .resources-hero p {
+    font-size: 0.88rem !important;
+    line-height: 1.4 !important;
+    padding: 0 0.5rem !important;
+  }
+
+  /* 1. Overview Dashboard on Mobile */
+  .overview-toolbar-bar {
+    justify-content: center !important;
+    width: 100% !important;
+    margin-bottom: 0.85rem !important;
+  }
+  .overview-toolbar-bar .view-mode-selector-wrap {
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+  }
+  [id$="DashboardGrid"] {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+    padding: 0.5rem 0 3.5rem 0 !important;
+  }
+  [id$="DashboardGrid"] .resource-card {
+    padding: 1.25rem 1rem !important;
+    min-height: unset !important;
+  }
+
+  /* 2. Sample Papers Hub on Mobile */
+  #samplePapersGrid,
+  .resources-grid#samplePapersGrid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+    padding: 0.5rem 0 3rem 0 !important;
+  }
+  #samplePapersGrid .resource-card {
+    padding: 1.35rem 1.15rem !important;
+    min-height: unset !important;
+  }
+  #samplePapersGrid .resource-footer {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.85rem !important;
+  }
+  #samplePapersGrid .resource-stats {
+    text-align: center !important;
+  }
+  #samplePapersGrid .btn-open-sample-drilldown {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 0.65rem 1rem !important;
+    min-height: 42px !important;
+    font-size: 0.88rem !important;
+  }
+
+  /* 3. Navigation & Breadcrumbs on Mobile */
+  .btn-back-chapters,
+  #btnBackFromSamplesToOverview,
+  #btnBackFromSampleDrilldown {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 0.65rem 1rem !important;
+    font-size: 0.88rem !important;
+    min-height: 42px !important;
+    box-sizing: border-box !important;
+  }
+  .drilldown-breadcrumbs {
+    font-size: 0.8rem !important;
+    line-height: 1.45 !important;
+    word-break: break-word !important;
+    margin-top: 0.35rem !important;
+  }
+
+  /* 4. Filter Bar & View Mode Toggle on Mobile */
+  .filter-bar {
+    padding: 1rem 0.85rem !important;
+    gap: 0.85rem !important;
+  }
+  .search-box {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+  .filter-bar-view-mode-row {
+    justify-content: center !important;
+    width: 100% !important;
+    margin-top: 0.5rem !important;
+  }
+  .filter-bar-view-mode-row .view-mode-selector-wrap {
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+  }
+
+  /* 5. Drilldown View & PDF Cards on Mobile */
+  .chapter-drilldown-banner {
+    padding: 1.25rem 1rem !important;
+  }
+  .drilldown-title {
+    font-size: 1.35rem !important;
+  }
+  .chapter-paper-card .resource-footer {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+  }
+  .chapter-paper-card .resource-stats {
+    text-align: center !important;
+  }
+  .chapter-paper-card .pdf-toggle-box {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  .chapter-paper-card .pdf-toggle-btn {
+    flex: 1 1 0 !important;
+    text-align: center !important;
   }
 }

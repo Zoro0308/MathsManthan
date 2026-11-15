@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/resources.css?v=5.0">
+  <link rel="stylesheet" href="assets/css/resources.css?v=5.3">
 
   <!-- Immediate Theme Initialization (prevents flash) -->
   <script>
@@ -239,42 +239,273 @@
     <section class="resources-hero">
       <div class="container">
         <span class="section-tag">Board Examination</span>
-        <h1>CBSE-Class 10 Mathematics (Test Papers)</h1>
+        <h1 id="class10PageTitle">CBSE-Class 10 Mathematics</h1>
         
       </div>
     </section>
 
-    <!-- Filter & Live Search Section -->
-    <section class="filter-section">
-      <div class="container">
-        <div class="filter-bar">
-          <div class="search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="resourceSearch" class="search-input" placeholder="Search chapter (e.g. Trigonometry, Real Numbers, Circles)...">
-          </div>
-
-          <div class="filter-pills">
-            <button class="filter-pill active" data-filter="all">All Material</button>
-            <button class="filter-pill" data-filter="test">Chapter Tests</button>
-            <button class="filter-pill" data-filter="formula">Formula Sheets</button>
-            <button class="filter-pill" data-filter="pyq">Board PYQs</button>
+    <!-- ==================== VIEW 1: 4-CARD OVERVIEW DASHBOARD ==================== -->
+    <div id="class10OverviewSection">
+      <!-- Overview Toolbar / View Mode Switcher -->
+      <section class="container" style="padding-top: 1rem; margin-bottom: 0.75rem;">
+        <div class="overview-toolbar-bar">
+          <div class="view-mode-selector-wrap">
+            <button type="button" class="view-mode-btn" data-view-mode="extra-large" title="Extra large icons">
+              <span>■</span> Extra Large
+            </button>
+            <button type="button" class="view-mode-btn" data-view-mode="large" title="Large icons">
+              <span>■</span> Large
+            </button>
+            <button type="button" class="view-mode-btn" data-view-mode="content" title="Content row view">
+              <span>☰</span> Content
+            </button>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Resources Card Grid -->
-    <section class="container">
-      <div class="resources-grid" id="resourcesGrid">
+      <section class="container">
+        <div class="resources-grid" id="class10DashboardGrid">
+          
+          <!-- Card 1: Chapter-Wise Practice Tests (Directory Card) -->
+          <div class="resource-card has-chapter-drilldown" id="cardOpenChapterTests" style="cursor: pointer;">
+            <div>
+              <div class="resource-meta">
+                <span class="resource-code">10TH-TESTS</span>
+                <span class="resource-badge badge-standard">14 Chapters • 180+ Tests</span>
+              </div>
+              <h3 class="resource-title">Chapter-Wise Practice Tests</h3>
+              <p class="resource-desc">
+                Comprehensive chapter tests & step-by-step marking schemes for all 14 chapters from Real Numbers to Probability.
+              </p>
+            </div>
+            <div class="resource-footer">
+              <span class="resource-stats">14 Chapters</span>
+              <div class="card-btn-group">
+                <button type="button" class="btn-open-dir btn-open-class10-tests" id="btnOpenClass10Chapters" title="Open Chapter-Wise Test Papers">
+                  <span>📂 Open Test Papers &rarr;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Complete Formula Cheat Sheet -->
+          <div class="resource-card has-formula-drilldown" data-folder="class-10/formula" data-category="formula" id="class10FormulaCard" style="cursor: pointer;">
+            <div>
+              <div class="resource-meta">
+                <span class="resource-code">10TH-FORMULAS</span>
+                <span class="resource-badge badge-formula">14 Chapters • Handbooks</span>
+              </div>
+              <h3 class="resource-title">Complete Class 10 Formula Cheat Sheet</h3>
+              <p class="resource-desc">
+                Quick revision handbooks covering all definitions, theorems, identities, and mensuration relations.
+              </p>
+            </div>
+            <div class="resource-footer">
+              <span class="resource-stats">14 Chapters</span>
+              <button type="button" class="btn-open-formula-hub" id="btnOpenFormulaHub" title="Open Chapter-Wise Formula Handbooks">
+                <span>Formula Sheets &rarr;</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3: Top 50 Most Repeated Board Exam Questions -->
+          <div class="resource-card" data-category="pyq">
+            <div>
+              <div class="resource-meta">
+                <span class="resource-code">TOP-50-PYQ</span>
+                <span class="resource-badge badge-pyq">Solved Board PYQ</span>
+              </div>
+              <h3 class="resource-title">Top 50 Most Repeated Board Exam Questions</h3>
+              <p class="resource-desc">
+                High-frequency questions curated from the last 10 years of CBSE Class 10 board examinations with full answers.
+              </p>
+            </div>
+            <div class="resource-footer">
+              <span class="resource-stats">80 Marks Full Paper</span>
+              <div class="pdf-toggle-box">
+                <a href="assets/pdfs/class-10/pyq/class10-board-pyq-top50.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
+                <span class="pdf-toggle-divider"></span>
+                <a href="assets/pdfs/class-10/pyq/class10-board-pyq-top50.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: CBSE Board PYQs (All upto 2026) -->
+          <div class="resource-card" data-category="pyq">
+            <div>
+              <div class="resource-meta">
+                <span class="resource-code">BOARD-PYQS</span>
+                <span class="resource-badge badge-pyq">EXAM PAPERS</span>
+              </div>
+              <h3 class="resource-title">CBSE Board PYQ's (all upto-2026)</h3>
+              <p class="resource-desc">
+                Standard &amp; Basic pattern authentic board question papers, available for instant review and download.
+              </p>
+            </div>
+            <div class="resource-footer">
+              <span class="resource-stats">80 Marks • 3 Hours</span>
+              <a href="cbse-10th-pyqs.html" class="btn btn-gold btn-download-pyq" style="padding: 0.5rem 1.4rem; font-size: 0.88rem; font-weight: 800; border-radius: 9999px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.45rem; box-shadow: 0 4px 14px rgba(234, 179, 8, 0.35);">
+                <span>DOWNLOAD</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 5: NCERT SAMPLE PAPERS (Directory Card) -->
+          <div class="resource-card has-sample-drilldown" id="cardOpenSamplePapers" style="cursor: pointer;">
+            <div>
+              <div class="resource-meta">
+                <span class="resource-code">10TH-SAMPLES</span>
+                <span class="resource-badge badge-standard">2026-27 Blueprint • 2 Papers</span>
+              </div>
+              <h3 class="resource-title">NCERT SAMPLE PAPERS</h3>
+              <p class="resource-desc">
+                Official CBSE/NCERT 2026-27 sample paper and exclusive practice sample papers with step-by-step solutions &amp; marking schemes.
+              </p>
+            </div>
+            <div class="resource-footer">
+              <span class="resource-stats">2 Sample Papers</span>
+              <div class="card-btn-group">
+                <button type="button" class="btn-open-dir btn-open-class10-samples" id="btnOpenClass10Samples" title="Open NCERT Sample Papers">
+                  <span>📂 Open Sample Papers &rarr;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- ==================== VIEW 3: NCERT SAMPLE PAPERS IN-PAGE VIEW ==================== -->
+    <div id="class10SamplePapersSection" style="display: none;">
+      <!-- SUB-VIEW 3A: Sample Papers 2-Card Hub -->
+      <div id="samplePapersHubView">
+        <!-- Breadcrumb / Header Navigation -->
+        <section class="container" style="padding-top: 1rem; margin-bottom: 1rem;">
+          <div class="chapter-drilldown-header" style="margin-bottom: 0.5rem;">
+            <button type="button" class="btn-back-chapters" id="btnBackFromSamplesToOverview" title="Return to Class 10 Dashboard">
+              <span>&larr;</span> Back to Class 10 Overview
+            </button>
+            <div class="drilldown-breadcrumbs">
+              <a href="index.html">Home</a> &gt; 
+              <a href="class-10.html" id="crumbClass10HomeFromSamples">Class 10</a> &gt; 
+              <span class="active-crumb">NCERT Sample Papers (2026-27)</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2 Sample Paper Cards Grid -->
+        <section class="container" style="margin-bottom: 3.5rem;">
+          <div class="resources-grid" id="samplePapersGrid">
+            
+            <!-- Card 1: NCERT SAMPLE PAPER 2026-27 -->
+            <div class="resource-card has-sample-item-drilldown" data-folder="class-10/sample-papers/official-2026-27" id="cardSampleOfficial" style="cursor: pointer;">
+              <div>
+                <div class="resource-meta">
+                  <span class="resource-code">SQP-2026-27</span>
+                  <span class="resource-badge badge-standard">Official Blueprint</span>
+                </div>
+                <h3 class="resource-title">NCERT SAMPLE PAPER 2026-27</h3>
+                <p class="resource-desc">
+                  Official CBSE &amp; NCERT Class 10 Mathematics Standard &amp; Basic sample question paper with authentic step-by-step marking scheme.
+                </p>
+              </div>
+              
+              <div class="resource-footer">
+                <span class="resource-stats">2026-27 SQP</span>
+                <button type="button" class="btn-open-dir btn-open-sample-drilldown" data-folder="class-10/sample-papers/official-2026-27" title="Open Sample Paper">
+                  <span>📂 Open Sample Paper &rarr;</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 2: NCERT PRACTICE SAMPLE PAPER -->
+            <div class="resource-card has-sample-item-drilldown" data-folder="class-10/sample-papers/practice" id="cardSamplePractice" style="cursor: pointer;">
+              <div>
+                <div class="resource-meta">
+                  <span class="resource-code">PRACTICE-SQP</span>
+                  <span class="resource-badge badge-standard">Manthan Sir's Special</span>
+                </div>
+                <h3 class="resource-title">NCERT PRACTICE SAMPLE PAPER</h3>
+                <p class="resource-desc">
+                  Curated high-yield practice sample question paper strictly aligned with the latest CBSE 2026-27 examination pattern and scoring guidelines.
+                </p>
+              </div>
+              
+              <div class="resource-footer">
+                <span class="resource-stats">Practice Set</span>
+                <button type="button" class="btn-open-dir btn-open-sample-drilldown" data-folder="class-10/sample-papers/practice" title="Open Sample Paper">
+                  <span>📂 Open Sample Paper &rarr;</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+      <!-- SUB-VIEW 3B: In-Page Drilldown Container (Isolated: replaces Hub View completely when open) -->
+      <div id="samplePaperDrilldownView" class="chapter-tests-view-container container" style="display: none; padding-top: 1rem; margin-bottom: 3.5rem;"></div>
+    </div>
+
+    <!-- ==================== VIEW 2: CHAPTER-WISE TEST PAPERS IN-PAGE GRID ==================== -->
+    <div id="class10ChaptersSection" style="display: none;">
+      <!-- Breadcrumb / Header Navigation -->
+      <section class="container" style="padding-top: 1rem; margin-bottom: 1rem;">
+        <div class="chapter-drilldown-header" style="margin-bottom: 0.5rem;">
+          <button type="button" class="btn-back-chapters" id="btnBackToClass10Overview" title="Return to Class 10 Dashboard">
+            <span>&larr;</span> Back to Class 10 Overview
+          </button>
+          <div class="drilldown-breadcrumbs">
+            <a href="index.html">Home</a> &gt; 
+            <a href="class-10.html" id="crumbClass10Home">Class 10</a> &gt; 
+            <span class="active-crumb">Chapter-Wise Practice Tests (All 14 Chapters)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Filter & Live Search Section for Chapters -->
+      <section class="filter-section" id="class10FilterSection">
+        <div class="container">
+          <div class="filter-bar">
+            <div class="search-box">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="resourceSearch" class="search-input" placeholder="Search chapter (e.g. Trigonometry, Real Numbers, Circles)...">
+            </div>
+
+            <div class="filter-pills">
+              <button class="filter-pill active" data-filter="all">All Chapters</button>
+              <button class="filter-pill" data-filter="part1">Ch 1–7 (Term 1)</button>
+              <button class="filter-pill" data-filter="part2">Ch 8–14 (Term 2)</button>
+            </div>
+
+            <div class="filter-bar-view-mode-row">
+              <div class="view-mode-selector-wrap">
+                <button type="button" class="view-mode-btn" data-view-mode="extra-large" title="Extra large icons">
+                  <span>■</span> Extra Large
+                </button>
+                <button type="button" class="view-mode-btn" data-view-mode="large" title="Large icons">
+                  <span>■</span> Large
+                </button>
+                <button type="button" class="view-mode-btn" data-view-mode="content" title="Content row view">
+                  <span>☰</span> Content
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14 Chapter Cards Grid -->
+      <section class="container">
+        <div class="resources-grid" id="resourcesGrid">
         <!-- Chapter 1 -->
-        <div class="resource-card" data-folder="class-10/ch-01" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-01" data-category="test part1">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 1</span>
             </div>
             <h3 class="resource-title">Real Numbers</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -285,14 +516,12 @@
         </div>
 
         <!-- Chapter 2 -->
-        <div class="resource-card" data-folder="class-10/ch-02" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-02" data-category="test part1">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 2</span>
             </div>
             <h3 class="resource-title">Polynomials</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -303,14 +532,12 @@
         </div>
 
         <!-- Chapter 3 -->
-        <div class="resource-card" data-folder="class-10/ch-03" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-03" data-category="test part1">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 3</span>
             </div>
             <h3 class="resource-title">Pair of Linear Equations in Two Variables</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -321,14 +548,12 @@
         </div>
 
         <!-- Chapter 4 -->
-        <div class="resource-card" data-folder="class-10/ch-04" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-04" data-category="test part1">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 4</span>
             </div>
             <h3 class="resource-title">Quadratic Equations</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -339,14 +564,12 @@
         </div>
 
         <!-- Chapter 5 -->
-        <div class="resource-card" data-folder="class-10/ch-05" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-05" data-category="test part1">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 5</span>
             </div>
             <h3 class="resource-title">Arithmetic Progressions (AP)</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -357,14 +580,12 @@
         </div>
 
         <!-- Chapter 6 -->
-        <div class="resource-card" data-folder="class-10/ch-06" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-06" data-category="test part1">
           <div>
             <div class="resource-meta">
-             
               <span class="resource-badge badge-standard">Chapter 6</span>
             </div>
             <h3 class="resource-title">Triangles</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -375,14 +596,12 @@
         </div>
 
         <!-- Chapter 7 -->
-        <div class="resource-card" data-folder="class-10/ch-07" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-07" data-category="test part1">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 7</span>
             </div>
             <h3 class="resource-title">Coordinate Geometry</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -393,14 +612,12 @@
         </div>
 
         <!-- Chapter 8 -->
-        <div class="resource-card" data-folder="class-10/ch-08" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-08" data-category="test part2">
           <div>
             <div class="resource-meta">
-             
               <span class="resource-badge badge-standard">Chapter 8</span>
             </div>
             <h3 class="resource-title">Introduction to Trigonometry</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -411,14 +628,12 @@
         </div>
 
         <!-- Chapter 9 -->
-        <div class="resource-card" data-folder="class-10/ch-09" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-09" data-category="test part2">
           <div>
             <div class="resource-meta">
-             
               <span class="resource-badge badge-standard">Chapter 9</span>
             </div>
             <h3 class="resource-title">Some Applications of Trigonometry</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -429,14 +644,12 @@
         </div>
 
         <!-- Chapter 10 -->
-        <div class="resource-card" data-folder="class-10/ch-10" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-10" data-category="test part2">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 10</span>
             </div>
             <h3 class="resource-title">Circles</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -447,14 +660,12 @@
         </div>
 
         <!-- Chapter 11 -->
-        <div class="resource-card" data-folder="class-10/ch-11" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-11" data-category="test part2">
           <div>
             <div class="resource-meta">
-             
               <span class="resource-badge badge-standard">Chapter 11</span>
             </div>
             <h3 class="resource-title">Areas Related to Circles</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -465,14 +676,12 @@
         </div>
 
         <!-- Chapter 12 -->
-        <div class="resource-card" data-folder="class-10/ch-12" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-12" data-category="test part2">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 12</span>
             </div>
             <h3 class="resource-title">Surface Areas and Volumes</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -483,14 +692,12 @@
         </div>
 
         <!-- Chapter 13 -->
-        <div class="resource-card" data-folder="class-10/ch-13" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-13" data-category="test part2">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 13</span>
             </div>
             <h3 class="resource-title">Statistics</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -501,14 +708,12 @@
         </div>
 
         <!-- Chapter 14 -->
-        <div class="resource-card" data-folder="class-10/ch-14" data-category="test">
+        <div class="resource-card" data-folder="class-10/ch-14" data-category="test part2">
           <div>
             <div class="resource-meta">
-              
               <span class="resource-badge badge-standard">Chapter 14</span>
             </div>
             <h3 class="resource-title">Probability</h3>
-            
           </div>
           <div class="resource-footer">
             <span class="resource-stats">LEARN</span>
@@ -518,69 +723,14 @@
           </div>
         </div>
 
-        <!-- Formula Sheet -->
-        <div class="resource-card has-formula-drilldown" data-folder="class-10/formula" data-category="formula" id="class10FormulaCard" style="cursor: pointer;">
-          <div>
-            <div class="resource-meta">
-              
-              <span class="resource-badge badge-formula">14 Chapters • Handbooks</span>
-            </div>
-            <h3 class="resource-title">Complete Class 10 Formula Cheat Sheet</h3>
-            
-          </div>
-          <div class="resource-footer">
-            <span class="resource-stats">14 Chapters</span>
-            <button type="button" class="btn-open-formula-hub" id="btnOpenFormulaHub" title="Open Chapter-Wise Formula Handbooks">
-              <span>Formula Sheets</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- PYQ Bank -->
-        <div class="resource-card" data-category="pyq">
-          <div>
-            <div class="resource-meta">
-              
-              <span class="resource-badge badge-pyq">Solved Board PYQ</span>
-            </div>
-            <h3 class="resource-title">Top 50 Most Repeated Board Exam Questions</h3>
-            
-          </div>
-          <div class="resource-footer">
-            <span class="resource-stats">80 Marks Full Paper</span>
-            <div class="pdf-toggle-box">
-              <a href="assets/pdfs/class-10/pyq/class10-board-pyq-top50.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
-              <span class="pdf-toggle-divider"></span>
-              <a href="assets/pdfs/class-10/pyq/class10-board-pyq-top50.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Full Mock Exam -->
-        <div class="resource-card" data-category="pyq">
-          <div>
-            <div class="resource-meta">
-              <span>BOARD-PYQs</span>
-              <span class="resource-badge badge-pyq">EXAM PAPERS</span>
-            </div>
-            <h3 class="resource-title">CBSE Board PYQ's (all upto-2026)</h3>
-            <p class="resource-desc">
-              Standard & Basic pattern: PYQ's OF BOARD EXAMS
-          </div>
-          <div class="resource-footer">
-            <span class="resource-stats">80 Marks • 3 Hours</span>
-            <a href="cbse-10th-pyqs.html" class="btn btn-gold btn-download-pyq" style="padding: 0.5rem 1.4rem; font-size: 0.88rem; font-weight: 800; border-radius: 9999px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.45rem; box-shadow: 0 4px 14px rgba(234, 179, 8, 0.35);">
-              <span>DOWNLOAD</span>
-            </a>
-          </div>
-        </div>
       </div>
 
       <div id="noResults" style="display: none; text-align: center; padding: 4rem 1rem; color: var(--color-text-muted);">
         <p style="font-size: 1.25rem; font-weight: 600;">No test papers found matching your query.</p>
-        <p>Try searching with another keyword or select "All Material".</p>
+        <p>Try searching with another keyword or select "All Chapters".</p>
       </div>
     </section>
+  </div>
   </main>
 
   <!-- Footer -->
@@ -773,7 +923,7 @@
 
   <script src="assets/js/main.js"></script>
   <script src="assets/js/vendor/pdf.min.js"></script>
-  <script src="assets/js/resources.js?v=5.0"></script>
+  <script src="assets/js/resources.js?v=5.9"></script>
   <script src="assets/js/matrix-stream.js"></script>
 </body>
 </html>

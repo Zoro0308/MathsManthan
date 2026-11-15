@@ -82,7 +82,7 @@ def init_folders():
 
         'class-9': [f'ch-{i:02d}' for i in range(1, 15)] + ['formula'],
 
-        'class-10': [f'ch-{i:02d}' for i in range(1, 15)] + ['formula', 'pyq', 'mock'],
+        'class-10': [f'ch-{i:02d}' for i in range(1, 15)] + ['formula', 'pyq', 'mock', 'sample-papers/official-2026-27', 'sample-papers/practice'],
 
         'class-11': [f'ch-{i:02d}' for i in range(1, 15)] + ['formula'],
 
@@ -203,18 +203,46 @@ def classify_pdf(filename, full_path, rel_folder):
         
 
     # Check for solution / answer key
-
-    if any(k in fn_lower for k in ['solution', 'sol', 'ans', 'key', 'marking']):
-
-        m = re.search(r'test[-_\s]*(\d+)', fn_lower)
-
+    if any(k in fn_lower for k in ['solution', 'sol', 'ans', 'key', 'marking', 'ms']):
+        m = re.search(r'(?:test|sample|paper|set|sqp)[-_\s]*(\d+)', fn_lower)
         num = m.group(1) if m else ''
-
+        if num and int(num) >= 100:
+            num = ''
         title = f"Test {num} — Solution" if num else "Solutions & Answer Key"
-
         code = f"TEST-{int(num):02d}-SOL" if num else "SOLUTIONS"
-
         order = (int(num) * 10 + 2) if num else 95
+        badge = 'Answer Key'
+        if 'sample' in fn_lower or 'sqp' in fn_lower or 'sample-papers' in rel_folder:
+            title = f"Sample Paper {num} — Marking Scheme & Solutions" if num else "Marking Scheme & Detailed Solutions"
+            code = f"SQP-{int(num):02d}-SOL" if num else "MARKING SCHEME"
+            badge = "Marking Scheme"
+            order = (int(num) * 10 + 2) if num else 2
+        return {
+            'name': filename,
+            'path': f'assets/pdfs/{rel_folder}/{filename}',
+            'title': title,
+            'code': code,
+            'badge': badge,
+            'type': 'solution',
+            'size': format_size(sz),
+            'order': order
+        }
+        
+    # Check for sample paper / question paper
+    if any(k in fn_lower for k in ['sample', 'sqp', 'practice']) or 'sample-papers' in rel_folder:
+        m = re.search(r'(?:sample|paper|set|sqp)[-_\s]*(\d+)', fn_lower)
+        num = m.group(1) if m else ''
+        if num and int(num) >= 100:
+            num = ''
+        is_practice = 'practice' in rel_folder or 'practice' in fn_lower
+        if num:
+            title = f"NCERT Practice Sample Paper {num} (SQP)" if is_practice else f"NCERT Sample Question Paper {num} (SQP)"
+            code = f"SQP-{int(num):02d}"
+            order = int(num) * 10 + 1
+        else:
+            title = "NCERT Practice Sample Paper (SQP)" if is_practice else "NCERT Sample Question Paper 2026-27 (SQP)"
+            code = "SQP-2026-27" if ('2026' in fn_lower or '2026' in rel_folder) else "QUESTION PAPER"
+            order = 1
 
         return {
 
@@ -226,9 +254,9 @@ def classify_pdf(filename, full_path, rel_folder):
 
             'code': code,
 
-            'badge': 'Answer Key',
+            'badge': 'Practice Paper' if is_practice else 'Sample Paper',
 
-            'type': 'solution',
+            'type': 'test',
 
             'size': format_size(sz),
 
