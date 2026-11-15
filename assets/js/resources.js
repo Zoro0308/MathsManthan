@@ -1172,25 +1172,45 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function openFormulaHubView(pushHistory = true) {
+    const overviewSection = document.getElementById('class10OverviewSection');
+    const chaptersSection = document.getElementById('class10ChaptersSection');
+    const samplePapersSection = document.getElementById('class10SamplePapersSection');
+    const pageTitle = document.getElementById('class10PageTitle');
     const resourcesGrid = document.getElementById('resourcesGrid');
-    if (!resourcesGrid) return;
 
     loadClass10Formulas().then(chapters => {
       if (!chapters || chapters.length === 0) return;
 
       isFormulaHubOpen = true;
 
-      // Close chapter tests view if open
-      if (typeof closeChapterTestsView === 'function' && currentActiveChapterFolder) {
+      // Close other sub-views if open
+      if (typeof closeChapterTestsView === 'function' && typeof currentActiveChapterFolder !== 'undefined' && currentActiveChapterFolder) {
         closeChapterTestsView(false);
       }
+      if (typeof isClassChaptersGridOpen !== 'undefined' && isClassChaptersGridOpen && typeof closeClassChaptersGrid === 'function') {
+        closeClassChaptersGrid(false);
+      }
+      if (typeof isClass10SamplePapersOpen !== 'undefined' && isClass10SamplePapersOpen && typeof closeClass10SamplePapers === 'function') {
+        closeClass10SamplePapers(false);
+      }
+
+      // Hide other Class 10 view sections completely
+      if (overviewSection) overviewSection.style.display = 'none';
+      if (chaptersSection) chaptersSection.style.display = 'none';
+      if (samplePapersSection) samplePapersSection.style.display = 'none';
 
       let formulaView = document.getElementById('formulaHubView');
       if (!formulaView) {
         formulaView = document.createElement('div');
         formulaView.id = 'formulaHubView';
-        formulaView.className = 'chapter-tests-view-container formula-drilldown-container';
-        resourcesGrid.parentNode.insertBefore(formulaView, resourcesGrid);
+        formulaView.className = 'chapter-tests-view-container container formula-drilldown-container';
+        if (overviewSection && overviewSection.parentNode) {
+          overviewSection.parentNode.insertBefore(formulaView, overviewSection.nextSibling);
+        } else if (resourcesGrid && resourcesGrid.parentNode) {
+          resourcesGrid.parentNode.insertBefore(formulaView, resourcesGrid);
+        } else {
+          document.body.appendChild(formulaView);
+        }
       }
 
       const currentViewMode = localStorage.getItem('mm_view_mode') || 'extra-large';
@@ -1269,9 +1289,11 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       `;
 
-      // Hide main resources grid & main filter section
-      resourcesGrid.classList.add('drilldown-hidden');
-      resourcesGrid.style.display = 'none';
+      // Hide main resources grid & main filter section if present
+      if (resourcesGrid) {
+        resourcesGrid.classList.add('drilldown-hidden');
+        resourcesGrid.style.display = 'none';
+      }
 
       const filterSection = document.querySelector('.filter-section');
       if (filterSection) {
@@ -1279,7 +1301,12 @@ document.addEventListener('DOMContentLoaded', () => {
         filterSection.style.display = 'none';
       }
 
-      formulaView.style.display = 'block';
+      formulaView.style.setProperty('display', 'block', 'important');
+      formulaView.classList.remove('drilldown-hidden');
+
+      if (pageTitle) {
+        pageTitle.textContent = 'CBSE-Class 10 Mathematics (Formula Handbooks)';
+      }
 
       // Attach back button
       const btnBack = document.getElementById('btnBackFromFormulas');
@@ -1345,25 +1372,41 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {}
       }
 
-      formulaView.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }
 
   function closeFormulaHubView(pushHistory = true) {
     const formulaView = document.getElementById('formulaHubView');
+    const overviewSection = document.getElementById('class10OverviewSection');
+    const chaptersSection = document.getElementById('class10ChaptersSection');
+    const samplePapersSection = document.getElementById('class10SamplePapersSection');
+    const pageTitle = document.getElementById('class10PageTitle');
     const resourcesGrid = document.getElementById('resourcesGrid');
     const filterSection = document.querySelector('.filter-section');
 
-    if (formulaView) formulaView.style.display = 'none';
+    if (formulaView) {
+      formulaView.style.setProperty('display', 'none', 'important');
+      formulaView.classList.add('drilldown-hidden');
+    }
+    if (overviewSection) {
+      overviewSection.style.removeProperty('display');
+      overviewSection.style.display = 'block';
+    }
+    if (chaptersSection) chaptersSection.style.display = 'none';
+    if (samplePapersSection) samplePapersSection.style.display = 'none';
+
     if (resourcesGrid) {
       resourcesGrid.classList.remove('drilldown-hidden');
       resourcesGrid.style.removeProperty('display');
-      resourcesGrid.style.display = '';
     }
     if (filterSection) {
       filterSection.classList.remove('drilldown-hidden');
       filterSection.style.removeProperty('display');
-      filterSection.style.display = '';
+    }
+
+    if (pageTitle) {
+      pageTitle.textContent = 'CBSE-Class 10 Mathematics';
     }
 
     isFormulaHubOpen = false;
