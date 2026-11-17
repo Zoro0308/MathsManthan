@@ -2253,6 +2253,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   }
 
+  // Desktop keyboard convenience: Escape key returns to books catalog
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && inpageChapterSection && inpageChapterSection.style.display === 'block') {
+      closeInpageDirectory();
+    }
+  });
+
 
 
   // Check URL Hash on Load
