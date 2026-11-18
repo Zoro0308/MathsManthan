@@ -2923,11 +2923,30 @@ body.matrix-theme .view-mode-btn.active,
     font-size: 0.88rem !important;
   }
 
-  /* 3. Navigation & Breadcrumbs on Mobile: Completely hidden */
+  /* 3. Navigation & Breadcrumbs on Mobile: Hidden in chapter tests to maximize space, but kept in Hubs/Solutions */
   .chapter-drilldown-header,
   .chapter-nav-container,
   section:has(> .chapter-drilldown-header) {
     display: none !important;
+  }
+  #class10SamplePapersSection .chapter-drilldown-header,
+  #class8SolutionsSection .chapter-drilldown-header,
+  #class10SamplePapersSection section:has(> .chapter-drilldown-header),
+  #class8SolutionsSection section:has(> .chapter-drilldown-header) {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.5rem !important;
+  }
+  #class10SamplePapersSection .btn-back-chapters,
+  #class8SolutionsSection .btn-back-chapters,
+  #btnBackFromSolutionsToClass8Overview {
+    display: inline-flex !important;
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 0.65rem 1rem !important;
+    font-size: 0.88rem !important;
+    min-height: 42px !important;
   }
 
   /* 4. Filter Bar & View Mode Toggle on Mobile */

@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/resources.css?v=6.0">
+  <link rel="stylesheet" href="assets/css/resources.css?v=6.1">
 
   <!-- Immediate Theme Initialization (prevents flash) -->
   <script>
@@ -305,6 +305,28 @@
                 <a href="assets/pdfs/class-8/formula/class8-master-formula-handbook.pdf" target="_blank" class="pdf-toggle-btn btn-view" title="View PDF in browser without downloading">View PDF</a>
                 <span class="pdf-toggle-divider"></span>
                 <a href="assets/pdfs/class-8/formula/class8-master-formula-handbook.pdf" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Ganita Prakash Solutions (Directory Card) -->
+          <div class="resource-card has-solutions-drilldown" id="cardOpenClass8Solutions" data-folder="class-8/solutions" style="cursor: pointer;">
+            <div>
+              <div class="resource-meta">
+                <span class="resource-code">8TH-SOLUTIONS</span>
+                <span class="resource-badge badge-standard">14 Chapters • NCERT Solutions</span>
+              </div>
+              <h3 class="resource-title">Ganita Prakash Solutions</h3>
+              <p class="resource-desc">
+                Complete step-by-step chapter-wise solutions for NCERT Class 8 Ganita Prakash Mathematics textbook.
+              </p>
+            </div>
+            <div class="resource-footer">
+              <span class="resource-stats">14 Chapters</span>
+              <div class="card-btn-group">
+                <button type="button" class="btn-open-dir btn-open-class8-solutions" id="btnOpenClass8Solutions" title="Open Ganita Prakash Solutions">
+                  <span>📂 Open Solutions &rarr;</span>
+                </button>
               </div>
             </div>
           </div>
@@ -628,6 +650,50 @@
       </div>
     </section>
   </div>
+
+  <!-- ==================== VIEW 3: GANITA PRAKASH SOLUTIONS IN-PAGE VIEW ==================== -->
+  <div id="class8SolutionsSection" style="display: none;">
+    <!-- Breadcrumb / Header Navigation -->
+    <section class="container" style="padding-top: 1rem; margin-bottom: 1rem;">
+      <div class="chapter-drilldown-header" style="margin-bottom: 0.5rem;">
+        <button type="button" class="btn-back-chapters" id="btnBackFromSolutionsToClass8Overview" title="Return to Class 8 Dashboard">
+          <span>&larr;</span> Back to Class 8 Overview
+        </button>
+        <div class="drilldown-breadcrumbs">
+          <a href="index.html">Home</a> &gt; 
+          <a href="class-8.html" id="crumbClass8HomeFromSolutions">Class 8</a> &gt; 
+          <span class="active-crumb">Ganita Prakash Solutions</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Toolbar Bar (Document Count & View Mode Switcher) -->
+    <section class="container" style="margin-bottom: 1.25rem;">
+      <div class="drilldown-toolbar-bar" id="class8SolutionsToolbar">
+        <div class="drilldown-status-info">
+          <span id="class8SolutionsCountText">Available Documents: <strong>0</strong> PDF files</span>
+        </div>
+        <div class="view-mode-selector-wrap">
+          <button type="button" class="view-mode-btn" data-view-mode="extra-large" title="Extra large icons">
+            <span>■</span> Extra Large
+          </button>
+          <button type="button" class="view-mode-btn" data-view-mode="large" title="Large icons">
+            <span>■</span> Large
+          </button>
+          <button type="button" class="view-mode-btn" data-view-mode="content" title="Content row view">
+            <span>☰</span> Content
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Cards Grid -->
+    <section class="container" style="margin-bottom: 3.5rem;">
+      <div class="resources-grid view-extra-large" id="class8SolutionsGrid">
+        <!-- Populated dynamically via resources.js from assets/pdfs/class-8/solutions -->
+      </div>
+    </section>
+  </div>
   </main>
 
   <!-- Footer -->
@@ -807,7 +873,7 @@
 
   <script src="assets/js/main.js"></script>
   <script src="assets/js/vendor/pdf.min.js"></script>
-  <script src="assets/js/resources.js?v=5.5"></script>
+  <script src="assets/js/resources.js?v=6.0"></script>
   <script src="assets/js/matrix-stream.js"></script>
 </body>
 </html>

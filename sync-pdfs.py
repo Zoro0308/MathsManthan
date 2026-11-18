@@ -72,13 +72,31 @@ def make_starter_pdf(filepath, title, subtitle='MATHS MANTHAN | TUITION CLASSES'
 
 
 
+CLASS_8_GANITA_PRAKASH_CHAPTERS = {
+    1: "Square and Cube Numbers",
+    2: "Powers That Be",
+    3: "A Story of Numbers",
+    4: "Quadrilaterals",
+    5: "Number Play",
+    6: "We Distribute, Yet Things Multiply",
+    7: "Proportional Reasoning - 1",
+    8: "Fractions in Disguise",
+    9: "The Baudhayana-Pythagoras Theorem",
+    10: "Proportional Reasoning - 2",
+    11: "Comparing Quantities",
+    12: "Visualizing Shapes",
+    13: "Surface Areas and Volumes",
+    14: "Data Handling"
+}
+
+
 def init_folders():
 
     # 1. Classroom Hub folders:
 
     hub_specs = {
 
-        'class-8': [f'ch-{i:02d}' for i in range(1, 15)] + ['formula'],
+        'class-8': [f'ch-{i:02d}' for i in range(1, 15)] + ['formula', 'solutions'],
 
         'class-9': [f'ch-{i:02d}' for i in range(1, 15)] + ['formula'],
 
@@ -201,6 +219,36 @@ def classify_pdf(filename, full_path, rel_folder):
         return None
 
         
+
+    # Check for Class 8 Ganita Prakash Solutions
+    if 'class-8/solutions' in rel_folder or rel_folder.endswith('class-8/solutions'):
+        m = re.search(r'(?:chapter|ch|unit)[-_\s]*0*(\d+)', fn_lower)
+        if not m:
+            m = re.search(r'\b0*(\d+)\b', fn_lower)
+        num = m.group(1) if m else ''
+        if num and num.isdigit() and 1 <= int(num) <= 14:
+            ch_num = int(num)
+            ch_name = CLASS_8_GANITA_PRAKASH_CHAPTERS.get(ch_num, f"Chapter {ch_num}")
+            title = f"Chapter {ch_num} — {ch_name}: NCERT Solutions"
+            code = f"CH-{ch_num:02d}-SOL"
+            badge = "Ganita Prakash Solution"
+            order = ch_num
+        else:
+            clean_title = re.sub(r'[-_]+', ' ', os.path.splitext(filename)[0]).strip().title()
+            title = clean_title if clean_title else "Class 8 Ganita Prakash Solution"
+            code = "CH-SOL"
+            badge = "NCERT Solution"
+            order = 50
+        return {
+            'name': filename,
+            'path': f'assets/pdfs/{rel_folder}/{filename}',
+            'title': title,
+            'code': code,
+            'badge': badge,
+            'type': 'solution',
+            'size': format_size(sz),
+            'order': order
+        }
 
     # Check for solution / answer key
     if any(k in fn_lower for k in ['solution', 'sol', 'ans', 'key', 'marking', 'ms']):

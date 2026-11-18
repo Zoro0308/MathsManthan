@@ -1337,7 +1337,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -1347,7 +1347,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1357,7 +1357,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -1367,7 +1367,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1377,7 +1377,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -1387,7 +1387,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1397,7 +1397,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -1407,7 +1407,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1417,7 +1417,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -1427,7 +1427,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1437,7 +1437,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -1447,7 +1447,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1457,7 +1457,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -1467,7 +1467,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1477,7 +1477,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -1487,7 +1487,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1497,7 +1497,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -1507,7 +1507,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1517,7 +1517,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -1527,7 +1527,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1537,7 +1537,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -1547,7 +1547,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1557,7 +1557,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -1567,7 +1567,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-01/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1606,7 +1606,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -1616,7 +1616,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1626,7 +1626,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -1636,7 +1636,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1646,7 +1646,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -1656,7 +1656,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1666,7 +1666,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -1676,7 +1676,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1686,7 +1686,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -1696,7 +1696,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1706,7 +1706,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -1716,7 +1716,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1726,7 +1726,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -1736,7 +1736,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1746,7 +1746,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -1756,7 +1756,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1766,7 +1766,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -1776,7 +1776,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1786,7 +1786,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -1796,7 +1796,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1806,7 +1806,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -1816,7 +1816,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1826,7 +1826,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -1836,7 +1836,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-02/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1875,7 +1875,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -1885,7 +1885,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1895,7 +1895,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -1905,7 +1905,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1915,7 +1915,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -1925,7 +1925,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1935,7 +1935,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -1945,7 +1945,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1955,7 +1955,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -1965,7 +1965,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1975,7 +1975,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -1985,7 +1985,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -1995,7 +1995,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -2005,7 +2005,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2015,7 +2015,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -2025,7 +2025,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2035,7 +2035,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -2045,7 +2045,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2055,7 +2055,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -2065,7 +2065,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2075,7 +2075,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -2085,7 +2085,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2095,7 +2095,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -2105,7 +2105,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-03/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2144,7 +2144,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -2154,7 +2154,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2164,7 +2164,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -2174,7 +2174,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2184,7 +2184,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -2194,7 +2194,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2204,7 +2204,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -2214,7 +2214,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2224,7 +2224,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -2234,7 +2234,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2244,7 +2244,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -2254,7 +2254,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2264,7 +2264,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -2274,7 +2274,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2284,7 +2284,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -2294,7 +2294,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2304,7 +2304,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -2314,7 +2314,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2324,7 +2324,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -2334,7 +2334,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2344,7 +2344,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -2354,7 +2354,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2364,7 +2364,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -2374,7 +2374,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-04/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2425,7 +2425,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -2435,7 +2435,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2445,7 +2445,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -2455,7 +2455,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2465,7 +2465,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -2475,7 +2475,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2485,7 +2485,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -2495,7 +2495,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2505,7 +2505,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -2515,7 +2515,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2525,7 +2525,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -2535,7 +2535,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2545,7 +2545,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -2555,7 +2555,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2565,7 +2565,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -2575,7 +2575,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2585,7 +2585,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -2595,7 +2595,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2605,7 +2605,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -2615,7 +2615,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2625,7 +2625,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -2635,7 +2635,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2645,7 +2645,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -2655,7 +2655,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2665,7 +2665,7 @@
     {
       "name": "Test-13.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-13.pdf",
-      "title": "Class Test 13",
+      "title": "Test 13",
       "code": "TEST-13",
       "badge": "Test Paper",
       "type": "test",
@@ -2675,7 +2675,7 @@
     {
       "name": "Test-13_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-13_Solutions.pdf",
-      "title": "Class Test 13 \u2014 Solutions / Answer Key",
+      "title": "Test 13 \u2014 Solution",
       "code": "TEST-13-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2685,7 +2685,7 @@
     {
       "name": "Test-14.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-14.pdf",
-      "title": "Class Test 14",
+      "title": "Test 14",
       "code": "TEST-14",
       "badge": "Test Paper",
       "type": "test",
@@ -2695,7 +2695,7 @@
     {
       "name": "Test-14_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-14_Solutions.pdf",
-      "title": "Class Test 14 \u2014 Solutions / Answer Key",
+      "title": "Test 14 \u2014 Solution",
       "code": "TEST-14-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2705,7 +2705,7 @@
     {
       "name": "Test-15.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-15.pdf",
-      "title": "Class Test 15",
+      "title": "Test 15",
       "code": "TEST-15",
       "badge": "Test Paper",
       "type": "test",
@@ -2715,7 +2715,7 @@
     {
       "name": "Test-15_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-15_Solutions.pdf",
-      "title": "Class Test 15 \u2014 Solutions / Answer Key",
+      "title": "Test 15 \u2014 Solution",
       "code": "TEST-15-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2725,7 +2725,7 @@
     {
       "name": "Test-16.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-16.pdf",
-      "title": "Class Test 16",
+      "title": "Test 16",
       "code": "TEST-16",
       "badge": "Test Paper",
       "type": "test",
@@ -2735,7 +2735,7 @@
     {
       "name": "Test-16_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-16_Solutions.pdf",
-      "title": "Class Test 16 \u2014 Solutions / Answer Key",
+      "title": "Test 16 \u2014 Solution",
       "code": "TEST-16-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2745,7 +2745,7 @@
     {
       "name": "Test-17.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-17.pdf",
-      "title": "Class Test 17",
+      "title": "Test 17",
       "code": "TEST-17",
       "badge": "Test Paper",
       "type": "test",
@@ -2755,7 +2755,7 @@
     {
       "name": "Test-17_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-17_Solutions.pdf",
-      "title": "Class Test 17 \u2014 Solutions / Answer Key",
+      "title": "Test 17 \u2014 Solution",
       "code": "TEST-17-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2765,7 +2765,7 @@
     {
       "name": "Test-18.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-18.pdf",
-      "title": "Class Test 18",
+      "title": "Test 18",
       "code": "TEST-18",
       "badge": "Test Paper",
       "type": "test",
@@ -2775,7 +2775,7 @@
     {
       "name": "Test-18_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-05/Test-18_Solutions.pdf",
-      "title": "Class Test 18 \u2014 Solutions / Answer Key",
+      "title": "Test 18 \u2014 Solution",
       "code": "TEST-18-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2814,7 +2814,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -2824,7 +2824,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2834,7 +2834,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -2844,7 +2844,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2854,7 +2854,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -2864,7 +2864,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2874,7 +2874,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -2884,7 +2884,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2894,7 +2894,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -2904,7 +2904,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2914,7 +2914,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -2924,7 +2924,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2934,7 +2934,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -2944,7 +2944,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2954,7 +2954,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -2964,7 +2964,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2974,7 +2974,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -2984,7 +2984,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -2994,7 +2994,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -3004,7 +3004,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3014,7 +3014,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -3024,7 +3024,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3034,7 +3034,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -3044,7 +3044,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-06/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3089,7 +3089,7 @@
     {
       "name": "test-1.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -3099,7 +3099,7 @@
     {
       "name": "test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3109,7 +3109,7 @@
     {
       "name": "test-2.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -3119,7 +3119,7 @@
     {
       "name": "test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3129,7 +3129,7 @@
     {
       "name": "test-3.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -3139,7 +3139,7 @@
     {
       "name": "test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3149,7 +3149,7 @@
     {
       "name": "test-4.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -3159,7 +3159,7 @@
     {
       "name": "test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3169,7 +3169,7 @@
     {
       "name": "test-5.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -3179,7 +3179,7 @@
     {
       "name": "test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3189,7 +3189,7 @@
     {
       "name": "test-6.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -3199,7 +3199,7 @@
     {
       "name": "test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3209,7 +3209,7 @@
     {
       "name": "test-7.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -3219,7 +3219,7 @@
     {
       "name": "test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3229,7 +3229,7 @@
     {
       "name": "test-8.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -3239,7 +3239,7 @@
     {
       "name": "test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3249,7 +3249,7 @@
     {
       "name": "test-9.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -3259,7 +3259,7 @@
     {
       "name": "test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3269,7 +3269,7 @@
     {
       "name": "test-10.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -3279,7 +3279,7 @@
     {
       "name": "test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3289,7 +3289,7 @@
     {
       "name": "test-11.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -3299,7 +3299,7 @@
     {
       "name": "test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3309,7 +3309,7 @@
     {
       "name": "test-12.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -3319,7 +3319,7 @@
     {
       "name": "test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3329,7 +3329,7 @@
     {
       "name": "test-13.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-13.pdf",
-      "title": "Class Test 13",
+      "title": "Test 13",
       "code": "TEST-13",
       "badge": "Test Paper",
       "type": "test",
@@ -3339,7 +3339,7 @@
     {
       "name": "test-13_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-13_Solutions.pdf",
-      "title": "Class Test 13 \u2014 Solutions / Answer Key",
+      "title": "Test 13 \u2014 Solution",
       "code": "TEST-13-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3349,7 +3349,7 @@
     {
       "name": "test-14.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-14.pdf",
-      "title": "Class Test 14",
+      "title": "Test 14",
       "code": "TEST-14",
       "badge": "Test Paper",
       "type": "test",
@@ -3359,7 +3359,7 @@
     {
       "name": "test-14_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-14_Solutions.pdf",
-      "title": "Class Test 14 \u2014 Solutions / Answer Key",
+      "title": "Test 14 \u2014 Solution",
       "code": "TEST-14-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3369,7 +3369,7 @@
     {
       "name": "test-15.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-15.pdf",
-      "title": "Class Test 15",
+      "title": "Test 15",
       "code": "TEST-15",
       "badge": "Test Paper",
       "type": "test",
@@ -3379,7 +3379,7 @@
     {
       "name": "test-15_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-07/test-15_Solutions.pdf",
-      "title": "Class Test 15 \u2014 Solutions / Answer Key",
+      "title": "Test 15 \u2014 Solution",
       "code": "TEST-15-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3418,7 +3418,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -3428,7 +3428,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3438,7 +3438,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -3448,7 +3448,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3458,7 +3458,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -3468,7 +3468,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3478,7 +3478,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -3488,7 +3488,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3498,7 +3498,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -3508,7 +3508,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3518,7 +3518,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -3528,7 +3528,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3538,7 +3538,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -3548,7 +3548,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3558,7 +3558,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -3568,7 +3568,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3578,7 +3578,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -3588,7 +3588,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3598,7 +3598,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -3608,7 +3608,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3618,7 +3618,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -3628,7 +3628,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3638,7 +3638,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -3648,7 +3648,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-08/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3693,7 +3693,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -3703,7 +3703,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3713,7 +3713,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -3723,7 +3723,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3733,7 +3733,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -3743,7 +3743,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3753,7 +3753,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -3763,7 +3763,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3773,7 +3773,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -3783,7 +3783,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3793,7 +3793,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -3803,7 +3803,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3813,7 +3813,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -3823,7 +3823,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3833,7 +3833,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -3843,7 +3843,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3853,7 +3853,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -3863,7 +3863,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3873,7 +3873,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -3883,7 +3883,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3893,7 +3893,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -3903,7 +3903,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3913,7 +3913,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -3923,7 +3923,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3933,7 +3933,7 @@
     {
       "name": "test-13.pdf",
       "path": "assets/pdfs/class-10/ch-09/test-13.pdf",
-      "title": "Class Test 13",
+      "title": "Test 13",
       "code": "TEST-13",
       "badge": "Test Paper",
       "type": "test",
@@ -3943,7 +3943,7 @@
     {
       "name": "test-13_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/test-13_Solutions.pdf",
-      "title": "Class Test 13 \u2014 Solutions / Answer Key",
+      "title": "Test 13 \u2014 Solution",
       "code": "TEST-13-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3953,7 +3953,7 @@
     {
       "name": "test-14.pdf",
       "path": "assets/pdfs/class-10/ch-09/test-14.pdf",
-      "title": "Class Test 14",
+      "title": "Test 14",
       "code": "TEST-14",
       "badge": "Test Paper",
       "type": "test",
@@ -3963,7 +3963,7 @@
     {
       "name": "test-14_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/test-14_Solutions.pdf",
-      "title": "Class Test 14 \u2014 Solutions / Answer Key",
+      "title": "Test 14 \u2014 Solution",
       "code": "TEST-14-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -3973,7 +3973,7 @@
     {
       "name": "test-15.pdf",
       "path": "assets/pdfs/class-10/ch-09/test-15.pdf",
-      "title": "Class Test 15",
+      "title": "Test 15",
       "code": "TEST-15",
       "badge": "Test Paper",
       "type": "test",
@@ -3983,7 +3983,7 @@
     {
       "name": "test-15_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-09/test-15_Solutions.pdf",
-      "title": "Class Test 15 \u2014 Solutions / Answer Key",
+      "title": "Test 15 \u2014 Solution",
       "code": "TEST-15-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4022,7 +4022,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -4032,7 +4032,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4042,7 +4042,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -4052,7 +4052,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4062,7 +4062,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -4072,7 +4072,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4082,7 +4082,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -4092,7 +4092,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4102,7 +4102,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -4112,7 +4112,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4122,7 +4122,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -4132,7 +4132,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4142,7 +4142,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -4152,7 +4152,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4162,7 +4162,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -4172,7 +4172,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4182,7 +4182,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -4192,7 +4192,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4202,7 +4202,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -4212,7 +4212,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4222,7 +4222,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -4232,7 +4232,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4242,7 +4242,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -4252,7 +4252,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-10/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4299,7 +4299,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -4309,7 +4309,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4319,7 +4319,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -4329,7 +4329,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4339,7 +4339,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -4349,7 +4349,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4359,7 +4359,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -4369,7 +4369,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4379,7 +4379,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -4389,7 +4389,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4399,7 +4399,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -4409,7 +4409,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4419,7 +4419,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -4429,7 +4429,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4439,7 +4439,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -4449,7 +4449,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4459,7 +4459,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -4469,7 +4469,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4479,7 +4479,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -4489,7 +4489,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4499,7 +4499,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -4509,7 +4509,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4519,7 +4519,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -4529,7 +4529,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4539,7 +4539,7 @@
     {
       "name": "test-13.pdf",
       "path": "assets/pdfs/class-10/ch-11/test-13.pdf",
-      "title": "Class Test 13",
+      "title": "Test 13",
       "code": "TEST-13",
       "badge": "Test Paper",
       "type": "test",
@@ -4549,7 +4549,7 @@
     {
       "name": "Test-13_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-13_Solutions.pdf",
-      "title": "Class Test 13 \u2014 Solutions / Answer Key",
+      "title": "Test 13 \u2014 Solution",
       "code": "TEST-13-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4559,7 +4559,7 @@
     {
       "name": "test-14.pdf",
       "path": "assets/pdfs/class-10/ch-11/test-14.pdf",
-      "title": "Class Test 14",
+      "title": "Test 14",
       "code": "TEST-14",
       "badge": "Test Paper",
       "type": "test",
@@ -4569,7 +4569,7 @@
     {
       "name": "Test-14_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-14_Solutions.pdf",
-      "title": "Class Test 14 \u2014 Solutions / Answer Key",
+      "title": "Test 14 \u2014 Solution",
       "code": "TEST-14-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4579,7 +4579,7 @@
     {
       "name": "test-15.pdf",
       "path": "assets/pdfs/class-10/ch-11/test-15.pdf",
-      "title": "Class Test 15",
+      "title": "Test 15",
       "code": "TEST-15",
       "badge": "Test Paper",
       "type": "test",
@@ -4589,7 +4589,7 @@
     {
       "name": "Test-15_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-15_Solutions.pdf",
-      "title": "Class Test 15 \u2014 Solutions / Answer Key",
+      "title": "Test 15 \u2014 Solution",
       "code": "TEST-15-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4599,7 +4599,7 @@
     {
       "name": "test-16.pdf",
       "path": "assets/pdfs/class-10/ch-11/test-16.pdf",
-      "title": "Class Test 16",
+      "title": "Test 16",
       "code": "TEST-16",
       "badge": "Test Paper",
       "type": "test",
@@ -4609,7 +4609,7 @@
     {
       "name": "Test-16_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-11/Test-16_Solutions.pdf",
-      "title": "Class Test 16 \u2014 Solutions / Answer Key",
+      "title": "Test 16 \u2014 Solution",
       "code": "TEST-16-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4648,7 +4648,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -4658,7 +4658,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4668,7 +4668,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -4678,7 +4678,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4688,7 +4688,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -4698,7 +4698,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4708,7 +4708,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -4718,7 +4718,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4728,7 +4728,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -4738,7 +4738,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4748,7 +4748,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -4758,7 +4758,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4768,7 +4768,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -4778,7 +4778,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4788,7 +4788,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -4798,7 +4798,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4808,7 +4808,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -4818,7 +4818,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4828,7 +4828,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -4838,7 +4838,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4848,7 +4848,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -4858,7 +4858,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4868,7 +4868,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -4878,7 +4878,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-12/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4917,7 +4917,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -4927,7 +4927,7 @@
     {
       "name": "Test-1_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-1_Solutions.pdf",
-      "title": "Class Test 1 \u2014 Solutions / Answer Key",
+      "title": "Test 1 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4937,7 +4937,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -4947,7 +4947,7 @@
     {
       "name": "Test-2_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-2_Solutions.pdf",
-      "title": "Class Test 2 \u2014 Solutions / Answer Key",
+      "title": "Test 2 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4957,7 +4957,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -4967,7 +4967,7 @@
     {
       "name": "Test-3_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-3_Solutions.pdf",
-      "title": "Class Test 3 \u2014 Solutions / Answer Key",
+      "title": "Test 3 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4977,7 +4977,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -4987,7 +4987,7 @@
     {
       "name": "Test-4_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-4_Solutions.pdf",
-      "title": "Class Test 4 \u2014 Solutions / Answer Key",
+      "title": "Test 4 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -4997,7 +4997,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -5007,7 +5007,7 @@
     {
       "name": "Test-5_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-5_Solutions.pdf",
-      "title": "Class Test 5 \u2014 Solutions / Answer Key",
+      "title": "Test 5 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5017,7 +5017,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -5027,7 +5027,7 @@
     {
       "name": "Test-6_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-6_Solutions.pdf",
-      "title": "Class Test 6 \u2014 Solutions / Answer Key",
+      "title": "Test 6 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5037,7 +5037,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -5047,7 +5047,7 @@
     {
       "name": "Test-7_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-7_Solutions.pdf",
-      "title": "Class Test 7 \u2014 Solutions / Answer Key",
+      "title": "Test 7 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5057,7 +5057,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -5067,7 +5067,7 @@
     {
       "name": "Test-8_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-8_Solutions.pdf",
-      "title": "Class Test 8 \u2014 Solutions / Answer Key",
+      "title": "Test 8 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5077,7 +5077,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -5087,7 +5087,7 @@
     {
       "name": "Test-9_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-9_Solutions.pdf",
-      "title": "Class Test 9 \u2014 Solutions / Answer Key",
+      "title": "Test 9 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5097,7 +5097,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -5107,7 +5107,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5117,7 +5117,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -5127,7 +5127,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5137,7 +5137,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -5147,7 +5147,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-13/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5186,7 +5186,7 @@
     {
       "name": "Test-1.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-1.pdf",
-      "title": "Class Test 1",
+      "title": "Test 1",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -5196,7 +5196,7 @@
     {
       "name": "Test-01_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-01_Solutions.pdf",
-      "title": "Class Test 01 \u2014 Solutions / Answer Key",
+      "title": "Test 01 \u2014 Solution",
       "code": "TEST-01-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5206,7 +5206,7 @@
     {
       "name": "Test-2.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-2.pdf",
-      "title": "Class Test 2",
+      "title": "Test 2",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -5216,7 +5216,7 @@
     {
       "name": "Test-02_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-02_Solutions.pdf",
-      "title": "Class Test 02 \u2014 Solutions / Answer Key",
+      "title": "Test 02 \u2014 Solution",
       "code": "TEST-02-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5226,7 +5226,7 @@
     {
       "name": "Test-3.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-3.pdf",
-      "title": "Class Test 3",
+      "title": "Test 3",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -5236,7 +5236,7 @@
     {
       "name": "Test-03_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-03_Solutions.pdf",
-      "title": "Class Test 03 \u2014 Solutions / Answer Key",
+      "title": "Test 03 \u2014 Solution",
       "code": "TEST-03-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5246,7 +5246,7 @@
     {
       "name": "Test-4.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-4.pdf",
-      "title": "Class Test 4",
+      "title": "Test 4",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -5256,7 +5256,7 @@
     {
       "name": "Test-04_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-04_Solutions.pdf",
-      "title": "Class Test 04 \u2014 Solutions / Answer Key",
+      "title": "Test 04 \u2014 Solution",
       "code": "TEST-04-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5266,7 +5266,7 @@
     {
       "name": "Test-5.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-5.pdf",
-      "title": "Class Test 5",
+      "title": "Test 5",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -5276,7 +5276,7 @@
     {
       "name": "Test-05_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-05_Solutions.pdf",
-      "title": "Class Test 05 \u2014 Solutions / Answer Key",
+      "title": "Test 05 \u2014 Solution",
       "code": "TEST-05-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5286,7 +5286,7 @@
     {
       "name": "Test-6.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-6.pdf",
-      "title": "Class Test 6",
+      "title": "Test 6",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -5296,7 +5296,7 @@
     {
       "name": "Test-06_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-06_Solutions.pdf",
-      "title": "Class Test 06 \u2014 Solutions / Answer Key",
+      "title": "Test 06 \u2014 Solution",
       "code": "TEST-06-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5306,7 +5306,7 @@
     {
       "name": "Test-7.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-7.pdf",
-      "title": "Class Test 7",
+      "title": "Test 7",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -5316,7 +5316,7 @@
     {
       "name": "Test-07_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-07_Solutions.pdf",
-      "title": "Class Test 07 \u2014 Solutions / Answer Key",
+      "title": "Test 07 \u2014 Solution",
       "code": "TEST-07-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5326,7 +5326,7 @@
     {
       "name": "Test-8.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-8.pdf",
-      "title": "Class Test 8",
+      "title": "Test 8",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -5336,7 +5336,7 @@
     {
       "name": "Test-08_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-08_Solutions.pdf",
-      "title": "Class Test 08 \u2014 Solutions / Answer Key",
+      "title": "Test 08 \u2014 Solution",
       "code": "TEST-08-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5346,7 +5346,7 @@
     {
       "name": "Test-9.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-9.pdf",
-      "title": "Class Test 9",
+      "title": "Test 9",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -5356,7 +5356,7 @@
     {
       "name": "Test-09_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-09_Solutions.pdf",
-      "title": "Class Test 09 \u2014 Solutions / Answer Key",
+      "title": "Test 09 \u2014 Solution",
       "code": "TEST-09-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5366,7 +5366,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -5376,7 +5376,7 @@
     {
       "name": "Test-10_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-10_Solutions.pdf",
-      "title": "Class Test 10 \u2014 Solutions / Answer Key",
+      "title": "Test 10 \u2014 Solution",
       "code": "TEST-10-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5386,7 +5386,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -5396,7 +5396,7 @@
     {
       "name": "Test-11_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-11_Solutions.pdf",
-      "title": "Class Test 11 \u2014 Solutions / Answer Key",
+      "title": "Test 11 \u2014 Solution",
       "code": "TEST-11-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5406,7 +5406,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -5416,7 +5416,7 @@
     {
       "name": "Test-12_Solutions.pdf",
       "path": "assets/pdfs/class-10/ch-14/Test-12_Solutions.pdf",
-      "title": "Class Test 12 \u2014 Solutions / Answer Key",
+      "title": "Test 12 \u2014 Solution",
       "code": "TEST-12-SOL",
       "badge": "Answer Key",
       "type": "solution",
@@ -5624,22 +5624,22 @@
     {
       "name": "Class10_Maths_Standard_SPQ.pdf",
       "path": "assets/pdfs/class-10/sample-papers/official-2026-27/Class10_Maths_Standard_SPQ.pdf",
-      "title": "Chapter Notes: Class10_Maths_Standard_Spq",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
+      "title": "NCERT Sample Question Paper 2026-27 (SQP)",
+      "code": "SQP-2026-27",
+      "badge": "Sample Paper",
+      "type": "test",
       "size": "2.9 MB",
-      "order": 0
+      "order": 1
     },
     {
       "name": "Class10_Maths_Standard_SPQ_Solutions.pdf",
       "path": "assets/pdfs/class-10/sample-papers/official-2026-27/Class10_Maths_Standard_SPQ_Solutions.pdf",
-      "title": "Solutions & Answer Key",
-      "code": "SOLUTIONS",
-      "badge": "Answer Key",
+      "title": "Marking Scheme & Detailed Solutions",
+      "code": "MARKING SCHEME",
+      "badge": "Marking Scheme",
       "type": "solution",
       "size": "745 KB",
-      "order": 95
+      "order": 2
     }
   ],
   "class-10/sample-papers/practice": "assets/pdfs/class-10/sample-papers/practice/ncert-class-10-practice-sample-paper-2026-27.pdf",
@@ -5651,22 +5651,22 @@
     {
       "name": "ncert-class-10-practice-sample-paper-2026-27.pdf",
       "path": "assets/pdfs/class-10/sample-papers/practice/ncert-class-10-practice-sample-paper-2026-27.pdf",
-      "title": "Chapter Notes: Ncert Class 10 Practice Sample Paper 2026 27",
-      "code": "CHAPTER NOTES",
-      "badge": "Study Material",
-      "type": "material",
+      "title": "NCERT Practice Sample Paper (SQP)",
+      "code": "SQP-2026-27",
+      "badge": "Practice Paper",
+      "type": "test",
       "size": "2 KB",
-      "order": 0
+      "order": 1
     },
     {
       "name": "ncert-class-10-practice-sample-paper-solution-2026-27.pdf",
       "path": "assets/pdfs/class-10/sample-papers/practice/ncert-class-10-practice-sample-paper-solution-2026-27.pdf",
-      "title": "Solutions & Answer Key",
-      "code": "SOLUTIONS",
-      "badge": "Answer Key",
+      "title": "Marking Scheme & Detailed Solutions",
+      "code": "MARKING SCHEME",
+      "badge": "Marking Scheme",
       "type": "solution",
       "size": "2 KB",
-      "order": 95
+      "order": 2
     }
   ],
   "class-11/formula": "assets/pdfs/class-11/formula/class11-master-formula-handbook.pdf",
@@ -5756,7 +5756,7 @@
     {
       "name": "Test-01.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-01.pdf",
-      "title": "Class Test 01",
+      "title": "Test 01",
       "code": "TEST-01",
       "badge": "Test Paper",
       "type": "test",
@@ -5766,7 +5766,7 @@
     {
       "name": "Test-02.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-02.pdf",
-      "title": "Class Test 02",
+      "title": "Test 02",
       "code": "TEST-02",
       "badge": "Test Paper",
       "type": "test",
@@ -5776,7 +5776,7 @@
     {
       "name": "Test-03.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-03.pdf",
-      "title": "Class Test 03",
+      "title": "Test 03",
       "code": "TEST-03",
       "badge": "Test Paper",
       "type": "test",
@@ -5786,7 +5786,7 @@
     {
       "name": "Test-04.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-04.pdf",
-      "title": "Class Test 04",
+      "title": "Test 04",
       "code": "TEST-04",
       "badge": "Test Paper",
       "type": "test",
@@ -5796,7 +5796,7 @@
     {
       "name": "Test-05.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-05.pdf",
-      "title": "Class Test 05",
+      "title": "Test 05",
       "code": "TEST-05",
       "badge": "Test Paper",
       "type": "test",
@@ -5806,7 +5806,7 @@
     {
       "name": "Test-06.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-06.pdf",
-      "title": "Class Test 06",
+      "title": "Test 06",
       "code": "TEST-06",
       "badge": "Test Paper",
       "type": "test",
@@ -5816,7 +5816,7 @@
     {
       "name": "Test-07.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-07.pdf",
-      "title": "Class Test 07",
+      "title": "Test 07",
       "code": "TEST-07",
       "badge": "Test Paper",
       "type": "test",
@@ -5826,7 +5826,7 @@
     {
       "name": "Test-08.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-08.pdf",
-      "title": "Class Test 08",
+      "title": "Test 08",
       "code": "TEST-08",
       "badge": "Test Paper",
       "type": "test",
@@ -5836,7 +5836,7 @@
     {
       "name": "Test-09.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-09.pdf",
-      "title": "Class Test 09",
+      "title": "Test 09",
       "code": "TEST-09",
       "badge": "Test Paper",
       "type": "test",
@@ -5846,7 +5846,7 @@
     {
       "name": "Test-10.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-10.pdf",
-      "title": "Class Test 10",
+      "title": "Test 10",
       "code": "TEST-10",
       "badge": "Test Paper",
       "type": "test",
@@ -5856,7 +5856,7 @@
     {
       "name": "Test-11.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-11.pdf",
-      "title": "Class Test 11",
+      "title": "Test 11",
       "code": "TEST-11",
       "badge": "Test Paper",
       "type": "test",
@@ -5866,7 +5866,7 @@
     {
       "name": "Test-12.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-12.pdf",
-      "title": "Class Test 12",
+      "title": "Test 12",
       "code": "TEST-12",
       "badge": "Test Paper",
       "type": "test",
@@ -5876,7 +5876,7 @@
     {
       "name": "Test-13.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-13.pdf",
-      "title": "Class Test 13",
+      "title": "Test 13",
       "code": "TEST-13",
       "badge": "Test Paper",
       "type": "test",
@@ -5886,7 +5886,7 @@
     {
       "name": "Test-14.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-14.pdf",
-      "title": "Class Test 14",
+      "title": "Test 14",
       "code": "TEST-14",
       "badge": "Test Paper",
       "type": "test",
@@ -5896,7 +5896,7 @@
     {
       "name": "Test-15.pdf",
       "path": "assets/pdfs/class-8/ch-08/Test-15.pdf",
-      "title": "Class Test 15",
+      "title": "Test 15",
       "code": "TEST-15",
       "badge": "Test Paper",
       "type": "test",
@@ -5906,7 +5906,7 @@
     {
       "name": "test-16.pdf",
       "path": "assets/pdfs/class-8/ch-08/test-16.pdf",
-      "title": "Class Test 16",
+      "title": "Test 16",
       "code": "TEST-16",
       "badge": "Test Paper",
       "type": "test",
@@ -5928,6 +5928,151 @@
       "type": "material",
       "size": "5 KB",
       "order": 0
+    }
+  ],
+  "class-8/solutions": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch1_Square_and_Cube_Solutions.pdf",
+  "class-8/solutions__all": [
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch10_Proportional_Reasoning_2_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch11_Exploring_Some_Geometric_Themes_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch12_Tales_by_Dots_and_Lines_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch13_Algebra_Play_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch14_Area_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch1_Square_and_Cube_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch2_Power_Play_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch3_Story_of_Numbers_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch4_Quadrilaterals_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch5_Number_Play_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch6_Distribution_and_Multiplication_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch7_Proportional_Reasoning_1_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch8_Fractions_in_Disguise_Solutions.pdf",
+    "assets/pdfs/class-8/solutions/Class_8_Maths_Ch9_The_Baudhayana_Pythagoras_Theorem_Solutions.pdf"
+  ],
+  "class-8/solutions__items": [
+    {
+      "name": "Class_8_Maths_Ch1_Square_and_Cube_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch1_Square_and_Cube_Solutions.pdf",
+      "title": "Chapter 1 \u2014 Square and Cube Numbers: NCERT Solutions",
+      "code": "CH-01-SOL",
+      "type": "solution",
+      "size": "567 KB",
+      "order": 1
+    },
+    {
+      "name": "Class_8_Maths_Ch2_Power_Play_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch2_Power_Play_Solutions.pdf",
+      "title": "Chapter 2 \u2014 Powers That Be: NCERT Solutions",
+      "code": "CH-02-SOL",
+      "type": "solution",
+      "size": "638 KB",
+      "order": 2
+    },
+    {
+      "name": "Class_8_Maths_Ch3_Story_of_Numbers_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch3_Story_of_Numbers_Solutions.pdf",
+      "title": "Chapter 3 \u2014 A Story of Numbers: NCERT Solutions",
+      "code": "CH-03-SOL",
+      "type": "solution",
+      "size": "448 KB",
+      "order": 3
+    },
+    {
+      "name": "Class_8_Maths_Ch4_Quadrilaterals_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch4_Quadrilaterals_Solutions.pdf",
+      "title": "Chapter 4 \u2014 Quadrilaterals: NCERT Solutions",
+      "code": "CH-04-SOL",
+      "type": "solution",
+      "size": "543 KB",
+      "order": 4
+    },
+    {
+      "name": "Class_8_Maths_Ch5_Number_Play_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch5_Number_Play_Solutions.pdf",
+      "title": "Chapter 5 \u2014 Number Play: NCERT Solutions",
+      "code": "CH-05-SOL",
+      "type": "solution",
+      "size": "599 KB",
+      "order": 5
+    },
+    {
+      "name": "Class_8_Maths_Ch6_Distribution_and_Multiplication_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch6_Distribution_and_Multiplication_Solutions.pdf",
+      "title": "Chapter 6 \u2014 We Distribute, Yet Things Multiply: NCERT Solutions",
+      "code": "CH-06-SOL",
+      "type": "solution",
+      "size": "677 KB",
+      "order": 6
+    },
+    {
+      "name": "Class_8_Maths_Ch7_Proportional_Reasoning_1_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch7_Proportional_Reasoning_1_Solutions.pdf",
+      "title": "Chapter 7 \u2014 Proportional Reasoning - 1: NCERT Solutions",
+      "code": "CH-07-SOL",
+      "type": "solution",
+      "size": "600 KB",
+      "order": 7
+    },
+    {
+      "name": "Class_8_Maths_Ch8_Fractions_in_Disguise_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch8_Fractions_in_Disguise_Solutions.pdf",
+      "title": "Chapter 8 \u2014 Fractions in Disguise: NCERT Solutions",
+      "code": "CH-08-SOL",
+      "type": "solution",
+      "size": "711 KB",
+      "order": 8
+    },
+    {
+      "name": "Class_8_Maths_Ch9_The_Baudhayana_Pythagoras_Theorem_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch9_The_Baudhayana_Pythagoras_Theorem_Solutions.pdf",
+      "title": "Chapter 9 \u2014 The Baudhayana-Pythagoras Theorem: NCERT Solutions",
+      "code": "CH-09-SOL",
+      "type": "solution",
+      "size": "589 KB",
+      "order": 9
+    },
+    {
+      "name": "Class_8_Maths_Ch10_Proportional_Reasoning_2_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch10_Proportional_Reasoning_2_Solutions.pdf",
+      "title": "Chapter 10 \u2014 Proportional Reasoning - 2: NCERT Solutions",
+      "code": "CH-10-SOL",
+      "type": "solution",
+      "size": "537 KB",
+      "order": 10
+    },
+    {
+      "name": "Class_8_Maths_Ch11_Exploring_Some_Geometric_Themes_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch11_Exploring_Some_Geometric_Themes_Solutions.pdf",
+      "title": "Chapter 11 \u2014 Geometric Themes: NCERT Solutions",
+      "code": "CH-11-SOL",
+      "type": "solution",
+      "size": "1.0 MB",
+      "order": 11
+    },
+    {
+      "name": "Class_8_Maths_Ch12_Tales_by_Dots_and_Lines_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch12_Tales_by_Dots_and_Lines_Solutions.pdf",
+      "title": "Chapter 12 \u2014 Tales of Dots and Lines: NCERT Solutions",
+      "code": "CH-12-SOL",
+      "type": "solution",
+      "size": "3.8 MB",
+      "order": 12
+    },
+    {
+      "name": "Class_8_Maths_Ch13_Algebra_Play_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch13_Algebra_Play_Solutions.pdf",
+      "title": "Chapter 13 \u2014 Algebra play: NCERT Solutions",
+      "code": "CH-13-SOL",
+      "type": "solution",
+      "size": "578 KB",
+      "order": 13
+    },
+    {
+      "name": "Class_8_Maths_Ch14_Area_Solutions.pdf",
+      "path": "assets/pdfs/class-8/solutions/Class_8_Maths_Ch14_Area_Solutions.pdf",
+      "title": "Chapter 14 \u2014 Area: NCERT Solutions",
+      "code": "CH-14-SOL",
+      "type": "solution",
+      "size": "752 KB",
+      "order": 14
     }
   ],
   "class-9/formula": "assets/pdfs/class-9/formula/class9-master-formula-handbook.pdf",

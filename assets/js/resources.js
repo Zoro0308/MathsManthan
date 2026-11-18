@@ -1072,6 +1072,184 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // ==========================================================================
+  // Class 8: In-Page Ganita Prakash Solutions View Switcher & Drilldown Engine
+  // ==========================================================================
+  const class8SolutionsSection = document.getElementById('class8SolutionsSection');
+  const btnBackFromSolutionsToClass8Overview = document.getElementById('btnBackFromSolutionsToClass8Overview');
+  const crumbClass8HomeFromSolutions = document.getElementById('crumbClass8HomeFromSolutions');
+  let isClass8SolutionsOpen = false;
+
+  function renderClass8SolutionsGrid(catalog) {
+    const grid = document.getElementById('class8SolutionsGrid');
+    const countEl = document.getElementById('class8SolutionsCountText');
+    if (!grid) return;
+
+    const items = getChapterItems('class-8/solutions', catalog || globalCatalog) || [];
+    if (countEl) {
+      countEl.innerHTML = `Available Documents: <strong>${items.length}</strong> PDF file${items.length === 1 ? '' : 's'}`;
+    }
+
+    const currentViewMode = localStorage.getItem('mm_view_mode') || 'extra-large';
+    grid.className = `resources-grid chapter-tests-grid view-${currentViewMode}`;
+
+    const toolbar = document.getElementById('class8SolutionsToolbar');
+    if (toolbar) {
+      toolbar.querySelectorAll('.view-mode-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.viewMode === currentViewMode);
+      });
+    }
+
+    if (items.length === 0) {
+      grid.innerHTML = `
+        <div style="grid-column: 1 / -1; text-align: center; padding: 3.5rem 1rem;">
+          <p style="font-size: 1.25rem; font-weight: 600; color: var(--color-gold); margin-bottom: 0.5rem;">
+            No Ganita Prakash solution PDFs found yet.
+          </p>
+          <p style="color: var(--color-text-muted); max-width: 500px; margin: 0 auto;">
+            Add your solution PDF files into <code>assets/pdfs/class-8/solutions/</code> and run <code>update-pdfs.bat</code> to display them here automatically.
+          </p>
+        </div>
+      `;
+      return;
+    }
+
+    grid.innerHTML = items.map(it => {
+      const safeUrl = encodeURI(it.path);
+      return `
+        <div class="resource-card chapter-paper-card" data-category="solution" style="cursor: default;">
+          <div>
+            <div class="resource-meta">
+              <span class="resource-code">${it.code || 'CH-SOL'}</span>
+              <span class="resource-badge badge-standard">${it.badge || 'NCERT Solution'}</span>
+            </div>
+            <h3 class="resource-title">${it.title}</h3>
+            <p class="resource-desc">Official step-by-step verified solutions and textbook answers for Class 8 Ganita Prakash.</p>
+          </div>
+          <div class="resource-footer">
+            <span class="resource-stats">${it.size ? `${it.size} • PDF` : 'PDF'}</span>
+            <div class="pdf-toggle-box">
+              <a href="${safeUrl}" target="_blank" class="pdf-toggle-btn btn-view" data-pdf-url="${safeUrl}" data-pdf-title="${it.title.replace(/"/g, '&quot;')}" title="View PDF in browser without downloading">View PDF</a>
+              <span class="pdf-toggle-divider"></span>
+              <a href="${safeUrl}" download class="pdf-toggle-btn btn-download" title="Download to device">Download</a>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function openClass8Solutions(pushHistory = true) {
+    const class8Overview = document.getElementById('class8OverviewSection');
+    const class8Solutions = document.getElementById('class8SolutionsSection');
+    const class8Chapters = document.getElementById('class8ChaptersSection');
+    const class8Title = document.getElementById('class8PageTitle');
+    if (!class8Overview || !class8Solutions) return;
+
+    if (typeof isFormulaHubOpen !== 'undefined' && isFormulaHubOpen && typeof closeFormulaHubView === 'function') {
+      closeFormulaHubView(false);
+    }
+    if (typeof currentActiveChapterFolder !== 'undefined' && currentActiveChapterFolder && typeof closeChapterTestsView === 'function') {
+      closeChapterTestsView(false);
+    }
+    if (isClassChaptersGridOpen) {
+      closeClassChaptersGrid(false);
+    }
+
+    isClass8SolutionsOpen = true;
+    class8Overview.style.display = 'none';
+    if (class8Chapters) class8Chapters.style.display = 'none';
+    class8Solutions.style.display = 'block';
+
+    if (class8Title) {
+      class8Title.textContent = 'Class 8 Mathematics (Ganita Prakash Solutions)';
+    }
+
+    renderClass8SolutionsGrid(globalCatalog);
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'class8-solutions' }, '', '#solutions');
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function closeClass8Solutions(pushHistory = true) {
+    const class8Overview = document.getElementById('class8OverviewSection');
+    const class8Solutions = document.getElementById('class8SolutionsSection');
+    const class8Title = document.getElementById('class8PageTitle');
+    if (!class8Overview || !class8Solutions) return;
+
+    isClass8SolutionsOpen = false;
+    class8Solutions.style.display = 'none';
+    class8Overview.style.display = 'block';
+
+    if (class8Title) {
+      class8Title.textContent = 'Class 8 Mathematics';
+    }
+
+    if (pushHistory) {
+      try {
+        history.pushState({ view: 'overview' }, '', window.location.pathname);
+      } catch (e) {}
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  if (btnBackFromSolutionsToClass8Overview) {
+    btnBackFromSolutionsToClass8Overview.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeClass8Solutions();
+    });
+  }
+
+  if (crumbClass8HomeFromSolutions) {
+    crumbClass8HomeFromSolutions.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeClass8Solutions();
+    });
+  }
+
+  const class8SolutionsToolbar = document.getElementById('class8SolutionsToolbar');
+  if (class8SolutionsToolbar) {
+    class8SolutionsToolbar.querySelectorAll('.view-mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const mode = btn.dataset.viewMode;
+        const grid = document.getElementById('class8SolutionsGrid');
+        if (grid) {
+          grid.className = `resources-grid chapter-tests-grid view-${mode}`;
+          localStorage.setItem('mm_view_mode', mode);
+          class8SolutionsToolbar.querySelectorAll('.view-mode-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        }
+      });
+    });
+  }
+
+  function updateClass8SolutionsBadgeCounts(catalog) {
+    if (!catalog) return;
+    const card = document.getElementById('cardOpenClass8Solutions');
+    if (!card) return;
+    const items = getChapterItems('class-8/solutions', catalog);
+    const metaContainer = card.querySelector('.resource-meta');
+    if (metaContainer && items && items.length > 0) {
+      let countBadge = metaContainer.querySelector('.badge-tests');
+      if (!countBadge) {
+        countBadge = document.createElement('span');
+        countBadge.className = 'resource-badge badge-tests';
+        metaContainer.appendChild(countBadge);
+      }
+      countBadge.textContent = `[ ${items.length} PDF${items.length > 1 ? 's' : ''} Available ]`;
+      const stats = card.querySelector('.resource-stats');
+      if (stats) {
+        stats.textContent = `${items.length} Chapter${items.length > 1 ? 's' : ''}`;
+      }
+    }
+  }
+
   function updateSamplePaperBadgeCounts(catalog) {
     if (!catalog) return;
     ['cardSampleOfficial', 'cardSamplePractice'].forEach(cardId => {
@@ -1117,6 +1295,15 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    // 3. Class 8 Solutions trigger (Class 8 Overview card)
+    const solutionsTrigger = e.target.closest('#btnOpenClass8Solutions, #cardOpenClass8Solutions, .btn-open-class8-solutions, .has-solutions-drilldown');
+    if (solutionsTrigger) {
+      e.preventDefault();
+      e.stopPropagation();
+      openClass8Solutions();
+      return;
+    }
+
     if (!activeClassConfig) return;
     const trigger = e.target.closest(allClassTriggerSelectors);
     if (trigger) {
@@ -1143,13 +1330,20 @@ document.addEventListener('DOMContentLoaded', () => {
       openClass10SamplePapers(false);
     } else if (isClass10SamplePapersOpen && !hash.startsWith('sample-papers')) {
       closeClass10SamplePapers(false);
+    } else if (hash === 'solutions') {
+      if (isClassChaptersGridOpen) closeClassChaptersGrid(false);
+      openClass8Solutions(false);
+    } else if (isClass8SolutionsOpen && hash !== 'solutions') {
+      closeClass8Solutions(false);
     } else if (hash === 'chapters') {
       if (isClass10SamplePapersOpen) closeClass10SamplePapers(false);
+      if (isClass8SolutionsOpen) closeClass8Solutions(false);
       openClassChaptersGrid(false);
     } else if (hash.startsWith('ch-')) {
       if (isClass10SamplePapersOpen) closeClass10SamplePapers(false);
+      if (isClass8SolutionsOpen) closeClass8Solutions(false);
       openClassChaptersGrid(false);
-    } else if (isClassChaptersGridOpen && hash !== 'chapters' && !hash.startsWith('ch-') && hash !== 'formulas' && !hash.startsWith('sample-papers')) {
+    } else if (isClassChaptersGridOpen && hash !== 'chapters' && !hash.startsWith('ch-') && hash !== 'formulas' && !hash.startsWith('sample-papers') && hash !== 'solutions') {
       closeClassChaptersGrid(false);
     }
   }
@@ -1538,6 +1732,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (typeof updateSamplePaperBadgeCounts === 'function') {
       updateSamplePaperBadgeCounts(catalog);
+    }
+    if (typeof updateClass8SolutionsBadgeCounts === 'function') {
+      updateClass8SolutionsBadgeCounts(catalog);
     }
 
     checkUrlHashForChapterTests();
@@ -2355,6 +2552,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (hash !== 'sample-papers' && !hash.startsWith('sample-papers/')) {
           if (activeSamplePaperFolder) closeSamplePaperDrilldown(false);
           closeClass10SamplePapers(false);
+        }
+      }
+    }
+
+    // 5. Class 8 In-Page Solutions popstate
+    if (class8SolutionsSection) {
+      if (e.state && e.state.view === 'class8-solutions') {
+        openClass8Solutions(false);
+      } else if (isClass8SolutionsOpen && (!e.state || e.state.view !== 'class8-solutions')) {
+        const hash = window.location.hash.replace('#', '').trim();
+        if (hash !== 'solutions') {
+          closeClass8Solutions(false);
         }
       }
     }
