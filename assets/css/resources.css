@@ -2146,6 +2146,15 @@ body.matrix-theme .view-mode-btn.active,
   }
 }
 
+/* ==========================================================================
+   Class 8 Ganita Prakash Solutions: Universal Header Navigation Hide (Mobile & Desktop)
+   ========================================================================== */
+#class8SolutionsNavSection,
+.solutions-nav-container,
+#class8SolutionsSection .chapter-drilldown-header {
+  display: none !important;
+}
+
 .chapter-drilldown-header {
   display: flex;
   align-items: center;

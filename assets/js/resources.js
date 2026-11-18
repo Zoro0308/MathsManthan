@@ -2450,10 +2450,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   }
 
-  // Desktop keyboard convenience: Escape key returns to books catalog
+  // Desktop keyboard convenience: Escape key returns to overview
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && inpageChapterSection && inpageChapterSection.style.display === 'block') {
-      closeInpageDirectory();
+    if (e.key === 'Escape') {
+      if (inpageChapterSection && inpageChapterSection.style.display === 'block') {
+        closeInpageDirectory();
+      } else if (typeof isClass8SolutionsOpen !== 'undefined' && isClass8SolutionsOpen) {
+        closeClass8Solutions();
+      }
     }
   });
 
